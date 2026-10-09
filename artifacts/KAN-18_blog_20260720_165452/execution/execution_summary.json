@@ -1,0 +1,15 @@
+{
+  "_schema_version": "1.0.0",
+  "story_key": "KAN-18",
+  "feature": "Blog Management",
+  "module": "BLOG",
+  "executed_at": "2026-07-20T11:49:05.570605+00:00",
+  "summary": {
+    "total_test_cases": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "pass_rate": 100.0,
+    "total_duration_seconds": 186.2
+  }
+}

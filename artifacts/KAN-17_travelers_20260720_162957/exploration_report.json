@@ -1,0 +1,743 @@
+{
+  "domain": "Travelers",
+  "target_url": "https://webook.com/en/profile/travelers",
+  "timestamp": "2026-07-20T11:02:11.675927+00:00",
+  "exploration_failed": false,
+  "exploration_failure_reason": null,
+  "assessment_completion": {
+    "total_pending": 8,
+    "assessed": 42,
+    "skipped": 40,
+    "failed": 1
+  },
+  "interactables": [
+    {
+      "selector": "div#root > div:nth-of-type(1) > div > button",
+      "tagName": "button",
+      "text": "Update your information",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"top_notice_We are hiring notice\"]",
+      "tagName": "a",
+      "text": "✨ We’re Hiring. Apply now ✨",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"top_notice_close\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_desktop_logo\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_explore\"]",
+      "tagName": "a",
+      "text": "Explore",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Flight top menu\"]",
+      "tagName": "a",
+      "text": "Flights",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Hotels sub menu\"]",
+      "tagName": "a",
+      "text": "Hotels",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Resell\"]",
+      "tagName": "a",
+      "text": "Ticket resell",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Subscriptions\"]",
+      "tagName": "a",
+      "text": "Subscriptions",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_search_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > header:nth-of-type(1) > nav > ul > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Business partners",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > header:nth-of-type(1) > nav > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Our blog",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"lang-switcher\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > header:nth-of-type(1) > nav > ul > li:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "RC",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a",
+      "tagName": "a",
+      "text": "Upgrade",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "#profile-menu-my_bookings",
+      "tagName": "a",
+      "text": "My Bookings",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#profile-menu-my_bids",
+      "tagName": "a",
+      "text": "My Bids",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#profile-menu-my_wallet",
+      "tagName": "a",
+      "text": "Wallet",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#profile-menu-my_info",
+      "tagName": "a",
+      "text": "My Info",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#profile-menu-accessibility",
+      "tagName": "a",
+      "text": "Accessibility",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#profile-menu-favorites_and_interests",
+      "tagName": "a",
+      "text": "Favorites & Interests",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#profile-menu-vouchers",
+      "tagName": "a",
+      "text": "Vouchers",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#profile-menu-my_travelers",
+      "tagName": "a",
+      "text": "My Travelers",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#profile-menu-logout",
+      "tagName": "button",
+      "text": "Logout",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "Add Traveler",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div > button",
+      "tagName": "button",
+      "text": "Add Traveler",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_jobs Link in Footer\"]",
+      "tagName": "a",
+      "text": "JOBS & CAREERS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook Contact Us\"]",
+      "tagName": "a",
+      "text": "CONTACT US",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook.com for business footer\"]",
+      "tagName": "a",
+      "text": "BUSINESS PARTNERS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Privacy Policy\"]",
+      "tagName": "a",
+      "text": "PRIVACY POLICY",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Terms and Conditions\"]",
+      "tagName": "a",
+      "text": "TERMS & CONDITIONS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook FAQ\"]",
+      "tagName": "a",
+      "text": "CARE CENTER & FAQs",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_About us\"]",
+      "tagName": "a",
+      "text": "ABOUT US",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Startup Accelerator Fund\"]",
+      "tagName": "a",
+      "text": "STARTUP ACCELERATOR FUND",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook blog footer\"]",
+      "tagName": "a",
+      "text": "BLOG",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook bug bounty\"]",
+      "tagName": "a",
+      "text": "REPORT SECURITY VULNERABILITY",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_TICKET SAFETY\"]",
+      "tagName": "a",
+      "text": "TICKET SAFETY",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_REPORT BLACK MARKET\"]",
+      "tagName": "a",
+      "text": "REPORT BLACK MARKET ACTIVITY",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_FAN PROTECTION\"]",
+      "tagName": "a",
+      "text": "FAN PROTECTION",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > footer > div > div > div:nth-of-type(2) > nav:nth-of-type(1) > ul > li:nth-of-type(14) > button",
+      "tagName": "button",
+      "text": "COOKIE SETTINGS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_X Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Instagram Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Facebook Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Tiktok Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_snapchat Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Youtube\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook appstore app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook google play app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_huawei app download link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Verify",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "Edit",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "Edit",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_otp_code_input_0\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "framework failure",
+      "reason": "Locator.scroll_into_view_if_needed: Timeout 2995ms exceeded.\nCall log:\n  - attempting scroll into view action\n  -     2 × waiting for element to be stable\n  -       - element is not stable\n  -     - retrying scroll into view action\n  -     - waiting 20ms\n  -     2 × waiting for element to be stable\n  -       - element is not stable\n  -     - retrying scroll into view action\n  -       - waiting 100ms\n  -     5 × waiting for element to be stable\n  -       - element is not stable\n  -     - retrying scroll into view action\n  -       - waiting 500ms\n"
+    },
+    {
+      "selector": "[data-testid=\"auth_otp_code_input_1\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_otp_code_input_2\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_otp_code_input_3\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#resend-otp",
+      "tagName": "button",
+      "text": "Resend code (52)",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_otp_change_email_button\"]",
+      "tagName": "button",
+      "text": "Change email",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "Verify",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(6) > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_renew_email_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_confirm_email_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_update_email_cancel_button\"]",
+      "tagName": "button",
+      "text": "Cancel",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "unsafe destructive action keyword match"
+    },
+    {
+      "selector": "[data-testid=\"auth_update_email_confirm_button\"]",
+      "tagName": "button",
+      "text": "Update Email",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"circle-spinner\"]",
+      "tagName": "svg",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"header_nav_login_button\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"ui_toggle_title_MR\"]",
+      "tagName": "button",
+      "text": "Mr",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"ui_toggle_title_MRS\"]",
+      "tagName": "button",
+      "text": "Mrs",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"ui_toggle_title_MS\"]",
+      "tagName": "button",
+      "text": "Ms",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#firstName",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#middleName",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#lastName",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#dateOfBirth",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#nationality",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#passenger-form- > div > div:nth-of-type(1) > div:nth-of-type(7) > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"ui_toggle_undefined_passport\"]",
+      "tagName": "button",
+      "text": "Passport",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"ui_toggle_undefined_national_id\"]",
+      "tagName": "button",
+      "text": "National ID",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"ui_toggle_undefined_iqama\"]",
+      "tagName": "button",
+      "text": "Iqama",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#documentNumber",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "#issuingCountry",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#passenger-form- > div > div:nth-of-type(2) > div:nth-of-type(4) > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "#expiryDate",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div > button",
+      "tagName": "button",
+      "text": "Confirm",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "form#passenger-form- > div > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#passenger-form- > div > div:nth-of-type(1) > div:nth-of-type(7) > button",
+      "tagName": "button",
+      "text": "Dismiss",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#passenger-form- > div > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#passenger-form- > div > div:nth-of-type(2) > div:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "Dismiss",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    }
+  ]
+}

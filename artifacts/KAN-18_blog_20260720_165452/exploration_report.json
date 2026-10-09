@@ -1,0 +1,2735 @@
+{
+  "domain": "Blog",
+  "target_url": "https://webook.com/blog/",
+  "timestamp": "2026-07-20T11:26:14.452546+00:00",
+  "exploration_failed": false,
+  "exploration_failure_reason": null,
+  "assessment_completion": {
+    "total_pending": 3,
+    "assessed": 10,
+    "skipped": 327,
+    "failed": 0
+  },
+  "interactables": [
+    {
+      "selector": "ul#menu-thetopnav-1 > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Book Tickets",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-thetopnav-1 > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "About Us",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-thetopnav-1 > li:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "Contact us",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-thetopnav-1 > li:nth-of-type(4) > a",
+      "tagName": "a",
+      "text": "Join webook.com Team",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#smart-head > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "li#menu-item-2367 > a",
+      "tagName": "a",
+      "text": "Concerts",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "li#menu-item-2364 > a",
+      "tagName": "a",
+      "text": "Experiences",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "li#menu-item-2369 > a",
+      "tagName": "a",
+      "text": "Food",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "li#menu-item-2366 > a",
+      "tagName": "a",
+      "text": "Travel and Tourism",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "li#menu-item-2365 > a",
+      "tagName": "a",
+      "text": "Adventures",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "li#menu-item-5323 > a",
+      "tagName": "a",
+      "text": "webook.com News",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#smart-head > div:nth-of-type(2) > div > div:nth-of-type(3) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#smart-head > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > ul > li > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "English",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Iftar & After: Things to Do During Ramadan in Saudi Arabia 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EVENTS & FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Hearts for Everyone – Experiences That Beat Ordinary Gifts",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "League of Legends Esports World Cup 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Jeddah Yacht Club: Jeddah’s waterfront destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Fan zones for the 2026 World Cup: Events and activities in Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Esports World Cup 2026 in Paris: Full Guide",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "WEBOOK.COM NEWS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "webook.com Ticket Safety: Clearer, Faster, Safer",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "AYA Universe Dubai – Step Into a World of Light & Wonder",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Portuguese MotoGP Grand Prix 2026 – The Algarve Roller Coaster Ride!",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Smash Room Dubai: The Ultimate Stress-Relief Experience You Didn’t Know You Needed",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EVENTS & FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Eid Al-Fitr Events in Saudi Arabia 2026 — Activities, Concerts & Experiences",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "SAUDI FOUNDING DAY 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Saudi Founding Day 2026: Celebrate in Style & Book Your Spot on webook.com",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Iftar & After: Things to Do During Ramadan in Saudi Arabia 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EVENTS & FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Hearts for Everyone – Experiences That Beat Ordinary Gifts",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "League of Legends Esports World Cup 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Jeddah Yacht Club: Jeddah’s waterfront destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Fan zones for the 2026 World Cup: Events and activities in Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(6) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Esports World Cup 2026 in Paris: Full Guide",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "WEBOOK.COM NEWS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "webook.com Ticket Safety: Clearer, Faster, Safer",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "AYA Universe Dubai – Step Into a World of Light & Wonder",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(7) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Portuguese MotoGP Grand Prix 2026 – The Algarve Roller Coaster Ride!",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Smash Room Dubai: The Ultimate Stress-Relief Experience You Didn’t Know You Needed",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EVENTS & FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Eid Al-Fitr Events in Saudi Arabia 2026 — Activities, Concerts & Experiences",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "SAUDI FOUNDING DAY 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(8) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Saudi Founding Day 2026: Celebrate in Style & Book Your Spot on webook.com",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(1) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Iftar & After: Things to Do During Ramadan in Saudi Arabia 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(2) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EVENTS & FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(2) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Hearts for Everyone – Experiences That Beat Ordinary Gifts",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(3) > article > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > div:nth-of-type(1) > div > div:nth-of-type(9) > div:nth-of-type(3) > article > div:nth-of-type(2) > div > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "League of Legends Esports World Cup 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(1) > div > div > div > div > div > section > div > section > div > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(1) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(1) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Riyadh Season 2025: The World’s Biggest Entertainment Festival",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(1) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(2) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "SPORT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(2) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Saudi Pro League 2025-2026: A New Era",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(2) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(3) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "TRAVEL AND TOURISM",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(3) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Discover Morocco: Your Next Travel Destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(3) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide10 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide10 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide10 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Fan zones for the 2026 World Cup: Events and activities in Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide10 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide11 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide11 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide11 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Esports World Cup 2026 in Paris: Full Guide",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide11 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide12 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide12 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide12 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Six Flags Qiddiya City: The World’s Next Iconic Theme Park Destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide12 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide13 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide13 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "FEATURED",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide13 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "The Laughter Factory: Inside the Gulf’s Longest-Running Comedy Club",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide13 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide14 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide14 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ADVENTURES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide14 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Discover Dubai: Hidden Gems, Adventures & Unique Experiences Beyond the Usual",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide14 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide15 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide15 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "FEATURED",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide15 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Charge & Play at Riyadh Season – Introducing The WBK Card",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide15 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide16 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide16 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide16 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Riyadh Season 2025: The World’s Biggest Entertainment Festival",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide16 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide17 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide17 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "SPORT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide17 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Saudi Pro League 2025-2026: A New Era",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide17 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide18 > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide18 > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "TRAVEL AND TOURISM",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide18 > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Discover Morocco: Your Next Travel Destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "article#slick-slide18 > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(13) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(13) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(13) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Fan zones for the 2026 World Cup: Events and activities in Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(13) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(14) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(14) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(14) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Esports World Cup 2026 in Paris: Full Guide",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(14) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(15) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(15) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(15) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Six Flags Qiddiya City: The World’s Next Iconic Theme Park Destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(15) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(16) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(16) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "FEATURED",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(16) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "The Laughter Factory: Inside the Gulf’s Longest-Running Comedy Club",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(16) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(17) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(17) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ADVENTURES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(17) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Discover Dubai: Hidden Gems, Adventures & Unique Experiences Beyond the Usual",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(17) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(18) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(18) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "FEATURED",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(18) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Charge & Play at Riyadh Season – Introducing The WBK Card",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(18) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(19) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(19) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(19) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Riyadh Season 2025: The World’s Biggest Entertainment Festival",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(19) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(20) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(20) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "SPORT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(20) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Saudi Pro League 2025-2026: A New Era",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(20) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(21) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(21) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "TRAVEL AND TOURISM",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(21) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Discover Morocco: Your Next Travel Destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > div:nth-of-type(1) > div > article:nth-of-type(21) > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "#slick-slide-control10",
+      "tagName": "button",
+      "text": "1",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "#slick-slide-control11",
+      "tagName": "button",
+      "text": "2",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "#slick-slide-control12",
+      "tagName": "button",
+      "text": "3",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(1) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(1) > div:nth-of-type(2) > div > h2 > a",
+      "tagName": "a",
+      "text": "Dream Theater 40th Anniversary Tour Dubai 2026 – Tickets & Details",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(2) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(2) > div:nth-of-type(2) > div > h2 > a",
+      "tagName": "a",
+      "text": "Things to Do on New Year’s Eve: Events, Experiences, and Ways to Celebrate December 31",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(3) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(3) > div:nth-of-type(2) > div > h2 > a",
+      "tagName": "a",
+      "text": "SOUNDSTORM ’25: Riyadh’s Biggest Music Festival Returns",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(4) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(4) > div:nth-of-type(2) > div > h2 > a",
+      "tagName": "a",
+      "text": "Terhal Saudi Arabia: A Groundbreaking Cultural Spectacle",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(5) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(5) > div:nth-of-type(2) > div > h2 > a",
+      "tagName": "a",
+      "text": "Riyadh Comedy Festival 2025, the Full Line-Up & Tickets | webook.com",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(6) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(6) > div:nth-of-type(2) > div > h2 > a",
+      "tagName": "a",
+      "text": "Riyadh Film Music Festival 2025 – Dates, Movies, Tickets",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(7) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(7) > div:nth-of-type(2) > div > h2 > a",
+      "tagName": "a",
+      "text": "Casablanca Music Week: The Ultimate Summer Festival Guide",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(8) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > section > div:nth-of-type(2) > div > article:nth-of-type(8) > div:nth-of-type(2) > div > h2 > a",
+      "tagName": "a",
+      "text": "Discover webook.com: Your Gateway to Bahrain’s Thriving Cultural and Sporting Scene",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > article > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > article > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > article > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Jeddah Yacht Club: Jeddah’s waterfront destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > article > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Fan zones for the 2026 World Cup: Events and activities in Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(2) > div > div > span:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Mohammad Anwar",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(2) > div > div > span:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Esports World Cup 2026 in Paris: Full Guide",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(2) > div > div > span:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Mohammad Anwar",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(2) > div > div > span:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "WEBOOK.COM NEWS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "webook.com Ticket Safety: Clearer, Faster, Safer",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(2) > div > div > span:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "admin",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(2) > div > div > span:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "AYA Universe Dubai – Step Into a World of Light & Wonder",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div > div > span:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Mohammad Anwar",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div > div > span:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Portuguese MotoGP Grand Prix 2026 – The Algarve Roller Coaster Ride!",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(2) > div > div > span:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Mohammad Anwar",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(2) > div > div > span:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EXPERIENCES",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Smash Room Dubai: The Ultimate Stress-Relief Experience You Didn’t Know You Needed",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(2) > div > div > span:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Mohammad Anwar",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(2) > div > div > span:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "EVENTS & FESTIVALS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Eid Al-Fitr Events in Saudi Arabia 2026 — Activities, Concerts & Experiences",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(2) > div > div > span:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "admin",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(2) > div > div > span:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > section > div > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "LOAD MORE",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(1) > article > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(1) > article > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ESPORTS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(1) > article > div:nth-of-type(2) > div > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "League of Legends Esports World Cup 2026",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(1) > article > div:nth-of-type(2) > div > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Dota 2 at EWC 2026 Week 1 – Esports World Cup",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Esports World Cup 2026 in Riyadh – Full Schedule & Prize Pool",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(2) > article:nth-of-type(3) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > section > div:nth-of-type(2) > div > div:nth-of-type(2) > article:nth-of-type(3) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Spanish Super Cup Final: Barcelona vs Real Madrid – Official Tickets",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Facebook",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "YouTube",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "TikTok",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a",
+      "tagName": "a",
+      "text": "WhatsApp",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a",
+      "tagName": "a",
+      "text": "Twitter",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a",
+      "tagName": "a",
+      "text": "Instagram",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(4) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a",
+      "tagName": "a",
+      "text": "LinkedIn",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "div#email-1 > div > input",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#forminator-module-7360 > div:nth-of-type(3) > div > div > button",
+      "tagName": "button",
+      "text": "SUBSCRIBE",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "unsafe destructive action keyword match"
+    },
+    {
+      "selector": "ul#menu-main-categories-1 > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Concerts",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-main-categories-1 > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Experiences",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-main-categories-1 > li:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "Food",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-main-categories-1 > li:nth-of-type(4) > a",
+      "tagName": "a",
+      "text": "Travel and Tourism",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-main-categories-1 > li:nth-of-type(5) > a",
+      "tagName": "a",
+      "text": "Adventures",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-main-categories-1 > li:nth-of-type(6) > a",
+      "tagName": "a",
+      "text": "webook.com News",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Jeddah Yacht Club: Jeddah’s waterfront destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Fan zones for the 2026 World Cup: Events and activities in Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Esports World Cup 2026 in Paris: Full Guide",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > section > div > div > article:nth-of-type(4) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > section > div > div > article:nth-of-type(4) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "webook.com Ticket Safety: Clearer, Faster, Safer",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(1) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Fan zones for the 2026 World Cup: Events and activities in Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(2) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Esports World Cup 2026 in Paris: Full Guide",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(3) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Six Flags Qiddiya City: The World’s Next Iconic Theme Park Destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(4) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > section > div > div > article:nth-of-type(4) > div:nth-of-type(2) > div > h4:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "The Laughter Factory: Inside the Gulf’s Longest-Running Comedy Club",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Facebook",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "X (Twitter)",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Instagram",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "LinkedIn",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(5)",
+      "tagName": "a",
+      "text": "TikTok",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > footer > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(6)",
+      "tagName": "a",
+      "text": "Snapchat",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-thetopnav-2 > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "BOOK TICKETS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-thetopnav-2 > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "ABOUT US",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-thetopnav-2 > li:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "CONTACT US",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#menu-thetopnav-2 > li:nth-of-type(4) > a",
+      "tagName": "a",
+      "text": "JOIN WEBOOK.COM TEAM",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div > form > input:nth-of-type(1)",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "html > body > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div > form > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "SUBMIT",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "nav#breadcrumb > div > span:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Home",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "WEBOOK.COM NEWS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "webook.com Ticket Safety: Clearer, Faster, Safer",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "FOOTBALL",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Spanish Super Cup Final: Barcelona vs Real Madrid – Official Tickets",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Six Flags Qiddiya City: The World’s Next Iconic Theme Park Destination",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "TRAVEL AND TOURISM",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Your Complete Guide to AFCON 2025",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(5) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "SOUNDSTORM ’25: Riyadh’s Biggest Music Festival Returns",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(6) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(6) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Live Golf Festival Riyadh: A Spectacular Fusion of Golf, Music, and Culture",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(7) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(7) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "ENTERTAINMENT",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Jeddah: The Illusionist Magic Show Arrives | Benchmark x webook.com",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(8) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "webook.com <> BAAN: THE COLLAB YOU’VE BEEN WAITING FOR!",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(8) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(9) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(9) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "SEASONS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Explore Activities and Shows at Boulevard City for Riyadh Season 2024",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(10) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(10) > div:nth-of-type(1) > span > a",
+      "tagName": "a",
+      "text": "TRAVEL AND TOURISM",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(10) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "A Comprehensive Guide to Riyadh Season Zones 2024",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > div:nth-of-type(1) > article:nth-of-type(10) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "0",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > nav > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "2",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "html > body > div:nth-of-type(1) > div:nth-of-type(5) > div > div > section > div > nav > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Next",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#wpml-ls-submenu-default > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "العربية\n(Arabic)",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#wpml-ls-submenu-default > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Français\n(French)",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#wpml-ls-submenu-default > li:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "Português\n(Portuguese (Portugal))",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#wpml-ls-submenu-default > li:nth-of-type(4) > a",
+      "tagName": "a",
+      "text": "Español\n(Spanish)",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "ul#wpml-ls-submenu-default > li > a",
+      "tagName": "a",
+      "text": "العربية\n(Arabic)",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#post-1555 > div > div > section:nth-of-type(3) > div > div > div > div > div > section > div > div > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    }
+  ]
+}

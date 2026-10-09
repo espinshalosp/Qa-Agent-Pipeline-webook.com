@@ -1,0 +1,4133 @@
+{
+  "_schema_version": "2.0.0",
+  "_status": "populated",
+  "_description": "Autonomously generated test cases from dynamic Webook UI graph memory on domain: Blog.",
+  "feature": "Blog Management",
+  "module": "BLOG",
+  "generated_on": "2026-07-09T07:51:59.812678+00:00",
+  "source_story_key": "KAN-18",
+  "generation_summary": {
+    "total_test_cases": 53,
+    "by_type": {
+      "UI": 0,
+      "Functional": 36,
+      "Negative": 2,
+      "Edge": 2
+    },
+    "by_priority": {
+      "High": 2,
+      "Medium": 47,
+      "Low": 4
+    },
+    "by_severity": {
+      "Critical": 2,
+      "Major": 47,
+      "Minor": 4
+    },
+    "automation_yes": 53,
+    "automation_no": 0,
+    "edge_cases": 2,
+    "attachment_insights_used": 0
+  },
+  "test_cases": [
+    {
+      "id": "TC-BLOG-001",
+      "title": "Verify selecting Menu processes action correctly",
+      "description": "Validates click response for button Menu Button.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "Menu",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'Menu' in the UI filter area.",
+          "expected": "The selected option 'Menu' is highlighted and active.",
+          "system_response": "The selected option 'Menu' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'Menu' parameter.",
+          "system_response": "The events grid displays only availables matching the 'Menu' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: Menu.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'selecting Menu processes action correctly', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify selecting Menu processes action correctly",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'Menu' in the UI filter area.",
+          "system_response": "The selected option 'Menu' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'Menu' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Interact with the Blog UI to trigger a primary business action",
+        "business_action": "Verify the triggered action updates the Blog interface state correctly"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-002",
+      "title": "Verify selecting 1 Of 3 processes action correctly",
+      "description": "Validates click response for button 1 Of 3 Button.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "1 Of 3",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option '1 Of 3' in the UI filter area.",
+          "expected": "The selected option '1 Of 3' is highlighted and active.",
+          "system_response": "The selected option '1 Of 3' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the '1 Of 3' parameter.",
+          "system_response": "The events grid displays only availables matching the '1 Of 3' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: 1 Of 3.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'selecting 1 Of 3 processes action correctly', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify selecting 1 Of 3 processes action correctly",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option '1 Of 3' in the UI filter area.",
+          "system_response": "The selected option '1 Of 3' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the '1 Of 3' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Interact with the Blog UI to trigger a primary business action",
+        "business_action": "Verify the triggered action updates the Blog interface state correctly"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-003",
+      "title": "Verify selecting × processes action correctly",
+      "description": "Validates click response for button × Button.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "×",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option '×' in the UI filter area.",
+          "expected": "The selected option '×' is highlighted and active.",
+          "system_response": "The selected option '×' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the '×' parameter.",
+          "system_response": "The events grid displays only availables matching the '×' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: ×.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'selecting × processes action correctly', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify selecting × processes action correctly",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option '×' in the UI filter area.",
+          "system_response": "The selected option '×' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the '×' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Interact with the Blog UI to trigger a primary business action",
+        "business_action": "Verify the triggered action updates the Blog interface state correctly"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-004",
+      "title": "Verify category filter updates displayed records correctly",
+      "description": "Validates that category filter applies valid business criteria and updates availables display with accurate results.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "category filter",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'category filter' in the UI filter area.",
+          "expected": "The selected option 'category filter' is highlighted and active.",
+          "system_response": "The selected option 'category filter' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'category filter' parameter.",
+          "system_response": "The events grid displays only availables matching the 'category filter' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: category filter.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'category filter updates displayed records correctly', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify category filter updates displayed records correctly",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'category filter' in the UI filter area.",
+          "system_response": "The selected option 'category filter' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'category filter' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Apply a filter criterion to narrow the displayed results list",
+        "business_action": "Verify filtered display updates to show only items matching the selected criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-005",
+      "title": "Verify category filter updates displayed records correctly [Edge]",
+      "description": "Validates that category filter handles edge case filter criteria with proper boundary validation and data integrity.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Edge",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "edge",
+        "Boundary"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "category filter",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'category filter' in the UI filter area.",
+          "expected": "The selected option 'category filter' is highlighted and active.",
+          "system_response": "The selected option 'category filter' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'category filter' parameter.",
+          "system_response": "The events grid displays only availables matching the 'category filter' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: category filter.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'category filter updates displayed records correctly', assert final UI state.",
+      "dependencies": [],
+      "edge_case": true,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify category filter updates displayed records correctly [Edge]",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'category filter' in the UI filter area.",
+          "system_response": "The selected option 'category filter' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'category filter' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Apply a filter criterion to narrow the displayed results list",
+        "business_action": "Verify filtered display updates to show only items matching the selected criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-006",
+      "title": "Verify searching with valid query displays matching results",
+      "description": "Validates functional search input query processing for Search Operation with accurate filtering and result display.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Search query field is active",
+        "Database records match query value"
+      ],
+      "test_data": {
+        "search_query": "football",
+        "locale": "en"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Type search query into searching with valid query input box.",
+          "expected": "Search query text displays correctly in the search field.",
+          "system_response": "Search query text displays correctly in the search field."
+        },
+        {
+          "step": 2,
+          "action": "Trigger search filter execution.",
+          "expected": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches.",
+          "system_response": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches."
+        },
+        {
+          "step": 3,
+          "action": "Trigger search execution",
+          "expected": "Results list is updated dynamically with matching {entity_plural} within 2 seconds.",
+          "system_response": "Results list is updated dynamically with matching {entity_plural} within 2 seconds."
+        }
+      ],
+      "expected_result": "The search query is evaluated and the results display refreshes to show only matching availables matching the search value.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'searching with valid query displays matching results', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify searching with valid query displays matching results",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Type search query into searching with valid query input box.",
+          "system_response": "Search query text displays correctly in the search field.",
+          "state_change": "Form Input Buffer Populated"
+        },
+        {
+          "step": 2,
+          "user_action": "Trigger search filter execution.",
+          "system_response": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 3,
+          "user_action": "Trigger search execution",
+          "system_response": "Results list is updated dynamically with matching {entity_plural} within 2 seconds.",
+          "state_change": "UI Interaction Registered"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Enter a valid search query to find matching records",
+        "business_action": "Verify search results display only records matching the entered query"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-007",
+      "title": "Verify searching with non-matching query renders empty state [Negative]",
+      "description": "Verifies system gracefully handles query terms with zero matches in Search Operation with appropriate empty state messaging.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Negative",
+      "scenario_classification": "Negative",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "negative",
+        "Validation"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Required input field is cleared of all values",
+        "Form validation context is active"
+      ],
+      "test_data": {
+        "input_value": "",
+        "validation_rule": "required"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Ensure the input field searching with non-matching query renders empty state is empty and trigger form submission.",
+          "expected": "Form submission is blocked, and searching with non-matching query renders empty state field is highlighted.",
+          "system_response": "Form submission is blocked, and searching with non-matching query renders empty state field is highlighted."
+        },
+        {
+          "step": 2,
+          "action": "Verify validation warning text displays near searching with non-matching query renders empty state.",
+          "expected": "Validation message 'searching with non-matching query renders empty state is required' is rendered in UI context.",
+          "system_response": "Validation message 'searching with non-matching query renders empty state is required' is rendered in UI context."
+        }
+      ],
+      "expected_result": "Form validation rules prevent submission, highlighting the searching with non-matching query renders empty state field with a validation message: 'searching with non-matching query renders empty state is required'.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'searching with non-matching query renders empty state', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify searching with non-matching query renders empty state [Negative]",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Ensure the input field searching with non-matching query renders empty state is empty and trigger form submission.",
+          "system_response": "Form submission is blocked, and searching with non-matching query renders empty state field is highlighted.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify validation warning text displays near searching with non-matching query renders empty state.",
+          "system_response": "Validation message 'searching with non-matching query renders empty state is required' is rendered in UI context.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Submit a form with required field left empty to trigger validation",
+        "business_action": "Verify validation error message is displayed and submission is blocked"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-008",
+      "title": "Verify search handles special characters and emojis safely [Edge]",
+      "description": "Ensures security filters and parser handle special characters, unicode, and emojis in search field Search Operation with proper sanitization.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Edge",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "edge",
+        "Boundary"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Search query field is active",
+        "Database records match query value"
+      ],
+      "test_data": {
+        "search_query": "football",
+        "locale": "en"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Type search query into Search Operation with proper sanitization input box.",
+          "expected": "Search query text displays correctly in the search field.",
+          "system_response": "Search query text displays correctly in the search field."
+        },
+        {
+          "step": 2,
+          "action": "Trigger search filter execution.",
+          "expected": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches.",
+          "system_response": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches."
+        }
+      ],
+      "expected_result": "The search query is evaluated and the results display refreshes to show only matching availables matching the search value.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'search handles special characters and emojis safely', assert final UI state.",
+      "dependencies": [],
+      "edge_case": true,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify search handles special characters and emojis safely [Edge]",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Type search query into Search Operation with proper sanitization input box.",
+          "system_response": "Search query text displays correctly in the search field.",
+          "state_change": "Form Input Buffer Populated"
+        },
+        {
+          "step": 2,
+          "user_action": "Trigger search filter execution.",
+          "system_response": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches.",
+          "state_change": "UI Interaction Registered"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Test Blog boundary and resilience conditions beyond normal usage",
+        "business_action": "Verify the Blog system handles boundary conditions without data loss or errors"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-009",
+      "title": "Verify clearing search query restores default list",
+      "description": "Validates that clearing the search input Search Operation resets list views to default states with all items visible.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Search query field is active",
+        "Database records match query value"
+      ],
+      "test_data": {
+        "search_query": "football",
+        "locale": "en"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Type search query into clearing search query restores default list input box.",
+          "expected": "Search query text displays correctly in the search field.",
+          "system_response": "Search query text displays correctly in the search field."
+        },
+        {
+          "step": 2,
+          "action": "Trigger search filter execution.",
+          "expected": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches.",
+          "system_response": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches."
+        }
+      ],
+      "expected_result": "The search query is evaluated and the results display refreshes to show only matching availables matching the search value.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'clearing search query restores default list', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify clearing search query restores default list",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Type search query into clearing search query restores default list input box.",
+          "system_response": "Search query text displays correctly in the search field.",
+          "state_change": "Form Input Buffer Populated"
+        },
+        {
+          "step": 2,
+          "user_action": "Trigger search filter execution.",
+          "system_response": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches.",
+          "state_change": "UI Interaction Registered"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Enter valid data into the Blog form to progress the business flow",
+        "business_action": "Verify form field accepts and registers the valid input value in state"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-010",
+      "title": "Verify sorting orders list elements correctly",
+      "description": "Validates that booking action executes execute_order with valid business data and completes with expected state transition and data integrity preserved.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Multiple availables are rendered in events grid",
+        "Sort control choice is visible and active"
+      ],
+      "test_data": {
+        "sort_by": "sorting",
+        "order": "descending"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Apply sorting parameter 'sorting' from sorting options dropdown.",
+          "expected": "Sorting rule 'sorting' is set active.",
+          "system_response": "Sorting rule 'sorting' is set active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list is sorted correctly.",
+          "expected": "All visible items are sorted in the UI conforming to the 'sorting' rule.",
+          "system_response": "All visible items are sorted in the UI conforming to the 'sorting' rule."
+        },
+        {
+          "step": 3,
+          "action": "Verify available state transition and completion",
+          "expected": "Available state transitions to expected final state with data integrity preserved.",
+          "system_response": "Available state transitions to expected final state with data integrity preserved."
+        }
+      ],
+      "expected_result": "The displayed list of availables reorders sequentially in real-time according to the selected sorting rule: sorting.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'sorting orders list elements correctly', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify sorting orders list elements correctly",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Apply sorting parameter 'sorting' from sorting options dropdown.",
+          "system_response": "Sorting rule 'sorting' is set active.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list is sorted correctly.",
+          "system_response": "All visible items are sorted in the UI conforming to the 'sorting' rule.",
+          "state_change": "State Verification Completed"
+        },
+        {
+          "step": 3,
+          "user_action": "Verify available state transition and completion",
+          "system_response": "Available state transitions to expected final state with data integrity preserved.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Select a sort order to resequence the displayed results list",
+        "business_action": "Verify listing items are reordered according to the chosen sort criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-011",
+      "title": "Verify sorting orders list elements correctly [Negative]",
+      "description": "Validates that booking action handles execute_order with invalid data and enforces business rules with appropriate error handling and state preservation.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Negative",
+      "scenario_classification": "Negative",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "negative",
+        "Validation"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Multiple availables are rendered in events grid",
+        "Sort control choice is visible and active"
+      ],
+      "test_data": {
+        "sort_by": "sorting",
+        "order": "descending"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Apply sorting parameter 'sorting' from sorting options dropdown.",
+          "expected": "Sorting rule 'sorting' is set active.",
+          "system_response": "Sorting rule 'sorting' is set active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list is sorted correctly.",
+          "expected": "All visible items are sorted in the UI conforming to the 'sorting' rule.",
+          "system_response": "All visible items are sorted in the UI conforming to the 'sorting' rule."
+        },
+        {
+          "step": 3,
+          "action": "Verify error message and state preservation",
+          "expected": "Appropriate error message is displayed and available state is preserved without corruption.",
+          "system_response": "Appropriate error message is displayed and available state is preserved without corruption."
+        }
+      ],
+      "expected_result": "The displayed list of availables reorders sequentially in real-time according to the selected sorting rule: sorting.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'sorting orders list elements correctly', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify sorting orders list elements correctly [Negative]",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Apply sorting parameter 'sorting' from sorting options dropdown.",
+          "system_response": "Sorting rule 'sorting' is set active.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list is sorted correctly.",
+          "system_response": "All visible items are sorted in the UI conforming to the 'sorting' rule.",
+          "state_change": "State Verification Completed"
+        },
+        {
+          "step": 3,
+          "user_action": "Verify error message and state preservation",
+          "system_response": "Appropriate error message is displayed and available state is preserved without corruption.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Select a sort order to resequence the displayed results list",
+        "business_action": "Verify listing items are reordered according to the chosen sort criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-012",
+      "title": "Verify wp-json API processes valid available requests with measurable business outcomes",
+      "description": "Validates that the wp-json API endpoint processes valid available requests and returns expected business responses with correct data integrity, response time, and business state transitions.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "API",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "api",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Prepare valid available request payload for wp-json endpoint with all required fields and realistic business data",
+          "expected": "Request payload contains valid available data with all mandatory fields, proper data types, and business-valid values.",
+          "system_response": "Request payload contains valid available data with all mandatory fields, proper data types, and business-valid values."
+        },
+        {
+          "step": 2,
+          "action": "Execute API call to wp-json endpoint and measure response time",
+          "expected": "API returns 200 OK status code within acceptable SLA (e.g., < 2s) with valid response body containing complete business data.",
+          "system_response": "API returns 200 OK status code within acceptable SLA (e.g., < 2s) with valid response body containing complete business data."
+        },
+        {
+          "step": 3,
+          "action": "Validate available response structure, business data integrity, and state transitions",
+          "expected": "Response contains all required available fields with valid data types, business values are accurate, and system state reflects the order operation.",
+          "system_response": "Response contains all required available fields with valid data types, business values are accurate, and system state reflects the order operation."
+        }
+      ],
+      "expected_result": "wp-json API endpoint validly processes available requests within performance SLA, returns valid business responses with correct data integrity, and triggers appropriate state transitions.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'wp-json API processes valid available requests with measurab', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify wp-json API processes valid available requests with measurable business outcomes",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Prepare valid available request payload for wp-json endpoint with all required fields and realistic business data",
+          "system_response": "Request payload contains valid available data with all mandatory fields, proper data types, and business-valid values.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Execute API call to wp-json endpoint and measure response time",
+          "system_response": "API returns 200 OK status code within acceptable SLA (e.g., < 2s) with valid response body containing complete business data.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Validate available response structure, business data integrity, and state transitions",
+          "system_response": "Response contains all required available fields with valid data types, business values are accurate, and system state reflects the order operation.",
+          "state_change": "UI Context Updated"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18",
+      "data": {
+        "available_id": "test_available_12345",
+        "available_name": "Valid Available Test Data",
+        "available_status": "active",
+        "timestamp": "2026-07-09T07:51:43.699734+00:00",
+        "user_context": "authenticated_user"
+      }
+    },
+    {
+      "id": "TC-BLOG-013",
+      "title": "Verify wp-json API handles invalid available requests with specific error codes and recovery paths",
+      "description": "Validates that the wp-json API endpoint handles invalid available requests and error conditions with specific error codes, meaningful error messages, and documented recovery paths.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "API",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "api",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Prepare invalid available request payload for wp-json endpoint with specific error conditions (missing required fields, invalid data types, business rule violations)",
+          "expected": "Request payload contains invalid available data triggering specific validation errors.",
+          "system_response": "Request payload contains invalid available data triggering specific validation errors."
+        },
+        {
+          "step": 2,
+          "action": "Execute API call to wp-json endpoint and capture error response",
+          "expected": "API returns appropriate error status code (400 for validation, 404 for not found, 422 for business rule violation) with structured error details.",
+          "system_response": "API returns appropriate error status code (400 for validation, 404 for not found, 422 for business rule violation) with structured error details."
+        },
+        {
+          "step": 3,
+          "action": "Validate error response structure, specific error codes, field-level validation details, and recovery guidance",
+          "expected": "Error response contains specific error code, meaningful error message, field-level validation details identifying the exact issue, and recovery guidance for correction.",
+          "system_response": "Error response contains specific error code, meaningful error message, field-level validation details identifying the exact issue, and recovery guidance for correction."
+        }
+      ],
+      "expected_result": "wp-json API endpoint gracefully handles invalid available requests with specific error codes, meaningful error messages, field-level validation details, and documented recovery paths.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'wp-json API handles invalid available requests with specific', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify wp-json API handles invalid available requests with specific error codes and recovery paths",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Prepare invalid available request payload for wp-json endpoint with specific error conditions (missing required fields, invalid data types, business rule violations)",
+          "system_response": "Request payload contains invalid available data triggering specific validation errors.",
+          "state_change": "Form Input Buffer Populated"
+        },
+        {
+          "step": 2,
+          "user_action": "Execute API call to wp-json endpoint and capture error response",
+          "system_response": "API returns appropriate error status code (400 for validation, 404 for not found, 422 for business rule violation) with structured error details.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Validate error response structure, specific error codes, field-level validation details, and recovery guidance",
+          "system_response": "Error response contains specific error code, meaningful error message, field-level validation details identifying the exact issue, and recovery guidance for correction.",
+          "state_change": "UI Context Updated"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18",
+      "data": {
+        "available_id": "test_available_12345",
+        "available_name": "Valid Available Test Data",
+        "available_status": "active",
+        "timestamp": "2026-07-09T07:51:43.699753+00:00",
+        "user_context": "authenticated_user"
+      }
+    },
+    {
+      "id": "TC-BLOG-014",
+      "title": "Verify wp-statistics API processes valid available requests with measurable business outcomes",
+      "description": "Validates that the wp-statistics API endpoint processes valid available requests and returns expected business responses with correct data integrity, response time, and business state transitions.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "API",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "api",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Prepare valid available request payload for wp-statistics endpoint with all required fields and realistic business data",
+          "expected": "Request payload contains valid available data with all mandatory fields, proper data types, and business-valid values.",
+          "system_response": "Request payload contains valid available data with all mandatory fields, proper data types, and business-valid values."
+        },
+        {
+          "step": 2,
+          "action": "Execute API call to wp-statistics endpoint and measure response time",
+          "expected": "API returns 200 OK status code within acceptable SLA (e.g., < 2s) with valid response body containing complete business data.",
+          "system_response": "API returns 200 OK status code within acceptable SLA (e.g., < 2s) with valid response body containing complete business data."
+        },
+        {
+          "step": 3,
+          "action": "Validate available response structure, business data integrity, and state transitions",
+          "expected": "Response contains all required available fields with valid data types, business values are accurate, and system state reflects the order operation.",
+          "system_response": "Response contains all required available fields with valid data types, business values are accurate, and system state reflects the order operation."
+        }
+      ],
+      "expected_result": "wp-statistics API endpoint validly processes available requests within performance SLA, returns valid business responses with correct data integrity, and triggers appropriate state transitions.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'wp-statistics API processes valid available requests with me', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify wp-statistics API processes valid available requests with measurable business outcomes",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Prepare valid available request payload for wp-statistics endpoint with all required fields and realistic business data",
+          "system_response": "Request payload contains valid available data with all mandatory fields, proper data types, and business-valid values.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Execute API call to wp-statistics endpoint and measure response time",
+          "system_response": "API returns 200 OK status code within acceptable SLA (e.g., < 2s) with valid response body containing complete business data.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Validate available response structure, business data integrity, and state transitions",
+          "system_response": "Response contains all required available fields with valid data types, business values are accurate, and system state reflects the order operation.",
+          "state_change": "UI Context Updated"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18",
+      "data": {
+        "available_id": "test_available_12345",
+        "available_name": "Valid Available Test Data",
+        "available_status": "active",
+        "timestamp": "2026-07-09T07:51:43.699766+00:00",
+        "user_context": "authenticated_user"
+      }
+    },
+    {
+      "id": "TC-BLOG-015",
+      "title": "Verify wp-statistics API handles invalid available requests with specific error codes and recovery paths",
+      "description": "Validates that the wp-statistics API endpoint handles invalid available requests and error conditions with specific error codes, meaningful error messages, and documented recovery paths.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "API",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "api",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Prepare invalid available request payload for wp-statistics endpoint with specific error conditions (missing required fields, invalid data types, business rule violations)",
+          "expected": "Request payload contains invalid available data triggering specific validation errors.",
+          "system_response": "Request payload contains invalid available data triggering specific validation errors."
+        },
+        {
+          "step": 2,
+          "action": "Execute API call to wp-statistics endpoint and capture error response",
+          "expected": "API returns appropriate error status code (400 for validation, 404 for not found, 422 for business rule violation) with structured error details.",
+          "system_response": "API returns appropriate error status code (400 for validation, 404 for not found, 422 for business rule violation) with structured error details."
+        },
+        {
+          "step": 3,
+          "action": "Validate error response structure, specific error codes, field-level validation details, and recovery guidance",
+          "expected": "Error response contains specific error code, meaningful error message, field-level validation details identifying the exact issue, and recovery guidance for correction.",
+          "system_response": "Error response contains specific error code, meaningful error message, field-level validation details identifying the exact issue, and recovery guidance for correction."
+        }
+      ],
+      "expected_result": "wp-statistics API endpoint gracefully handles invalid available requests with specific error codes, meaningful error messages, field-level validation details, and documented recovery paths.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'wp-statistics API handles invalid available requests with sp', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify wp-statistics API handles invalid available requests with specific error codes and recovery paths",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Prepare invalid available request payload for wp-statistics endpoint with specific error conditions (missing required fields, invalid data types, business rule violations)",
+          "system_response": "Request payload contains invalid available data triggering specific validation errors.",
+          "state_change": "Form Input Buffer Populated"
+        },
+        {
+          "step": 2,
+          "user_action": "Execute API call to wp-statistics endpoint and capture error response",
+          "system_response": "API returns appropriate error status code (400 for validation, 404 for not found, 422 for business rule violation) with structured error details.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Validate error response structure, specific error codes, field-level validation details, and recovery guidance",
+          "system_response": "Error response contains specific error code, meaningful error message, field-level validation details identifying the exact issue, and recovery guidance for correction.",
+          "state_change": "UI Context Updated"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18",
+      "data": {
+        "available_id": "test_available_12345",
+        "available_name": "Valid Available Test Data",
+        "available_status": "active",
+        "timestamp": "2026-07-09T07:51:43.699778+00:00",
+        "user_context": "authenticated_user"
+      }
+    },
+    {
+      "id": "TC-BLOG-016",
+      "title": "Verify complete available business workflow: browse availables → select available → order → confirmation",
+      "description": "Validates the end-to-end business workflow for available management covering all critical business stages from initiation to completion. This test ensures realistic user journey with measurable outcomes at each stage.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Workflow",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "workflow",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {
+        "available_workflow_id": "workflow_available_12345",
+        "workflow_stages": [
+          "browse availables",
+          "select available",
+          "order",
+          "confirmation"
+        ],
+        "expected_outcome": "Available successfully processed through complete business lifecycle"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Execute workflow stage: browse availables with realistic business data",
+          "expected": "Browse availables completes and displays available availables with filtering and sorting options active.",
+          "system_response": "Browse availables completes and displays available availables with filtering and sorting options active."
+        },
+        {
+          "step": 2,
+          "action": "Execute workflow stage: select available with realistic business data",
+          "expected": "Available is selected, details are displayed, and available state is prepared for order.",
+          "system_response": "Available is selected, details are displayed, and available state is prepared for order."
+        },
+        {
+          "step": 3,
+          "action": "Execute workflow stage: order with realistic business data",
+          "expected": "Order operation is initiated, business rules are validated, and available state transitions to processing.",
+          "system_response": "Order operation is initiated, business rules are validated, and available state transitions to processing."
+        },
+        {
+          "step": 4,
+          "action": "Execute workflow stage: confirmation with realistic business data",
+          "expected": "Order is confirmed, available state is updated to final state, and confirmation is displayed.",
+          "system_response": "Order is confirmed, available state is updated to final state, and confirmation is displayed."
+        }
+      ],
+      "expected_result": "Complete available business workflow executes validly from start to finish, with each stage (browse availables → select available → order → confirmation) completing in sequence, measurable business outcomes at each transition, and available reaching the expected final business state with data integrity preserved.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'complete available business workflow: browse availables → se', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify complete available business workflow: browse availables → select available → order → confirmation",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Execute workflow stage: browse availables with realistic business data",
+          "system_response": "Browse availables completes and displays available availables with filtering and sorting options active.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Execute workflow stage: select available with realistic business data",
+          "system_response": "Available is selected, details are displayed, and available state is prepared for order.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Execute workflow stage: order with realistic business data",
+          "system_response": "Order operation is initiated, business rules are validated, and available state transitions to processing.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 4,
+          "user_action": "Execute workflow stage: confirmation with realistic business data",
+          "system_response": "Order is confirmed, available state is updated to final state, and confirmation is displayed.",
+          "state_change": "UI Context Updated"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Select a sort order to resequence the displayed results list",
+        "business_action": "Verify listing items are reordered according to the chosen sort criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18",
+      "data": {
+        "available_id": "test_available_12345",
+        "available_name": "Valid Available Test Data",
+        "available_status": "active",
+        "timestamp": "2026-07-09T07:51:43.699798+00:00",
+        "user_context": "authenticated_user"
+      }
+    },
+    {
+      "id": "TC-BLOG-017",
+      "title": "Verify order authorization enforces access control and prevents unauthorized operations",
+      "description": "Validates that order operations require proper authentication and authorization, preventing unauthorized access to available resources.",
+      "priority": "High",
+      "severity": "Critical",
+      "type": "Security",
+      "scenario_classification": "Negative",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "security",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Attempt order operation without valid authentication credentials",
+          "expected": "System denies order access and redirects to authentication page with clear error message.",
+          "system_response": "System denies order access and redirects to authentication page with clear error message."
+        },
+        {
+          "step": 2,
+          "action": "Authenticate with valid user credentials and establish session",
+          "expected": "Authentication succeeds, session is established, and user is authorized for available operations.",
+          "system_response": "Authentication succeeds, session is established, and user is authorized for available operations."
+        },
+        {
+          "step": 3,
+          "action": "Attempt order operation with valid authentication and authorization",
+          "expected": "Order operation is authorized, proceeds validly, and available state is updated accordingly.",
+          "system_response": "Order operation is authorized, proceeds validly, and available state is updated accordingly."
+        }
+      ],
+      "expected_result": "Order operations enforce proper authorization and access control, ensuring only authenticated users can modify available resources.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'order authorization enforces access control and prevents una', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify order authorization enforces access control and prevents unauthorized operations",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Attempt order operation without valid authentication credentials",
+          "system_response": "System denies order access and redirects to authentication page with clear error message.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Authenticate with valid user credentials and establish session",
+          "system_response": "Authentication succeeds, session is established, and user is authorized for available operations.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Attempt order operation with valid authentication and authorization",
+          "system_response": "Order operation is authorized, proceeds validly, and available state is updated accordingly.",
+          "state_change": "UI Context Updated"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Select a sort order to resequence the displayed results list",
+        "business_action": "Verify listing items are reordered according to the chosen sort criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-018",
+      "title": "Verify available input sanitization prevents SQL injection, XSS, and script execution attacks",
+      "description": "Validates that available data inputs are properly sanitized to prevent SQL injection, XSS, and other injection attacks, ensuring data security.",
+      "priority": "High",
+      "severity": "Critical",
+      "type": "Security",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "security",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Enter malicious script payload (<script>alert('XSS')</script>, ' OR 1=1 --, etc.) into available input field",
+          "expected": "Input is accepted for processing by the available form.",
+          "system_response": "Input is accepted for processing by the available form."
+        },
+        {
+          "step": 2,
+          "action": "Submit malicious available payload to backend",
+          "expected": "System sanitizes payload, strips malicious tags, and prevents script execution.",
+          "system_response": "System sanitizes payload, strips malicious tags, and prevents script execution."
+        },
+        {
+          "step": 3,
+          "action": "Verify no script execution occurred and data is stored safely",
+          "expected": "Malicious payload is rendered safely as plain text without script execution, and available data is stored securely.",
+          "system_response": "Malicious payload is rendered safely as plain text without script execution, and available data is stored securely."
+        }
+      ],
+      "expected_result": "Available data inputs are properly sanitized to prevent injection attacks, ensuring available data security and system integrity.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'available input sanitization prevents SQL injection, XSS, an', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify available input sanitization prevents SQL injection, XSS, and script execution attacks",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Enter malicious script payload (<script>alert('XSS')</script>, ' OR 1=1 --, etc.) into available input field",
+          "system_response": "Input is accepted for processing by the available form.",
+          "state_change": "Form Input Buffer Populated"
+        },
+        {
+          "step": 2,
+          "user_action": "Submit malicious available payload to backend",
+          "system_response": "System sanitizes payload, strips malicious tags, and prevents script execution.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Verify no script execution occurred and data is stored safely",
+          "system_response": "Malicious payload is rendered safely as plain text without script execution, and available data is stored securely.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Verify security boundaries for untrusted input data",
+        "business_action": "Verify malicious input is sanitized and does not execute"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-019",
+      "title": "Verify available system handles network latency with user feedback and completes operations successfully",
+      "description": "Validates that the available system handles network latency gracefully with appropriate loading indicators and user feedback, ensuring operations complete successfully.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Resilience",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "resilience",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Initiate available operation with simulated network latency (2-5 seconds)",
+          "expected": "Available operation request is initiated and loading indicator is displayed.",
+          "system_response": "Available operation request is initiated and loading indicator is displayed."
+        },
+        {
+          "step": 2,
+          "action": "Observe system behavior during network latency period",
+          "expected": "System displays loading spinner/progress bar and prevents duplicate user actions during latency.",
+          "system_response": "System displays loading spinner/progress bar and prevents duplicate user actions during latency."
+        },
+        {
+          "step": 3,
+          "action": "Verify operation completes successfully after network latency resolves",
+          "expected": "Available operation completes validly, loading indicator is dismissed, and available state is updated correctly.",
+          "system_response": "Available operation completes validly, loading indicator is dismissed, and available state is updated correctly."
+        }
+      ],
+      "expected_result": "Available system handles network latency gracefully with appropriate user feedback and operations complete validly despite network delays.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'available system handles network latency with user feedback ', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify available system handles network latency with user feedback and completes operations successfully",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Initiate available operation with simulated network latency (2-5 seconds)",
+          "system_response": "Available operation request is initiated and loading indicator is displayed.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Observe system behavior during network latency period",
+          "system_response": "System displays loading spinner/progress bar and prevents duplicate user actions during latency.",
+          "state_change": "State Verification Completed"
+        },
+        {
+          "step": 3,
+          "user_action": "Verify operation completes successfully after network latency resolves",
+          "system_response": "Available operation completes validly, loading indicator is dismissed, and available state is updated correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Test UI feedback under slow network conditions",
+        "business_action": "Verify progress spinner renders and controls lock during high latency"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-020",
+      "title": "Verify order operations recover from temporary service failures with automatic retry logic",
+      "description": "Validates that order operations can recover from temporary service failures with appropriate retry logic and user notification, ensuring business continuity.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Resilience",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "resilience",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Initiate order operation with valid available data",
+          "expected": "Order operation is initiated and request is sent to backend service.",
+          "system_response": "Order operation is initiated and request is sent to backend service."
+        },
+        {
+          "step": 2,
+          "action": "Simulate temporary service failure (500 error, timeout)",
+          "expected": "System detects service failure and initiates automatic retry logic with user notification.",
+          "system_response": "System detects service failure and initiates automatic retry logic with user notification."
+        },
+        {
+          "step": 3,
+          "action": "Verify operation completes successfully after service recovery and retry",
+          "expected": "Order operation completes validly after retry, available state is updated, and user is notified of completion.",
+          "system_response": "Order operation completes validly after retry, available state is updated, and user is notified of completion."
+        }
+      ],
+      "expected_result": "Order operations recover from temporary failures with appropriate retry logic, ensuring business continuity and user experience.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'order operations recover from temporary service failures wit', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify order operations recover from temporary service failures with automatic retry logic",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Initiate order operation with valid available data",
+          "system_response": "Order operation is initiated and request is sent to backend service.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Simulate temporary service failure (500 error, timeout)",
+          "system_response": "System detects service failure and initiates automatic retry logic with user notification.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Verify operation completes successfully after service recovery and retry",
+          "system_response": "Order operation completes validly after retry, available state is updated, and user is notified of completion.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Select a sort order to resequence the displayed results list",
+        "business_action": "Verify listing items are reordered according to the chosen sort criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-021",
+      "title": "Verify available state transitions follow defined business lifecycle with validation at each stage",
+      "description": "Validates that available state transitions follow the defined business lifecycle correctly with proper validation and constraints at each transition stage.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "State-Transition",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "state-transition",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Create available in initial state with valid data",
+          "expected": "Available is created in initial state with all required fields populated.",
+          "system_response": "Available is created in initial state with all required fields populated."
+        },
+        {
+          "step": 2,
+          "action": "Trigger state transition to next lifecycle stage (e.g., from draft to active)",
+          "expected": "Available transitions to next state after validation of business rules and constraints.",
+          "system_response": "Available transitions to next state after validation of business rules and constraints."
+        },
+        {
+          "step": 3,
+          "action": "Verify state transition validation, constraints, and business rule enforcement",
+          "expected": "State transition validates all business rules, enforces constraints, and available state reflects the correct lifecycle stage.",
+          "system_response": "State transition validates all business rules, enforces constraints, and available state reflects the correct lifecycle stage."
+        }
+      ],
+      "expected_result": "Available state transitions follow the defined business lifecycle correctly with proper validation and constraints at each transition stage.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'available state transitions follow defined business lifecycl', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify available state transitions follow defined business lifecycle with validation at each stage",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Create available in initial state with valid data",
+          "system_response": "Available is created in initial state with all required fields populated.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Trigger state transition to next lifecycle stage (e.g., from draft to active)",
+          "system_response": "Available transitions to next state after validation of business rules and constraints.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 3,
+          "user_action": "Verify state transition validation, constraints, and business rule enforcement",
+          "system_response": "State transition validates all business rules, enforces constraints, and available state reflects the correct lifecycle stage.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18",
+      "data": {
+        "available_id": "test_available_12345",
+        "available_name": "Valid Available Test Data",
+        "available_status": "active",
+        "timestamp": "2026-07-09T07:51:43.699845+00:00",
+        "user_context": "authenticated_user"
+      }
+    },
+    {
+      "id": "TC-BLOG-022",
+      "title": "Verify available interface supports full keyboard navigation for all interactive controls",
+      "description": "Validates that available interface is fully navigable using keyboard only, ensuring accessibility for keyboard-only users.",
+      "priority": "Low",
+      "severity": "Minor",
+      "type": "Accessibility",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "accessibility",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Navigate to available interface using keyboard Tab key",
+          "expected": "Focus moves to available interface and first interactive control receives visible focus indication.",
+          "system_response": "Focus moves to available interface and first interactive control receives visible focus indication."
+        },
+        {
+          "step": 2,
+          "action": "Navigate through all available interface elements using keyboard Tab/Shift+Tab",
+          "expected": "All interactive elements (inputs, buttons, dropdowns, links) are reachable via keyboard in logical order.",
+          "system_response": "All interactive elements (inputs, buttons, dropdowns, links) are reachable via keyboard in logical order."
+        },
+        {
+          "step": 3,
+          "action": "Verify keyboard interaction with all available controls (Enter, Space, Arrow keys)",
+          "expected": "All available controls respond to appropriate keyboard input and perform expected actions.",
+          "system_response": "All available controls respond to appropriate keyboard input and perform expected actions."
+        }
+      ],
+      "expected_result": "Available interface is fully accessible via keyboard navigation, ensuring compliance with WCAG keyboard accessibility standards.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'available interface supports full keyboard navigation for al', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify available interface supports full keyboard navigation for all interactive controls",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Navigate to available interface using keyboard Tab key",
+          "system_response": "Focus moves to available interface and first interactive control receives visible focus indication.",
+          "state_change": "Viewport Location Transitioned"
+        },
+        {
+          "step": 2,
+          "user_action": "Navigate through all available interface elements using keyboard Tab/Shift+Tab",
+          "system_response": "All interactive elements (inputs, buttons, dropdowns, links) are reachable via keyboard in logical order.",
+          "state_change": "Viewport Location Transitioned"
+        },
+        {
+          "step": 3,
+          "user_action": "Verify keyboard interaction with all available controls (Enter, Space, Arrow keys)",
+          "system_response": "All available controls respond to appropriate keyboard input and perform expected actions.",
+          "state_change": "Form Input Buffer Populated"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Navigate to a linked section of the application",
+        "business_action": "Verify navigation resolves to target page with updated browser history"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-023",
+      "title": "Verify available interface provides proper ARIA labels and screen reader announcements",
+      "description": "Validates that available interface provides proper ARIA labels, roles, and descriptions for screen reader compatibility and accessibility.",
+      "priority": "Low",
+      "severity": "Minor",
+      "type": "Accessibility",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "accessibility",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Activate screen reader on available interface",
+          "expected": "Screen reader announces available interface and its purpose.",
+          "system_response": "Screen reader announces available interface and its purpose."
+        },
+        {
+          "step": 2,
+          "action": "Navigate through available interface with screen reader",
+          "expected": "Screen reader announces all interactive elements with descriptive labels and current state.",
+          "system_response": "Screen reader announces all interactive elements with descriptive labels and current state."
+        },
+        {
+          "step": 3,
+          "action": "Verify ARIA labels, roles, and descriptions for all available elements",
+          "expected": "All available elements have descriptive ARIA labels, appropriate roles, and state announcements for screen readers.",
+          "system_response": "All available elements have descriptive ARIA labels, appropriate roles, and state announcements for screen readers."
+        }
+      ],
+      "expected_result": "Available interface provides proper screen reader compatibility with descriptive ARIA labels and announcements, ensuring accessibility compliance.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'available interface provides proper ARIA labels and screen r', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify available interface provides proper ARIA labels and screen reader announcements",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Activate screen reader on available interface",
+          "system_response": "Screen reader announces available interface and its purpose.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Navigate through available interface with screen reader",
+          "system_response": "Screen reader announces all interactive elements with descriptive labels and current state.",
+          "state_change": "Viewport Location Transitioned"
+        },
+        {
+          "step": 3,
+          "user_action": "Verify ARIA labels, roles, and descriptions for all available elements",
+          "system_response": "All available elements have descriptive ARIA labels, appropriate roles, and state announcements for screen readers.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Ensure accessibility compliance for keyboard-only and assistive technology users",
+        "business_action": "Verify all controls are focusable and labeled per WCAG accessibility standards"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-024",
+      "title": "Verify order data is preserved and recoverable after system interruption or browser refresh",
+      "description": "Validates that order data is preserved and recoverable after system interruption (browser refresh, tab close, network disconnect), ensuring data integrity.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Recovery",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "recovery",
+        "Functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Initiate order with partial data entry (fill required fields)",
+          "expected": "Order data is entered in form fields and temporary state is established.",
+          "system_response": "Order data is entered in form fields and temporary state is established."
+        },
+        {
+          "step": 2,
+          "action": "Simulate system interruption (browser refresh, tab close, network disconnect)",
+          "expected": "System interruption occurs and session is temporarily lost.",
+          "system_response": "System interruption occurs and session is temporarily lost."
+        },
+        {
+          "step": 3,
+          "action": "Recover order data after system restart and verify data integrity",
+          "expected": "Order data is preserved, form fields are repopulated, and data integrity is maintained.",
+          "system_response": "Order data is preserved, form fields are repopulated, and data integrity is maintained."
+        }
+      ],
+      "expected_result": "Order data is preserved and recoverable after system interruption, ensuring data integrity and user experience continuity.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'order data is preserved and recoverable after system interru', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify order data is preserved and recoverable after system interruption or browser refresh",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Initiate order with partial data entry (fill required fields)",
+          "system_response": "Order data is entered in form fields and temporary state is established.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 2,
+          "user_action": "Simulate system interruption (browser refresh, tab close, network disconnect)",
+          "system_response": "System interruption occurs and session is temporarily lost.",
+          "state_change": "UI Context Updated"
+        },
+        {
+          "step": 3,
+          "user_action": "Recover order data after system restart and verify data integrity",
+          "system_response": "Order data is preserved, form fields are repopulated, and data integrity is maintained.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Test data persistence and protection during accidental page reload",
+        "business_action": "Verify unsaved data is preserved or user is warned on page reload"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-025",
+      "title": "Verify Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Spo...",
+      "description": "Verify that system behavior conforms to story requirement: 'Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Sport, Concerts, or Webook News are visible where applicable.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Sport, Concerts, or Webook News are visible where applicable.'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Sport, Concerts, or Webook News are visible where applicable.' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Sport, Concerts, or Webook News are visible where applicable.' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Spo'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Categories such as Experiences, Travel and Tourism, Adventur', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Spo...",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Sport, Concerts, or Webook News are visible where applicable.'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Sport, Concerts, or Webook News are visible where applicable.' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-026",
+      "title": "Verify Clicking a category opens the corresponding filtered category page / listing if ...",
+      "description": "Verify that system behavior conforms to story requirement: 'Clicking a category opens the corresponding filtered category page / listing if category navigation is supported.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "Clicking a category opens the corresponding filtered category page / listing if ...",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'Clicking a category opens the corresponding filtered category page / listing if ...' in the UI filter area.",
+          "expected": "The selected option 'Clicking a category opens the corresponding filtered category page / listing if ...' is highlighted and active.",
+          "system_response": "The selected option 'Clicking a category opens the corresponding filtered category page / listing if ...' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'Clicking a category opens the corresponding filtered category page / listing if ...' parameter.",
+          "system_response": "The events grid displays only availables matching the 'Clicking a category opens the corresponding filtered category page / listing if ...' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: Clicking a category opens the corresponding filtered category page / listing if ....",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Clicking a category opens the corresponding filtered categor', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Clicking a category opens the corresponding filtered category page / listing if ...",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'Clicking a category opens the corresponding filtered category page / listing if ...' in the UI filter area.",
+          "system_response": "The selected option 'Clicking a category opens the corresponding filtered category page / listing if ...' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'Clicking a category opens the corresponding filtered category page / listing if ...' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Apply a filter criterion to narrow the displayed results list",
+        "business_action": "Verify filtered display updates to show only items matching the selected criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-027",
+      "title": "Verify Each article card displays the relevant content metadata where available, such as:",
+      "description": "Verify that system behavior conforms to story requirement: 'Each article card displays the relevant content metadata where available, such as:'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "Each article card displays the relevant content metadata where available, such as:"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Each article card displays the relevant content metadata where available, such as:'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Each article card displays the relevant content metadata where available, such as:' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Each article card displays the relevant content metadata where available, such as:' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Each article card displays the relevant content metadata where available, such as:'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Each article card displays the relevant content metadata whe', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Each article card displays the relevant content metadata where available, such as:",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Each article card displays the relevant content metadata where available, such as:'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Each article card displays the relevant content metadata where available, such as:' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-028",
+      "title": "Verify article title",
+      "description": "Verify that system behavior conforms to story requirement: 'article title'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "article title"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'article title'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'article title' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'article title' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'article title'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'article title', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify article title",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'article title'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'article title' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-029",
+      "title": "Verify category / tag",
+      "description": "Verify that system behavior conforms to story requirement: 'category / tag'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "category / tag",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'category / tag' in the UI filter area.",
+          "expected": "The selected option 'category / tag' is highlighted and active.",
+          "system_response": "The selected option 'category / tag' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'category / tag' parameter.",
+          "system_response": "The events grid displays only availables matching the 'category / tag' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: category / tag.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'category / tag', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify category / tag",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'category / tag' in the UI filter area.",
+          "system_response": "The selected option 'category / tag' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'category / tag' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Apply a filter criterion to narrow the displayed results list",
+        "business_action": "Verify filtered display updates to show only items matching the selected criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-030",
+      "title": "Verify article image / thumbnail",
+      "description": "Verify that system behavior conforms to story requirement: 'article image / thumbnail'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "article image / thumbnail"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'article image / thumbnail'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'article image / thumbnail' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'article image / thumbnail' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'article image / thumbnail'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'article image / thumbnail', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify article image / thumbnail",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'article image / thumbnail'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'article image / thumbnail' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-031",
+      "title": "Verify publish date",
+      "description": "Verify that system behavior conforms to story requirement: 'publish date'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "publish date",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'publish date' in the UI filter area.",
+          "expected": "The selected option 'publish date' is highlighted and active.",
+          "system_response": "The selected option 'publish date' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'publish date' parameter.",
+          "system_response": "The events grid displays only availables matching the 'publish date' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: publish date.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'publish date', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify publish date",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'publish date' in the UI filter area.",
+          "system_response": "The selected option 'publish date' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'publish date' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-032",
+      "title": "Verify short preview / excerpt if present",
+      "description": "Verify that system behavior conforms to story requirement: 'short preview / excerpt if present'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "short preview / excerpt if present"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'short preview / excerpt if present'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'short preview / excerpt if present' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'short preview / excerpt if present' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'short preview / excerpt if present'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'short preview / excerpt if present', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify short preview / excerpt if present",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'short preview / excerpt if present'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'short preview / excerpt if present' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-033",
+      "title": "Verify Article detail page loads successfully.",
+      "description": "Verify that system behavior conforms to story requirement: 'Article detail page loads successfully.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Article detail page loads successfully.'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Article detail page loads validly.' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Article detail page loads validly.' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Article detail page loads successfully'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Article detail page loads successfully.', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Article detail page loads successfully.",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Article detail page loads successfully.'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Article detail page loads validly.' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-034",
+      "title": "Verify Full article content is displayed correctly, including title, body content, medi...",
+      "description": "Verify that system behavior conforms to story requirement: 'Full article content is displayed correctly, including title, body content, media, and article metadata where available.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Full article content is displayed correctly, including title, body content, media, and article metadata where available.'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Full article content is displayed correctly, including title, body content, media, and article metadata where available.' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Full article content is displayed correctly, including title, body content, media, and article metadata where available.' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Full article content is displayed correctly, including title, body content, medi'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Full article content is displayed correctly, including title', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Full article content is displayed correctly, including title, body content, medi...",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Full article content is displayed correctly, including title, body content, media, and article metadata where available.'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Full article content is displayed correctly, including title, body content, media, and article metadata where available.' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-035",
+      "title": "Verify Navigation from listing page to article detail page works without errors.",
+      "description": "Verify that system behavior conforms to story requirement: 'Navigation from listing page to article detail page works without errors.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Negative",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Navigation from listing page to article detail page works without errors.'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Navigation from listing page to article detail page works without errors.' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Navigation from listing page to article detail page works without errors.' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Navigation from listing page to article detail page works without errors'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Navigation from listing page to article detail page works wi', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Navigation from listing page to article detail page works without errors.",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Navigation from listing page to article detail page works without errors.'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Navigation from listing page to article detail page works without errors.' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Navigate to a linked section of the application",
+        "business_action": "Verify navigation resolves to target page with updated browser history"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-036",
+      "title": "Verify Relevant matching articles are displayed for valid search terms.",
+      "description": "Verify that system behavior conforms to story requirement: 'Relevant matching articles are displayed for valid search terms.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Search query field is active",
+        "Database records match query value"
+      ],
+      "test_data": {
+        "search_query": "football",
+        "locale": "en"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Type search query into Relevant matching articles are displayed for valid search terms. input box.",
+          "expected": "Search query text displays correctly in the search field.",
+          "system_response": "Search query text displays correctly in the search field."
+        },
+        {
+          "step": 2,
+          "action": "Trigger search filter execution.",
+          "expected": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches.",
+          "system_response": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches."
+        }
+      ],
+      "expected_result": "The search query is evaluated and the results display refreshes to show only matching availables matching the search value.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Relevant matching articles are displayed for valid search te', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Relevant matching articles are displayed for valid search terms.",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Type search query into Relevant matching articles are displayed for valid search terms. input box.",
+          "system_response": "Search query text displays correctly in the search field.",
+          "state_change": "Form Input Buffer Populated"
+        },
+        {
+          "step": 2,
+          "user_action": "Trigger search filter execution.",
+          "system_response": "The UI list updates showing matching availables; appropriate empty state displays if there are zero matches.",
+          "state_change": "UI Interaction Registered"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Enter a valid search query to find matching records",
+        "business_action": "Verify search results display only records matching the entered query"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-037",
+      "title": "Verify If no matching content is found, a proper no-results / empty-state message is sh...",
+      "description": "Verify that system behavior conforms to story requirement: 'If no matching content is found, a proper no-results / empty-state message is shown.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Negative",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Required input field is cleared of all values",
+        "Form validation context is active"
+      ],
+      "test_data": {
+        "input_value": "",
+        "validation_rule": "required"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Ensure the input field If no matching content is found, a proper no-results / empty-state message is sh... is empty and trigger form submission.",
+          "expected": "Form submission is blocked, and If no matching content is found, a proper no-results / empty-state message is sh... field is highlighted.",
+          "system_response": "Form submission is blocked, and If no matching content is found, a proper no-results / empty-state message is sh... field is highlighted."
+        },
+        {
+          "step": 2,
+          "action": "Verify validation warning text displays near If no matching content is found, a proper no-results / empty-state message is sh....",
+          "expected": "Validation message 'If no matching content is found, a proper no-results / empty-state message is sh... is required' is rendered in UI context.",
+          "system_response": "Validation message 'If no matching content is found, a proper no-results / empty-state message is sh... is required' is rendered in UI context."
+        }
+      ],
+      "expected_result": "Form validation rules prevent submission, highlighting the If no matching content is found, a proper no-results / empty-state message is sh... field with a validation message: 'If no matching content is found, a proper no-results / empty-state message is sh... is required'.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'If no matching content is found, a proper no-results / empty', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify If no matching content is found, a proper no-results / empty-state message is sh...",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Ensure the input field If no matching content is found, a proper no-results / empty-state message is sh... is empty and trigger form submission.",
+          "system_response": "Form submission is blocked, and If no matching content is found, a proper no-results / empty-state message is sh... field is highlighted.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify validation warning text displays near If no matching content is found, a proper no-results / empty-state message is sh....",
+          "system_response": "Validation message 'If no matching content is found, a proper no-results / empty-state message is sh... is required' is rendered in UI context.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Submit a form with required field left empty to trigger validation",
+        "business_action": "Verify validation error message is displayed and submission is blocked"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-038",
+      "title": "Verify The selected category / topic context is reflected correctly in the page content.",
+      "description": "Verify that system behavior conforms to story requirement: 'The selected category / topic context is reflected correctly in the page content.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "The selected category / topic context is reflected correctly in the page content.",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'The selected category / topic context is reflected correctly in the page content.' in the UI filter area.",
+          "expected": "The selected option 'The selected category / topic context is reflected correctly in the page content.' is highlighted and active.",
+          "system_response": "The selected option 'The selected category / topic context is reflected correctly in the page content.' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'The selected category / topic context is reflected correctly in the page content.' parameter.",
+          "system_response": "The events grid displays only availables matching the 'The selected category / topic context is reflected correctly in the page content.' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: The selected category / topic context is reflected correctly in the page content..",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'The selected category / topic context is reflected correctly', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify The selected category / topic context is reflected correctly in the page content.",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'The selected category / topic context is reflected correctly in the page content.' in the UI filter area.",
+          "system_response": "The selected option 'The selected category / topic context is reflected correctly in the page content.' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'The selected category / topic context is reflected correctly in the page content.' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Apply a filter criterion to narrow the displayed results list",
+        "business_action": "Verify filtered display updates to show only items matching the selected criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-039",
+      "title": "Verify Related / Featured Content Display",
+      "description": "Verify that system behavior conforms to story requirement: 'AC-07 – Related / Featured Content Display'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Related / Featured Content Display'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Related / Featured Content Display' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Related / Featured Content Display' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Related / Featured Content Display'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Related / Featured Content Display', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Related / Featured Content Display",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Related / Featured Content Display'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Related / Featured Content Display' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-040",
+      "title": "Verify If featured posts, latest posts, popular posts, or related content sections are ...",
+      "description": "Verify that system behavior conforms to story requirement: 'If featured posts, latest posts, popular posts, or related content sections are present, they are displayed correctly.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'If featured posts, latest posts, popular posts, or related content sections are present, they are displayed correctly.'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'If featured posts, latest posts, popular posts, or related content sections are present, they are displayed correctly.' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'If featured posts, latest posts, popular posts, or related content sections are present, they are displayed correctly.' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'If featured posts, latest posts, popular posts, or related content sections are '. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'If featured posts, latest posts, popular posts, or related c', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify If featured posts, latest posts, popular posts, or related content sections are ...",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'If featured posts, latest posts, popular posts, or related content sections are present, they are displayed correctly.'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'If featured posts, latest posts, popular posts, or related content sections are present, they are displayed correctly.' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-041",
+      "title": "Verify User can open those linked articles successfully.",
+      "description": "Verify that system behavior conforms to story requirement: 'User can open those linked articles successfully.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {},
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'User can open those linked articles successfully.'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'User can open those linked articles validly.' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'User can open those linked articles validly.' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'User can open those linked articles successfully'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'User can open those linked articles successfully.', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify User can open those linked articles successfully.",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'User can open those linked articles successfully.'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'User can open those linked articles validly.' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-042",
+      "title": "Verify Error Handling / Empty States",
+      "description": "Verify that system behavior conforms to story requirement: 'AC-08 – Error Handling / Empty States'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Negative",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Required input field is cleared of all values",
+        "Form validation context is active"
+      ],
+      "test_data": {
+        "input_value": "",
+        "validation_rule": "required"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Ensure the input field Error Handling / Empty States is empty and trigger form submission.",
+          "expected": "Form submission is blocked, and Error Handling / Empty States field is highlighted.",
+          "system_response": "Form submission is blocked, and Error Handling / Empty States field is highlighted."
+        },
+        {
+          "step": 2,
+          "action": "Verify validation warning text displays near Error Handling / Empty States.",
+          "expected": "Validation message 'Error Handling / Empty States is required' is rendered in UI context.",
+          "system_response": "Validation message 'Error Handling / Empty States is required' is rendered in UI context."
+        }
+      ],
+      "expected_result": "Form validation rules prevent submission, highlighting the Error Handling / Empty States field with a validation message: 'Error Handling / Empty States is required'.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Error Handling / Empty States', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Error Handling / Empty States",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Ensure the input field Error Handling / Empty States is empty and trigger form submission.",
+          "system_response": "Form submission is blocked, and Error Handling / Empty States field is highlighted.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify validation warning text displays near Error Handling / Empty States.",
+          "system_response": "Validation message 'Error Handling / Empty States is required' is rendered in UI context.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Submit a form with required field left empty to trigger validation",
+        "business_action": "Verify validation error message is displayed and submission is blocked"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-043",
+      "title": "Verify If a category or search result has no content, an appropriate empty-state messag...",
+      "description": "Verify that system behavior conforms to story requirement: 'If a category or search result has no content, an appropriate empty-state message is shown.'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Negative",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Required input field is cleared of all values",
+        "Form validation context is active"
+      ],
+      "test_data": {
+        "input_value": "",
+        "validation_rule": "required"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Ensure the input field If a category or search result has no content, an appropriate empty-state messag... is empty and trigger form submission.",
+          "expected": "Form submission is blocked, and If a category or search result has no content, an appropriate empty-state messag... field is highlighted.",
+          "system_response": "Form submission is blocked, and If a category or search result has no content, an appropriate empty-state messag... field is highlighted."
+        },
+        {
+          "step": 2,
+          "action": "Verify validation warning text displays near If a category or search result has no content, an appropriate empty-state messag....",
+          "expected": "Validation message 'If a category or search result has no content, an appropriate empty-state messag... is required' is rendered in UI context.",
+          "system_response": "Validation message 'If a category or search result has no content, an appropriate empty-state messag... is required' is rendered in UI context."
+        }
+      ],
+      "expected_result": "Form validation rules prevent submission, highlighting the If a category or search result has no content, an appropriate empty-state messag... field with a validation message: 'If a category or search result has no content, an appropriate empty-state messag... is required'.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'If a category or search result has no content, an appropriat', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify If a category or search result has no content, an appropriate empty-state messag...",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Ensure the input field If a category or search result has no content, an appropriate empty-state messag... is empty and trigger form submission.",
+          "system_response": "Form submission is blocked, and If a category or search result has no content, an appropriate empty-state messag... field is highlighted.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify validation warning text displays near If a category or search result has no content, an appropriate empty-state messag....",
+          "system_response": "Validation message 'If a category or search result has no content, an appropriate empty-state messag... is required' is rendered in UI context.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Submit a form with required field left empty to trigger validation",
+        "business_action": "Verify validation error message is displayed and submission is blocked"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-044",
+      "title": "Verify Accessibility & Usability",
+      "description": "Verify that system behavior conforms to story requirement: 'AC-09 – Accessibility & Usability'.",
+      "priority": "Low",
+      "severity": "Minor",
+      "type": "Functional",
+      "scenario_classification": "Edge",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Interactive controls are visible in DOM tree",
+        "Accessibility validation framework is active"
+      ],
+      "test_data": {
+        "wcag_compliance_level": "AA"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Inspect HTML code structure of interactive elements.",
+          "expected": "DOM structure contains standard descriptive ARIA attributes and labels.",
+          "system_response": "DOM structure contains standard descriptive ARIA attributes and labels."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Accessibility & Usability' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Accessibility & Usability' rule correctly."
+        }
+      ],
+      "expected_result": "Interactive elements contain explicit ARIA attributes (e.g. role, aria-label, aria-expanded) for screen reader accessibility compliance.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Accessibility & Usability', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Accessibility & Usability",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Inspect HTML code structure of interactive elements.",
+          "system_response": "DOM structure contains standard descriptive ARIA attributes and labels.",
+          "state_change": "State Verification Completed"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Accessibility & Usability' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Ensure accessibility compliance for keyboard-only and assistive technology users",
+        "business_action": "Verify all controls are focusable and labeled per WCAG accessibility standards"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-045",
+      "title": "Verify Focus order is logical for category links, search (if available), and article ca...",
+      "description": "Verify that system behavior conforms to story requirement: 'Focus order is logical for category links, search (if available), and article cards.'.",
+      "priority": "Low",
+      "severity": "Minor",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "Focus order is logical for category",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'Focus order is logical for category' in the UI filter area.",
+          "expected": "The selected option 'Focus order is logical for category' is highlighted and active.",
+          "system_response": "The selected option 'Focus order is logical for category' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'Focus order is logical for category' parameter.",
+          "system_response": "The events grid displays only availables matching the 'Focus order is logical for category' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: Focus order is logical for category.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Focus order is logical for category links, search (if availa', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Focus order is logical for category links, search (if available), and article ca...",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'Focus order is logical for category' in the UI filter area.",
+          "system_response": "The selected option 'Focus order is logical for category' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'Focus order is logical for category' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Apply a filter criterion to narrow the displayed results list",
+        "business_action": "Verify filtered display updates to show only items matching the selected criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-046",
+      "title": "Verify Non-Functional Expectations:",
+      "description": "Verify that system behavior conforms to story requirement: 'Non-Functional Expectations:'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "Non-Functional Expectations:"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Non-Functional Expectations:'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Non-Functional Expectations:' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Non-Functional Expectations:' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Non-Functional Expectations:'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Non-Functional Expectations:', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Non-Functional Expectations:",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Non-Functional Expectations:'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Non-Functional Expectations:' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-047",
+      "title": "Verify Scope Covered:",
+      "description": "Verify that system behavior conforms to story requirement: 'Scope Covered:'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "Scope Covered:"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Scope Covered:'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Scope Covered:' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Scope Covered:' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Scope Covered:'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Scope Covered:', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Scope Covered:",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Scope Covered:'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Scope Covered:' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-048",
+      "title": "Verify Category/topic navigation",
+      "description": "Verify that system behavior conforms to story requirement: 'Category/topic navigation'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "Category/topic navigation",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'Category/topic navigation' in the UI filter area.",
+          "expected": "The selected option 'Category/topic navigation' is highlighted and active.",
+          "system_response": "The selected option 'Category/topic navigation' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'Category/topic navigation' parameter.",
+          "system_response": "The events grid displays only availables matching the 'Category/topic navigation' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: Category/topic navigation.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Category/topic navigation', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Category/topic navigation",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'Category/topic navigation' in the UI filter area.",
+          "system_response": "The selected option 'Category/topic navigation' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'Category/topic navigation' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Apply a filter criterion to narrow the displayed results list",
+        "business_action": "Verify filtered display updates to show only items matching the selected criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-049",
+      "title": "Verify Article listing cards",
+      "description": "Verify that system behavior conforms to story requirement: 'Article listing cards'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "Article listing cards"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Article listing cards'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Article listing cards' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Article listing cards' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Article listing cards'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Article listing cards', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Article listing cards",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Article listing cards'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Article listing cards' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-050",
+      "title": "Verify Article detail page navigation",
+      "description": "Verify that system behavior conforms to story requirement: 'Article detail page navigation'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "Article detail page navigation"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Article detail page navigation'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Article detail page navigation' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Article detail page navigation' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Article detail page navigation'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Article detail page navigation', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Article detail page navigation",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Article detail page navigation'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Article detail page navigation' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Navigate to a linked section of the application",
+        "business_action": "Verify navigation resolves to target page with updated browser history"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-051",
+      "title": "Verify Search/filter behavior if present",
+      "description": "Verify that system behavior conforms to story requirement: 'Search/filter behavior if present'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Events grid is loaded and populated",
+        "Target filter choice is visible and active"
+      ],
+      "test_data": {
+        "selected_filter": "Search/filter behavior if present",
+        "filter_type": "category"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Click filter option 'Search/filter behavior if present' in the UI filter area.",
+          "expected": "The selected option 'Search/filter behavior if present' is highlighted and active.",
+          "system_response": "The selected option 'Search/filter behavior if present' is highlighted and active."
+        },
+        {
+          "step": 2,
+          "action": "Verify that the displayed availables list updates.",
+          "expected": "The events grid displays only availables matching the 'Search/filter behavior if present' parameter.",
+          "system_response": "The events grid displays only availables matching the 'Search/filter behavior if present' parameter."
+        }
+      ],
+      "expected_result": "The availables list grid refreshes and updates dynamically, displaying only availables that match the selected filter criterion: Search/filter behavior if present.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Search/filter behavior if present', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Search/filter behavior if present",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Click filter option 'Search/filter behavior if present' in the UI filter area.",
+          "system_response": "The selected option 'Search/filter behavior if present' is highlighted and active.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify that the displayed availables list updates.",
+          "system_response": "The events grid displays only availables matching the 'Search/filter behavior if present' parameter.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Apply a filter criterion to narrow the displayed results list",
+        "business_action": "Verify filtered display updates to show only items matching the selected criterion"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-052",
+      "title": "Verify Featured/latest/news sections",
+      "description": "Verify that system behavior conforms to story requirement: 'Featured/latest/news sections'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Positive",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "User is logged in",
+        "System state is ready for user interaction"
+      ],
+      "test_data": {
+        "acceptance_criterion": "Featured/latest/news sections"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Set preconditions and trigger business flow for validation check: 'Featured/latest/news sections'",
+          "expected": "System state updates correctly matching business specification.",
+          "system_response": "System state updates correctly matching business specification."
+        },
+        {
+          "step": 2,
+          "action": "Verify system outcome conforms to specification requirements",
+          "expected": "Displayed data and system state reflect the 'Featured/latest/news sections' rule correctly.",
+          "system_response": "Displayed data and system state reflect the 'Featured/latest/news sections' rule correctly."
+        }
+      ],
+      "expected_result": "The system behavior conforms to the acceptance criterion: 'Featured/latest/news sections'. The UI reflects the expected state with no errors or console warnings.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Featured/latest/news sections', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Featured/latest/news sections",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Set preconditions and trigger business flow for validation check: 'Featured/latest/news sections'",
+          "system_response": "System state updates correctly matching business specification.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify system outcome conforms to specification requirements",
+          "system_response": "Displayed data and system state reflect the 'Featured/latest/news sections' rule correctly.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Execute operations and validation tasks within the Blog page space",
+        "business_action": "Verify behavioral state transitions for the Blog user journey"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    },
+    {
+      "id": "TC-BLOG-053",
+      "title": "Verify Error and empty-state handling",
+      "description": "Verify that system behavior conforms to story requirement: 'Error and empty-state handling'.",
+      "priority": "Medium",
+      "severity": "Major",
+      "type": "Functional",
+      "scenario_classification": "Negative",
+      "tags": [
+        "blog",
+        "story-KAN-18",
+        "functional",
+        "Regression"
+      ],
+      "preconditions": [
+        "Application is accessible at https://webook.com/blog/",
+        "Required input field is cleared of all values",
+        "Form validation context is active"
+      ],
+      "test_data": {
+        "input_value": "",
+        "validation_rule": "required"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "action": "Ensure the input field Error and empty-state handling is empty and trigger form submission.",
+          "expected": "Form submission is blocked, and Error and empty-state handling field is highlighted.",
+          "system_response": "Form submission is blocked, and Error and empty-state handling field is highlighted."
+        },
+        {
+          "step": 2,
+          "action": "Verify validation warning text displays near Error and empty-state handling.",
+          "expected": "Validation message 'Error and empty-state handling is required' is rendered in UI context.",
+          "system_response": "Validation message 'Error and empty-state handling is required' is rendered in UI context."
+        }
+      ],
+      "expected_result": "Form validation rules prevent submission, highlighting the Error and empty-state handling field with a validation message: 'Error and empty-state handling is required'.",
+      "postconditions": [
+        "Application remains in stable state"
+      ],
+      "automation": "Yes",
+      "automation_notes": "Automate via Playwright: navigate to https://webook.com/blog/, interact with 'Error and empty-state handling', assert final UI state.",
+      "dependencies": [],
+      "edge_case": false,
+      "confidence": "high",
+      "flow_path": "Blog Flow → Verify Error and empty-state handling",
+      "behavioral_sequence": [
+        {
+          "step": 1,
+          "user_action": "Ensure the input field Error and empty-state handling is empty and trigger form submission.",
+          "system_response": "Form submission is blocked, and Error and empty-state handling field is highlighted.",
+          "state_change": "UI Interaction Registered"
+        },
+        {
+          "step": 2,
+          "user_action": "Verify validation warning text displays near Error and empty-state handling.",
+          "system_response": "Validation message 'Error and empty-state handling is required' is rendered in UI context.",
+          "state_change": "State Verification Completed"
+        }
+      ],
+      "ui_nodes_used": [
+        "blog"
+      ],
+      "intent_mapping": {
+        "user_goal": "Submit a form with required field left empty to trigger validation",
+        "business_action": "Verify validation error message is displayed and submission is blocked"
+      },
+      "coverage_reference": "blog -> blog (interact)",
+      "status": "Draft",
+      "created_by": "testcase_generation_agent",
+      "created_at": "2026-07-09T07:51:43.574532+00:00",
+      "linked_story": "KAN-18"
+    }
+  ],
+  "_metadata": {
+    "source_agent": "testcase_generation_agent",
+    "pipeline_run_id": null,
+    "model_used": "webook_self_learning_exploration_engine"
+  }
+}

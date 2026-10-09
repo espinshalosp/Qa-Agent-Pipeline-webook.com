@@ -1,0 +1,14 @@
+{
+  "total_failed_testcases": 2,
+  "total_defect_candidates": 2,
+  "severity_distribution": {
+    "Major": 2
+  },
+  "defect_type_distribution": {
+    "Automation": 2
+  },
+  "root_cause_distribution": {
+    "Automation / UI Element Resolution Failure": 2
+  },
+  "defect_density_summary": "Generated 2 unique defect candidate(s) from 2 failures."
+}

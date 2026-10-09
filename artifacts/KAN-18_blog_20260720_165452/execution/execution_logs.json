@@ -1,0 +1,421 @@
+{
+  "_schema_version": "1.0.0",
+  "story_key": "KAN-18",
+  "logs": [
+    {
+      "timestamp": "2026-07-20T11:49:05.561530+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Starting execution run for story at /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/story.json"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:05.564852+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Story specifies an explicit target URL directive: https://webook.com"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:05.568636+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Loaded 78 test cases and 60 selectors."
+    },
+    {
+      "timestamp": "2026-07-20T11:49:05.569671+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Test case execution run mode: PARTIAL EXECUTION (39,46,60,66,68,74)"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:05.820338+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Launching chromium (headless=False, slow_mo=0)"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:06.274712+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:06.275846+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-BLOG-039: Verify Each article card displays the relevant content metadata where available, such as:"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:06.276929+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:07.140995+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] Navigating to start URL: https://webook.com/blog/"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:09.467912+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] Page confirmation: status 200 confirmed for https://webook.com/blog/."
+    },
+    {
+      "timestamp": "2026-07-20T11:49:09.792543+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] Step 1: Set preconditions and trigger business flow for validation check: 'Each article card displays the relevant content metadata where available, such as:'"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:10.855260+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-039_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:32.464819+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-039_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:32.466708+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] Step 2: Verify system outcome conforms to specification requirements"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:33.440040+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-039_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:34.964692+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-039_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:36.015044+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/traces/TC-BLOG-039_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:40.345267+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-039] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/videos/TC-BLOG-039.webm"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:40.346364+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:40.347180+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-BLOG-046: Verify User can open a blog article from the listing page."
+    },
+    {
+      "timestamp": "2026-07-20T11:49:40.348066+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:40.961445+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] Navigating to start URL: https://webook.com/blog/"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:42.712352+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] Page confirmation: status 200 confirmed for https://webook.com/blog/."
+    },
+    {
+      "timestamp": "2026-07-20T11:49:42.886587+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] Step 1: Set preconditions and trigger business flow for validation check: 'User can open a blog article from the listing page.'"
+    },
+    {
+      "timestamp": "2026-07-20T11:49:43.706229+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-046_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:06.711151+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-046_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:06.712626+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] Step 2: Verify system outcome conforms to specification requirements"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:07.507571+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-046_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:08.908950+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-046_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:09.715073+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/traces/TC-BLOG-046_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:10.392982+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-046] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/videos/TC-BLOG-046.webm"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:10.394252+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:10.395154+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-BLOG-060: Verify User can open those linked articles successfully."
+    },
+    {
+      "timestamp": "2026-07-20T11:50:10.396140+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:10.555531+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] Navigating to start URL: https://webook.com/blog/"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:12.330868+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] Page confirmation: status 200 confirmed for https://webook.com/blog/."
+    },
+    {
+      "timestamp": "2026-07-20T11:50:12.573830+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] Step 1: Set preconditions and trigger business flow for validation check: 'User can open those linked articles successfully.'"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:13.477867+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-060_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:36.592918+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-060_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:36.594845+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] Step 2: Verify system outcome conforms to specification requirements"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:37.400966+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-060_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:38.752888+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-060_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:39.623851+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/traces/TC-BLOG-060_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:40.075561+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-060] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/videos/TC-BLOG-060.webm"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:40.077104+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:40.078461+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-BLOG-066: Verify Blog content is readable and page navigation is usable across desktop and other ..."
+    },
+    {
+      "timestamp": "2026-07-20T11:50:40.079617+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:40.768258+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] Navigating to start URL: https://webook.com/blog/"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:42.538156+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] Page confirmation: status 200 confirmed for https://webook.com/blog/."
+    },
+    {
+      "timestamp": "2026-07-20T11:50:42.717926+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] Step 1: Set preconditions and trigger business flow for validation check: 'Blog content is readable and page navigation is usable across desktop and other supported layouts.'"
+    },
+    {
+      "timestamp": "2026-07-20T11:50:43.644124+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-066_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:05.452667+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-066_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:05.453886+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] Step 2: Verify system outcome conforms to specification requirements"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:06.242751+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-066_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:07.570525+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-066_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:07.822225+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/traces/TC-BLOG-066_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:11.584723+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-066] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/videos/TC-BLOG-066.webm"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:11.586118+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:11.587162+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-BLOG-068: Verify Non-Functional Expectations:"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:11.588245+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:11.793245+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] Navigating to start URL: https://webook.com/blog/"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:13.518237+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] Page confirmation: status 200 confirmed for https://webook.com/blog/."
+    },
+    {
+      "timestamp": "2026-07-20T11:51:13.709572+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] Step 1: Set preconditions and trigger business flow for validation check: 'Non-Functional Expectations:'"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:14.629820+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-068_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:37.029918+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-068_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:37.031110+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] Step 2: Verify system outcome conforms to specification requirements"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:37.828088+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-068_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:39.159252+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-068_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:39.815466+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/traces/TC-BLOG-068_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:40.204920+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-068] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/videos/TC-BLOG-068.webm"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:40.206176+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:40.207079+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-BLOG-074: Verify Article listing cards"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:40.207971+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:40.880433+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] Navigating to start URL: https://webook.com/blog/"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:42.428033+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] Page confirmation: status 200 confirmed for https://webook.com/blog/."
+    },
+    {
+      "timestamp": "2026-07-20T11:51:42.599961+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] Step 1: Set preconditions and trigger business flow for validation check: 'Article listing cards'"
+    },
+    {
+      "timestamp": "2026-07-20T11:51:43.499667+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-074_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:52:04.708433+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-074_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:52:04.709721+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] Step 2: Verify system outcome conforms to specification requirements"
+    },
+    {
+      "timestamp": "2026-07-20T11:52:05.490849+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-074_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:52:06.808693+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/screenshots/TC-BLOG-074_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:52:07.078430+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/traces/TC-BLOG-074_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T11:52:11.513044+00:00",
+      "level": "INFO",
+      "message": "[TC-BLOG-074] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-18_blog_20260720_165452/videos/TC-BLOG-074.webm"
+    }
+  ]
+}

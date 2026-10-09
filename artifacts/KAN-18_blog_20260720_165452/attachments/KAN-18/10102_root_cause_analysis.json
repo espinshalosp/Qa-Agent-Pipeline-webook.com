@@ -1,0 +1,28 @@
+{
+  "root_cause_classifications": {
+    "TC-BLOG-029": {
+      "root_cause_classification": "Automation / UI Element Resolution Failure",
+      "reason": "Step 1 failed: Failed executing step interaction: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'tagName')\n    at eval (eval at evaluate (:302:30), <anonymous>:1:10)\n    at UtilityScript.evaluate (<anonymous>:309:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    },
+    "TC-BLOG-031": {
+      "root_cause_classification": "Automation / UI Element Resolution Failure",
+      "reason": "Step 1 failed: Failed executing step interaction: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'tagName')\n    at eval (eval at evaluate (:302:30), <anonymous>:1:10)\n    at UtilityScript.evaluate (<anonymous>:309:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    }
+  },
+  "root_cause_breakdown_summary": "Analyzed 2 failure(s). The primary failure hotspot(s) were: 'category / tag' (1 failures), 'publish date' (1 failures). The dominant cause(s) identified were: 'Automation / UI Element Resolution Failure' (2 instances). UI element resolution failures indicate that target elements could not be located or resolved in the page DOM during execution.",
+  "rc_metrics": {
+    "product_vs_automation_vs_environment_split": {
+      "product": 0.0,
+      "automation": 1.0,
+      "api": 0.0,
+      "environment": 0.0
+    },
+    "repeated_failure_hotspots": {
+      "category / tag": 1,
+      "publish date": 1
+    },
+    "dominant_failure_causes": {
+      "Automation / UI Element Resolution Failure": 2
+    }
+  }
+}

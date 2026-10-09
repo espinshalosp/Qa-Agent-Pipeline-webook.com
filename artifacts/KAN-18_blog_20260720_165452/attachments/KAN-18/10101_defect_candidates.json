@@ -1,0 +1,68 @@
+[
+  {
+    "defect_id": "DF-001",
+    "linked_testcase_ids": [
+      "TC-BLOG-029"
+    ],
+    "title": "category / tag could not be interacted with - element not resolved in page DOM",
+    "failure_step": "Step 1: Click filter option 'category / tag' in the UI filter area.",
+    "expected_vs_actual": "Expected: The selected option 'category / tag' is highlighted and active. -> Actual: Step 1 failed: Failed executing step interaction: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'tagName')\n    at eval (eval at evaluate (:302:30), <anonymous>:1:10)\n    at UtilityScript.evaluate (<anonymous>:309:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+    "defect_type": "Automation",
+    "severity_suggestion": "Major",
+    "priority_suggestion": "Medium",
+    "evidence_references": {
+      "screenshots": [
+        "screenshots/TC-BLOG-029_fail.png",
+        "screenshots/TC-BLOG-029_step1_after.png",
+        "screenshots/TC-BLOG-029_step1_before.png"
+      ],
+      "traces": [
+        "traces/TC-BLOG-029_trace.zip"
+      ],
+      "logs": [
+        "2026-07-09T07:56:45.131395+00:00 [INFO] [TC-BLOG-029] Navigating to start URL: https://webook.com/blog/",
+        "2026-07-09T07:56:46.675717+00:00 [INFO] [TC-BLOG-029] Page confirmation: status 200 confirmed for https://webook.com/blog/.",
+        "2026-07-09T07:56:46.880470+00:00 [INFO] [TC-BLOG-029] Step 1: Click filter option 'category / tag' in the UI filter area.",
+        "2026-07-09T07:56:47.520111+00:00 [INFO] [TC-BLOG-029] Before-Step screenshot saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/screenshots/TC-BLOG-029_step1_before.png",
+        "2026-07-09T07:56:48.373816+00:00 [INFO] [TC-BLOG-029] After-Step screenshot saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/screenshots/TC-BLOG-029_step1_after.png",
+        "2026-07-09T07:56:48.954129+00:00 [INFO] [TC-BLOG-029] Screenshot saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/screenshots/TC-BLOG-029_fail.png",
+        "2026-07-09T07:56:49.312556+00:00 [INFO] [TC-BLOG-029] Trace saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/traces/TC-BLOG-029_trace.zip",
+        "2026-07-09T07:56:49.605631+00:00 [INFO] [TC-BLOG-029] Video saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/videos/TC-BLOG-029.webm"
+      ]
+    },
+    "summary": "The system attempted to perform a click interaction on category / tag. The operation failed because target element could not be resolved in the page DOM during evaluation. This user cannot complete the intended action on the target element. The failing step was: 'Step 1: Click filter option 'category / tag' in the UI filter area.'. Expected: The selected option 'category / tag' is highlighted and active., but got: Step 1 failed: Failed executing step interaction: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'tagName')\n    at eval (eval at evaluate (:302:30), <anonymous>:1:10)\n    at UtilityScript.evaluate (<anonymous>:309:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)."
+  },
+  {
+    "defect_id": "DF-002",
+    "linked_testcase_ids": [
+      "TC-BLOG-031"
+    ],
+    "title": "publish date could not be interacted with - element not resolved in page DOM",
+    "failure_step": "Step 1: Click filter option 'publish date' in the UI filter area.",
+    "expected_vs_actual": "Expected: The selected option 'publish date' is highlighted and active. -> Actual: Step 1 failed: Failed executing step interaction: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'tagName')\n    at eval (eval at evaluate (:302:30), <anonymous>:1:10)\n    at UtilityScript.evaluate (<anonymous>:309:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+    "defect_type": "Automation",
+    "severity_suggestion": "Major",
+    "priority_suggestion": "Medium",
+    "evidence_references": {
+      "screenshots": [
+        "screenshots/TC-BLOG-031_fail.png",
+        "screenshots/TC-BLOG-031_step1_after.png",
+        "screenshots/TC-BLOG-031_step1_before.png"
+      ],
+      "traces": [
+        "traces/TC-BLOG-031_trace.zip"
+      ],
+      "logs": [
+        "2026-07-09T07:57:09.065540+00:00 [INFO] [TC-BLOG-031] Navigating to start URL: https://webook.com/blog/",
+        "2026-07-09T07:57:10.741175+00:00 [INFO] [TC-BLOG-031] Page confirmation: status 200 confirmed for https://webook.com/blog/.",
+        "2026-07-09T07:57:11.061159+00:00 [INFO] [TC-BLOG-031] Step 1: Click filter option 'publish date' in the UI filter area.",
+        "2026-07-09T07:57:11.721522+00:00 [INFO] [TC-BLOG-031] Before-Step screenshot saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/screenshots/TC-BLOG-031_step1_before.png",
+        "2026-07-09T07:57:12.607554+00:00 [INFO] [TC-BLOG-031] After-Step screenshot saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/screenshots/TC-BLOG-031_step1_after.png",
+        "2026-07-09T07:57:13.203783+00:00 [INFO] [TC-BLOG-031] Screenshot saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/screenshots/TC-BLOG-031_fail.png",
+        "2026-07-09T07:57:13.604165+00:00 [INFO] [TC-BLOG-031] Trace saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/traces/TC-BLOG-031_trace.zip",
+        "2026-07-09T07:57:13.984683+00:00 [INFO] [TC-BLOG-031] Video saved to: /Users/espinshalo/Desktop/qa_agent_platform/artifacts/KAN-18_blog_20260709_132014/videos/TC-BLOG-031.webm"
+      ]
+    },
+    "summary": "The system attempted to perform a click interaction on publish date. The operation failed because target element could not be resolved in the page DOM during evaluation. This user cannot complete the intended action on the target element. The failing step was: 'Step 1: Click filter option 'publish date' in the UI filter area.'. Expected: The selected option 'publish date' is highlighted and active., but got: Step 1 failed: Failed executing step interaction: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'tagName')\n    at eval (eval at evaluate (:302:30), <anonymous>:1:10)\n    at UtilityScript.evaluate (<anonymous>:309:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)."
+  }
+]
