@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Assertion Failure",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": "(?i).*assertion.*|.*expect.*|.*verify.*"
+  },
+  {
+    "name": "Locator / Element Not Found",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ],
+    "messageRegex": "(?i).*locator.*|.*element.*|.*not found.*|.*unable to locate.*|.*rediscovery failed.*|.*could not build a locator.*"
+  },
+  {
+    "name": "Timeout / Wait Failure",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ],
+    "messageRegex": "(?i).*timeout.*|.*wait.*|.*timed out.*"
+  },
+  {
+    "name": "Navigation / Page Load Failure",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ],
+    "messageRegex": "(?i).*navigation.*|.*page load.*|.*goto.*|.*failed to load.*|.*status code.*|.*page confirmation.*"
+  },
+  {
+    "name": "Validation Mismatch",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": "(?i).*validation.*|.*mismatch.*|.*expected.*actual.*"
+  },
+  {
+    "name": "Network / API Failure",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ],
+    "messageRegex": "(?i).*network.*|.*api.*|.*requestfailed.*|.*response.*|.*status >= 400.*|.*http.*"
+  },
+  {
+    "name": "Unexpected Exception",
+    "matchedStatuses": [
+      "failed",
+      "broken",
+      "unknown"
+    ],
+    "messageRegex": ".*"
+  }
+]

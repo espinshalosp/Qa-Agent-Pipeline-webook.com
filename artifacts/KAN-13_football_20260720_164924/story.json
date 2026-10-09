@@ -1,0 +1,46 @@
+{
+  "_schema_version": "1.0.0",
+  "_status": "populated",
+  "_description": "Normalized Jira story artifact. Populated by the Jira Agent.",
+  "story": {
+    "id": "10083",
+    "key": "KAN-13",
+    "summary": "Football Module",
+    "description": "Description:\nAs a QA Engineer, I want to validate the Football module in the Webook application to ensure users can seamlessly discover football events, view match details, select tickets, complete bookings, and access booking information with a reliable and user-friendly experience across supported devices and browsers. The Football section is part of Webook's sports event discovery and ticket booking experience.\nBusiness Value:\nEnsure a seamless football event discovery and booking journey.\nImprove booking reliability and user experience.\nPrevent functional regressions before production releases.\nValidate integration between football events and the booking flow.\nScope:\nFootball event listing\nSearch and filtering\nEvent details\nTicket selection\nSeat/category selection (where applicable)\nBooking flow\nAuthentication scenarios\nPayment redirection/confirmation\nBooking confirmation\nMy Bookings\nError handling\nResponsive behavior\nAccessibility and usability validation\nOut of Scope:\nBackend API validation\nThird-party payment gateway internal processing\nAdmin portal functionality\nPerformance and load testing\nSecurity/Penetration testing\nAcceptance Criteria\nFootball events are displayed correctly.\nUsers can discover football events using available filters and search.\nEvent details load accurately.\nUsers can select available tickets.\nBooking flow completes successfully for valid scenarios.\nAppropriate validations are displayed for invalid scenarios.\nBooking confirmation is generated after successful booking.\nBooked events appear in the user's booking history.\nNavigation works correctly across the Football module.\nUI is responsive across supported devices.\nNo critical functional defects are present.",
+    "story_type": "Task",
+    "status": "Ready for QA",
+    "priority": "Medium",
+    "assignee": null,
+    "reporter": "Espin Shalo",
+    "sprint": null,
+    "epic_key": null,
+    "epic_summary": null,
+    "labels": [],
+    "components": [],
+    "acceptance_criteria": [
+      "Football events are displayed correctly.",
+      "Users can discover football events using available filters and search.",
+      "Event details load accurately.",
+      "Users can select available tickets.",
+      "Booking flow completes successfully for valid scenarios.",
+      "Appropriate validations are displayed for invalid scenarios.",
+      "Booking confirmation is generated after successful booking.",
+      "Booked events appear in the user's booking history.",
+      "Navigation works correctly across the Football module.",
+      "UI is responsive across supported devices.",
+      "No critical functional defects are present."
+    ],
+    "linked_issues": [],
+    "attachments": [],
+    "comments": [],
+    "created_at": "2026-06-27T18:15:32.380+0530",
+    "updated_at": "2026-07-20T16:47:47.907+0530",
+    "fetched_at": "2026-07-20T11:19:24.699166+00:00"
+  },
+  "_metadata": {
+    "source_agent": "jira_agent",
+    "pipeline_run_id": null,
+    "jira_base_url": "https://espinsworkspace-45813328.atlassian.net",
+    "jql_used": "project = \"KAN\" AND status = \"Ready for QA\""
+  }
+}

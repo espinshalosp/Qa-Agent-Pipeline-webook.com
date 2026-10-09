@@ -1,0 +1,176 @@
+{
+  "_schema_version": "1.0.0",
+  "story_key": "KAN-16",
+  "logs": [
+    {
+      "timestamp": "2026-07-20T13:00:57.346175+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Starting execution run for story at /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/story.json"
+    },
+    {
+      "timestamp": "2026-07-20T13:00:57.351419+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Story specifies an explicit target URL directive: https://webook.com"
+    },
+    {
+      "timestamp": "2026-07-20T13:00:57.601677+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Loaded 135 test cases and 19 selectors."
+    },
+    {
+      "timestamp": "2026-07-20T13:00:57.603756+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Test case execution run mode: PARTIAL EXECUTION (3,5)"
+    },
+    {
+      "timestamp": "2026-07-20T13:00:58.007275+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Launching chromium (headless=False, slow_mo=0)"
+    },
+    {
+      "timestamp": "2026-07-20T13:00:58.576899+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T13:00:58.578671+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-THISWEEK-003: Verify selecting Thursday, 2 July 2026 processes action correctly"
+    },
+    {
+      "timestamp": "2026-07-20T13:00:58.580535+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T13:00:59.541635+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] Navigating to start URL: https://webook.com/en/explore?date=thisweek"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:02.154771+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] Page confirmation: status 200 confirmed for https://webook.com/en/explore?date=thisweek."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:03.457487+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Dismissing cookie consent popup via 'Reject all non-essential' button."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:05.056891+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] Step 1: Click filter option 'Thursday, 2 July 2026' in the UI filter area."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:06.754275+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/screenshots/TC-THISWEEK-003_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:18.628777+00:00",
+      "level": "INFO",
+      "message": "[DateFallback] Original date 'thursday, 2 july 2026' was no longer available/selectable (likely elapsed or disabled); substituted a different currently-available date from the same calendar to still exercise date-selection behavior."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:21.746420+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/screenshots/TC-THISWEEK-003_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:21.748338+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] Step 2: Verify that the displayed thisweeks list updates."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:22.691630+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/screenshots/TC-THISWEEK-003_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:24.771410+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/screenshots/TC-THISWEEK-003_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:26.152850+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/traces/TC-THISWEEK-003_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:26.815334+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-003] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/videos/TC-THISWEEK-003.webm"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:26.817070+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:26.818378+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-THISWEEK-005: Verify selecting Friday, 3 July 2026 processes action correctly"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:26.819813+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:27.136209+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] Navigating to start URL: https://webook.com/en/explore?date=thisweek"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:29.905083+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] Page confirmation: status 200 confirmed for https://webook.com/en/explore?date=thisweek."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:32.788370+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] Step 1: Click filter option 'Friday, 3 July 2026' in the UI filter area."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:34.034028+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/screenshots/TC-THISWEEK-005_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:46.141219+00:00",
+      "level": "INFO",
+      "message": "[DateFallback] Original date 'friday, 3 july 2026' was no longer available/selectable (likely elapsed or disabled); substituted a different currently-available date from the same calendar to still exercise date-selection behavior."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:50.092821+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/screenshots/TC-THISWEEK-005_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:50.094878+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] Step 2: Verify that the displayed thisweeks list updates."
+    },
+    {
+      "timestamp": "2026-07-20T13:01:51.128513+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/screenshots/TC-THISWEEK-005_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:53.136329+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/screenshots/TC-THISWEEK-005_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:54.063252+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/traces/TC-THISWEEK-005_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T13:01:54.552879+00:00",
+      "level": "INFO",
+      "message": "[TC-THISWEEK-005] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-16_thisweek_20260720_174530/videos/TC-THISWEEK-005.webm"
+    }
+  ]
+}

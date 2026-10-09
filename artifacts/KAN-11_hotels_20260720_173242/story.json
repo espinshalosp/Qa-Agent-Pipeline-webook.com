@@ -1,0 +1,34 @@
+{
+  "_schema_version": "1.0.0",
+  "_status": "populated",
+  "_description": "Normalized Jira story artifact. Populated by the Jira Agent.",
+  "story": {
+    "id": "10081",
+    "key": "KAN-11",
+    "summary": "Hotels Management",
+    "description": "User Story\nStory ID: KAN-11\nEpic: Travel & Hospitality\nFeature: Hotels Management\nModule: Hotels\nPriority: High\nStory Points: 13\nType: Story\nTitle\nSearch, Filter, View, and Book Hotels through the Hotels Module\nDescription\nAs a customer,\nI want to search hotels based on destination, travel dates, guests, rooms, price, rating, amenities, and other filters,\nSo that I can discover available accommodations, compare options, view hotel details, and complete a hotel reservation successfully. The Hotels module allows users to browse accommodations, apply multiple filters, inspect hotel details, and proceed toward booking.\nBusiness Objective\nProvide users with an intuitive hotel discovery and booking experience while ensuring:\nAccurate hotel availability\nCorrect pricing\nReliable filtering\nResponsive search\nSecure booking flow\nConsistent user experience across desktop and mobile\nActors\nPrimary Actor\nCustomer\nSecondary Actors\nAuthenticated User\nGuest User\nHotel Provider\nBooking Service\nPayment Gateway\nNotification Service\nPreconditions\nUser has internet connectivity.\nHotels page is accessible.\nHotel inventory is available.\nHotel search service is operational.\nUser can be either authenticated or guest.\nBooking service is available.\nTrigger\nUser opens the Hotels page from the navigation menu.\nMain Flow\nUser opens Hotels page.\nUser selects destination.\nUser selects check-in date.\nUser selects check-out date.\nUser selects guests.\nUser selects rooms.\nUser clicks Search.\nSystem retrieves available hotels.\nUser applies filters.\nUser sorts hotels.\nUser opens hotel details.\nUser reviews:\nImages\nAmenities\nPolicies\nRatings\nReviews\nRoom options\nUser selects room.\nUser proceeds to booking.\nUser reviews booking summary.\nUser confirms booking.\nSystem creates reservation.\nBooking confirmation is displayed.\nConfirmation notification is sent.\nAlternate Flows\nAF-01\nNo hotels found\nSystem displays an informative empty state with suggestions.\nAF-02\nDestination unavailable\nUser receives a validation message.\nAF-03\nSelected dates unavailable\nSystem requests alternative dates.\nAF-04\nHotel becomes unavailable\nBooking is blocked with an availability message.\nAF-05\nPrice changes\nSystem asks user to accept the updated price before continuing.\nAF-06\nSession expires\nUser is prompted to sign in again.\nAF-07\nGuest booking\nUser completes booking without logging in (if supported).\nException Flows\nSearch API unavailable\nBooking API failure\nPayment timeout\nInvalid hotel ID\nInvalid room selection\nInventory mismatch\nDuplicate booking attempt\nNetwork interruption\nBrowser refresh during booking\nPayment declined\nBusiness Rules\nBR-01\nDestination is mandatory.\nBR-02\nCheck-out date must be after check-in date.\nBR-03\nGuests cannot exceed room occupancy.\nBR-04\nRooms must have available inventory.\nBR-05\nOnly available hotels are displayed.\nBR-06\nSorting must not modify filter selection.\nBR-07\nFilters remain active after pagination.\nBR-08\nHotel pricing must match booking summary.\nBR-09\nBooking cannot continue after hotel becomes unavailable.\nBR-10\nConfirmation is generated only after successful booking.\nAcceptance Criteria\nAC-01\nGiven the Hotels page is opened\nWhen the page loads\nThen search controls are displayed.\nAC-02\nGiven valid search criteria\nWhen Search is clicked\nThen matching hotels are displayed.\nAC-03\nGiven no hotels match\nWhen Search completes\nThen an empty state is displayed.\nAC-04\nGiven filters are applied\nWhen filter selection changes\nThen only matching hotels remain visible.\nAC-05\nGiven sorting is selected\nWhen results refresh\nThen hotel order updates without changing applied filters.\nAC-06\nGiven a hotel is selected\nWhen hotel details open\nThen hotel information is displayed correctly.\nAC-07\nGiven room selection\nWhen Continue Booking is clicked\nThen booking summary is shown.\nAC-08\nGiven successful booking\nWhen payment completes\nThen confirmation page is displayed.\nAC-09\nGiven booking failure\nWhen reservation cannot be completed\nThen an appropriate error message is displayed.\nAC-10\nGiven network interruption\nWhen retry succeeds\nThen booking continues without data loss.\nNon-Functional Requirements\nPerformance\nSearch response <3 seconds\nFilter update <2 seconds\nHotel details load <3 seconds\nBooking confirmation <5 seconds\nAccessibility\nWCAG 2.1 AA\nKeyboard navigation\nScreen reader support\nVisible focus indicators\nARIA labels\nSecurity\nAuthentication\nAuthorization\nCSRF protection\nXSS protection\nSQL injection prevention\nSecure payment flow\nSession timeout handling\nCompatibility\nChrome\nFirefox\nSafari\nEdge\nMobile browsers\nTablet browsers\nReliability\nRetry transient failures\nGraceful handling of service outages\nConsistent booking state\nAPI Integrations\nHotel Search API\nHotel Details API\nAvailability API\nPricing API\nBooking API\nPayment API\nNotification API\nTest Coverage Expectations\nYour AI generator should derive tests for:\nSearch\nDestination selection\nDate validation\nGuest and room validation\nHotel availability\nFilters\nSorting\nPagination\nHotel details\nRoom selection\nBooking\nConfirmation\nCancellation\nNegative scenarios\nEdge cases\nAccessibility\nSecurity\nAPI validation\nError handling\nRecovery\nResponsive UI\nCross-browser compatibility\nPerformance\nEnd-to-end booking workflow",
+    "story_type": "Task",
+    "status": "Ready for QA",
+    "priority": "Medium",
+    "assignee": null,
+    "reporter": "Espin Shalo",
+    "sprint": null,
+    "epic_key": null,
+    "epic_summary": null,
+    "labels": [],
+    "components": [],
+    "acceptance_criteria": [],
+    "linked_issues": [],
+    "attachments": [],
+    "comments": [],
+    "created_at": "2026-06-27T15:02:43.857+0530",
+    "updated_at": "2026-07-20T17:16:06.563+0530",
+    "fetched_at": "2026-07-20T12:02:42.037814+00:00"
+  },
+  "_metadata": {
+    "source_agent": "jira_agent",
+    "pipeline_run_id": null,
+    "jira_base_url": "https://espinsworkspace-45813328.atlassian.net",
+    "jql_used": "project = \"KAN\" AND status = \"Ready for QA\""
+  }
+}

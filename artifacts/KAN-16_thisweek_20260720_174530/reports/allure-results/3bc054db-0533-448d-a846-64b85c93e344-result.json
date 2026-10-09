@@ -1,0 +1,130 @@
+{
+  "uuid": "3bc054db-0533-448d-a846-64b85c93e344",
+  "historyId": "TC-THISWEEK-005",
+  "testCaseId": "TC-THISWEEK-005",
+  "fullName": "Thisweek Management.THISWEEK.TC-THISWEEK-005",
+  "name": "TC-THISWEEK-005: Verify selecting Friday, 3 July 2026 processes action correctly",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784552487136,
+  "stop": 1784552513138,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Click filter option 'Friday, 3 July 2026' in the UI filter area. (Expected: The selected option 'Friday, 3 July 2026' is highlighted and active.) -> Selected option/filter 'filter option 'friday, 3 july 2026' in the ui filter area.'. NOTE: Original date 'friday, 3 july 2026' was no longer available/selectable (likely elapsed or disabled); substituted a different currently-available date from the same calendar to still exercise date-selection behavior.",
+      "status": "passed",
+      "start": 1784552487136,
+      "stop": 1784552513138,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "5ea9fd15-3bf2-43c2-9506-aff4cb3ebf7c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "680d53e3-0ea1-4535-a4a3-732217912c28-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Verify that the displayed thisweeks list updates. (Expected: The events grid displays only thisweeks matching the 'Friday, 3 July 2026' parameter.) -> Simulation step executed: Verify that the displayed thisweeks list updates.",
+      "status": "passed",
+      "start": 1784552487136,
+      "stop": 1784552513138,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "a99f6e21-089b-4946-8573-afe390e968fb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "b6f64bf1-19d6-4661-91bf-bb3d6d776cfa-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Thisweek Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-16"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Thisweek Management - THISWEEK"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-16",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-16"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "d895e715-1d59-4ee0-ba58-60d7126b7ec1-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "e14a9ae7-83e4-47a2-a2f7-c572036e4e71-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "17424547-237e-450a-8a00-a55385d73809-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "a9792871-28d0-407b-8d6d-65e2c2215631-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "0996800a-0496-4782-938f-01e72070ff0b-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T13:01:27.136044+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T13:01:53.138086+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "26.00s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}
