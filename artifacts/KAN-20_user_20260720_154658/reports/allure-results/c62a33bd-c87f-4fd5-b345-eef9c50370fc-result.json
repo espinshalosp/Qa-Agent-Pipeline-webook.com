@@ -1,0 +1,176 @@
+{
+  "uuid": "c62a33bd-c87f-4fd5-b345-eef9c50370fc",
+  "historyId": "TC-LOGIN-044",
+  "testCaseId": "TC-LOGIN-044",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-044",
+  "name": "TC-LOGIN-044: Verify login with valid registered credentials authenticates the user",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Step 4 failed: Failed executing step interaction: Authentication was not confirmed — the page is still on the login/auth screen (url=https://webook.com/en/login, login form fields present=True). Expected navigation away from login and the login form to disappear.",
+    "trace": "Traceback (most recent call last):\n  File \"/Users/jarwiz/Documents/shalo/qa_agent_platform/agents/testcase_execution_agent.py\", line 953, in _execute_step\n    self._verify_authenticated_state(page)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/Users/jarwiz/Documents/shalo/qa_agent_platform/agents/testcase_execution_agent.py\", line 1537, in _verify_authenticated_state\n    raise AssertionError(\n    ...<3 lines>...\n    )\nAssertionError: Authentication was not confirmed — the page is still on the login/auth screen (url=https://webook.com/en/login, login form fields present=True). Expected navigation away from login and the login form to disappear.\n"
+  },
+  "start": 1784548619106,
+  "stop": 1784548629865,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Enter a valid registered account email into the Email field (Expected: The email value is accepted in the Email field with no validation error.) -> Entered value into 'a valid registered account email into the email field' input field successfully.",
+      "status": "passed",
+      "start": 1784548619106,
+      "stop": 1784548629865,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "33e5ac3d-a4fa-40e7-b686-177306092671-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "2f56b377-15ff-4895-8cef-61c7aa5a92b7-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Enter the valid account password into the Password field (Expected: The password value is accepted and masked in the Password field with no validation error.) -> Entered value into 'the valid account password into the password field' input field successfully.",
+      "status": "passed",
+      "start": 1784548619106,
+      "stop": 1784548629865,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "79ec0fda-5263-4794-b8dc-7c98031d4526-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "952fc159-99d4-4759-9bd5-c98e5cc0140b-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 3: Click the Login button to submit the credentials (Expected: The credentials are submitted and the authentication request is processed.) -> Clicked component 'the login button to submit the credentials' successfully.",
+      "status": "passed",
+      "start": 1784548619106,
+      "stop": 1784548629865,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "7f51eae3-375d-4496-ab60-46dd8aceefcb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "0b1267ce-0be4-4800-86ac-71b8b378c0d1-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 4: Verify the resulting authenticated state after submission (Expected: The user is redirected away from the login form to their account or home area and an authenticated-session indicator such as the account menu becomes visible.) -> Failed executing step interaction: Authentication was not confirmed — the page is still on the login/auth screen (url=https://webook.com/en/login, login form fields present=True). Expected navigation away from login and the login form to disappear.",
+      "status": "failed",
+      "start": 1784548619106,
+      "stop": 1784548629865,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "65b73914-1dc9-42f5-a553-197ec8040a33-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "46d824b1-7c7c-4ee9-9421-268d5354952d-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Screenshot",
+      "source": "a4511c83-4016-49a3-b6f1-ca6adae7e4cc-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Errors",
+      "source": "a30f355d-6b72-4cd3-a520-caa05ecab5a8-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "67a5e097-196e-466a-8e9e-ab9dd9de0741-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "5312e939-9482-4ac1-af5c-401764a877cb-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "2c509706-3e77-4887-a76e-985692eb363c-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "61ff39cd-3fa7-4070-acfd-dbe283162081-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T11:56:59.106954+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T11:57:09.865822+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "10.76s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

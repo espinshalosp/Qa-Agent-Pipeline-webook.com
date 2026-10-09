@@ -1,0 +1,136 @@
+{
+  "_schema_version": "1.0.0",
+  "story_key": "KAN-20",
+  "logs": [
+    {
+      "timestamp": "2026-07-20T11:56:57.795587+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Starting execution run for story at /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/story.json"
+    },
+    {
+      "timestamp": "2026-07-20T11:56:57.801125+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Loaded 66 test cases and 21 selectors."
+    },
+    {
+      "timestamp": "2026-07-20T11:56:57.802226+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Test case execution run mode: PARTIAL EXECUTION (44)"
+    },
+    {
+      "timestamp": "2026-07-20T11:56:58.051192+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Launching chromium (headless=False, slow_mo=0)"
+    },
+    {
+      "timestamp": "2026-07-20T11:56:58.479988+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:56:58.481169+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-044: Verify login with valid registered credentials authenticates the user"
+    },
+    {
+      "timestamp": "2026-07-20T11:56:58.482450+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T11:56:59.107037+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:02.355264+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T11:57:02.574593+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Dismissing cookie consent popup via 'Reject all non-essential' button."
+    },
+    {
+      "timestamp": "2026-07-20T11:57:03.722651+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Login/auth test detected. Skipping auto-login to preserve the login page under test."
+    },
+    {
+      "timestamp": "2026-07-20T11:57:03.724536+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Step 1: Enter a valid registered account email into the Email field"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:04.166983+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:05.256711+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:05.258044+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Step 2: Enter the valid account password into the Password field"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:05.493814+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:06.624742+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:06.626172+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Step 3: Click the Login button to submit the credentials"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:06.855925+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step3_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:07.985328+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step3_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:07.987441+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Step 4: Verify the resulting authenticated state after submission"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:08.221960+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step4_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:09.863858+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step4_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:10.049324+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_fail.png"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:10.655559+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/traces/TC-LOGIN-044_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T11:57:10.802381+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-044] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/videos/TC-LOGIN-044.webm"
+    }
+  ]
+}

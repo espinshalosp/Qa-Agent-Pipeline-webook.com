@@ -1,0 +1,15 @@
+{
+  "_schema_version": "1.0.0",
+  "story_key": "KAN-20",
+  "feature": "Login Management",
+  "module": "LOGIN",
+  "executed_at": "2026-07-20T11:56:57.803130+00:00",
+  "summary": {
+    "total_test_cases": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "pass_rate": 0.0,
+    "total_duration_seconds": 13.34
+  }
+}

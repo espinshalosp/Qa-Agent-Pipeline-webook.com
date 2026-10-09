@@ -1,0 +1,18 @@
+2026-07-20T11:56:59.107037+00:00 [INFO] [TC-LOGIN-044] Navigating to start URL: https://webook.com/en/login
+2026-07-20T11:57:02.355264+00:00 [INFO] [TC-LOGIN-044] Page confirmation: status 200 confirmed for https://webook.com/en/login.
+2026-07-20T11:57:03.722651+00:00 [INFO] [TC-LOGIN-044] Login/auth test detected. Skipping auto-login to preserve the login page under test.
+2026-07-20T11:57:03.724536+00:00 [INFO] [TC-LOGIN-044] Step 1: Enter a valid registered account email into the Email field
+2026-07-20T11:57:04.166983+00:00 [INFO] [TC-LOGIN-044] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step1_before.png
+2026-07-20T11:57:05.256711+00:00 [INFO] [TC-LOGIN-044] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step1_after.png
+2026-07-20T11:57:05.258044+00:00 [INFO] [TC-LOGIN-044] Step 2: Enter the valid account password into the Password field
+2026-07-20T11:57:05.493814+00:00 [INFO] [TC-LOGIN-044] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step2_before.png
+2026-07-20T11:57:06.624742+00:00 [INFO] [TC-LOGIN-044] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step2_after.png
+2026-07-20T11:57:06.626172+00:00 [INFO] [TC-LOGIN-044] Step 3: Click the Login button to submit the credentials
+2026-07-20T11:57:06.855925+00:00 [INFO] [TC-LOGIN-044] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step3_before.png
+2026-07-20T11:57:07.985328+00:00 [INFO] [TC-LOGIN-044] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step3_after.png
+2026-07-20T11:57:07.987441+00:00 [INFO] [TC-LOGIN-044] Step 4: Verify the resulting authenticated state after submission
+2026-07-20T11:57:08.221960+00:00 [INFO] [TC-LOGIN-044] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step4_before.png
+2026-07-20T11:57:09.863858+00:00 [INFO] [TC-LOGIN-044] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_step4_after.png
+2026-07-20T11:57:10.049324+00:00 [INFO] [TC-LOGIN-044] Screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/screenshots/TC-LOGIN-044_fail.png
+2026-07-20T11:57:10.655559+00:00 [INFO] [TC-LOGIN-044] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/traces/TC-LOGIN-044_trace.zip
+2026-07-20T11:57:10.802381+00:00 [INFO] [TC-LOGIN-044] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_154658/videos/TC-LOGIN-044.webm
