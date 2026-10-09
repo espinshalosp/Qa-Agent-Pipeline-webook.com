@@ -1,0 +1,205 @@
+{
+  "_schema_version": "1.0.0",
+  "_status": "populated",
+  "_description": "Normalized Jira story artifact. Populated by the Jira Agent.",
+  "story": {
+    "id": "10120",
+    "key": "KAN-18",
+    "summary": "Browse and Read Blog Content from Webook Blog",
+    "description": "Story Title:\nBrowse and Read Blog Content from Webook Blog\nStory ID:\nBLOG-US-001\nUser Story:\nAs a Webook user or visitor, I want to browse, open, and read blog content on the Webook Blog page so that I can discover articles, updates, travel/entertainment content, and Webook news relevant to my interests.\n\nurl = https://webook.com/blog/\nAcceptance Criteria:\nAC-01 – Access Blog Landing Page\nUser can navigate to the Webook Blog page successfully.\nBlog landing page loads without broken UI or server errors.\nBlog page displays the main blog layout, including article listings / featured content sections.\nAC-02 – View Blog Categories / Topics\nUser can view available blog categories / topics displayed on the blog page.\nCategories such as Experiences, Travel and Tourism, Adventures, Food, Music, Sport, Concerts, or Webook News are visible where applicable.\nClicking a category opens the corresponding filtered category page / listing if category navigation is supported.\nAC-03 – View Blog Article Listings\nUser can see blog article cards / article entries on the landing page or category page.\nEach article card displays the relevant content metadata where available, such as:\narticle title\ncategory / tag\narticle image / thumbnail\npublish date\nshort preview / excerpt if present\nAC-04 – Open Blog Article Detail Page\nUser can open a blog article from the listing page.\nArticle detail page loads successfully.\nFull article content is displayed correctly, including title, body content, media, and article metadata where available.\nNavigation from listing page to article detail page works without errors.\nAC-05 – Blog Search / Discovery (if available)\nIf a blog search bar or search feature is available, the user can search for blog content using a keyword.\nRelevant matching articles are displayed for valid search terms.\nIf no matching content is found, a proper no-results / empty-state message is shown.\nAC-06 – Blog Filtering / Category Navigation\nUser can navigate between blog categories / topic sections if filtering is supported.\nSelecting a category or section updates the visible blog content accordingly.\nThe selected category / topic context is reflected correctly in the page content.\nAC-07 – Related / Featured Content Display\nIf featured posts, latest posts, popular posts, or related content sections are present, they are displayed correctly.\nUser can open those linked articles successfully.\nAC-08 – Error Handling / Empty States\nIf blog content fails to load, the page should display a user-friendly fallback / error state instead of a broken screen.\nIf a category or search result has no content, an appropriate empty-state message is shown.\nAC-09 – Accessibility & Usability\nBlog page links, article cards, category links, and interactive controls are keyboard accessible.\nBlog content is readable and page navigation is usable across desktop and other supported layouts.\nFocus order is logical for category links, search (if available), and article cards.\nNon-Functional Expectations:\nBlog landing page and article pages should load within acceptable performance limits.\nBlog content should render correctly without broken images/layout.\nNavigation between blog listing and article detail pages should be reliable across supported browsers/devices.\nScope Covered:\nBlog landing page\nCategory/topic navigation\nArticle listing cards\nArticle detail page navigation\nSearch/filter behavior if present\nFeatured/latest/news sections\nError and empty-state handling",
+    "story_type": "Task",
+    "status": "Ready for QA",
+    "priority": "Medium",
+    "assignee": null,
+    "reporter": "Espin Shalo",
+    "sprint": null,
+    "epic_key": null,
+    "epic_summary": null,
+    "labels": [],
+    "components": [],
+    "acceptance_criteria": [
+      "AC-01 – Access Blog Landing Page",
+      "User can navigate to the Webook Blog page successfully.",
+      "Blog landing page loads without broken UI or server errors.",
+      "Blog page displays the main blog layout, including article listings / featured content sections.",
+      "AC-02 – View Blog Categories / Topics",
+      "User can view available blog categories / topics displayed on the blog page.",
+      "Categories such as Experiences, Travel and Tourism, Adventures, Food, Music, Sport, Concerts, or Webook News are visible where applicable.",
+      "Clicking a category opens the corresponding filtered category page / listing if category navigation is supported.",
+      "AC-03 – View Blog Article Listings",
+      "User can see blog article cards / article entries on the landing page or category page.",
+      "Each article card displays the relevant content metadata where available, such as:",
+      "article title",
+      "category / tag",
+      "article image / thumbnail",
+      "publish date",
+      "short preview / excerpt if present",
+      "AC-04 – Open Blog Article Detail Page",
+      "User can open a blog article from the listing page.",
+      "Article detail page loads successfully.",
+      "Full article content is displayed correctly, including title, body content, media, and article metadata where available.",
+      "Navigation from listing page to article detail page works without errors.",
+      "AC-05 – Blog Search / Discovery (if available)",
+      "If a blog search bar or search feature is available, the user can search for blog content using a keyword.",
+      "Relevant matching articles are displayed for valid search terms.",
+      "If no matching content is found, a proper no-results / empty-state message is shown.",
+      "AC-06 – Blog Filtering / Category Navigation",
+      "User can navigate between blog categories / topic sections if filtering is supported.",
+      "Selecting a category or section updates the visible blog content accordingly.",
+      "The selected category / topic context is reflected correctly in the page content.",
+      "AC-07 – Related / Featured Content Display",
+      "If featured posts, latest posts, popular posts, or related content sections are present, they are displayed correctly.",
+      "User can open those linked articles successfully.",
+      "AC-08 – Error Handling / Empty States",
+      "If blog content fails to load, the page should display a user-friendly fallback / error state instead of a broken screen.",
+      "If a category or search result has no content, an appropriate empty-state message is shown.",
+      "AC-09 – Accessibility & Usability",
+      "Blog page links, article cards, category links, and interactive controls are keyboard accessible.",
+      "Blog content is readable and page navigation is usable across desktop and other supported layouts.",
+      "Focus order is logical for category links, search (if available), and article cards.",
+      "Non-Functional Expectations:",
+      "Blog landing page and article pages should load within acceptable performance limits.",
+      "Blog content should render correctly without broken images/layout.",
+      "Navigation between blog listing and article detail pages should be reliable across supported browsers/devices.",
+      "Scope Covered:",
+      "Blog landing page",
+      "Category/topic navigation",
+      "Article listing cards",
+      "Article detail page navigation",
+      "Search/filter behavior if present",
+      "Featured/latest/news sections",
+      "Error and empty-state handling"
+    ],
+    "linked_issues": [],
+    "attachments": [
+      {
+        "id": "10098",
+        "filename": "allure-report.zip",
+        "content_type": "application/zip",
+        "size_bytes": "96297919",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10098",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:28:20.052+0530"
+      },
+      {
+        "id": "10095",
+        "filename": "coverage_summary.json",
+        "content_type": "application/json",
+        "size_bytes": "77885",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10095",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:25:19.718+0530"
+      },
+      {
+        "id": "10101",
+        "filename": "defect_candidates.json",
+        "content_type": "application/json",
+        "size_bytes": "6456",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10101",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:28:38.482+0530"
+      },
+      {
+        "id": "10103",
+        "filename": "defect_metrics.json",
+        "content_type": "application/json",
+        "size_bytes": "346",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10103",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:28:41.058+0530"
+      },
+      {
+        "id": "10097",
+        "filename": "execution_report.json",
+        "content_type": "application/json",
+        "size_bytes": "13500",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10097",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:27:34.964+0530"
+      },
+      {
+        "id": "10096",
+        "filename": "execution_summary.json",
+        "content_type": "application/json",
+        "size_bytes": "320",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10096",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:27:33.463+0530"
+      },
+      {
+        "id": "10102",
+        "filename": "root_cause_analysis.json",
+        "content_type": "application/json",
+        "size_bytes": "1630",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10102",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:28:40.008+0530"
+      },
+      {
+        "id": "10093",
+        "filename": "story.json",
+        "content_type": "application/json",
+        "size_bytes": "8142",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10093",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:25:15.657+0530"
+      },
+      {
+        "id": "10100",
+        "filename": "TC-BLOG-029_trace.zip",
+        "content_type": "application/zip",
+        "size_bytes": "8784582",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10100",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:28:36.353+0530"
+      },
+      {
+        "id": "10099",
+        "filename": "TC-BLOG-031_trace.zip",
+        "content_type": "application/zip",
+        "size_bytes": "9979871",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10099",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:28:29.551+0530"
+      },
+      {
+        "id": "10094",
+        "filename": "testcases.json",
+        "content_type": "application/json",
+        "size_bytes": "194868",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10094",
+        "author": "Espin Shalo",
+        "created": "2026-07-09T13:25:17.968+0530"
+      }
+    ],
+    "comments": [
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Case Generation Summary — KAN-18\nQA Run Summary\nStatus: 🟡 Generated (Execution Pending)\nRun Timestamp: 2026-07-09 07-55-20 UTC\nTarget Run Directory: KAN-18_blog_20260709_132014\nFeature: Browse and Read Blog Content from Webook Blog\nTest Generation Summary\nTotal Test Cases Generated: 53\nBy Type: UI: 0, Functional: 36, Negative: 2, Edge: 2\nBy Priority: High: 2, Medium: 47, Low: 4\nCoverage Summary\nCoverage Status: 🟢 Fully Covered\nExecution Scope: No execution performed (Generation Only)\nAcceptance Criteria Coverage: 100% (All 51 Acceptance Criteria covered by generated test cases)\nAll generated test cases were target of this run.\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nstory.json\ntestcases.json\ncoverage_summary.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-09T13:25:21.025+0530",
+        "updated": "2026-07-09T13:25:21.025+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Execution Summary — KAN-18\nQA Run Summary\nStatus: 🔴 Failed\nRun Timestamp: 2026-07-09 07-58-37 UTC\nTarget Run Directory: KAN-18_blog_20260709_132014\nFeature: Browse and Read Blog Content from Webook Blog\nTest Execution Summary\nExecution Scope: Selected execution run (4 of 53 generated testcases executed)\nPassed: 🟢 2\nFailed: 🔴 2\nSkipped: 🟡 0\nPass Rate: 50.0%\nDuration: 64.66 seconds\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nexecution_summary.json\nexecution_report.json\nallure-report.zip\nTC-BLOG-031_trace.zip\nTC-BLOG-029_trace.zip\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-09T13:28:37.942+0530",
+        "updated": "2026-07-09T13:28:37.942+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Defect Analysis Summary — KAN-18\nQA Run Summary\nStatus: 🔴 Defect Candidates Identified\nRun Timestamp: 2026-07-09 07-58-41 UTC\nTarget Run Directory: KAN-18_blog_20260709_132014\nFeature: Browse and Read Blog Content from Webook Blog\nDefect Summary\nDefect Candidates Identified: 2\nDefect Density: Generated 2 unique defect candidate(s) from 2 failures.\nDominant Failure Cause: 'Automation / UI Element Resolution Failure' (2 instances)\nRepeated Hotspots: 'Category / tag' (1 occurrences), 'Publish date' (1 occurrences)\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\ndefect_candidates.json\nroot_cause_analysis.json\ndefect_metrics.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-09T13:28:42.141+0530",
+        "updated": "2026-07-09T13:28:42.141+0530"
+      }
+    ],
+    "created_at": "2026-07-09T13:13:47.228+0530",
+    "updated_at": "2026-07-20T16:54:25.894+0530",
+    "fetched_at": "2026-07-20T11:24:52.158074+00:00"
+  },
+  "_metadata": {
+    "source_agent": "jira_agent",
+    "pipeline_run_id": null,
+    "jira_base_url": "https://espinsworkspace-45813328.atlassian.net",
+    "jql_used": "project = \"KAN\" AND status = \"Ready for QA\""
+  }
+}
