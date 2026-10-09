@@ -1,0 +1,10 @@
+2026-07-20T10:09:13.013822+00:00 [INFO] [TC-LOGIN-035] Navigating to start URL: https://webook.com/en/login
+2026-07-20T10:09:14.495714+00:00 [INFO] [TC-LOGIN-035] Page confirmation: status 200 confirmed for https://webook.com/en/login.
+2026-07-20T10:09:16.116188+00:00 [INFO] [TC-LOGIN-035] Step 1: Rapidly trigger double clicks on Login in quick succession (interval < 100ms).
+2026-07-20T10:09:17.665432+00:00 [INFO] [TC-LOGIN-035] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-035_step1_before.png
+2026-07-20T10:09:19.851291+00:00 [INFO] [TC-LOGIN-035] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-035_step1_after.png
+2026-07-20T10:09:19.852609+00:00 [INFO] [TC-LOGIN-035] Step 2: Inspect network requests to confirm only a single API call was dispatched for the Login interaction.
+2026-07-20T10:09:20.832180+00:00 [INFO] [TC-LOGIN-035] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-035_step2_before.png
+2026-07-20T10:09:22.974097+00:00 [INFO] [TC-LOGIN-035] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-035_step2_after.png
+2026-07-20T10:09:23.671051+00:00 [INFO] [TC-LOGIN-035] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-035_trace.zip
+2026-07-20T10:09:24.008319+00:00 [INFO] [TC-LOGIN-035] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-035.webm

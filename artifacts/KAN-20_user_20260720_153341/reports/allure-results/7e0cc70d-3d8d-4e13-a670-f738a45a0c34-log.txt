@@ -1,0 +1,10 @@
+2026-07-20T10:08:51.863168+00:00 [INFO] [TC-LOGIN-034] Navigating to start URL: https://webook.com/en/login
+2026-07-20T10:08:53.390135+00:00 [INFO] [TC-LOGIN-034] Page confirmation: status 200 confirmed for https://webook.com/en/login.
+2026-07-20T10:08:53.711946+00:00 [INFO] [TC-LOGIN-034] Step 1: Click on the Login Button
+2026-07-20T10:08:54.185156+00:00 [INFO] [TC-LOGIN-034] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-034_step1_before.png
+2026-07-20T10:09:07.852713+00:00 [INFO] [TC-LOGIN-034] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-034_step1_after.png
+2026-07-20T10:09:07.854075+00:00 [INFO] [TC-LOGIN-034] Step 2: Wait for system response
+2026-07-20T10:09:08.915163+00:00 [INFO] [TC-LOGIN-034] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-034_step2_before.png
+2026-07-20T10:09:11.113936+00:00 [INFO] [TC-LOGIN-034] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-034_step2_after.png
+2026-07-20T10:09:12.317546+00:00 [INFO] [TC-LOGIN-034] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-034_trace.zip
+2026-07-20T10:09:12.822228+00:00 [INFO] [TC-LOGIN-034] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-034.webm

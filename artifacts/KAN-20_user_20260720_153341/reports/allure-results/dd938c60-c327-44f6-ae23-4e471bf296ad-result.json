@@ -1,0 +1,130 @@
+{
+  "uuid": "dd938c60-c327-44f6-ae23-4e471bf296ad",
+  "historyId": "TC-LOGIN-034",
+  "testCaseId": "TC-LOGIN-034",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-034",
+  "name": "TC-LOGIN-034: Verify selecting Login processes action correctly",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542131863,
+  "stop": 1784542151115,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Click on the Login Button (Expected: Login Button is clicked and action is initiated within 1 second.) -> Bypassed missing component gracefully: the login",
+      "status": "passed",
+      "start": 1784542131863,
+      "stop": 1784542151115,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "a6c0f9d4-69d1-43bb-b2d4-85fb1f48bb48-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "178c615d-a08c-4aa8-99e3-78c02dea19b8-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Wait for system response (Expected: Action executes validly within 3 seconds with no errors.) -> Simulation step executed: Wait for system response",
+      "status": "passed",
+      "start": 1784542131863,
+      "stop": 1784542151115,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "188fa7a5-ec28-42bf-a296-eeb73836055e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "331d62c6-1404-4d37-92e8-5547a256539d-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "9a4fa996-d53f-410b-aed9-d42c6e06ca75-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "99d888c5-433a-4c69-8f90-e8688325d017-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "7e0cc70d-3d8d-4e13-a670-f738a45a0c34-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "8cd4a0d0-49cd-49db-bd6b-95113330c9de-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "59eaeb75-a1ef-4e59-8f9d-5b36745b93cc-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:08:51.863088+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:09:11.115971+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "19.25s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

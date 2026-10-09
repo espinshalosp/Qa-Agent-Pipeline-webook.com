@@ -1,0 +1,13 @@
+2026-07-20T10:11:34.620606+00:00 [INFO] [TC-LOGIN-041] Navigating to start URL: https://webook.com/en/login
+2026-07-20T10:11:36.144593+00:00 [INFO] [TC-LOGIN-041] Page confirmation: status 200 confirmed for https://webook.com/en/login.
+2026-07-20T10:11:39.707537+00:00 [INFO] [TC-LOGIN-041] Step 1: Prepare invalid business data for execute_authentication
+2026-07-20T10:11:41.162818+00:00 [INFO] [TC-LOGIN-041] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step1_before.png
+2026-07-20T10:11:43.195425+00:00 [INFO] [TC-LOGIN-041] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step1_after.png
+2026-07-20T10:11:43.196554+00:00 [INFO] [TC-LOGIN-041] Step 2: Execute execute_authentication via booking action
+2026-07-20T10:11:44.177531+00:00 [INFO] [TC-LOGIN-041] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step2_before.png
+2026-07-20T10:11:46.598394+00:00 [INFO] [TC-LOGIN-041] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step2_after.png
+2026-07-20T10:11:46.599697+00:00 [INFO] [TC-LOGIN-041] Step 3: Verify error message and state preservation
+2026-07-20T10:11:47.580098+00:00 [INFO] [TC-LOGIN-041] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step3_before.png
+2026-07-20T10:12:00.098184+00:00 [INFO] [TC-LOGIN-041] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step3_after.png
+2026-07-20T10:12:02.563253+00:00 [INFO] [TC-LOGIN-041] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-041_trace.zip
+2026-07-20T10:12:03.072392+00:00 [INFO] [TC-LOGIN-041] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-041.webm

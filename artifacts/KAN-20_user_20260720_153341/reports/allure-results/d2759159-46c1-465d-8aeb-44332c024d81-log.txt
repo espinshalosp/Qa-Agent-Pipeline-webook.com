@@ -1,0 +1,10 @@
+2026-07-20T10:09:24.706422+00:00 [INFO] [TC-LOGIN-036] Navigating to start URL: https://webook.com/en/login
+2026-07-20T10:09:26.168007+00:00 [INFO] [TC-LOGIN-036] Page confirmation: status 200 confirmed for https://webook.com/en/login.
+2026-07-20T10:09:26.451224+00:00 [INFO] [TC-LOGIN-036] Step 1: Simulate network disconnect and click Login.
+2026-07-20T10:09:26.917326+00:00 [INFO] [TC-LOGIN-036] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-036_step1_before.png
+2026-07-20T10:09:29.351098+00:00 [INFO] [TC-LOGIN-036] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-036_step1_after.png
+2026-07-20T10:09:29.352566+00:00 [INFO] [TC-LOGIN-036] Step 2: Click Login Button
+2026-07-20T10:09:30.593222+00:00 [INFO] [TC-LOGIN-036] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-036_step2_before.png
+2026-07-20T10:09:44.761735+00:00 [INFO] [TC-LOGIN-036] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-036_step2_after.png
+2026-07-20T10:09:48.278573+00:00 [INFO] [TC-LOGIN-036] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-036_trace.zip
+2026-07-20T10:09:48.901662+00:00 [INFO] [TC-LOGIN-036] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-036.webm

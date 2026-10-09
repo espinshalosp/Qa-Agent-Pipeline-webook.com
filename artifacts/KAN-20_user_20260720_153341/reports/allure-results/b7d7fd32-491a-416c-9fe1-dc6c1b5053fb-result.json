@@ -1,0 +1,130 @@
+{
+  "uuid": "b7d7fd32-491a-416c-9fe1-dc6c1b5053fb",
+  "historyId": "TC-LOGIN-042",
+  "testCaseId": "TC-LOGIN-042",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-042",
+  "name": "TC-LOGIN-042: Verify keyboard Tab navigation order and focus rings across Login page controls",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542323692,
+  "stop": 1784542333994,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Apply sorting parameter 'page controls' from sorting options dropdown. (Expected: Sorting rule 'page controls' is set active.) -> Clicked component 'apply sorting parameter 'page controls' from sorting options dropdown.' successfully.",
+      "status": "passed",
+      "start": 1784542323692,
+      "stop": 1784542333994,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "0c48566b-c385-4d8a-b3e5-a6334289a5ae-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "96bf6021-ed69-4d9c-8490-56fa4cb86083-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Verify that the displayed logins list is sorted correctly. (Expected: All visible items are sorted in the UI conforming to the 'page controls' rule.) -> Simulation step executed: Verify that the displayed logins list is sorted correctly.",
+      "status": "passed",
+      "start": 1784542323692,
+      "stop": 1784542333994,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "3a395e0c-d472-42a5-9d61-e6a5cc93c53e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "17bbb3c9-d1d6-4908-b11e-1af19e9160d4-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "55970af2-894d-4b11-856c-a34121e6b36a-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "4d860570-49ec-4e58-a096-9bed1ed7529e-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "7ae9c286-8f4a-4ff5-ab48-2a5a47cf0d9e-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "80f7ed3b-b6d3-424c-acab-697a2091e859-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "ea95f626-0684-421f-a43a-7e178b1c4efa-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:12:03.692820+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:12:13.994997+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "10.30s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

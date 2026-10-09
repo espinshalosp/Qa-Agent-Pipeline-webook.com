@@ -1,0 +1,130 @@
+{
+  "uuid": "9e61d383-15f1-482d-b1f7-38eb3cbf4069",
+  "historyId": "TC-LOGIN-035",
+  "testCaseId": "TC-LOGIN-035",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-035",
+  "name": "TC-LOGIN-035: Verify double clicking Login prevents concurrent actions [Edge]",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542153013,
+  "stop": 1784542162975,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Rapidly trigger double clicks on Login in quick succession (interval < 100ms). (Expected: The system registers only the first click, debouncing the second trigger.) -> Simulation step executed: Rapidly trigger double clicks on Login in quick succession (interval < 100ms).",
+      "status": "passed",
+      "start": 1784542153013,
+      "stop": 1784542162975,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "47399493-4c1f-4818-8440-53d397337aae-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "e43e8a05-12dc-4744-b395-0149dc481f2e-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Inspect network requests to confirm only a single API call was dispatched for the Login interaction. (Expected: Exactly one network request is visible in the request log; no duplicate calls are recorded.) -> Simulation step executed: Inspect network requests to confirm only a single API call was dispatched for the Login interaction.",
+      "status": "passed",
+      "start": 1784542153013,
+      "stop": 1784542162975,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "01ca752d-f795-43d0-8b07-6e4d1e77020c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "8f78d5f8-8e10-4a38-9276-9bb890965a6a-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "97406ec2-8dcb-482e-951b-d47a6d7fe2bb-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "76195a24-d22b-4428-9f22-07f0dc77f8ee-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "856eaa0f-8c38-4c11-ac4d-6036bff14a55-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "0a0cc98e-2518-4b5b-a5d5-f81cc1d3373f-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "44bb0d89-7017-4355-b1a4-c9ce8912547f-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:09:13.013796+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:09:22.975621+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "9.96s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

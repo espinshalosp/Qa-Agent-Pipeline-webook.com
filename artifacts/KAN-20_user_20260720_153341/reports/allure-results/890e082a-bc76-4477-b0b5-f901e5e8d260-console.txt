@@ -1,0 +1,22 @@
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[ERROR] Failed to load resource: the server responded with a status of 404 ()
+[WARNING] [GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.
+https://goo.gle/gpt-message#170
+[WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance
+[WARNING] Datadog Browser SDK: Customer data exceeds the recommended 3KiB threshold. More details: https://docs.datadoghq.com/real_user_monitoring/browser/troubleshooting/#customer-data-exceeds-the-recommended-threshold-warning
+[WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171
