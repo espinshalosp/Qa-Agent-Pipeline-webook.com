@@ -1,0 +1,96 @@
+# ==============================================================================
+# QA Agent Platform — Python Dependencies
+# ==============================================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# For a clean virtual environment setup:
+#   python -m venv .venv
+#   source .venv/bin/activate  (macOS/Linux)
+#   .venv\Scripts\activate     (Windows)
+#   pip install -r requirements.txt
+#   playwright install chromium
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Core HTTP & API
+# ------------------------------------------------------------------------------
+requests>=2.31.0            # HTTP client for Jira REST API calls
+httpx>=0.27.0               # Async-capable HTTP client (alternative/complement to requests)
+
+# ------------------------------------------------------------------------------
+# Jira Integration
+# ------------------------------------------------------------------------------
+jira>=3.8.0                 # Official Jira Python client library
+# TODO: Consider jira[async] for async Jira operations
+
+# ------------------------------------------------------------------------------
+# Data Validation & Modeling
+# ------------------------------------------------------------------------------
+pydantic>=2.7.0             # Data models and schema validation for all artifacts
+pydantic-settings>=2.3.0    # Settings management with environment variable support
+
+# ------------------------------------------------------------------------------
+# Configuration
+# ------------------------------------------------------------------------------
+pyyaml>=6.0.1               # YAML config file parsing (settings.yaml, agents.yaml)
+python-dotenv>=1.0.1        # Load environment variables from .env file
+
+# ------------------------------------------------------------------------------
+# AI / LLM Orchestration
+# ------------------------------------------------------------------------------
+# TODO: Uncomment the LLM provider you plan to use
+pypdf>=4.2.0                # PDF text extraction for Jira attachments
+
+openai>=1.35.0            # OpenAI GPT models
+anthropic>=0.28.0         # Anthropic Claude models
+google-generativeai>=0.7.0 # Google Gemini models
+
+# LangChain ecosystem (uncomment when implementing agent logic)
+# langchain>=0.2.0           # TODO: LangChain core for LLM abstraction
+# langchain-openai>=0.1.0    # TODO: LangChain OpenAI integration
+# langchain-anthropic>=0.1.0 # TODO: LangChain Anthropic integration
+# langchain-google-genai>=1.0.0 # TODO: LangChain Google integration
+# langgraph>=0.1.0           # TODO: LangGraph for multi-agent graph orchestration
+
+# ------------------------------------------------------------------------------
+# Browser Automation
+# ------------------------------------------------------------------------------
+playwright>=1.44.0          # Playwright browser automation (run: playwright install chromium)
+
+# ------------------------------------------------------------------------------
+# Test Framework
+# ------------------------------------------------------------------------------
+pytest>=8.2.0               # Core test runner
+pytest-playwright>=0.5.0    # Playwright pytest plugin with fixtures
+pytest-xdist>=3.5.0         # Parallel test execution
+pytest-json-report>=1.5.0   # JSON output for execution reports
+pytest-timeout>=2.3.0       # Per-test timeout enforcement
+pytest-retry>=0.6.0         # Retry logic for flaky tests
+
+# ------------------------------------------------------------------------------
+# Reporting & Data Processing
+# ------------------------------------------------------------------------------
+pandas>=2.2.0               # Data analysis for coverage and execution metrics
+openpyxl>=3.1.4             # Excel export for test case review (openpyxl backend)
+jinja2>=3.1.4               # HTML report template rendering
+
+# ------------------------------------------------------------------------------
+# Code Quality (for generated scripts)
+# ------------------------------------------------------------------------------
+black>=24.4.0               # Code formatter for generated Playwright scripts
+flake8>=7.0.0               # Linter for generated code validation
+
+# ------------------------------------------------------------------------------
+# Logging & Utilities
+# ------------------------------------------------------------------------------
+rich>=13.7.0                # Beautiful terminal output and logging
+structlog>=24.1.0           # Structured logging for pipeline runs
+click>=8.1.7                # CLI framework for pipeline entry point
+
+# ------------------------------------------------------------------------------
+# Development / Testing
+# ------------------------------------------------------------------------------
+pytest-cov>=5.0.0           # Code coverage for the framework itself
+mypy>=1.10.0                # Static type checking
+pre-commit>=3.7.0           # Pre-commit hooks for code quality

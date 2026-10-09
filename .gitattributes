@@ -1,0 +1,2 @@
+artifacts/KAN-18_blog_20260720_165452/reports/allure-report/index.html filter=lfs diff=lfs merge=lfs -text
+artifacts/KAN-20_user_20260720_153341/reports/allure-report/index.html filter=lfs diff=lfs merge=lfs -text

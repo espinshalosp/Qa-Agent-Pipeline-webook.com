@@ -1,0 +1,52 @@
+# =============================================================================
+# QA Agent Platform — .gitignore
+# =============================================================================
+
+# --- Credentials (NEVER commit) ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.python-version
+
+# --- Pytest / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.log
+
+# --- Playwright ---
+test-results/
+playwright-report/
+
+# --- IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# --- Logs (local run logs — not committed) ---
+logs/*.log
+logs/*.jsonl
+
+# --- Artifacts (runtime output — not committed) ---
+artifacts/story.json
+artifacts/requirements.json
+artifacts/testcases.json
+artifacts/automation/*.py
+artifacts/screenshots/*.png
+artifacts/reports/*.json

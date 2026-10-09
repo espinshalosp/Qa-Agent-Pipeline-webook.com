@@ -1,0 +1,141 @@
+# ==============================================================================
+# QA Agent Platform — Application Settings
+# ==============================================================================
+# This file contains all NON-SENSITIVE configurable parameters.
+# Sensitive values (API keys, tokens, emails) MUST NOT be stored here.
+# Use environment variables or the .env file for credentials.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Pipeline Settings
+# ------------------------------------------------------------------------------
+pipeline:
+  name: "QA Agent Platform"
+  version: "0.1.0"
+  dry_run: false             # Set true to simulate pipeline without side effects
+  log_level: "INFO"          # DEBUG | INFO | WARNING | ERROR
+  artifact_dir: "./artifacts"
+  report_dir: "./artifacts/reports"
+  screenshot_dir: "./artifacts/screenshots"
+  automation_dir: "./artifacts/automation"
+  log_dir: "./logs"
+
+# ------------------------------------------------------------------------------
+# Jira Configuration
+# ------------------------------------------------------------------------------
+# Credentials are loaded from environment variables / .env file:
+#   JIRA_BASE_URL, JIRA_EMAIL, JIRA_API_TOKEN
+# Non-sensitive Jira settings are here for reference / documentation.
+jira:
+  base_url: null             # Loaded from JIRA_BASE_URL env var
+  email: null                # Loaded from JIRA_EMAIL env var
+  api_token: null            # Loaded from JIRA_API_TOKEN env var
+  project_key: "PROJ"        # Override with JIRA_PROJECT_KEY env var
+  default_issue_type: "Bug"
+  default_labels:
+    - "automated-qa"
+    - "ai-generated"
+  max_results_per_page: 100  # Jira API page size (max 100)
+
+  # JQL auto-discovery
+  jql:
+    query: 'status = "Ready for QA"'   # Override with JIRA_JQL env var
+    auto_discover: true
+    # Custom field ID for acceptance criteria (varies by Jira instance)
+    acceptance_criteria_field: "customfield_10045"
+
+  retry:
+    max_retries: 3
+    initial_delay_seconds: 1
+    backoff_factor: 2
+    retry_on_status_codes: [429, 503]
+    # These codes are FATAL — do not retry, halt pipeline:
+    fatal_status_codes: [400, 401, 403, 404]
+
+# ------------------------------------------------------------------------------
+# LLM / AI Configuration
+# ------------------------------------------------------------------------------
+# TODO: Uncomment and populate when implementing Agents 2-7
+llm:
+  provider: null             # "openai" | "anthropic" | "google" | "azure"
+  model: null                # e.g., "gpt-4o", "claude-3-5-sonnet", "gemini-1.5-pro"
+  api_key: null              # Set via LLM_API_KEY env var
+  temperature: 0.2
+  max_tokens: 4096
+  timeout_seconds: 60
+
+# ------------------------------------------------------------------------------
+# Coverage Thresholds
+# ------------------------------------------------------------------------------
+coverage:
+  minimum_overall: 0.80
+  critical_requirements: 1.0
+  min_cases_per_requirement: 2
+
+# ------------------------------------------------------------------------------
+# Playwright / Test Execution
+# ------------------------------------------------------------------------------
+playwright:
+  browser: "chromium"
+  headless: false
+  base_url: null             # Set via PLAYWRIGHT_BASE_URL env var
+  timeout_ms: 30000
+  slow_mo_ms: 0
+  viewport:
+    # 1366x768 fits comfortably on any real laptop screen (unlike 1920x1080, which is
+    # wider/taller than most laptops' actual logical resolution and forced the browser
+    # window to extend past the visible screen). Still solidly "desktop" width — well
+    # above the ~1024px breakpoint most sites switch to a mobile/tablet layout at — so
+    # the rendered page layout, and everything selectors match against, is unchanged.
+    width: 1366
+    height: 768
+  screenshot: "only-on-failure"
+  video: "always"
+  trace: "always"
+  retry:
+    count: 2
+
+# ------------------------------------------------------------------------------
+# Test Execution (pytest)
+# ------------------------------------------------------------------------------
+execution:
+  parallel: false
+  workers: 1
+  timeout_seconds: 300
+  report_format: "json"
+
+# ------------------------------------------------------------------------------
+# Defect Configuration
+# ------------------------------------------------------------------------------
+defects:
+  auto_create_in_jira: false
+  deduplicate: true
+  severity_auto_assign: true
+
+# ------------------------------------------------------------------------------
+# Notifications (future)
+# ------------------------------------------------------------------------------
+notifications:
+  slack:
+    enabled: false
+    webhook_url: null        # Set via SLACK_WEBHOOK_URL env var
+    channel: "#qa-alerts"
+  email:
+    enabled: false
+    recipients: []
+    smtp_host: null
+
+# ------------------------------------------------------------------------------
+# Application Configuration
+# ------------------------------------------------------------------------------
+application:
+  name: Webook
+  base_url: https://webook.com
+
+# ------------------------------------------------------------------------------
+# Allure Reporting
+# ------------------------------------------------------------------------------
+allure:
+  auto_open: false            # Automatically open Allure report in the browser after execution
+  open_browser: "default"     # "default" | "chrome"
+
