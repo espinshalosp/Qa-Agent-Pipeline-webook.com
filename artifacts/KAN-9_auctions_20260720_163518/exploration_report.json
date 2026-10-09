@@ -1,0 +1,615 @@
+{
+  "domain": "Auctions",
+  "target_url": "https://webook.com/en/page/auctions",
+  "timestamp": "2026-07-20T11:06:24.236244+00:00",
+  "exploration_failed": true,
+  "exploration_failure_reason": "Page.wait_for_timeout: Target page, context or browser has been closed",
+  "assessment_completion": {
+    "total_pending": 33,
+    "assessed": 27,
+    "skipped": 14,
+    "failed": 1
+  },
+  "interactables": [
+    {
+      "selector": "[data-testid=\"top_notice_We are hiring notice\"]",
+      "tagName": "a",
+      "text": "✨ We’re Hiring. Apply now ✨",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"top_notice_close\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_desktop_logo\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_explore\"]",
+      "tagName": "a",
+      "text": "Explore",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Flight top menu\"]",
+      "tagName": "a",
+      "text": "Flights",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Hotels sub menu\"]",
+      "tagName": "a",
+      "text": "Hotels",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Resell\"]",
+      "tagName": "a",
+      "text": "Ticket resell",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Subscriptions\"]",
+      "tagName": "a",
+      "text": "Subscriptions",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_search_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > header:nth-of-type(1) > nav > ul > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Business partners",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > header:nth-of-type(1) > nav > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Our blog",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"lang-switcher\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_login_button\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"section_events_grid_Limited time Auctions [Formula 1]\"]",
+      "tagName": "section",
+      "text": "Formula 1\nAuction\n\n1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition | Carbon Series Motorsport Wall Art Display\n\nSaudi Arabia\n\nMinimum bid\n\n1,000\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_auctions_1-4-scale-formula-1-framed-car-replica-red-bull-edition-carbon-series-motorsport-wall-art-display\"]",
+      "tagName": "a",
+      "text": "Auction\n\n1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition | Carbon Series Motorsport Wall Art Display\n\nSaudi Arabia\n\nMinimum bid\n\n1,000\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe\"]",
+      "tagName": "section",
+      "text": "Subscribe to webook newsletter\n\nBe the first to get exclusive offers and the latest news on our events directly into your inbox\n\nSubscribe now!",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe_button\"]",
+      "tagName": "button",
+      "text": "Subscribe now!",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_jobs Link in Footer\"]",
+      "tagName": "a",
+      "text": "JOBS & CAREERS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook Contact Us\"]",
+      "tagName": "a",
+      "text": "CONTACT US",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook.com for business footer\"]",
+      "tagName": "a",
+      "text": "BUSINESS PARTNERS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Privacy Policy\"]",
+      "tagName": "a",
+      "text": "PRIVACY POLICY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Terms and Conditions\"]",
+      "tagName": "a",
+      "text": "TERMS & CONDITIONS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook FAQ\"]",
+      "tagName": "a",
+      "text": "CARE CENTER & FAQs",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_About us\"]",
+      "tagName": "a",
+      "text": "ABOUT US",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Startup Accelerator Fund\"]",
+      "tagName": "a",
+      "text": "STARTUP ACCELERATOR FUND",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook blog footer\"]",
+      "tagName": "a",
+      "text": "BLOG",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook bug bounty\"]",
+      "tagName": "a",
+      "text": "REPORT SECURITY VULNERABILITY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_TICKET SAFETY\"]",
+      "tagName": "a",
+      "text": "TICKET SAFETY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_REPORT BLACK MARKET\"]",
+      "tagName": "a",
+      "text": "REPORT BLACK MARKET ACTIVITY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_FAN PROTECTION\"]",
+      "tagName": "a",
+      "text": "FAN PROTECTION",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > footer > div > div > div:nth-of-type(2) > nav:nth-of-type(1) > ul > li:nth-of-type(14) > button",
+      "tagName": "button",
+      "text": "COOKIE SETTINGS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_X Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Instagram Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Facebook Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Tiktok Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_snapchat Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Youtube\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook appstore app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook google play app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_huawei app download link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Auctions",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(3)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(4)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(5)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(6)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(7)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(8)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(9)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(10)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(11)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(12)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(13)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(14)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(15)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(16)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(17)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(18)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(19)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Overview",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "Bids (3)",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"event-description\"]",
+      "tagName": "div",
+      "text": "About\n\nThe 1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition from the Carbon Series brings together motorsport engineering and premium wall art design. Created for collectors, racing enthusiasts, and luxury interiors, this framed Formula 1 display piece transforms your passion for the Red Bull Racing team into a refined statement for any space.\n\nMeasuring 120 cm (Width) × 50 cm (Height) and weighing approximately 10 kg, this expertly crafted replica features a detailed 1:4 scale Red Bull Formula 1 car mounted on a premium display frame. Designed to elevate offices, showrooms, living spaces, or motorsport galleries, the frame delivers a striking visual presence while maintaining a clean and elegant aesthetic.\n\nThe display frame is available in several premium finishes, allowing collectors to select a style that complements their environment. Each piece combines precision detailing with high-quality materials to create a distinctive motorsport collectible and décor element.\n\nKey Features\n\n1:4 scale Red Bull Formula 1 car replica framed display\n\nDesigned as premium motorsport wall art\n\nDimensions: approx. 120 cm (W) × 50 cm (H)\n\nWeight: approx. 10 kg\n\nAvailable in premium finishes: Carbon Wrap, Real Carbon Fiber, Forged Carbon, and Lacquer Paint\n\nPrecision detailing inspired by Formula 1 engineering\n\nSuitable for offices, showrooms, homes, and motorsport collections\n\nRead more",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"collapsable-text\"]",
+      "tagName": "div",
+      "text": "The 1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition from the Carbon Series brings together motorsport engineering and premium wall art design. Created for collectors, racing enthusiasts, and luxury interiors, this framed Formula 1 display piece transforms your passion for the Red Bull Racing team into a refined statement for any space.\n\nMeasuring 120 cm (Width) × 50 cm (Height) and weighing approximately 10 kg, this expertly crafted replica features a detailed 1:4 scale Red Bull Formula 1 car mounted on a premium display frame. Designed to elevate offices, showrooms, living spaces, or motorsport galleries, the frame delivers a striking visual presence while maintaining a clean and elegant aesthetic.\n\nThe display frame is available in several premium finishes, allowing collectors to select a style that complements their environment. Each piece combines precision detailing with high-quality materials to create a distinctive motorsport collectible and décor element.\n\nKey Features\n\n1:4 scale Red Bull Formula 1 car replica framed display\n\nDesigned as premium motorsport wall art\n\nDimensions: approx. 120 cm (W) × 50 cm (H)\n\nWeight: approx. 10 kg\n\nAvailable in premium finishes: Carbon Wrap, Real Carbon Fiber, Forged Carbon, and Lacquer Paint\n\nPrecision detailing inspired by Formula 1 engineering\n\nSuitable for offices, showrooms, homes, and motorsport collections",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > button",
+      "tagName": "button",
+      "text": "Read more",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(1) > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Copy link",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "WhatsApp",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "X",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(4) > a",
+      "tagName": "a",
+      "text": "LinkedIn",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(5) > a",
+      "tagName": "a",
+      "text": "Email",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(6) > button",
+      "tagName": "button",
+      "text": "Other",
+      "controlType": "clickable",
+      "classification": "framework failure",
+      "reason": "Locator.click: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /Users/jarwiz/Library/Caches/ms-playwright/chromium-1148/chrome-mac/Chromium.app/Contents/MacOS/Chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-use-zoom-for-dsf=false --no-sandbox --user-data-dir=/var/folders/3l/2t7mr8k930389413g8jlcym40000gn/T/playwright_chromiumdev_profile-39OES3 --remote-debugging-pipe --no-startup-window\n<launched> pid=5764\n[pid=5764][err] [5792:259:0720/163619.706336:ERROR:system_services.cc(31)] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 \"paramErr: error in user parameter list\" (-50)\n[pid=5764][err] [5764:259:0720/163620.593279:ERROR:device_event_log_impl.cc(201)] [16:36:20.593] FIDO: fido_discovery_factory.cc:70 Cannot start caBLE because process is not self-responsible. Launch from Finder to fix.\n[pid=5764][err] [5764:259:0720/163620.593354:ERROR:device_event_log_impl.cc(201)] [16:36:20.593] FIDO: fido_request_handler_base.cc:295 Cannot test Bluetooth power status because process is not self-responsible. Launch from Finder to fix.\n[pid=5764][err] [5764:259:0720/163620.606320:ERROR:device_event_log_impl.cc(201)] [16:36:20.605] FIDO: touch_id_context.mm:89 Touch ID authenticator unavailable because keychain-access-group entitlement is missing or incorrect. Expected value: .org.chromium.Chromium.webauthn\n[pid=5764][err] 2026-07-20 16:36:21.478 Chromium[5764:187221] *** Assertion failure in -[NSMenu popUpMenuPositioningItem:atLocation:inView:appearance:], NSMenu.m:1781\n[pid=5764][err] 2026-07-20 16:36:21.486 Chromium[5764:187221] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'View is not in any window'\n[pid=5764][err] *** First throw call stack:\n[pid=5764][err] (\n[pid=5764][err] \t0   CoreFoundation                      0x00007ff8154d46e3 __exceptionPreprocess + 242\n[pid=5764][err] \t1   Chromium Framework                  0x000000011e3efc7b ChromeMain + 116544315\n[pid=5764][err] \t2   libobjc.A.dylib                     0x00007ff8152348bb objc_exception_throw + 48\n[pid=5764][err] \t3   Foundation                          0x00007ff816381cd3 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 267\n[pid=5764][err] \t4   AppKit                              0x00007ff8184b9f07 -[NSMenu popUpMenuPositioningItem:atLocation:inView:appearance:] + 391\n[pid=5764][err] \t5   ShareKit                            0x00007ff922827b38 -[SHKSharingServicePicker showRelativeToRect:ofView:preferredEdge:] + 1396\n[pid=5764][err] \t6   Chromium Framework                  0x000000011cece55e ChromeMain + 94387230\n[pid=5764][err] \t7   Chromium Framework                  0x000000011cec4f9d ChromeMain + 94348893\n[pid=5764][err] \t8   Chromium Framework                  0x000000011e42fee6 ChromeMain + 116807078\n[pid=5764][err] \t9   Chromium Framework                  0x000000011e42f48f ChromeMain + 116804431\n[pid=5764][err] \t10  Chromium Framework                  0x000000011e42f312 ChromeMain + 116804050\n[pid=5764][err] \t11  Chromium Framework                  0x000000011e43133b ChromeMain + 116812283\n[pid=5764][err] \t12  Chromium Framework                  0x000000011e43101a ChromeMain + 116811482\n[pid=5764][err] \t13  Chromium Framework                  0x000000011bf54221 ChromeMain + 78158049\n[pid=5764][err] \t14  Chromium Framework                  0x0000000117dc2d5e ChromeMain + 9405470\n[pid=5764][err] \t15  Chromium Framework                  0x0000000118bf3c87 ChromeMain + 24286023\n[pid=5764][err] \t16  Chromium Framework                  0x0000000117db6568 ChromeMain + 9354280\n[pid=5764][err] \t17  Chromium Framework                  0x000000011ad3ac51 ChromeMain + 59179793\n[pid=5764][err] \t18  Chromium Framework                  0x000000011ad6b980 ChromeMain + 59379776\n[pid=5764][err] \t19  Chromium Framework                  0x000000011ad50812 ChromeMain + 59268818\n[pid=5764][err] \t20  Chromium Framework                  0x000000011ad5be41 ChromeMain + 59315457\n[pid=5764][err] \t21  Chromium Framework                  0x00000001175bb55a ChromeMain + 986138\n[pid=5764][err] \t22  Chromium Framework                  0x000000011ad5ba1f ChromeMain + 59314399\n[pid=5764][err] \t23  CoreFoundation                      0x00007ff8154590ab __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17\n[pid=5764][err] \t24  CoreFoundation                      0x00007ff815459013 __CFRunLoopDoSource0 + 180\n[pid=5764][err] \t25  CoreFoundation                      0x00007ff815458d8d __CFRunLoopDoSources0 + 242\n[pid=5764][err] \t26  CoreFoundation                      0x00007ff8154577a8 __CFRunLoopRun + 892\n[pid=5764][err] \t27  CoreFoundation                      0x00007ff815456d6c CFRunLoopRunSpecific + 562\n[pid=5764][err] \t28  HIToolbox                           0x00007ff81e1095e6 RunCurrentEventLoopInMode + 292\n[pid=5764][err] \t29  HIToolbox                           0x00007ff81e10934a ReceiveNextEventCommon + 594\n[pid=5764][err] \t30  HIToolbox                           0x00007ff81e1090e5 _BlockUntilNextEventMatchingListInModeWithFilter + 70\n[pid=5764][err] \t31  AppKit                              0x00007ff817e95aa9 _DPSNextEvent + 927\n[pid=5764][err] \t32  AppKit                              0x00007ff817e94166 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 1394\n[pid=5764][err] \t33  Chromium Framework                  0x000000011e1e939f ChromeMain + 114420319\n[pid=5764][err] \t34  Chromium Framework                  0x00000001175bb55a ChromeMain + 986138\n[pid=5764][err] \t35  Chromium Framework                  0x000000011ad037e0 ChromeMain + 58953376\n[pid=5764][err] \t36  AppKit                              0x00007ff817e86818 -[NSApplication run] + 586\n[pid=5764][err] \t37  Chromium Framework                  0x0000000119eec3b8 ChromeMain + 44178040\n[pid=5764][err] \t38  Chromium Framework                  0x0000000119beeab3 ChromeMain + 41042291\n[pid=5764][err] \t39  Chromium Framework                  0x00000001187cf98b ChromeMain + 19943499\n[pid=5764][err] \t40  Chromium Framework                  0x0000000118e0efeb ChromeMain + 26494635\n[pid=5764][err] \t41  Chromium Framework                  0x00000001197d0a82 ChromeMain + 36725058\n[pid=5764][err] \t42  Chromium Framework                  0x00000001197d07c1 ChromeMain + 36724353\n[pid=5764][err] \t43  Chromium Framework                  0x00000001195adf96 ChromeMain + 34485846\n[pid=5764][err] \t44  Chromium Framework                  0x00000001195ae920 ChromeMain + 34488288\n[pid=5764][err] \t45  Chromium Framework                  0x00000001174cabff ChromeMain + 703\n[pid=5764][err] \t46  Chromium                            0x00000001095d146d main + 205\n[pid=5764][err] \t47  dyld                                0x000000010a75852e start + 462\n[pid=5764][err] )\n[pid=5764][err] [0720/163621.979802:WARNING:crash_report_exception_handler.cc(235)] UniversalExceptionRaise: (os/kern) failure (5)\n[pid=5764] <process did exit: exitCode=null, signal=SIGILL>\n[pid=5764] starting temporary directories cleanup\nCall log:\n  - waiting for locator(\"html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(6) > button\")\n  -     - locator resolved to <button class=\"border border-action hover:bg-action-400/20 active:bg-action/30 text-action disabled:bg-input-disabled/30 disabled:border-input-disabled relative inline-flex items-center overflow-hidden px-4 py-2 text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S radius-XS h-12 w-full justify-start gap-3\">…</button>\n  -   - attempting click action\n  -     - scrolling into view if needed\n  -     - done scrolling\n  -     - forcing action\n  -     - performing click action\n"
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    }
+  ]
+}

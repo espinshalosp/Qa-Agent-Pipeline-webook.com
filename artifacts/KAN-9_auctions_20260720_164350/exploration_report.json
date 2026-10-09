@@ -1,0 +1,799 @@
+{
+  "domain": "Auctions",
+  "target_url": "https://webook.com/en/page/auctions",
+  "timestamp": "2026-07-20T11:15:09.968425+00:00",
+  "exploration_failed": false,
+  "exploration_failure_reason": null,
+  "assessment_completion": {
+    "total_pending": 17,
+    "assessed": 34,
+    "skipped": 47,
+    "failed": 0
+  },
+  "interactables": [
+    {
+      "selector": "[data-testid=\"top_notice_We are hiring notice\"]",
+      "tagName": "a",
+      "text": "✨ We’re Hiring. Apply now ✨",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"top_notice_close\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_desktop_logo\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_explore\"]",
+      "tagName": "a",
+      "text": "Explore",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Flight top menu\"]",
+      "tagName": "a",
+      "text": "Flights",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Hotels sub menu\"]",
+      "tagName": "a",
+      "text": "Hotels",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Resell\"]",
+      "tagName": "a",
+      "text": "Ticket resell",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Subscriptions\"]",
+      "tagName": "a",
+      "text": "Subscriptions",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_search_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > header:nth-of-type(1) > nav > ul > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Business partners",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > header:nth-of-type(1) > nav > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Our blog",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"lang-switcher\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_login_button\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"section_events_grid_Limited time Auctions [Formula 1]\"]",
+      "tagName": "section",
+      "text": "Formula 1\nAuction\n\n1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition | Carbon Series Motorsport Wall Art Display\n\nSaudi Arabia\n\nMinimum bid\n\n1,000\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_auctions_1-4-scale-formula-1-framed-car-replica-red-bull-edition-carbon-series-motorsport-wall-art-display\"]",
+      "tagName": "a",
+      "text": "Auction\n\n1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition | Carbon Series Motorsport Wall Art Display\n\nSaudi Arabia\n\nMinimum bid\n\n1,000\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe\"]",
+      "tagName": "section",
+      "text": "Subscribe to webook newsletter\n\nBe the first to get exclusive offers and the latest news on our events directly into your inbox\n\nSubscribe now!",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "unsafe destructive action keyword match"
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "unsafe destructive action keyword match"
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe_button\"]",
+      "tagName": "button",
+      "text": "Subscribe now!",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "unsafe destructive action keyword match"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_jobs Link in Footer\"]",
+      "tagName": "a",
+      "text": "JOBS & CAREERS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook Contact Us\"]",
+      "tagName": "a",
+      "text": "CONTACT US",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook.com for business footer\"]",
+      "tagName": "a",
+      "text": "BUSINESS PARTNERS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Privacy Policy\"]",
+      "tagName": "a",
+      "text": "PRIVACY POLICY",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Terms and Conditions\"]",
+      "tagName": "a",
+      "text": "TERMS & CONDITIONS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook FAQ\"]",
+      "tagName": "a",
+      "text": "CARE CENTER & FAQs",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_About us\"]",
+      "tagName": "a",
+      "text": "ABOUT US",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Startup Accelerator Fund\"]",
+      "tagName": "a",
+      "text": "STARTUP ACCELERATOR FUND",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook blog footer\"]",
+      "tagName": "a",
+      "text": "BLOG",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook bug bounty\"]",
+      "tagName": "a",
+      "text": "REPORT SECURITY VULNERABILITY",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_TICKET SAFETY\"]",
+      "tagName": "a",
+      "text": "TICKET SAFETY",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_REPORT BLACK MARKET\"]",
+      "tagName": "a",
+      "text": "REPORT BLACK MARKET ACTIVITY",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_FAN PROTECTION\"]",
+      "tagName": "a",
+      "text": "FAN PROTECTION",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > footer > div > div > div:nth-of-type(2) > nav:nth-of-type(1) > ul > li:nth-of-type(14) > button",
+      "tagName": "button",
+      "text": "COOKIE SETTINGS",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_X Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Instagram Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Facebook Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Tiktok Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_snapchat Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Youtube\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook appstore app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook google play app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_huawei app download link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Auctions",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(3)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(4)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(5)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(6)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(7)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(8)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(9)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(10)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(11)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(12)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(13)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(14)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(15)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(16)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(17)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(18)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(19)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Overview",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "Bids (3)",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"event-description\"]",
+      "tagName": "div",
+      "text": "About\n\nThe 1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition from the Carbon Series brings together motorsport engineering and premium wall art design. Created for collectors, racing enthusiasts, and luxury interiors, this framed Formula 1 display piece transforms your passion for the Red Bull Racing team into a refined statement for any space.\n\nMeasuring 120 cm (Width) × 50 cm (Height) and weighing approximately 10 kg, this expertly crafted replica features a detailed 1:4 scale Red Bull Formula 1 car mounted on a premium display frame. Designed to elevate offices, showrooms, living spaces, or motorsport galleries, the frame delivers a striking visual presence while maintaining a clean and elegant aesthetic.\n\nThe display frame is available in several premium finishes, allowing collectors to select a style that complements their environment. Each piece combines precision detailing with high-quality materials to create a distinctive motorsport collectible and décor element.\n\nKey Features\n\n1:4 scale Red Bull Formula 1 car replica framed display\n\nDesigned as premium motorsport wall art\n\nDimensions: approx. 120 cm (W) × 50 cm (H)\n\nWeight: approx. 10 kg\n\nAvailable in premium finishes: Carbon Wrap, Real Carbon Fiber, Forged Carbon, and Lacquer Paint\n\nPrecision detailing inspired by Formula 1 engineering\n\nSuitable for offices, showrooms, homes, and motorsport collections\n\nRead more",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"collapsable-text\"]",
+      "tagName": "div",
+      "text": "The 1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition from the Carbon Series brings together motorsport engineering and premium wall art design. Created for collectors, racing enthusiasts, and luxury interiors, this framed Formula 1 display piece transforms your passion for the Red Bull Racing team into a refined statement for any space.\n\nMeasuring 120 cm (Width) × 50 cm (Height) and weighing approximately 10 kg, this expertly crafted replica features a detailed 1:4 scale Red Bull Formula 1 car mounted on a premium display frame. Designed to elevate offices, showrooms, living spaces, or motorsport galleries, the frame delivers a striking visual presence while maintaining a clean and elegant aesthetic.\n\nThe display frame is available in several premium finishes, allowing collectors to select a style that complements their environment. Each piece combines precision detailing with high-quality materials to create a distinctive motorsport collectible and décor element.\n\nKey Features\n\n1:4 scale Red Bull Formula 1 car replica framed display\n\nDesigned as premium motorsport wall art\n\nDimensions: approx. 120 cm (W) × 50 cm (H)\n\nWeight: approx. 10 kg\n\nAvailable in premium finishes: Carbon Wrap, Real Carbon Fiber, Forged Carbon, and Lacquer Paint\n\nPrecision detailing inspired by Formula 1 engineering\n\nSuitable for offices, showrooms, homes, and motorsport collections",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > button",
+      "tagName": "button",
+      "text": "Read more",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(1) > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Copy link",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "WhatsApp",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "X",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(4) > a",
+      "tagName": "a",
+      "text": "LinkedIn",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(5) > a",
+      "tagName": "a",
+      "text": "Email",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(6) > button",
+      "tagName": "button",
+      "text": "Other",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "social/external share target — hands off to a third-party domain or native OS share sheet, not this module's own business logic"
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_login_email_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_login_password_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#email-login > div:nth-of-type(3) > div:nth-of-type(1) > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_reset_password\"]",
+      "tagName": "button",
+      "text": "Reset your password?",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "unsafe destructive action keyword match"
+    },
+    {
+      "selector": "[data-testid=\"auth_login_submit_button\"]",
+      "tagName": "button",
+      "text": "Login",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_button\"]",
+      "tagName": "button",
+      "text": "Create an account",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(10) > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"circle-spinner\"]",
+      "tagName": "svg",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_back_to_login_button\"]",
+      "tagName": "button",
+      "text": "BACK TO LOGIN",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_firstname_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_lastname_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_email_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_confirm_email_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_password_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "form#signup-form-info > fieldset:nth-of-type(3) > div:nth-of-type(1) > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_countrycode_selector\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "form#signup-form-info > fieldset:nth-of-type(4) > div > div:nth-of-type(1) > div > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_mobile_number_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_terms_checkbox\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_terms_link\"]",
+      "tagName": "a",
+      "text": "Terms and conditions",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_newsletter_checkbox\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_third_party_checkbox\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_submit_button\"]",
+      "tagName": "button",
+      "text": "Create Account",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    }
+  ]
+}

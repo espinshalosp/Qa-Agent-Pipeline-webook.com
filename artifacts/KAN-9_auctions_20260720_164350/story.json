@@ -1,0 +1,109 @@
+{
+  "_schema_version": "1.0.0",
+  "_status": "populated",
+  "_description": "Normalized Jira story artifact. Populated by the Jira Agent.",
+  "story": {
+    "id": "10079",
+    "key": "KAN-9",
+    "summary": "Auctions",
+    "description": "User Story\nAs a registered Webook user,\nI want to browse available auctions, view auction item details, place bids, and track the auction status,\nSo that I can participate in auctions and compete for items of interest.\n\nmodule url = https://webook.com/en/page/auctions\nBusiness Value\nProvide users with a seamless auction experience that enables real-time bidding, improves engagement, and increases successful auction participation.\nAcceptance Criteria\nAC-01 – Auction Listing\nUser can navigate to the Auctions module.\nActive auctions are displayed.\nEach auction card displays the auction title, image, current highest bid, auction status, and end time.\nAC-02 – Auction Details\nUser can open an auction item.\nThe detail page displays item information, description, images, bidding rules, current highest bid, minimum next bid, remaining auction time, and seller information (if applicable).\nAC-03 – Place Bid\nAuthenticated users can place a bid greater than or equal to the minimum allowed bid.\nThe system validates the bid before submission.\nSuccessful bids update the current highest bid.\nAC-04 – Bid Validation\nBid amount below the minimum allowed bid is rejected.\nInvalid bid values display appropriate validation messages.\nUsers who are not signed in are prompted to authenticate before bidding.\nAC-05 – Auction Status\nAuction status updates correctly when:\nAuction is active.\nAuction has ended.\nBidding is unavailable.\nAC-06 – Error Handling\nUser-friendly error messages are displayed if bid submission fails.\nSystem recovers gracefully from temporary failures.\nAC-07 – Accessibility\nInteractive controls are keyboard accessible.\nScreen reader labels are available.\nFocus order is logical.\nNon-Functional Requirements\nAuction pages load within acceptable performance limits.\nBid submission is processed reliably.\nUI is responsive across desktop, tablet, and mobile.\nSupported browsers include Chrome, Edge, Firefox, and Safari.\nPriority\nHigh\nLabels\nauctions\nbidding\nwebook\nqa",
+    "story_type": "Story",
+    "status": "Ready for QA",
+    "priority": "Medium",
+    "assignee": "Espin Shalo",
+    "reporter": "Espin Shalo",
+    "sprint": null,
+    "epic_key": null,
+    "epic_summary": null,
+    "labels": [],
+    "components": [],
+    "acceptance_criteria": [
+      "AC-01 – Auction Listing",
+      "User can navigate to the Auctions module.",
+      "Active auctions are displayed.",
+      "Each auction card displays the auction title, image, current highest bid, auction status, and end time.",
+      "AC-02 – Auction Details",
+      "User can open an auction item.",
+      "The detail page displays item information, description, images, bidding rules, current highest bid, minimum next bid, remaining auction time, and seller information (if applicable).",
+      "AC-03 – Place Bid",
+      "Authenticated users can place a bid greater than or equal to the minimum allowed bid.",
+      "The system validates the bid before submission.",
+      "Successful bids update the current highest bid.",
+      "AC-04 – Bid Validation",
+      "Bid amount below the minimum allowed bid is rejected.",
+      "Invalid bid values display appropriate validation messages.",
+      "Users who are not signed in are prompted to authenticate before bidding.",
+      "AC-05 – Auction Status",
+      "Auction status updates correctly when:",
+      "Auction is active.",
+      "Auction has ended.",
+      "Bidding is unavailable.",
+      "AC-06 – Error Handling",
+      "User-friendly error messages are displayed if bid submission fails.",
+      "System recovers gracefully from temporary failures.",
+      "AC-07 – Accessibility",
+      "Interactive controls are keyboard accessible.",
+      "Screen reader labels are available.",
+      "Focus order is logical.",
+      "Non-Functional Requirements",
+      "Auction pages load within acceptable performance limits.",
+      "Bid submission is processed reliably.",
+      "UI is responsive across desktop, tablet, and mobile.",
+      "Supported browsers include Chrome, Edge, Firefox, and Safari.",
+      "Priority",
+      "High",
+      "Labels",
+      "auctions",
+      "bidding",
+      "webook",
+      "qa"
+    ],
+    "linked_issues": [],
+    "attachments": [
+      {
+        "id": "10546",
+        "filename": "coverage_summary.json",
+        "content_type": "application/json",
+        "size_bytes": "311",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10546",
+        "author": "Espin Shalo",
+        "created": "2026-07-20T16:36:27.362+0530"
+      },
+      {
+        "id": "10544",
+        "filename": "story.json",
+        "content_type": "application/json",
+        "size_bytes": "4915",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10544",
+        "author": "Espin Shalo",
+        "created": "2026-07-20T16:36:24.762+0530"
+      },
+      {
+        "id": "10545",
+        "filename": "testcases.json",
+        "content_type": "application/json",
+        "size_bytes": "195864",
+        "url": "https://espinsworkspace-45813328.atlassian.net/rest/api/3/attachment/content/10545",
+        "author": "Espin Shalo",
+        "created": "2026-07-20T16:36:25.886+0530"
+      }
+    ],
+    "comments": [
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Case Generation Summary — KAN-9\nQA Run Summary\nStatus: 🟡 Generated (Execution Pending)\nRun Timestamp: 2026-07-20 11-06-28 UTC\nTarget Run Directory: KAN-9_auctions_20260720_163518\nFeature: Auctions\nTest Generation Summary\nTotal Test Cases Generated: 54\nBy Type: Functional: 35, Negative: 2, Edge: 1, UI: 2, Business-Rule: 5, Workflow: 1, Security: 2, Resilience: 2, State-Transition: 1, Accessibility: 2, Recovery: 1\nBy Priority: High: 42, Medium: 5, Low: 7\nCoverage Summary\nCoverage Status: 🟢 Fully Covered (100.0%)\nExecution Scope: No execution performed (Generation Only)\nAcceptance Criteria Coverage: 39 Acceptance Criteria identified in story (per-criterion mapping not independently verified)\nAll generated test cases were target of this run.\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nstory.json\ntestcases.json\ncoverage_summary.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-20T16:36:28.608+0530",
+        "updated": "2026-07-20T16:36:28.608+0530"
+      }
+    ],
+    "created_at": "2026-06-25T17:45:14.187+0530",
+    "updated_at": "2026-07-20T16:36:28.608+0530",
+    "fetched_at": "2026-07-20T11:13:50.554330+00:00"
+  },
+  "_metadata": {
+    "source_agent": "jira_agent",
+    "pipeline_run_id": null,
+    "jira_base_url": "https://espinsworkspace-45813328.atlassian.net",
+    "jql_used": "project = \"KAN\" AND status = \"Ready for QA\""
+  }
+}

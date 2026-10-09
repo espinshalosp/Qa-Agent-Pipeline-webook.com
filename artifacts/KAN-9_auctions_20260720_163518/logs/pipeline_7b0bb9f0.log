@@ -1,0 +1,255 @@
+{"timestamp": "2026-07-20T16:35:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Running self-learning behavioral QA intelligence engine"}
+{"timestamp": "2026-07-20T16:35:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Story specifies an explicit target URL directive: https://webook.com"}
+{"timestamp": "2026-07-20T16:35:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Pre-crawling home page to dynamically discover routes..."}
+{"timestamp": "2026-07-20T16:35:19", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Launching chromium (headless=False)"}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Dynamically discovered 39 routes: [{'label': 'Explore', 'path': '/en/explore'}, {'label': 'Flights', 'path': '/en/flights'}, {'label': 'Hotels', 'path': '/en/hotels'}, {'label': 'Subscriptions', 'path': '/en/subscriptions'}, {'label': 'Business partners', 'path': '/business/en'}, {'label': 'Our blog', 'path': '/blog'}, {'label': 'Today', 'path': '/en/events-happening-today'}, {'label': 'Things to do', 'path': '/en/explore?tag=things-to-do'}, {'label': 'Sports', 'path': '/en/explore?category=sports-event'}, {'label': 'Football', 'path': '/en/explore?tag=football'}, {'label': 'Weekend', 'path': '/en/explore?date=thisweek'}, {'label': 'Concerts', 'path': '/en/explore?tag=concerts'}, {'label': 'Theater', 'path': '/en/explore?category=theater-and-performing-arts'}, {'label': 'Restaurants', 'path': '/en/explore?category=restaurant-and-cafe'}, {'label': 'Shop', 'path': '/shop/en/'}, {'label': 'Auctions New', 'path': '/en/auctions'}, {'label': 'Portuguese MotoGP Grand Prix 2026', 'path': '/en/page/motogp-2026'}, {'label': 'Esports World Cup WITNESS THE ACTION', 'path': '/en/page/esports-world-cup'}, {'label': 'See more', 'path': '/explore?category=restaurant-and-cafe'}, {'label': 'See more', 'path': '/explore'}, {'label': 'Experiences', 'path': '/en/unique-experiences'}, {'label': 'Travel', 'path': '/en/travel-wbk'}, {'label': 'Sports Events', 'path': '/en/explore?category=sports-events'}, {'label': 'Music Events', 'path': '/en/explore?category=music-events'}, {'label': 'Families', 'path': '/en/explore?tag=families'}, {'label': 'Couples', 'path': '/en/explore?tag=couples'}, {'label': 'Kids', 'path': '/en/explore?tag=kids'}, {'label': 'Solo', 'path': '/en/explore?tag=solo'}, {'label': 'Ladies', 'path': '/en/explore?tag=ladies'}, {'label': 'CONTACT US', 'path': '/en/contact-us'}, {'label': 'BUSINESS PARTNERS', 'path': '/en/business'}, {'label': 'PRIVACY POLICY', 'path': '/en/privacy'}, {'label': 'TERMS & CONDITIONS', 'path': '/en/terms'}, {'label': 'ABOUT US', 'path': '/en/about'}, {'label': 'STARTUP ACCELERATOR FUND', 'path': '/en/fun-startup-accelerator-fund'}, {'label': 'REPORT SECURITY VULNERABILITY', 'path': '/security'}, {'label': 'TICKET SAFETY', 'path': '/ticket-safety'}, {'label': 'REPORT BLACK MARKET ACTIVITY', 'path': '/report-black-market'}, {'label': 'FAN PROTECTION', 'path': '/fan-protection'}]"}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentEngine] Using dynamically extracted route from Jira story URL: Auctions -> /en/page/auctions"}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Extracted Intent: {'domain': 'Auctions', 'path': '/en/page/auctions', 'user_goal': 'Execute operations and validation tasks within the Auctions page space', 'business_action': 'Verify behavioral state transitions for the Auctions user journey', 'validations_required': ['Error Alerts Handling'], 'semantic_key': 'transactional', 'acceptance_criteria': ['AC-01 – Auction Listing', 'User can navigate to the Auctions module.', 'Active auctions are displayed.', 'Each auction card displays the auction title, image, current highest bid, auction status, and end time.', 'AC-02 – Auction Details', 'User can open an auction item.', 'The detail page displays item information, description, images, bidding rules, current highest bid, minimum next bid, remaining auction time, and seller information (if applicable).', 'AC-03 – Place Bid', 'Authenticated users can place a bid greater than or equal to the minimum allowed bid.', 'The system validates the bid before submission.', 'Successful bids update the current highest bid.', 'AC-04 – Bid Validation', 'Bid amount below the minimum allowed bid is rejected.', 'Invalid bid values display appropriate validation messages.', 'Users who are not signed in are prompted to authenticate before bidding.', 'AC-05 – Auction Status', 'Auction status updates correctly when:', 'Auction is active.', 'Auction has ended.', 'Bidding is unavailable.', 'AC-06 – Error Handling', 'User-friendly error messages are displayed if bid submission fails.', 'System recovers gracefully from temporary failures.', 'AC-07 – Accessibility', 'Interactive controls are keyboard accessible.', 'Screen reader labels are available.', 'Focus order is logical.', 'Non-Functional Requirements', 'Auction pages load within acceptable performance limits.', 'Bid submission is processed reliably.', 'UI is responsive across desktop, tablet, and mobile.', 'Supported browsers include Chrome, Edge, Firefox, and Safari.', 'Priority', 'High', 'Labels', 'auctions', 'bidding', 'webook', 'qa']}"}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Clearing stale behavioral graph memory from story None for active story KAN-9."}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Loaded behavioral memory graph (filtered for Auctions): 0 nodes, 0 edges"}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[PreGenerationValidation] Verifying execution context isolation..."}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[PreGenerationValidation] Story context validation passed. Cross-module contamination check deferred to post-generation validation."}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Launching explorer targeting scoped URL: https://webook.com/en/page/auctions"}
+{"timestamp": "2026-07-20T16:35:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Launching chromium (headless=False)"}
+{"timestamp": "2026-07-20T16:35:29", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Final assessment completion: 0 assessed, 0 skipped, 0 failed, 0 remaining pending"}
+{"timestamp": "2026-07-20T16:35:29", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Depth 1: Navigating to https://webook.com/en/page/auctions (Load count: 1)"}
+{"timestamp": "2026-07-20T16:35:36", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Dynamically discovered allowed detail paths at runtime: ['terms', 'privacy', 'contact-us', 'business', 'explore', 'security', 'report-black-market', 'https:', 'login', 'about', 'ticket-safety', 'fun-startup-accelerator-fund', 'subscriptions', 'hotels', 'fan-protection', 'flights']"}
+{"timestamp": "2026-07-20T16:35:37", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Dismissing cookie consent overlay via 'Reject all non-essential' button."}
+{"timestamp": "2026-07-20T16:35:39", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Performing scroll assessment on https://webook.com/en/page/auctions"}
+{"timestamp": "2026-07-20T16:35:41", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Discovered 3 inputs and 14 buttons on https://webook.com/en/page/auctions"}
+{"timestamp": "2026-07-20T16:35:41", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Assessment completion tracking: 1 pending, 2 skipped, 0 failed"}
+{"timestamp": "2026-07-20T16:35:41", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #1: clickable on 'Formula 1
+Auction
+
+1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition | Carbon Series Motorsport Wall Art Display
+
+Saudi Arabia
+
+Minimum bid
+
+1,000
+
+Instant booking'"}
+{"timestamp": "2026-07-20T16:35:43", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #2: clickable on 'Auction
+
+1:4 Scale Formula 1 Framed Car Replica – Red Bull Edition | Carbon Series Motorsport Wall Art Display
+
+Saudi Arabia
+
+Minimum bid
+
+1,000
+
+Instant booking'"}
+{"timestamp": "2026-07-20T16:35:44", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Depth 2: Navigating to https://webook.com/en/SA/local/auctions/auctions/1-4-scale-formula-1-framed-car-replica-red-bull-edition-carbon-series-motorsport-wall-art-display (Load count: 2)"}
+{"timestamp": "2026-07-20T16:35:50", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Performing scroll assessment on https://webook.com/en/SA/local/auctions/auctions/1-4-scale-formula-1-framed-car-replica-red-bull-edition-carbon-series-motorsport-wall-art-display"}
+{"timestamp": "2026-07-20T16:35:53", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Discovered 0 inputs and 28 buttons on https://webook.com/en/SA/local/auctions/auctions/1-4-scale-formula-1-framed-car-replica-red-bull-edition-carbon-series-motorsport-wall-art-display"}
+{"timestamp": "2026-07-20T16:35:53", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Assessment completion tracking: 7 pending, 5 skipped, 0 failed"}
+{"timestamp": "2026-07-20T16:35:53", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #1: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(1)'"}
+{"timestamp": "2026-07-20T16:35:54", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #2: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(2)'"}
+{"timestamp": "2026-07-20T16:35:55", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #3: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(3)'"}
+{"timestamp": "2026-07-20T16:35:56", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #4: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(4)'"}
+{"timestamp": "2026-07-20T16:35:57", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #5: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(5)'"}
+{"timestamp": "2026-07-20T16:35:58", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #6: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(6)'"}
+{"timestamp": "2026-07-20T16:35:59", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #7: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(7)'"}
+{"timestamp": "2026-07-20T16:36:00", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #8: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(8)'"}
+{"timestamp": "2026-07-20T16:36:01", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #9: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(9)'"}
+{"timestamp": "2026-07-20T16:36:03", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #10: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(10)'"}
+{"timestamp": "2026-07-20T16:36:04", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #11: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(11)'"}
+{"timestamp": "2026-07-20T16:36:05", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #12: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(12)'"}
+{"timestamp": "2026-07-20T16:36:06", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #13: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(13)'"}
+{"timestamp": "2026-07-20T16:36:07", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #14: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(14)'"}
+{"timestamp": "2026-07-20T16:36:08", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #15: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(15)'"}
+{"timestamp": "2026-07-20T16:36:09", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #16: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(16)'"}
+{"timestamp": "2026-07-20T16:36:10", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #17: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(17)'"}
+{"timestamp": "2026-07-20T16:36:11", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #18: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(18)'"}
+{"timestamp": "2026-07-20T16:36:12", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #19: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > button:nth-of-type(19)'"}
+{"timestamp": "2026-07-20T16:36:14", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #20: clickable on 'main#main > section:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > button:nth-of-type(1)'"}
+{"timestamp": "2026-07-20T16:36:15", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: modal/drawer opened; content results updated (count changed from 9 to 15); page content updated"}
+{"timestamp": "2026-07-20T16:36:15", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #21: clickable on 'Copy link'"}
+{"timestamp": "2026-07-20T16:36:16", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #22: clickable on 'WhatsApp'"}
+{"timestamp": "2026-07-20T16:36:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #23: clickable on 'X'"}
+{"timestamp": "2026-07-20T16:36:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #24: clickable on 'LinkedIn'"}
+{"timestamp": "2026-07-20T16:36:19", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #25: clickable on 'Email'"}
+{"timestamp": "2026-07-20T16:36:20", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #26: clickable on 'Other'"}
+{"timestamp": "2026-07-20T16:36:22", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "Interaction with element html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(6) > button failed: Locator.click: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /Users/jarwiz/Library/Caches/ms-playwright/chromium-1148/chrome-mac/Chromium.app/Contents/MacOS/Chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-use-zoom-for-dsf=false --no-sandbox --user-data-dir=/var/folders/3l/2t7mr8k930389413g8jlcym40000gn/T/playwright_chromiumdev_profile-39OES3 --remote-debugging-pipe --no-startup-window
+<launched> pid=5764
+[pid=5764][err] [5792:259:0720/163619.706336:ERROR:system_services.cc(31)] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+[pid=5764][err] [5764:259:0720/163620.593279:ERROR:device_event_log_impl.cc(201)] [16:36:20.593] FIDO: fido_discovery_factory.cc:70 Cannot start caBLE because process is not self-responsible. Launch from Finder to fix.
+[pid=5764][err] [5764:259:0720/163620.593354:ERROR:device_event_log_impl.cc(201)] [16:36:20.593] FIDO: fido_request_handler_base.cc:295 Cannot test Bluetooth power status because process is not self-responsible. Launch from Finder to fix.
+[pid=5764][err] [5764:259:0720/163620.606320:ERROR:device_event_log_impl.cc(201)] [16:36:20.605] FIDO: touch_id_context.mm:89 Touch ID authenticator unavailable because keychain-access-group entitlement is missing or incorrect. Expected value: .org.chromium.Chromium.webauthn
+[pid=5764][err] 2026-07-20 16:36:21.478 Chromium[5764:187221] *** Assertion failure in -[NSMenu popUpMenuPositioningItem:atLocation:inView:appearance:], NSMenu.m:1781
+[pid=5764][err] 2026-07-20 16:36:21.486 Chromium[5764:187221] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'View is not in any window'
+[pid=5764][err] *** First throw call stack:
+[pid=5764][err] (
+[pid=5764][err] 	0   CoreFoundation                      0x00007ff8154d46e3 __exceptionPreprocess + 242
+[pid=5764][err] 	1   Chromium Framework                  0x000000011e3efc7b ChromeMain + 116544315
+[pid=5764][err] 	2   libobjc.A.dylib                     0x00007ff8152348bb objc_exception_throw + 48
+[pid=5764][err] 	3   Foundation                          0x00007ff816381cd3 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 267
+[pid=5764][err] 	4   AppKit                              0x00007ff8184b9f07 -[NSMenu popUpMenuPositioningItem:atLocation:inView:appearance:] + 391
+[pid=5764][err] 	5   ShareKit                            0x00007ff922827b38 -[SHKSharingServicePicker showRelativeToRect:ofView:preferredEdge:] + 1396
+[pid=5764][err] 	6   Chromium Framework                  0x000000011cece55e ChromeMain + 94387230
+[pid=5764][err] 	7   Chromium Framework                  0x000000011cec4f9d ChromeMain + 94348893
+[pid=5764][err] 	8   Chromium Framework                  0x000000011e42fee6 ChromeMain + 116807078
+[pid=5764][err] 	9   Chromium Framework                  0x000000011e42f48f ChromeMain + 116804431
+[pid=5764][err] 	10  Chromium Framework                  0x000000011e42f312 ChromeMain + 116804050
+[pid=5764][err] 	11  Chromium Framework                  0x000000011e43133b ChromeMain + 116812283
+[pid=5764][err] 	12  Chromium Framework                  0x000000011e43101a ChromeMain + 116811482
+[pid=5764][err] 	13  Chromium Framework                  0x000000011bf54221 ChromeMain + 78158049
+[pid=5764][err] 	14  Chromium Framework                  0x0000000117dc2d5e ChromeMain + 9405470
+[pid=5764][err] 	15  Chromium Framework                  0x0000000118bf3c87 ChromeMain + 24286023
+[pid=5764][err] 	16  Chromium Framework                  0x0000000117db6568 ChromeMain + 9354280
+[pid=5764][err] 	17  Chromium Framework                  0x000000011ad3ac51 ChromeMain + 59179793
+[pid=5764][err] 	18  Chromium Framework                  0x000000011ad6b980 ChromeMain + 59379776
+[pid=5764][err] 	19  Chromium Framework                  0x000000011ad50812 ChromeMain + 59268818
+[pid=5764][err] 	20  Chromium Framework                  0x000000011ad5be41 ChromeMain + 59315457
+[pid=5764][err] 	21  Chromium Framework                  0x00000001175bb55a ChromeMain + 986138
+[pid=5764][err] 	22  Chromium Framework                  0x000000011ad5ba1f ChromeMain + 59314399
+[pid=5764][err] 	23  CoreFoundation                      0x00007ff8154590ab __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+[pid=5764][err] 	24  CoreFoundation                      0x00007ff815459013 __CFRunLoopDoSource0 + 180
+[pid=5764][err] 	25  CoreFoundation                      0x00007ff815458d8d __CFRunLoopDoSources0 + 242
+[pid=5764][err] 	26  CoreFoundation                      0x00007ff8154577a8 __CFRunLoopRun + 892
+[pid=5764][err] 	27  CoreFoundation                      0x00007ff815456d6c CFRunLoopRunSpecific + 562
+[pid=5764][err] 	28  HIToolbox                           0x00007ff81e1095e6 RunCurrentEventLoopInMode + 292
+[pid=5764][err] 	29  HIToolbox                           0x00007ff81e10934a ReceiveNextEventCommon + 594
+[pid=5764][err] 	30  HIToolbox                           0x00007ff81e1090e5 _BlockUntilNextEventMatchingListInModeWithFilter + 70
+[pid=5764][err] 	31  AppKit                              0x00007ff817e95aa9 _DPSNextEvent + 927
+[pid=5764][err] 	32  AppKit                              0x00007ff817e94166 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 1394
+[pid=5764][err] 	33  Chromium Framework                  0x000000011e1e939f ChromeMain + 114420319
+[pid=5764][err] 	34  Chromium Framework                  0x00000001175bb55a ChromeMain + 986138
+[pid=5764][err] 	35  Chromium Framework                  0x000000011ad037e0 ChromeMain + 58953376
+[pid=5764][err] 	36  AppKit                              0x00007ff817e86818 -[NSApplication run] + 586
+[pid=5764][err] 	37  Chromium Framework                  0x0000000119eec3b8 ChromeMain + 44178040
+[pid=5764][err] 	38  Chromium Framework                  0x0000000119beeab3 ChromeMain + 41042291
+[pid=5764][err] 	39  Chromium Framework                  0x00000001187cf98b ChromeMain + 19943499
+[pid=5764][err] 	40  Chromium Framework                  0x0000000118e0efeb ChromeMain + 26494635
+[pid=5764][err] 	41  Chromium Framework                  0x00000001197d0a82 ChromeMain + 36725058
+[pid=5764][err] 	42  Chromium Framework                  0x00000001197d07c1 ChromeMain + 36724353
+[pid=5764][err] 	43  Chromium Framework                  0x00000001195adf96 ChromeMain + 34485846
+[pid=5764][err] 	44  Chromium Framework                  0x00000001195ae920 ChromeMain + 34488288
+[pid=5764][err] 	45  Chromium Framework                  0x00000001174cabff ChromeMain + 703
+[pid=5764][err] 	46  Chromium                            0x00000001095d146d main + 205
+[pid=5764][err] 	47  dyld                                0x000000010a75852e start + 462
+[pid=5764][err] )
+[pid=5764][err] [0720/163621.979802:WARNING:crash_report_exception_handler.cc(235)] UniversalExceptionRaise: (os/kern) failure (5)
+[pid=5764] <process did exit: exitCode=null, signal=SIGILL>
+[pid=5764] starting temporary directories cleanup
+Call log:
+  - waiting for locator("html > body:nth-of-type(1) > div:nth-of-type(10) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(6) > button")
+  -     - locator resolved to <button class="border border-action hover:bg-action-400/20 active:bg-action/30 text-action disabled:bg-input-disabled/30 disabled:border-input-disabled relative inline-flex items-center overflow-hidden px-4 py-2 text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S radius-XS h-12 w-full justify-start gap-3">…</button>
+  -   - attempting click action
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - forcing action
+  -     - performing click action
+"}
+{"timestamp": "2026-07-20T16:36:22", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "Failed to retrieve before_state: Page.evaluate: Target page, context or browser has been closed"}
+{"timestamp": "2026-07-20T16:36:22", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Returning back to page: https://webook.com/en/page/auctions"}
+{"timestamp": "2026-07-20T16:36:22", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "Failed to navigate back to https://webook.com/en/page/auctions: Page.goto: Target page, context or browser has been closed"}
+{"timestamp": "2026-07-20T16:36:22", "level": "ERROR", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Crawler encountered exception: Page.wait_for_timeout: Target page, context or browser has been closed"}
+Traceback (most recent call last):
+  File "/Users/jarwiz/Documents/shalo/qa_agent_platform/agents/testcase_generation_agent.py", line 2810, in explore
+    run_crawl(target_url, start_node, depth=1)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jarwiz/Documents/shalo/qa_agent_platform/agents/testcase_generation_agent.py", line 2677, in run_crawl
+    page.wait_for_timeout(1000)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/playwright/sync_api/_generated.py", line 11478, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/playwright/_impl/_page.py", line 1073, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/playwright/_impl/_frame.py", line 756, in wait_for_timeout
+    await self._channel.send("waitForTimeout", locals_to_params(locals()))
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+{"timestamp": "2026-07-20T16:36:24", "level": "ERROR", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Exploration failed: Page.wait_for_timeout: Target page, context or browser has been closed"}
+{"timestamp": "2026-07-20T16:36:24", "level": "ERROR", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Partial assessment completion: 1 assessed, 8 skipped, 0 failed, 16 pending"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Saved crawler exploration report to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-9_auctions_20260720_163518/exploration_report.json"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=================================================================="}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "  CRAWLER BEHAVIORAL ASSESSMENT SUMMARY"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=================================================================="}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Assessed elements           : 27"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Intentionally skipped       : 14"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Framework failures          : 1"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Remaining pending           : 33"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=================================================================="}
+{"timestamp": "2026-07-20T16:36:24", "level": "ERROR", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Behavioral exploration incomplete due to failure: Page.wait_for_timeout: Target page, context or browser has been closed"}
+{"timestamp": "2026-07-20T16:36:24", "level": "ERROR", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Testcase generation should be blocked or flagged as incomplete"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralFlowEngine] Graph updated: 0 new transitions, 0 existing transitions."}
+{"timestamp": "2026-07-20T16:36:24", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "[RejectionPolicy] Rejected 'Verify access authorization controls when navigating to link': Navigation-only testcase without destination analysis."}
+{"timestamp": "2026-07-20T16:36:24", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "[RejectionPolicy] Rejected 'Verify complete end-to-end user journey flow for Auctions Management (ac-01 – auction listing → navigate to the auctions module → active auctions are displayed → each auction card displays the auction title, image, → ac-02 – auction details)': Navigation-only testcase without destination analysis."}
+{"timestamp": "2026-07-20T16:36:24", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "[GenerationQuality] Found 3 quality issues: ['Semantic duplicate detected in testcase TC-AUCTIONS-002: Verify entering valid data in input field Auctions Input updates state', 'Semantic duplicate detected in testcase TC-AUCTIONS-010: Verify sorting orders list elements correctly', 'Semantic duplicate detected in testcase TC-AUCTIONS-011: Verify sorting orders list elements correctly']"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Merged test cases: 0 existing, 54 new added. Total: 54"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[PostGenerationValidation] Verifying consistency of generated test suite..."}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Test case generation run mode: FULL"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=========================================================="}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "  FINAL QUALITY GATE & COVERAGE VALIDATION"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=========================================================="}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Pages analyzed: 1"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "✓ Behavior-path coverage score: 1.0 (0 path(s) not represented)"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Capability gap analysis: see QAReasoningEngine log output above for this run."}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "✓ No duplicate business workflows: True (0 duplicate(s) found)"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "✓ No AC-referenced testcase titles: True (0 found)"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "⚠ No generic expected results: False (1 found)"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Total test cases: 54"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=========================================================="}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] ✓ Saved generated testcases to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-9_auctions_20260720_163518/testcases.json"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] ✓ Saved selector registry to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-9_auctions_20260720_163518/selector_registry.json"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] ✓ Saved behavioral graph memory: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-9_auctions_20260720_163518/ui_graph.json"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] ✓ Saved True Coverage summary: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-9_auctions_20260720_163518/coverage_summary.json"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "__main__", "message": "[Pipeline] ✓ KAN-9 complete — 54 test case(s) generated."}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "__main__", "message": "[Pipeline] Non-interactive or auto-approve context detected. Auto-approving Jira update for KAN-9."}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "__main__", "message": "[Pipeline] Updating Jira with Test Case Generation details and attachments for KAN-9..."}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.jira_update_agent", "message": "============================================================"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.jira_update_agent", "message": "[JiraUpdateAgent] Updating details and attachments on Jira for generation phase..."}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.jira_update_agent", "message": "[JiraUpdateAgent] Target run dir: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-9_auctions_20260720_163518"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.jira_update_agent", "message": "============================================================"}
+{"timestamp": "2026-07-20T16:36:24", "level": "INFO", "logger": "agents.jira_update_agent", "message": "[JiraUpdateAgent] Uploading attachment: story.json (4915 bytes)"}
+{"timestamp": "2026-07-20T16:36:25", "level": "INFO", "logger": "agents.jira_update_agent", "message": "[JiraUpdateAgent] Uploading attachment: testcases.json (195864 bytes)"}
+{"timestamp": "2026-07-20T16:36:27", "level": "INFO", "logger": "agents.jira_update_agent", "message": "[JiraUpdateAgent] Uploading attachment: coverage_summary.json (311 bytes)"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "agents.jira_update_agent", "message": "[JiraUpdateAgent] ✓ Posted update comment to KAN-9 (Comment ID: 10124)"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  MANUAL APPROVAL GATE"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "Test case generation completed successfully for KAN-9."}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "Generated Test Cases: 54"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "Test Case Types:"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Accessibility: 2"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Business-Rule: 5"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Edge: 1"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Functional: 35"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Negative: 2"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Recovery: 1"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Resilience: 2"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Security: 2"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - State-Transition: 1"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - UI: 2"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "  - Workflow: 1"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "You may now review, modify, remove, or add test cases."}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "Test cases location: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-9_auctions_20260720_163518/testcases.json"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "Execution Mode Selection:"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "1. Full Execution"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "2. Execute only selected test cases"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "3. Exit"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "[Pipeline] SKIP_EXECUTION=true detected. Skipping execution."}
+{"timestamp": "2026-07-20T16:36:28", "level": "INFO", "logger": "__main__", "message": "[Pipeline] Manual approval not received. Skipping execution for KAN-9."}

@@ -1,0 +1,14 @@
+{
+  "total_nodes": 0,
+  "total_behavior_paths": 0,
+  "executed_paths": [],
+  "missing_paths": [],
+  "coverage_score": 1.0,
+  "_metadata": {
+    "components_coverage": 1.0,
+    "business_rules_coverage": 1.0,
+    "transitions_coverage": 1.0,
+    "categories_coverage": 1.0,
+    "observed_api_coverage": 1.0
+  }
+}
