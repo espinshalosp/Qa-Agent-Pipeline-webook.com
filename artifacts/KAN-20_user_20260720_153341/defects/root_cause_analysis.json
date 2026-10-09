@@ -1,0 +1,9 @@
+{
+  "root_cause_classifications": {},
+  "root_cause_breakdown_summary": "All tests executed successfully. No root causes to analyze.",
+  "rc_metrics": {
+    "product_vs_automation_vs_environment_split": {},
+    "repeated_failure_hotspots": {},
+    "dominant_failure_causes": {}
+  }
+}

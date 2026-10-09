@@ -1,0 +1,807 @@
+{
+  "domain": "Esports world cup witness the action",
+  "target_url": "https://webook.com/en/page/esports-world-cup",
+  "timestamp": "2026-07-19T15:44:34.283695+00:00",
+  "exploration_failed": false,
+  "exploration_failure_reason": null,
+  "assessment_completion": {
+    "total_pending": 51,
+    "assessed": 31,
+    "skipped": 13,
+    "failed": 4
+  },
+  "interactables": [
+    {
+      "selector": "[data-testid=\"top_notice_We are hiring notice\"]",
+      "tagName": "a",
+      "text": "✨ We’re Hiring. Apply now ✨",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"top_notice_close\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_desktop_logo\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_explore\"]",
+      "tagName": "a",
+      "text": "Explore",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Flight top menu\"]",
+      "tagName": "a",
+      "text": "Flights",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Hotels sub menu\"]",
+      "tagName": "a",
+      "text": "Hotels",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Resell\"]",
+      "tagName": "a",
+      "text": "Ticket resell",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Subscriptions\"]",
+      "tagName": "a",
+      "text": "Subscriptions",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_search_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > header:nth-of-type(1) > nav > ul > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Business partners",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > header:nth-of-type(1) > nav > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Our blog",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"lang-switcher\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_login_button\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#ewc-hero > div > div > div:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "Book tickets now",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(5) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(5) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(5) > div:nth-of-type(2) > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(5) > div:nth-of-type(2) > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(6) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(6) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(6) > div:nth-of-type(2) > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#weeklySchedule > div > div > div:nth-of-type(2) > div > div:nth-of-type(6) > div:nth-of-type(2) > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "Book tickets",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_fullscreen_carousel_ewcFC Pro World Championship\"]",
+      "tagName": "section",
+      "text": "FC Pro World Championship at EWC 26",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#ewcFC Pro World Championship > div > div > div:nth-of-type(2) > div > div > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "framework failure",
+      "reason": "Locator.scroll_into_view_if_needed: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"section#ewcFC Pro World Championship > div > div > div:nth-of-type(2) > div > div > a\")\n"
+    },
+    {
+      "selector": "[data-testid=\"section_fullscreen_carousel_ewcFanFest \"]",
+      "tagName": "section",
+      "text": "Fan Fest",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#ewcFanFest  > div > div > div:nth-of-type(2) > div > div > a",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "framework failure",
+      "reason": "Locator.scroll_into_view_if_needed: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"section#ewcFanFest  > div > div > div:nth-of-type(2) > div > div > a\")\n"
+    },
+    {
+      "selector": "[data-testid=\"section_table_ewcOfferings\"]",
+      "tagName": "section",
+      "text": "WHICH TICKET IS BEST FOR ME?\n\nCheck out the table overview to select the ticket that suits you best.\n\nOfferings\n\nPREMIUM TOURNAMENT PASS\n\nREGULAR TOURNAMENT PASS\n\nTOURNAMENT SINGLE DAY PASS\n\nFast track\n\nGame access\n\nOne game one day\n\nOne game one day\n\nOne game one day\n\nGoodie Bag",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_image_info_carousel_ewcEmbassy\"]",
+      "tagName": "section",
+      "text": "EWC EMBASSY\nThe Embassy offers high-end hospitality and access in a luxurious private environment overlooking the live action. Enjoy premium viewing lounges, curated food and beverages, private meeting spaces, in a refined atmosphere. Whether you're entertaining clients, connecting with industry leaders, or simply elevating your experience, the Esports Embassy is your elite front-row seat to EWC.\nRead More\nBook tickets now\nThe Embassy offers high-end hospitality and access in a luxurious private environment overlooking the live action. Enjoy premium viewing lounges, curated food and beverages, private meeting spaces, in a refined atmosphere. Whether you're entertaining clients, connecting with industry leaders, or simply elevating your experience, the Esports Embassy is your elite front-row seat to EWC.\nRead More\nBook tickets now\nThe Embassy offers high-end hospitality and access in a luxurious private environment overlooking the live action. Enjoy premium viewing lounges, curated food and beverages, private meeting spaces, in a refined atmosphere. Whether you're entertaining clients, connecting with industry leaders, or simply elevating your experience, the Esports Embassy is your elite front-row seat to EWC.\nRead More\nBook tickets now",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#ewcEmbassy > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "div#ewcEmbassy > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_carousel_item_ewc empassy story 1\"]",
+      "tagName": "div",
+      "text": "The Embassy offers high-end hospitality and access in a luxurious private environment overlooking the live action. Enjoy premium viewing lounges, curated food and beverages, private meeting spaces, in a refined atmosphere. Whether you're entertaining clients, connecting with industry leaders, or simply elevating your experience, the Esports Embassy is your elite front-row seat to EWC.\nRead More\nBook tickets now",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"collapsable-text\"]",
+      "tagName": "div",
+      "text": "The Embassy offers high-end hospitality and access in a luxurious private environment overlooking the live action. Enjoy premium viewing lounges, curated food and beverages, private meeting spaces, in a refined atmosphere. Whether you're entertaining clients, connecting with industry leaders, or simply elevating your experience, the Esports Embassy is your elite front-row seat to EWC.",
+      "controlType": "clickable",
+      "classification": "framework failure",
+      "reason": "Locator.click: Element is outside of the viewport\nCall log:\n  - waiting for get_by_test_id(\"collapsable-text\").first\n    - locator resolved to <div data-testid=\"collapsable-text\" class=\"max-w-full whitespace-pre-wrap line-clamp-3 prose text-text-secondary\">…</div>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n"
+    },
+    {
+      "selector": "div#ewcEmbassy > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "Read More",
+      "controlType": "clickable",
+      "classification": "framework failure",
+      "reason": "Locator.click: Element is outside of the viewport\nCall log:\n  - waiting for locator(\"div#ewcEmbassy > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button\")\n    - locator resolved to <button aria-label=\"Read More\" class=\"disabled:bg-input-disabled/10 inline-flex items-center justify-center gap-1 overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S text-text-link relative m-px p-0 text-sm ring-0 hover:underline focus:ring-0\"> Read More</button>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n"
+    },
+    {
+      "selector": "div#ewcEmbassy > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Book tickets now",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_carousel_item_ewc embassy story 2\"]",
+      "tagName": "div",
+      "text": "The Embassy offers high-end hospitality and access in a luxurious private environment overlooking the live action. Enjoy premium viewing lounges, curated food and beverages, private meeting spaces, in a refined atmosphere. Whether you're entertaining clients, connecting with industry leaders, or simply elevating your experience, the Esports Embassy is your elite front-row seat to EWC.\nRead More\nBook tickets now",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "div#ewcEmbassy > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "Read More",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "div#ewcEmbassy > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Book tickets now",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_carousel_item_ewc embassy story 3\"]",
+      "tagName": "div",
+      "text": "The Embassy offers high-end hospitality and access in a luxurious private environment overlooking the live action. Enjoy premium viewing lounges, curated food and beverages, private meeting spaces, in a refined atmosphere. Whether you're entertaining clients, connecting with industry leaders, or simply elevating your experience, the Esports Embassy is your elite front-row seat to EWC.\nRead More\nBook tickets now",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "div#ewcEmbassy > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "Read More",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "div#ewcEmbassy > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Book tickets now",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_events_grid_carousel_ewcTitles\"]",
+      "tagName": "section",
+      "text": "ESPORTS TITLES\nEvent · Aug 19 - Aug 23\n\nCounter-Strike 2 at EWC 26\n\nParis, France\n\nFrom\n\n102.94\n\nInstant booking\n\nEvent · Aug 12 - Aug 15\n\nR6 Siege at EWC 26\n\nParis, France\n\nFrom\n\n42.89\n\nInstant booking\n\nEvent · Aug 11 - Aug 15\n\nChess at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Aug 05 - Aug 08\n\nTEKKEN 8 at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Aug 04 - Aug 08\n\nHonor of Kings World Cup at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Aug 05 - Aug 09\n\nCall of Duty: BO7 at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Jul 29 - Aug 01\n\nStreet Fighter 6 at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Jul 30 - Aug 02\n\nCOD:WRS at EWC 26\n\nParis, France\n\nFrom\n\n42.89\n\nInstant booking\n\nEvent · Jul 29 - Aug 02\n\nOverwatch Champions Series MSC at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Jul 21 - Jul 26\n\nPUBG: BATTLEGROUNDS at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Jul 22 - Jul 26\n\nFC Pro World Championship at EWC 26\n\nParis, France\n\nFrom\n\n42.89\n\nInstant booking\n\nEvent · Jul 22 - Aug 08\n\nMobile Legends: Bang Bang MSC at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Jul 21 - Jul 25\n\nTeamfight Tactics at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Aug 18 - Aug 22\n\nCROSSFIRE at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking\n\nEvent · Aug 19 - Aug 22\n\nReload Elite Series Championship at EWC 26\n\nParis, France\n\nFrom\n\n60.05\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#ewcTitles > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#ewcTitles > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_counter-strike-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 19 - Aug 23\n\nCounter-Strike 2 at EWC 26\n\nParis, France\n\nFrom\n\n102.94\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_r6-siege-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 12 - Aug 15\n\nR6 Siege at EWC 26\n\nParis, France\n\nFrom\n\n42.89\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_chess-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 11 - Aug 15\n\nChess at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_tekken8-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 05 - Aug 08\n\nTEKKEN 8 at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_honor-of-kings-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 04 - Aug 08\n\nHonor of Kings World Cup at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_cod-bo7-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 05 - Aug 09\n\nCall of Duty: BO7 at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_street-fighter6-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 29 - Aug 01\n\nStreet Fighter 6 at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_cod-warzone-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 30 - Aug 02\n\nCOD:WRS at EWC 26\n\nParis, France\n\nFrom\n\n42.89\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_ow-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 29 - Aug 02\n\nOverwatch Champions Series MSC at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_pubg-battlegrounds-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 21 - Jul 26\n\nPUBG: BATTLEGROUNDS at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_eafc-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 22 - Jul 26\n\nFC Pro World Championship at EWC 26\n\nParis, France\n\nFrom\n\n42.89\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_bang-msc-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 22 - Aug 08\n\nMobile Legends: Bang Bang MSC at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_teamfight-tactics-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 21 - Jul 25\n\nTeamfight Tactics at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_crossfire-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 18 - Aug 22\n\nCROSSFIRE at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_fortnite-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 19 - Aug 22\n\nReload Elite Series Championship at EWC 26\n\nParis, France\n\nFrom\n\n60.05\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe\"]",
+      "tagName": "section",
+      "text": "Stay in the loop!\n\nGet the latest updates about the Esports World Cup\n\nSubscribe now!",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_newsletter_subscribe_button\"]",
+      "tagName": "button",
+      "text": "Subscribe now!",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_jobs Link in Footer\"]",
+      "tagName": "a",
+      "text": "JOBS & CAREERS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook Contact Us\"]",
+      "tagName": "a",
+      "text": "CONTACT US",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook.com for business footer\"]",
+      "tagName": "a",
+      "text": "BUSINESS PARTNERS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Privacy Policy\"]",
+      "tagName": "a",
+      "text": "PRIVACY POLICY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Terms and Conditions\"]",
+      "tagName": "a",
+      "text": "TERMS & CONDITIONS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook FAQ\"]",
+      "tagName": "a",
+      "text": "CARE CENTER & FAQs",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_About us\"]",
+      "tagName": "a",
+      "text": "ABOUT US",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Startup Accelerator Fund\"]",
+      "tagName": "a",
+      "text": "STARTUP ACCELERATOR FUND",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook blog footer\"]",
+      "tagName": "a",
+      "text": "BLOG",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook bug bounty\"]",
+      "tagName": "a",
+      "text": "REPORT SECURITY VULNERABILITY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_TICKET SAFETY\"]",
+      "tagName": "a",
+      "text": "TICKET SAFETY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_REPORT BLACK MARKET\"]",
+      "tagName": "a",
+      "text": "REPORT BLACK MARKET ACTIVITY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_FAN PROTECTION\"]",
+      "tagName": "a",
+      "text": "FAN PROTECTION",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > footer > div > div > div:nth-of-type(2) > nav:nth-of-type(1) > ul > li:nth-of-type(14) > button",
+      "tagName": "button",
+      "text": "COOKIE SETTINGS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_X Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Instagram Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Facebook Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Tiktok Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_snapchat Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Youtube\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook appstore app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook google play app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_huawei app download link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,2232 @@
+{
+  "nodes": [
+    "login",
+    "login_api_get_api_webook_com_api_v2_currencies",
+    "login_api_get_geolocation_webook_com",
+    "login_api_post_api_webook_com_api_v2_login",
+    "login_api_post_cdn_webook_com",
+    "login_comp_button",
+    "login_comp_button_has_text__create_an_account",
+    "login_comp_button_has_text__login",
+    "login_comp_button_has_text__reset_your_passwor",
+    "login_comp_input__r1d",
+    "login_comp_input_name__confirm_email",
+    "login_comp_input_name__email",
+    "login_comp_input_name__first_name",
+    "login_comp_input_name__last_name",
+    "login_comp_input_name__mobile",
+    "login_comp_input_name__password",
+    "login_comp_textarea_name__g_recaptcha_response",
+    "login_comp_we_re_hiring__apply_now______http",
+    "login_interact_button",
+    "login_interact_button_has_text__create_an_account",
+    "login_interact_button_has_text__login",
+    "login_interact_button_has_text__reset_your_passwor",
+    "login_interact_input__r1d",
+    "login_interact_input_name__confirm_email",
+    "login_interact_input_name__email",
+    "login_interact_input_name__first_name",
+    "login_interact_input_name__last_name",
+    "login_interact_input_name__mobile",
+    "login_interact_input_name__password",
+    "login_interact_textarea_name__g_recaptcha_response",
+    "login_interact_we_re_hiring__apply_now______http"
+  ],
+  "edges": [
+    {
+      "source": "login",
+      "target": "login_comp_input_name__email",
+      "action": "has component",
+      "result": "renders input",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_input_name__email",
+      "target": "login_interact_input_name__email",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_input_name__email",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_input_name__password",
+      "action": "has component",
+      "result": "renders input",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_input_name__password",
+      "target": "login_interact_input_name__password",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_input_name__password",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_textarea_name__g_recaptcha_response",
+      "action": "has component",
+      "result": "renders input",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_textarea_name__g_recaptcha_response",
+      "target": "login_interact_textarea_name__g_recaptcha_response",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_textarea_name__g_recaptcha_response",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_input_name__first_name",
+      "action": "has component",
+      "result": "renders input",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_input_name__first_name",
+      "target": "login_interact_input_name__first_name",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_input_name__first_name",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_input_name__last_name",
+      "action": "has component",
+      "result": "renders input",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_input_name__last_name",
+      "target": "login_interact_input_name__last_name",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_input_name__last_name",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_input_name__confirm_email",
+      "action": "has component",
+      "result": "renders input",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_input_name__confirm_email",
+      "target": "login_interact_input_name__confirm_email",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_input_name__confirm_email",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_input__r1d",
+      "action": "has component",
+      "result": "renders input",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_input__r1d",
+      "target": "login_interact_input__r1d",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_input__r1d",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_input_name__mobile",
+      "action": "has component",
+      "result": "renders input",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_input_name__mobile",
+      "target": "login_interact_input_name__mobile",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_input_name__mobile",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_button",
+      "action": "has component",
+      "result": "renders button",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_button",
+      "target": "login_interact_button",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_button",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_button_has_text__reset_your_passwor",
+      "action": "has component",
+      "result": "renders button",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_button_has_text__reset_your_passwor",
+      "target": "login_interact_button_has_text__reset_your_passwor",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_button_has_text__reset_your_passwor",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_button_has_text__login",
+      "action": "has component",
+      "result": "renders button",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_button_has_text__login",
+      "target": "login_interact_button_has_text__login",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_button_has_text__login",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_button_has_text__create_an_account",
+      "action": "has component",
+      "result": "renders button",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_button_has_text__create_an_account",
+      "target": "login_interact_button_has_text__create_an_account",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_button_has_text__create_an_account",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login_comp_we_re_hiring__apply_now______http",
+      "action": "has component",
+      "result": "renders link",
+      "state_change": false
+    },
+    {
+      "source": "login_comp_we_re_hiring__apply_now______http",
+      "target": "login_interact_we_re_hiring__apply_now______http",
+      "action": "interact via user action",
+      "result": "triggers click or entry",
+      "state_change": false
+    },
+    {
+      "source": "login_interact_we_re_hiring__apply_now______http",
+      "target": "login",
+      "action": "triggers system response",
+      "result": "system evaluates action",
+      "state_change": true
+    },
+    {
+      "source": "login_interact_input_name__email",
+      "target": "login_api_get_geolocation_webook_com",
+      "action": "triggers network call",
+      "result": "sends HTTP GET",
+      "state_change": false
+    },
+    {
+      "source": "login_api_get_geolocation_webook_com",
+      "target": "login",
+      "action": "returns status 200",
+      "result": "system processes response",
+      "state_change": true
+    },
+    {
+      "source": "login_interact_button",
+      "target": "login_api_post_cdn_webook_com",
+      "action": "triggers network call",
+      "result": "sends HTTP POST",
+      "state_change": false
+    },
+    {
+      "source": "login_api_post_cdn_webook_com",
+      "target": "login",
+      "action": "returns status 200",
+      "result": "system processes response",
+      "state_change": true
+    },
+    {
+      "source": "login_interact_input_name__email",
+      "target": "login_api_get_api_webook_com_api_v2_currencies",
+      "action": "triggers network call",
+      "result": "sends HTTP GET",
+      "state_change": false
+    },
+    {
+      "source": "login_api_get_api_webook_com_api_v2_currencies",
+      "target": "login",
+      "action": "returns status 200",
+      "result": "system processes response",
+      "state_change": true
+    },
+    {
+      "source": "login_interact_button",
+      "target": "login_api_post_api_webook_com_api_v2_login",
+      "action": "triggers network call",
+      "result": "sends HTTP POST",
+      "state_change": false
+    },
+    {
+      "source": "login_api_post_api_webook_com_api_v2_login",
+      "target": "login",
+      "action": "returns status 200",
+      "result": "system processes response",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login",
+      "action": "click 'Reject all non-essential'",
+      "result": "cookie consent modal dismissed",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login",
+      "action": "clickable 'Login'",
+      "result": "validation errors: Incorrect email or password. Try again or reset password",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login",
+      "action": "clickable 'Create an account'",
+      "result": "content results updated (count changed from 0 to 1); input controls enabled/disabled state changed; page content updated",
+      "state_change": true
+    },
+    {
+      "source": "login",
+      "target": "login",
+      "action": "clickable 'BACK TO LOGIN'",
+      "result": "content results updated (count changed from 1 to 0); input controls enabled/disabled state changed; page content updated",
+      "state_change": true
+    }
+  ],
+  "selectors": {
+    "login": {
+      "url": "https://webook.com/en/login",
+      "inputs": [
+        "input[name='email']",
+        "input[name='password']",
+        "textarea[name='g-recaptcha-response']",
+        "input[name='first_name']",
+        "input[name='last_name']",
+        "input[name='confirm_email']",
+        "input#:r1d:",
+        "input[name='mobile']"
+      ],
+      "buttons": [
+        "button",
+        "button:has-text('Reset your password?')",
+        "button:has-text('Login')",
+        "button:has-text('Create an account')"
+      ],
+      "dropdowns": [],
+      "checkboxes": [],
+      "radio_buttons": [],
+      "disabled_controls": [],
+      "required_fields": [],
+      "placeholders": [
+        "input[name='email']: placeholder=\"you@email.com\"",
+        "input[name='password']: placeholder=\" \"",
+        "input[name='first_name']: placeholder=\" \"",
+        "input[name='last_name']: placeholder=\" \"",
+        "input[name='email']: placeholder=\" \"",
+        "input[name='confirm_email']: placeholder=\" \"",
+        "input#:r1d:: placeholder=\" \"",
+        "input[name='mobile']: placeholder=\"6xxxxxxxxx\""
+      ],
+      "aria_labels": [
+        "app logo",
+        "Open undefined"
+      ],
+      "images": [
+        "close: /icons/common/close.svg",
+        "App logo: /icons/logo.svg",
+        "Image: /icons/logo.svg",
+        "Image: https://t.co/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&event_id=bb6c17ba-e12f-4fd3-bd6a-8f1bbca365e6&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&event_id=bb6c17ba-e12f-4fd3-bd6a-8f1bbca365e6&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://t.co/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&event_id=71d0f8d8-a543-4f0b-b6d9-0c56a5be8e4d&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&event_id=71d0f8d8-a543-4f0b-b6d9-0c56a5be8e4d&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "Image: https://t.co/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&event_id=e37a1a0e-21cf-4bba-bb35-0b893c5f70f5&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Reject%20all%20non-essential%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&event_id=e37a1a0e-21cf-4bba-bb35-0b893c5f70f5&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Reject%20all%20non-essential%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://t.co/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&event_id=d99b3de6-63ac-4c00-a6aa-49e5609d3ab6&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Reject%20all%20non-essential%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&event_id=d99b3de6-63ac-4c00-a6aa-49e5609d3ab6&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Reject%20all%20non-essential%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "Image: https://t.co/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=3ba95dd4-5ab2-481c-9c42-d02dcbf41673&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Login%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=3ba95dd4-5ab2-481c-9c42-d02dcbf41673&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Login%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://t.co/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=074d21d6-eaec-4b38-bc56-d40b11115ec4&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Login%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=074d21d6-eaec-4b38-bc56-d40b11115ec4&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Login%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "India: https://wbk-assets-backup.s3.eu-west-1.amazonaws.com/flags/w80/in.png",
+        "Image: https://t.co/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=863cf267-8946-4246-a77d-77eb93129127&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Create%20an%20account%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=863cf267-8946-4246-a77d-77eb93129127&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Create%20an%20account%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://t.co/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=cb527456-d6ef-4164-84bc-a4351e5ed81f&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Create%20an%20account%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=cb527456-d6ef-4164-84bc-a4351e5ed81f&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22Create%20an%20account%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "Image: https://t.co/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=418df965-130f-40e8-87ca-c626da91d0e6&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22BACK%20TO%20LOGIN%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=418df965-130f-40e8-87ca-c626da91d0e6&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22BACK%20TO%20LOGIN%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=ocnw6&type=javascript&version=2.3.54",
+        "Image: https://t.co/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=5c1f3f21-6d9f-4b36-9f82-dd3726e44177&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22BACK%20TO%20LOGIN%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54",
+        "Image: https://analytics.twitter.com/i/adsct?bci=3&cv=37%260&dv=Asia%2FCalcutta%26en-GB%26Google%20Inc.%26MacIntel%26127%261920%261080%268%2630%261920%261080%260%26na&eci=2&email_address=af901a8720585d66357781387f4321f6bc8bbf467bbcbb3e595c7ed94acbd3de&event_id=5c1f3f21-6d9f-4b36-9f82-dd3726e44177&events=%5B%5B%22autobuttonclick%22%2C%7B%22value%22%3A%22BACK%20TO%20LOGIN%22%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=43fd820d-ed16-4c69-9b3f-014ebf0cd949&pt=Login%20%7C%20webook.com&tw_document_href=https%3A%2F%2Fwebook.com%2Fen%2Flogin&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1784530901834.289911323860182735&txn_id=od6q0&type=javascript&version=2.3.54"
+      ],
+      "links": [
+        "✨ We’re Hiring. Apply now ✨ -> https://apply.workable.com/webook/"
+      ],
+      "tabs": [],
+      "cards": [],
+      "modals": [],
+      "tooltips": [
+        "reCAPTCHA"
+      ],
+      "keyboard_focus_order": [
+        "a:has-text('✨ We’re Hiring.')",
+        "button",
+        "a",
+        "button:has-text('')",
+        "button",
+        "input",
+        "input",
+        "button:has-text('Reset your pass')",
+        "button:has-text('Login')",
+        "button:has-text('Create an accou')",
+        "textarea",
+        "button:has-text('BACK TO LOGIN')",
+        "a:has-text('Terms and condi')",
+        "button:has-text('Create Account')"
+      ],
+      "breadcrumbs": [],
+      "toast_messages": [],
+      "validation_messages": [],
+      "loading_states": [],
+      "business_rules": [
+        "mobile has character length boundaries: min=10, max=10."
+      ],
+      "component_metadata": {
+        "input[name='email']": {
+          "label": "Email",
+          "placeholder": "you@email.com",
+          "aria_label": "",
+          "card_context": "Email Password Reset your password? Login  Don't h"
+        },
+        "input[name='password']": {
+          "label": "Password",
+          "placeholder": " ",
+          "aria_label": "",
+          "card_context": "Email Password Reset your password? Login  Don't h"
+        },
+        "button": {
+          "label": "",
+          "placeholder": "",
+          "aria_label": "",
+          "text": "",
+          "card_context": "Email Password Reset your password? Login  Don't h"
+        },
+        "button:has-text('Reset your password?')": {
+          "label": "",
+          "placeholder": "",
+          "aria_label": "",
+          "text": "Reset your password?",
+          "card_context": "Email Password Reset your password? Login  Don't h"
+        },
+        "button:has-text('Login')": {
+          "label": "",
+          "placeholder": "",
+          "aria_label": "",
+          "text": "Login",
+          "card_context": "Email Password Reset your password? Login  Don't h"
+        },
+        "button:has-text('Create an account')": {
+          "label": "",
+          "placeholder": "",
+          "aria_label": "",
+          "text": "Create an account",
+          "card_context": "Email Password Reset your password? Login  Don't h"
+        },
+        "textarea[name='g-recaptcha-response']": {
+          "label": "",
+          "placeholder": "",
+          "aria_label": "",
+          "card_context": ""
+        },
+        "a:has-text('✨ We’re Hiring. Apply now ✨')": {
+          "label": "",
+          "placeholder": "",
+          "aria_label": "",
+          "text": "✨ We’re Hiring. Apply now ✨",
+          "card_context": ""
+        },
+        "input[name='first_name']": {
+          "label": "First Name",
+          "placeholder": " ",
+          "aria_label": "",
+          "card_context": "Create Your Account"
+        },
+        "input[name='last_name']": {
+          "label": "Last Name",
+          "placeholder": " ",
+          "aria_label": "",
+          "card_context": "Create Your Account"
+        },
+        "input[name='confirm_email']": {
+          "label": "Confirm Email",
+          "placeholder": " ",
+          "aria_label": "",
+          "card_context": "Create Your Account"
+        },
+        "input#:r1d:": {
+          "label": "",
+          "placeholder": " ",
+          "aria_label": "",
+          "card_context": "Create Your Account"
+        },
+        "input[name='mobile']": {
+          "label": "",
+          "placeholder": "6xxxxxxxxx",
+          "aria_label": "",
+          "card_context": "Create Your Account"
+        }
+      },
+      "observed_apis": [
+        {
+          "method": "GET",
+          "url": "https://geolocation.webook.com/",
+          "request_headers": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_payload": null,
+          "response_status": 200,
+          "response_headers": {
+            "strict-transport-security": "max-age=2592000; includeSubDomains",
+            "content-encoding": "gzip",
+            "expect-ct": "max-age=86400, enforce",
+            "x-content-type-options": "nosniff",
+            "referrer-policy": "same-origin",
+            "cf-ray": "a1e018969f5aae3d-MAA",
+            "access-control-allow-origin": "*",
+            "date": "Mon, 20 Jul 2026 07:01:41 GMT",
+            "x-xss-protection": "1; mode=block",
+            "content-type": "application/json",
+            "server": "cloudflare",
+            "x-frame-options": "SAMEORIGIN"
+          },
+          "response_time_ms": 110,
+          "response_size_bytes": 85,
+          "content_type": "application/json",
+          "response_schema": {
+            "country_name": "str",
+            "city_name": "str",
+            "currency": "str",
+            "is_supported": "bool"
+          },
+          "response_body": {
+            "country_name": "IN",
+            "city_name": "Pallāvaram",
+            "currency": "INR",
+            "is_supported": false
+          },
+          "current_node": "login",
+          "query_parameters": {},
+          "redirect_information": {},
+          "triggering_ui_action": "navigation",
+          "associated_component": "page_window",
+          "associated_page": "login",
+          "associated_workflow": "Verify behavioral state transitions for the Login user journey",
+          "associated_behavioral_graph_node": "login_api_get_geolocation_webook_com",
+          "business_operation": "FetchGeolocation",
+          "business_intent": "Identify user location and locale settings",
+          "triggering_user_action": "navigation"
+        },
+        {
+          "method": "POST",
+          "url": "https://cdn.webook.com/",
+          "request_headers": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_payload": {
+            "query": "\n        query getConfig($lang: String, $slug: String) {\n          webConfigCollection(where: { slug: $slug }, limit: 1, locale: $lang) {\n            items {\n              title\n              logo {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\n              miniLogo {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\n              seo {\ntitle\ndescription\nkeywords\nimage {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\nnoindex\n}\n              header {\ntopNavigationCollection {\nitems {\n    \nid\nlabel\nhref\ndeeplinkHref\ntheme\nshape\nisExternal\niconPosition\nicon {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\nimage {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\n}\n}\ntopSubNavigationCollection {\nitems {\n    \nid\nlabel\nhref\ndeeplinkHref\ntheme\nshape\nisExternal\niconPosition\nicon {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\nimage {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\n}\n}\nbottomNavigationCollection {\nitems {\n    \nid\nlabel\nhref\ndeeplinkHref\ntheme\nshape\nisExternal\niconPosition\nicon {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\nimage {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\n}\n}\nzonesCollection {\nitems {\n    title\n    slug\n    zoneLogo {\n    \ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n\n    }\n    sponsorLogo {\n    \ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n\n    }\n}\n}\nmenuLinksCollection(limit: 5) {\nitems {\n    id\n    title\n    linksCollection(limit: 10) {\n    items {\n        \nid\nlabel\nhref\ndeeplinkHref\ntheme\nshape\nisExternal\niconPosition\nicon {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\nimage {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\n    }\n    }\n}\n}\nuserMenu\nsearchBar\n}\n              footer {\nlogo {\n  \ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n\n}\ndownloadAppPrompt\nmobileAppLinksCollection {\n  items {\n    \nid\nlabel\nhref\ndeeplinkHref\ntheme\nshape\nisExternal\niconPosition\nicon {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\nimage {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\n  }\n}\nbottomLinksCollection {\n  items {\n    \nid\nlabel\nhref\ndeeplinkHref\ntheme\nshape\nisExternal\niconPosition\nicon {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\nimage {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\n  }\n}\ncopyrightText\ntourismLicenseNumber\ncrNumber\nvatNumber\nsupportedPayments\nsponsorsCollection(limit: 10) {\n  items {\n    id\n    title\n    sponsorsCollection(limit: 10) {\n      items {\n        id\n        title\n        logo {\n          \ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n\n        }\n        link\n      }\n    }\n  }\n}\n}\n              socialLinks {\n                title\n                iconLinksCollection {\n                  items {\nid\nlabel\nhref\ndeeplinkHref\ntheme\nshape\nisExternal\niconPosition\nicon {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}\nimage {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n}}\n                }\n              }\n              manifestUrl\n              favicon {\ntitle\nsys{\n  id\n  publishedAt\n}\nurl\nwidth\nheight\ncontentType\n} \n            }\n          }\n        }\n      ",
+            "variables": {
+              "lang": "en-US",
+              "slug": "webook-config"
+            },
+            "operationName": "getConfig"
+          },
+          "response_status": 200,
+          "response_headers": {
+            "cc-cache-ttl": "21600",
+            "content-encoding": "gzip",
+            "cf-cache-status": "HIT",
+            "age": "7037",
+            "expect-ct": "max-age=86400, enforce",
+            "x-content-type-options": "nosniff",
+            "content-type": "application/json",
+            "last-modified": "Mon, 20 Jul 2026 05:04:23 GMT",
+            "cache-control": "s-maxage=86400",
+            "x-ratelimit-reset": "1",
+            "referrer-policy": "same-origin",
+            "x-xss-protection": "1; mode=block",
+            "origin-agent-cluster": "?1",
+            "cc-query-cache": "HIT",
+            "server": "cloudflare",
+            "access-control-max-age": "86400",
+            "cf-cache-ttl": "21600",
+            "x-contentful-ratelimit-remaining": "99",
+            "x-permitted-cross-domain-policies": "none",
+            "cfw-cache-status": "HIT",
+            "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+            "x-contentful-ratelimit-reset": "1",
+            "cfw-cached-at": "1784523863945",
+            "expires": "Mon, 20 Jul 2026 07:31:41 GMT",
+            "date": "Mon, 20 Jul 2026 07:01:41 GMT",
+            "cf-cached-at": "1784523863945",
+            "access-control-allow-headers": "",
+            "x-contentful-graphql-query-cost": "866",
+            "strict-transport-security": "max-age=2592000; includeSubDomains",
+            "x-frame-options": "SAMEORIGIN",
+            "x-dns-prefetch-control": "off",
+            "cross-origin-opener-policy": "same-origin",
+            "x-contentful-ratelimit-limit": "100",
+            "cross-origin-resource-policy": "same-origin",
+            "access-control-allow-credentials": "true",
+            "via": "1.1 google",
+            "cf-ray": "a1e01896b9de1996-MAA",
+            "x-ratelimit-remaining": "99",
+            "x-download-options": "noopen",
+            "access-control-allow-origin": "https://webook.com",
+            "x-ratelimit-limit": "100"
+          },
+          "response_time_ms": 169,
+          "response_size_bytes": 16657,
+          "content_type": "application/json",
+          "response_schema": {
+            "data": {
+              "webConfigCollection": {
+                "items": [
+                  {
+                    "title": "str",
+                    "logo": {
+                      "title": "str",
+                      "sys": {
+                        "id": "str",
+                        "publishedAt": "str"
+                      },
+                      "url": "str",
+                      "width": "int",
+                      "height": "int",
+                      "contentType": "str"
+                    },
+                    "miniLogo": {
+                      "title": "str",
+                      "sys": {
+                        "id": "str",
+                        "publishedAt": "str"
+                      },
+                      "url": "str",
+                      "width": "int",
+                      "height": "int",
+                      "contentType": "str"
+                    },
+                    "seo": {
+                      "title": "str",
+                      "description": "str",
+                      "keywords": "NoneType",
+                      "image": {
+                        "title": "str",
+                        "sys": {
+                          "id": "str",
+                          "publishedAt": "str"
+                        },
+                        "url": "str",
+                        "width": "int",
+                        "height": "int",
+                        "contentType": "str"
+                      },
+                      "noindex": "bool"
+                    },
+                    "header": {
+                      "topNavigationCollection": {
+                        "items": [
+                          {
+                            "id": "str",
+                            "label": "str",
+                            "href": "str",
+                            "deeplinkHref": "NoneType",
+                            "theme": "str",
+                            "shape": "str",
+                            "isExternal": "bool",
+                            "iconPosition": "str",
+                            "icon": "NoneType",
+                            "image": "NoneType"
+                          }
+                        ]
+                      },
+                      "topSubNavigationCollection": {
+                        "items": [
+                          {
+                            "id": "str",
+                            "label": "str",
+                            "href": "str",
+                            "deeplinkHref": "NoneType",
+                            "theme": "str",
+                            "shape": "str",
+                            "isExternal": "bool",
+                            "iconPosition": "str",
+                            "icon": "NoneType",
+                            "image": "NoneType"
+                          }
+                        ]
+                      },
+                      "bottomNavigationCollection": {
+                        "items": [
+                          {
+                            "id": "str",
+                            "label": "str",
+                            "href": "str",
+                            "deeplinkHref": "NoneType",
+                            "theme": "str",
+                            "shape": "str",
+                            "isExternal": "bool",
+                            "iconPosition": "str",
+                            "icon": "NoneType",
+                            "image": "NoneType"
+                          }
+                        ]
+                      },
+                      "zonesCollection": {
+                        "items": []
+                      },
+                      "menuLinksCollection": {
+                        "items": [
+                          {
+                            "id": "str",
+                            "title": "str",
+                            "linksCollection": {
+                              "items": [
+                                {
+                                  "id": "str",
+                                  "label": "str",
+                                  "href": "str",
+                                  "deeplinkHref": "NoneType",
+                                  "theme": "str",
+                                  "shape": "str",
+                                  "isExternal": "bool",
+                                  "iconPosition": "str",
+                                  "icon": {
+                                    "title": "str",
+                                    "sys": {
+                                      "id": "str",
+                                      "publishedAt": "str"
+                                    },
+                                    "url": "str",
+                                    "width": "int",
+                                    "height": "int",
+                                    "contentType": "str"
+                                  },
+                                  "image": "NoneType"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      "userMenu": "bool",
+                      "searchBar": "bool"
+                    },
+                    "footer": {
+                      "logo": {
+                        "title": "str",
+                        "sys": {
+                          "id": "str",
+                          "publishedAt": "str"
+                        },
+                        "url": "str",
+                        "width": "int",
+                        "height": "int",
+                        "contentType": "str"
+                      },
+                      "downloadAppPrompt": "str",
+                      "mobileAppLinksCollection": {
+                        "items": [
+                          {
+                            "id": "str",
+                            "label": "NoneType",
+                            "href": "str",
+                            "deeplinkHref": "NoneType",
+                            "theme": "str",
+                            "shape": "str",
+                            "isExternal": "bool",
+                            "iconPosition": "str",
+                            "icon": "NoneType",
+                            "image": {
+                              "title": "str",
+                              "sys": {
+                                "id": "str",
+                                "publishedAt": "str"
+                              },
+                              "url": "str",
+                              "width": "int",
+                              "height": "int",
+                              "contentType": "str"
+                            }
+                          }
+                        ]
+                      },
+                      "bottomLinksCollection": {
+                        "items": [
+                          {
+                            "id": "str",
+                            "label": "str",
+                            "href": "str",
+                            "deeplinkHref": "NoneType",
+                            "theme": "str",
+                            "shape": "str",
+                            "isExternal": "bool",
+                            "iconPosition": "str",
+                            "icon": "NoneType",
+                            "image": "NoneType"
+                          }
+                        ]
+                      },
+                      "copyrightText": "str",
+                      "tourismLicenseNumber": "str",
+                      "crNumber": "NoneType",
+                      "vatNumber": "NoneType",
+                      "supportedPayments": [],
+                      "sponsorsCollection": {
+                        "items": []
+                      }
+                    },
+                    "socialLinks": {
+                      "title": "NoneType",
+                      "iconLinksCollection": {
+                        "items": [
+                          {
+                            "id": "str",
+                            "label": "NoneType",
+                            "href": "str",
+                            "deeplinkHref": "NoneType",
+                            "theme": "str",
+                            "shape": "str",
+                            "isExternal": "bool",
+                            "iconPosition": "str",
+                            "icon": "NoneType",
+                            "image": {
+                              "title": "str",
+                              "sys": {
+                                "id": "str",
+                                "publishedAt": "str"
+                              },
+                              "url": "str",
+                              "width": "int",
+                              "height": "int",
+                              "contentType": "str"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "manifestUrl": "NoneType",
+                    "favicon": "NoneType"
+                  }
+                ]
+              }
+            },
+            "extensions": {
+              "cacheTags": "str"
+            }
+          },
+          "response_body": {
+            "data": {
+              "webConfigCollection": {
+                "items": [
+                  {
+                    "title": "webook.com | Book football matches, events, experiences, restaurants, shows and more",
+                    "logo": {
+                      "title": "webook logo",
+                      "sys": {
+                        "id": "3zOlXwzG8mnkgOFKwogIjR",
+                        "publishedAt": "2026-04-06T06:22:32.109Z"
+                      },
+                      "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/3zOlXwzG8mnkgOFKwogIjR/73f2dc11-2941-46a8-9cae-bb0cf4c2ae81/wbk-logo-webookcom.svg",
+                      "width": 152,
+                      "height": 70,
+                      "contentType": "image/svg+xml"
+                    },
+                    "miniLogo": {
+                      "title": "webook logo",
+                      "sys": {
+                        "id": "3zOlXwzG8mnkgOFKwogIjR",
+                        "publishedAt": "2026-04-06T06:22:32.109Z"
+                      },
+                      "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/3zOlXwzG8mnkgOFKwogIjR/73f2dc11-2941-46a8-9cae-bb0cf4c2ae81/wbk-logo-webookcom.svg",
+                      "width": 152,
+                      "height": 70,
+                      "contentType": "image/svg+xml"
+                    },
+                    "seo": {
+                      "title": "webook.com | Book football matches, events, experiences, restaurants, shows and more",
+                      "description": "Find tickets for boxing matches, sports, music concerts, shows, experiences & more",
+                      "keywords": null,
+                      "image": {
+                        "title": "webook seo image ",
+                        "sys": {
+                          "id": "13PQrZYbGClYRvRraBIbB6",
+                          "publishedAt": "2025-09-29T08:40:21.848Z"
+                        },
+                        "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/13PQrZYbGClYRvRraBIbB6/7531bc04-9556-4ea9-b7a6-fc441bf1bbfb/PHOTO-2024-12-03-18-22-08.jpg",
+                        "width": 1600,
+                        "height": 1079,
+                        "contentType": "image/jpeg"
+                      },
+                      "noindex": false
+                    },
+                    "header": {
+                      "topNavigationCollection": {
+                        "items": [
+                          {
+                            "id": "explore",
+                            "label": "Explore",
+                            "href": "/en/explore",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "Flight top menu",
+                            "label": "Flights",
+                            "href": "/en/flights",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "Hotels sub menu",
+                            "label": "Hotels",
+                            "href": "/en/hotels",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "webook.com Resell",
+                            "label": "Ticket resell",
+                            "href": "https://resell.webook.com/en",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "webook.com Subscriptions",
+                            "label": "Subscriptions",
+                            "href": "/en/subscriptions",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          }
+                        ]
+                      },
+                      "topSubNavigationCollection": {
+                        "items": [
+                          {
+                            "id": "webook.com for business",
+                            "label": "Business partners",
+                            "href": "https://webook.com/business/en",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "webook.com blog",
+                            "label": "Our blog",
+                            "href": "https://webook.com/blog",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          }
+                        ]
+                      },
+                      "bottomNavigationCollection": {
+                        "items": [
+                          {
+                            "id": "Webook Contact Us",
+                            "label": "CONTACT US",
+                            "href": "/en/contact-us",
+                            "deeplinkHref": null,
+                            "theme": "transparent",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          }
+                        ]
+                      },
+                      "zonesCollection": {
+                        "items": []
+                      },
+                      "menuLinksCollection": {
+                        "items": [
+                          {
+                            "id": "Explore -sub-menu",
+                            "title": "Explore",
+                            "linksCollection": {
+                              "items": [
+                                {
+                                  "id": "Things to do - sub menu",
+                                  "label": "Things to do",
+                                  "href": "/en/explore?tag=things-to-do",
+                                  "deeplinkHref": null,
+                                  "theme": "action",
+                                  "shape": "text",
+                                  "isExternal": false,
+                                  "iconPosition": "left",
+                                  "icon": {
+                                    "title": "Leading",
+                                    "sys": {
+                                      "id": "6jSnmWqjlBWOHRf7F701dv",
+                                      "publishedAt": "2025-03-06T10:11:10.117Z"
+                                    },
+                                    "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/6jSnmWqjlBWOHRf7F701dv/fd56b0f9-cce8-46d4-a41b-15b8e2be3197/Leading.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "contentType": "image/png"
+                                  },
+                                  "image": null
+                                },
+                                {
+                                  "id": "Restaurants - sub menu",
+                                  "label": "Restaurants",
+                                  "href": "/en/explore?category=restaurant-and-cafe",
+                                  "deeplinkHref": null,
+                                  "theme": "action",
+                                  "shape": "text",
+                                  "isExternal": false,
+                                  "iconPosition": "left",
+                                  "icon": {
+                                    "title": "Leading-1",
+                                    "sys": {
+                                      "id": "41xGKnHm8Th9he0lndIhOw",
+                                      "publishedAt": "2025-03-06T10:11:10.107Z"
+                                    },
+                                    "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/41xGKnHm8Th9he0lndIhOw/33d77fa7-f229-4b27-b0d4-74e91656a9ef/Leading-1.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "contentType": "image/png"
+                                  },
+                                  "image": null
+                                },
+                                {
+                                  "id": "Flights -sub menu",
+                                  "label": "Flights",
+                                  "href": "/flights",
+                                  "deeplinkHref": null,
+                                  "theme": "action",
+                                  "shape": "text",
+                                  "isExternal": false,
+                                  "iconPosition": "left",
+                                  "icon": {
+                                    "title": "Leading-2",
+                                    "sys": {
+                                      "id": "7pfyF8UlANsGMClBzzO00v",
+                                      "publishedAt": "2025-03-06T10:11:10.123Z"
+                                    },
+                                    "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/7pfyF8UlANsGMClBzzO00v/8a464cde-4c92-4baf-a4fa-2192646b69e3/Leading-2.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "contentType": "image/png"
+                                  },
+                                  "image": null
+                                },
+                                {
+                                  "id": "Hotels sub menu",
+                                  "label": "Hotels",
+                                  "href": "/en/hotels",
+                                  "deeplinkHref": null,
+                                  "theme": "white",
+                                  "shape": "text",
+                                  "isExternal": false,
+                                  "iconPosition": "left",
+                                  "icon": null,
+                                  "image": null
+                                },
+                                {
+                                  "id": "resell - sub menu",
+                                  "label": "Resell",
+                                  "href": "https://resell.webook.com",
+                                  "deeplinkHref": null,
+                                  "theme": "action",
+                                  "shape": "text",
+                                  "isExternal": true,
+                                  "iconPosition": "left",
+                                  "icon": {
+                                    "title": "Leading-3",
+                                    "sys": {
+                                      "id": "5jBa3Z8Xz1Zumx7JJSLgyI",
+                                      "publishedAt": "2025-03-06T10:11:10.109Z"
+                                    },
+                                    "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/5jBa3Z8Xz1Zumx7JJSLgyI/c0296759-ad1e-4053-9aa4-1cbd6982e7d4/Leading-3.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "contentType": "image/png"
+                                  },
+                                  "image": null
+                                },
+                                {
+                                  "id": "Shop - sub menu",
+                                  "label": "Shop",
+                                  "href": "https://webook.com/shop/en/",
+                                  "deeplinkHref": null,
+                                  "theme": "action",
+                                  "shape": "text",
+                                  "isExternal": true,
+                                  "iconPosition": "left",
+                                  "icon": {
+                                    "title": "Leading-4",
+                                    "sys": {
+                                      "id": "2MVzK2bu22rWHDtuTJpNpw",
+                                      "publishedAt": "2025-03-06T10:11:10.120Z"
+                                    },
+                                    "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/2MVzK2bu22rWHDtuTJpNpw/0afdcf9f-e7d0-4719-ba98-e0ff4a183eef/Leading-4.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "contentType": "image/png"
+                                  },
+                                  "image": null
+                                },
+                                {
+                                  "id": "blog -sub menu",
+                                  "label": "Blog",
+                                  "href": "https://webook.com/blog/",
+                                  "deeplinkHref": null,
+                                  "theme": "action",
+                                  "shape": "text",
+                                  "isExternal": true,
+                                  "iconPosition": "left",
+                                  "icon": {
+                                    "title": "Leading-5",
+                                    "sys": {
+                                      "id": "IyA18R8TujeTowDBzHIUx",
+                                      "publishedAt": "2025-03-06T10:11:10.113Z"
+                                    },
+                                    "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/IyA18R8TujeTowDBzHIUx/f444cc2b-50c7-4551-8041-769075e2220e/Leading-5.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "contentType": "image/png"
+                                  },
+                                  "image": null
+                                },
+                                {
+                                  "id": "business - sub menu",
+                                  "label": " Business partners",
+                                  "href": "/en/business",
+                                  "deeplinkHref": null,
+                                  "theme": "action",
+                                  "shape": "text",
+                                  "isExternal": false,
+                                  "iconPosition": "left",
+                                  "icon": {
+                                    "title": "Leading-6",
+                                    "sys": {
+                                      "id": "6T5YrP0BCyYbLUx8VwegcS",
+                                      "publishedAt": "2025-03-06T10:11:10.103Z"
+                                    },
+                                    "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/6T5YrP0BCyYbLUx8VwegcS/073a3435-652f-404c-98ca-ea618e6d41a0/Leading-6.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "contentType": "image/png"
+                                  },
+                                  "image": null
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "id": "WBK plus",
+                            "title": null,
+                            "linksCollection": {
+                              "items": [
+                                {
+                                  "id": "wbk-plus",
+                                  "label": "WBK+",
+                                  "href": "/en/subscriptions",
+                                  "deeplinkHref": null,
+                                  "theme": "primary",
+                                  "shape": "solid",
+                                  "isExternal": false,
+                                  "iconPosition": "left",
+                                  "icon": {
+                                    "title": "wbk plus",
+                                    "sys": {
+                                      "id": "5n7NBjvVaxkPyGwVi67asa",
+                                      "publishedAt": "2025-03-06T10:27:54.762Z"
+                                    },
+                                    "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/5n7NBjvVaxkPyGwVi67asa/0146c21b-66bc-405c-8904-e1b2642987fe/Premium.png",
+                                    "width": 25,
+                                    "height": 24,
+                                    "contentType": "image/png"
+                                  },
+                                  "image": null
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "id": "important links - sub menu",
+                            "title": "More",
+                            "linksCollection": {
+                              "items": [
+                                {
+                                  "id": "Webook Contact Us",
+                                  "label": "CONTACT US",
+                                  "href": "/en/contact-us",
+                                  "deeplinkHref": null,
+                                  "theme": "transparent",
+                                  "shape": "text",
+                                  "isExternal": false,
+                                  "iconPosition": "left",
+                                  "icon": null,
+                                  "image": null
+                                },
+                                {
+                                  "id": "Webook FAQ - sub menu",
+                                  "label": "CARE CENTER & FAQs ",
+                                  "href": "https://wbk.zendesk.com/",
+                                  "deeplinkHref": null,
+                                  "theme": "transparent",
+                                  "shape": "text",
+                                  "isExternal": true,
+                                  "iconPosition": "left",
+                                  "icon": null,
+                                  "image": null
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      "userMenu": true,
+                      "searchBar": true
+                    },
+                    "footer": {
+                      "logo": {
+                        "title": "webook logo",
+                        "sys": {
+                          "id": "3zOlXwzG8mnkgOFKwogIjR",
+                          "publishedAt": "2026-04-06T06:22:32.109Z"
+                        },
+                        "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/3zOlXwzG8mnkgOFKwogIjR/73f2dc11-2941-46a8-9cae-bb0cf4c2ae81/wbk-logo-webookcom.svg",
+                        "width": 152,
+                        "height": 70,
+                        "contentType": "image/svg+xml"
+                      },
+                      "downloadAppPrompt": "Download the webook.com APP today to enjoy more",
+                      "mobileAppLinksCollection": {
+                        "items": [
+                          {
+                            "id": "webook appstore app link",
+                            "label": null,
+                            "href": "https://apps.apple.com/us/app/webook-com-fun-things-to-do/id6468667896",
+                            "deeplinkHref": null,
+                            "theme": "primary",
+                            "shape": "solid",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "app-store",
+                              "sys": {
+                                "id": "6L7jX6HJDHPBObRDSDO7OA",
+                                "publishedAt": "2023-09-29T19:45:03.416Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/6L7jX6HJDHPBObRDSDO7OA/ca4aae47-0452-43dd-b53b-64ebd14ea8d4/app-store.svg",
+                              "width": 105,
+                              "height": 35,
+                              "contentType": "image/svg+xml"
+                            }
+                          },
+                          {
+                            "id": "webook google play app link",
+                            "label": null,
+                            "href": "https://play.google.com/store/apps/details?id=com.webook.android",
+                            "deeplinkHref": null,
+                            "theme": "primary",
+                            "shape": "solid",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "google-play",
+                              "sys": {
+                                "id": "3QXil2sNpz4OaaqZeNHiM5",
+                                "publishedAt": "2023-09-29T19:46:06.570Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/3QXil2sNpz4OaaqZeNHiM5/d4dfe340-8d73-400d-8927-e5cc406a12e4/google-play.svg",
+                              "width": 112,
+                              "height": 34,
+                              "contentType": "image/svg+xml"
+                            }
+                          },
+                          {
+                            "id": "huawei app download link",
+                            "label": null,
+                            "href": "https://appgallery.huawei.com/app/C109536445",
+                            "deeplinkHref": null,
+                            "theme": "primary",
+                            "shape": "solid",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "huawei download button",
+                              "sys": {
+                                "id": "3KYMflvrov5gfZ1v7wK9Ue",
+                                "publishedAt": "2024-04-16T12:40:56.264Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/3KYMflvrov5gfZ1v7wK9Ue/c1825fec-3582-47f0-a0d9-097d023546da/huawei_app.svg",
+                              "width": 107,
+                              "height": 33,
+                              "contentType": "image/svg+xml"
+                            }
+                          }
+                        ]
+                      },
+                      "bottomLinksCollection": {
+                        "items": [
+                          {
+                            "id": "jobs Link in Footer",
+                            "label": "JOBS & CAREERS",
+                            "href": "https://apply.workable.com/webook/",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "right",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "Webook Contact Us",
+                            "label": "CONTACT US",
+                            "href": "/en/contact-us",
+                            "deeplinkHref": null,
+                            "theme": "transparent",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "webook.com for business footer",
+                            "label": "BUSINESS PARTNERS",
+                            "href": "/en/business",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "Privacy Policy",
+                            "label": "PRIVACY POLICY",
+                            "href": "/en/privacy",
+                            "deeplinkHref": null,
+                            "theme": "transparent",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "Terms and Conditions",
+                            "label": "TERMS & CONDITIONS",
+                            "href": "/en/terms",
+                            "deeplinkHref": null,
+                            "theme": "transparent",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "Webook FAQ",
+                            "label": "CARE CENTER & FAQs",
+                            "href": "https://wbk.zendesk.com/",
+                            "deeplinkHref": null,
+                            "theme": "transparent",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "About us",
+                            "label": "ABOUT US",
+                            "href": "/en/about",
+                            "deeplinkHref": null,
+                            "theme": "transparent",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "Startup Accelerator Fund",
+                            "label": "STARTUP ACCELERATOR FUND",
+                            "href": "/en/fun-startup-accelerator-fund",
+                            "deeplinkHref": null,
+                            "theme": "transparent",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "webook blog footer",
+                            "label": "BLOG",
+                            "href": "https://webook.com/blog",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "webook bug bounty",
+                            "label": "REPORT SECURITY VULNERABILITY",
+                            "href": "/security",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "TICKET SAFETY",
+                            "label": "TICKET SAFETY",
+                            "href": "/ticket-safety",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "REPORT BLACK MARKET",
+                            "label": "REPORT BLACK MARKET ACTIVITY ",
+                            "href": "/report-black-market",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          },
+                          {
+                            "id": "FAN PROTECTION",
+                            "label": "FAN PROTECTION",
+                            "href": "/fan-protection",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": false,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": null
+                          }
+                        ]
+                      },
+                      "copyrightText": "© 2026 webook.com",
+                      "tourismLicenseNumber": "73105116",
+                      "crNumber": null,
+                      "vatNumber": null,
+                      "supportedPayments": [],
+                      "sponsorsCollection": {
+                        "items": []
+                      }
+                    },
+                    "socialLinks": {
+                      "title": null,
+                      "iconLinksCollection": {
+                        "items": [
+                          {
+                            "id": "X Social Icon webook",
+                            "label": null,
+                            "href": "https://x.com/webook",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "Icon 4 1",
+                              "sys": {
+                                "id": "1GGtK80DkjMrTkuu9Y4OVO",
+                                "publishedAt": "2025-09-28T14:08:19.178Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/1GGtK80DkjMrTkuu9Y4OVO/03c1ee0b-3db4-4360-8875-17c94df99394/Frame 9.png",
+                              "width": 55,
+                              "height": 55,
+                              "contentType": "image/png"
+                            }
+                          },
+                          {
+                            "id": "Instagram Social Icon webook",
+                            "label": null,
+                            "href": "https://www.instagram.com/webookksa",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "Icon 2 1",
+                              "sys": {
+                                "id": "2p3AB8rNkdSqYUMwYwcm5t",
+                                "publishedAt": "2025-09-28T14:08:37.936Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/2p3AB8rNkdSqYUMwYwcm5t/047998fe-2922-46e6-8caa-1b6815336764/Frame 8.png",
+                              "width": 55,
+                              "height": 55,
+                              "contentType": "image/png"
+                            }
+                          },
+                          {
+                            "id": "Facebook Social Icon webook",
+                            "label": null,
+                            "href": "https://www.facebook.com/webookksa",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "Icon 3 1",
+                              "sys": {
+                                "id": "3IZvwy4AtP55oEoWC3VIWS",
+                                "publishedAt": "2025-09-28T14:08:56.469Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/3IZvwy4AtP55oEoWC3VIWS/313bb860-26aa-441c-b172-ba1c42fb67bd/Frame 7.png",
+                              "width": 55,
+                              "height": 55,
+                              "contentType": "image/png"
+                            }
+                          },
+                          {
+                            "id": "Tiktok Social Icon",
+                            "label": null,
+                            "href": "https://www.tiktok.com/@webookksa",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "tiktok social",
+                              "sys": {
+                                "id": "2mrFuWWCmXlcZrZNLbA8KP",
+                                "publishedAt": "2025-02-10T14:32:32.764Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/2mrFuWWCmXlcZrZNLbA8KP/818762a9-2517-4843-8178-8c95b2227902/tiktok.png",
+                              "width": 55,
+                              "height": 55,
+                              "contentType": "image/png"
+                            }
+                          },
+                          {
+                            "id": "snapchat Social Icon",
+                            "label": null,
+                            "href": "https://www.snapchat.com/add/webook.comksa",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "snapchat icon",
+                              "sys": {
+                                "id": "5Hpg2SBqDr5QXPft91JJC4",
+                                "publishedAt": "2025-05-05T10:35:51.915Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/5Hpg2SBqDr5QXPft91JJC4/50d2ddda-82bf-4477-a7a3-88a82a860353/Frame 34067.png",
+                              "width": 55,
+                              "height": 55,
+                              "contentType": "image/png"
+                            }
+                          },
+                          {
+                            "id": "Youtube",
+                            "label": null,
+                            "href": "https://www.youtube.com/@webookksa",
+                            "deeplinkHref": null,
+                            "theme": "white",
+                            "shape": "text",
+                            "isExternal": true,
+                            "iconPosition": "left",
+                            "icon": null,
+                            "image": {
+                              "title": "youtube footer",
+                              "sys": {
+                                "id": "1BahN7ZNIsnzgSsgsNmKG6",
+                                "publishedAt": "2024-06-04T08:30:26.778Z"
+                              },
+                              "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/1BahN7ZNIsnzgSsgsNmKG6/81cd56fb-b10a-414c-9860-e445b9fee9a6/youtube-1.png",
+                              "width": 55,
+                              "height": 55,
+                              "contentType": "image/png"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "manifestUrl": null,
+                    "favicon": null
+                  }
+                ]
+              }
+            },
+            "extensions": {
+              "cacheTags": "env:10dd8be0-9ff1-4624-938a-185e5040686e,qe:10dd8be0-9ff1-4624-938a-185e5040686e:d6541a4d71c57193"
+            }
+          },
+          "current_node": "login",
+          "query_parameters": {},
+          "redirect_information": {},
+          "triggering_ui_action": "navigation",
+          "associated_component": "page_window",
+          "associated_page": "login",
+          "associated_workflow": "Verify behavioral state transitions for the Login user journey",
+          "associated_behavioral_graph_node": "login_api_post_cdn_webook_com",
+          "business_operation": "getConfig",
+          "business_intent": "Load global application settings and theme configurations",
+          "triggering_user_action": "navigation"
+        },
+        {
+          "method": "POST",
+          "url": "https://cdn.webook.com/",
+          "request_headers": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_payload": {
+            "query": "query getWebSection($lang:String$limit:Int$skip:Int$where:WebSectionFilter){webSectionCollection(locale:$lang,limit:$limit,skip:$skip,where:$where){items{id title subtitle collapsableDescription{json}renderType itemRenderType backgroundColor topPadding bottomPadding sectionBackground{title sys{id publishedAt}url width height contentType}logo{title sys{id publishedAt}url width height contentType}topDecorator{title sys{id publishedAt}url width height contentType}bottomDecorator{title sys{id publishedAt}url width height contentType}platform organizationSlug teamId webLinksCollection(limit:6){items{id label href deeplinkHref theme shape isExternal iconPosition icon{title sys{id publishedAt}url width height contentType}image{title sys{id publishedAt}url width height contentType}}}theme{primary secondary tertiary action textPrimary primaryContrast body font{url contentType}bodyFont{url contentType}}experimentConfig{experimentKey variantsCollection(limit:3){items{key section{id}}}}tagsCollection(limit:10){items{title subtitle slug id background{title sys{id publishedAt}url width height contentType}icon{title sys{id publishedAt}url width height contentType}}}contentCollection(limit:10,skip:0){items{__typename...on Zone{id slug title subtitle description season{title slug}category{id title slug}featuredBanner{title sys{id publishedAt}url width height contentType}banner{title sys{id publishedAt}url width height contentType}zoneLogo{title sys{id publishedAt}url width height contentType}sponsorLogo{title sys{id publishedAt}url width height contentType}imageBg{title sys{id publishedAt}url width height contentType}schedule{title openTitle openDateTime closeDateTime openScheduleText}location{title address city cityCode countryCode seactionHeader googlePlaceName location{lat lon}banner{title sys{id publishedAt}url width height contentType}accessibility}button{label link}startingPrice currencyCode newZone}...on Event{id title subtitle image11{title sys{id publishedAt}url width height contentType}image32{title sys{id publishedAt}url width height contentType}image31{title sys{id publishedAt}url width height contentType}image23{title sys{id publishedAt}url width height contentType}slug zone{id slug season{title slug}zoneLogo{title sys{id publishedAt}url width height contentType}sponsorLogo{title sys{id publishedAt}url width height contentType}}category{id title slug}startingPrice currencyCode buttonLabel schedule{title openTitle openDateTime closeDateTime openScheduleText}location{title address city cityCode countryCode seactionHeader googlePlaceName location{lat lon}banner{title sys{id publishedAt}url width height contentType}accessibility}eventType cmsTagsCollection(limit:5){items{id}}deal{id label labelPrefix price endsAt featured}isStreamingEvent buyLiveStream{id}eventLogo{title sys{id publishedAt}url width height contentType}streamingMessage showResellBanner}...on WebCard{sys{id}id title subtitle description buttonLabel href image{title sys{id publishedAt}url width height contentType}image31{title sys{id publishedAt}url width height contentType}image11{title sys{id publishedAt}url width height contentType}image23{title sys{id publishedAt}url width height contentType}icon{title sys{id publishedAt}url width height contentType}background{title sys{id publishedAt}url width height contentType}location{title address city cityCode countryCode seactionHeader googlePlaceName location{lat lon}banner{title sys{id publishedAt}url width height contentType}accessibility}cmsTagsCollection(limit:10){items{title subtitle slug id background{title sys{id publishedAt}url width height contentType}icon{title sys{id publishedAt}url width height contentType}}}color isNew frequency expiresAt}...on Experience{id title subtitle image11{title sys{id publishedAt}url width height contentType}image32{title sys{id publishedAt}url width height contentType}image31{title sys{id publishedAt}url width height contentType}image23{title sys{id publishedAt}url width height contentType}slug zone{id slug season{title slug}zoneLogo{title sys{id publishedAt}url width height contentType}sponsorLogo{title sys{id publishedAt}url width height contentType}}category{id title slug}startingPrice currencyCode buttonLabel schedule{title openTitle openDateTime closeDateTime openScheduleText}location{title address city cityCode countryCode seactionHeader googlePlaceName location{lat lon}banner{title sys{id publishedAt}url width height contentType}accessibility}eventType cmsTagsCollection(limit:5){items{id}}deal{id label labelPrefix price endsAt featured}discountedPrice}...on Restaurant{id title subtitle image11{title sys{id publishedAt}url width height contentType}image32{title sys{id publishedAt}url width height contentType}image31{title sys{id publishedAt}url width height contentType}image23{title sys{id publishedAt}url width height contentType}slug zone{id slug season{title slug}zoneLogo{title sys{id publishedAt}url width height contentType}sponsorLogo{title sys{id publishedAt}url width height contentType}}category{id title slug}startingPrice currencyCode buttonLabel schedule{title openTitle openDateTime closeDateTime openScheduleText}location{title address city cityCode countryCode seactionHeader googlePlaceName location{lat lon}banner{title sys{id publishedAt}url width height contentType}accessibility}eventType cmsTagsCollection(limit:5){items{id}}deal{id label labelPrefix price endsAt featured}cuisine}...on Package{id title subtitle image11{title sys{id publishedAt}url width height contentType}image32{title sys{id publishedAt}url width height contentType}image31{title sys{id publishedAt}url width height contentType}image23{title sys{id publishedAt}url width height contentType}slug zone{id slug season{title slug}zoneLogo{title sys{id publishedAt}url width height contentType}sponsorLogo{title sys{id publishedAt}url width height contentType}}category{id title slug}startingPrice currencyCode buttonLabel schedule{title openTitle openDateTime closeDateTime openScheduleText}location{title address city cityCode countryCode seactionHeader googlePlaceName location{lat lon}banner{title sys{id publishedAt}url width height contentType}accessibility}eventType cmsTagsCollection(limit:5){items{id}}}...on Auction{id title subtitle image11{title sys{id publishedAt}url width height contentType}image32{title sys{id publishedAt}url width height contentType}image31{title sys{id publishedAt}url width height contentType}image23{title sys{id publishedAt}url width height contentType}slug zone{id slug season{title slug}zoneLogo{title sys{id publishedAt}url width height contentType}sponsorLogo{title sys{id publishedAt}url width height contentType}}category{id title slug}startingPrice currencyCode buttonLabel schedule{title openTitle openDateTime closeDateTime openScheduleText}location{title address city cityCode countryCode seactionHeader googlePlaceName location{lat lon}banner{title sys{id publishedAt}url width height contentType}accessibility}eventType cmsTagsCollection(limit:5){items{id}}startAt endAt upfrontPayment}...on Category{id slug title icon{title sys{id publishedAt}url width height contentType}background{title sys{id publishedAt}url width height contentType}isNew}...on Tag{id slug title icon{title sys{id publishedAt}url width height contentType}background{title sys{id publishedAt}url width height contentType}isNew}...on SocialBanner{id title logoImage{title sys{id publishedAt}url width height contentType}socialLinks{id title iconLinksCollection(limit:6){items{id label href deeplinkHref theme shape isExternal iconPosition icon{title sys{id publishedAt}url width height contentType}image{title sys{id publishedAt}url width height contentType}}}}}...on SponsorList{id title sponsorsCollection(limit:12){items{id title logo{title sys{id publishedAt}url width height contentType}link}}}}}}}}",
+            "variables": {
+              "limit": 1,
+              "where": {
+                "id": "top_notice_SA"
+              },
+              "lang": "en-US"
+            },
+            "operationName": "getWebSection"
+          },
+          "response_status": 200,
+          "response_headers": {
+            "cc-cache-ttl": "21600",
+            "content-encoding": "gzip",
+            "cf-cache-status": "HIT",
+            "age": "7037",
+            "expect-ct": "max-age=86400, enforce",
+            "x-content-type-options": "nosniff",
+            "content-type": "application/json",
+            "last-modified": "Mon, 20 Jul 2026 05:04:24 GMT",
+            "cache-control": "s-maxage=86400",
+            "x-ratelimit-reset": "1",
+            "referrer-policy": "same-origin",
+            "x-xss-protection": "1; mode=block",
+            "origin-agent-cluster": "?1",
+            "cc-query-cache": "HIT",
+            "server": "cloudflare",
+            "access-control-max-age": "86400",
+            "cf-cache-ttl": "21600",
+            "x-contentful-ratelimit-remaining": "98",
+            "x-permitted-cross-domain-policies": "none",
+            "cfw-cache-status": "HIT",
+            "access-control-allow-methods": "GET,HEAD,POST,OPTIONS",
+            "x-contentful-ratelimit-reset": "1",
+            "cfw-cached-at": "1784523864487",
+            "expires": "Mon, 20 Jul 2026 07:31:41 GMT",
+            "date": "Mon, 20 Jul 2026 07:01:41 GMT",
+            "cf-cached-at": "1784523864487",
+            "access-control-allow-headers": "",
+            "x-contentful-graphql-query-cost": "150",
+            "strict-transport-security": "max-age=2592000; includeSubDomains",
+            "x-frame-options": "SAMEORIGIN",
+            "x-dns-prefetch-control": "off",
+            "cross-origin-opener-policy": "same-origin",
+            "x-contentful-ratelimit-limit": "100",
+            "cross-origin-resource-policy": "same-origin",
+            "access-control-allow-credentials": "true",
+            "via": "1.1 google",
+            "cf-ray": "a1e018975c0a1996-MAA",
+            "x-ratelimit-remaining": "98",
+            "x-download-options": "noopen",
+            "access-control-allow-origin": "https://webook.com",
+            "x-ratelimit-limit": "100"
+          },
+          "response_time_ms": 134,
+          "response_size_bytes": 1399,
+          "content_type": "application/json",
+          "response_schema": {
+            "data": {
+              "webSectionCollection": {
+                "items": [
+                  {
+                    "id": "str",
+                    "title": "NoneType",
+                    "subtitle": "NoneType",
+                    "collapsableDescription": "NoneType",
+                    "renderType": "str",
+                    "itemRenderType": "str",
+                    "backgroundColor": "NoneType",
+                    "topPadding": "int",
+                    "bottomPadding": "int",
+                    "sectionBackground": "NoneType",
+                    "logo": "NoneType",
+                    "topDecorator": "NoneType",
+                    "bottomDecorator": "NoneType",
+                    "platform": "NoneType",
+                    "organizationSlug": "NoneType",
+                    "teamId": "NoneType",
+                    "webLinksCollection": {
+                      "items": []
+                    },
+                    "theme": "NoneType",
+                    "experimentConfig": "NoneType",
+                    "tagsCollection": {
+                      "items": []
+                    },
+                    "contentCollection": {
+                      "items": [
+                        {
+                          "__typename": "str",
+                          "sys": {
+                            "id": "str"
+                          },
+                          "id": "str",
+                          "title": "str",
+                          "subtitle": "NoneType",
+                          "description": "NoneType",
+                          "buttonLabel": "NoneType",
+                          "href": "str",
+                          "image": {
+                            "title": "str",
+                            "sys": {
+                              "id": "str",
+                              "publishedAt": "str"
+                            },
+                            "url": "str",
+                            "width": "int",
+                            "height": "int",
+                            "contentType": "str"
+                          },
+                          "image31": "NoneType",
+                          "image11": "NoneType",
+                          "image23": "NoneType",
+                          "icon": "NoneType",
+                          "background": "NoneType",
+                          "location": "NoneType",
+                          "cmsTagsCollection": {
+                            "items": []
+                          },
+                          "color": "str",
+                          "isNew": "NoneType",
+                          "frequency": "NoneType",
+                          "expiresAt": "NoneType"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "extensions": {
+              "cacheTags": "str"
+            }
+          },
+          "response_body": {
+            "data": {
+              "webSectionCollection": {
+                "items": [
+                  {
+                    "id": "top_notice_SA",
+                    "title": null,
+                    "subtitle": null,
+                    "collapsableDescription": null,
+                    "renderType": "spotlight",
+                    "itemRenderType": "default",
+                    "backgroundColor": null,
+                    "topPadding": 0,
+                    "bottomPadding": 0,
+                    "sectionBackground": null,
+                    "logo": null,
+                    "topDecorator": null,
+                    "bottomDecorator": null,
+                    "platform": null,
+                    "organizationSlug": null,
+                    "teamId": null,
+                    "webLinksCollection": {
+                      "items": []
+                    },
+                    "theme": null,
+                    "experimentConfig": null,
+                    "tagsCollection": {
+                      "items": []
+                    },
+                    "contentCollection": {
+                      "items": [
+                        {
+                          "__typename": "WebCard",
+                          "sys": {
+                            "id": "1RdQ4E0JKYJ5SE1VyZdlZM"
+                          },
+                          "id": "We are hiring notice",
+                          "title": "✨ We’re Hiring. Apply now ✨",
+                          "subtitle": null,
+                          "description": null,
+                          "buttonLabel": null,
+                          "href": "https://apply.workable.com/webook/",
+                          "image": {
+                            "title": "tv icon streaming",
+                            "sys": {
+                              "id": "5S1FxQ9PmyzPeo5QcGViUr",
+                              "publishedAt": "2023-10-25T11:29:13.577Z"
+                            },
+                            "url": "https://images.cmscloud.ai/d56e1636-11c2-4a8b-8195-2256d8cea670/10dd8be0-9ff1-4624-938a-185e5040686e/5S1FxQ9PmyzPeo5QcGViUr/9d467a5b-18ea-43e1-8434-56e9a7b39a05/Live TV.png",
+                            "width": 100,
+                            "height": 95,
+                            "contentType": "image/png"
+                          },
+                          "image31": null,
+                          "image11": null,
+                          "image23": null,
+                          "icon": null,
+                          "background": null,
+                          "location": null,
+                          "cmsTagsCollection": {
+                            "items": []
+                          },
+                          "color": "#e93f7d",
+                          "isNew": null,
+                          "frequency": null,
+                          "expiresAt": null
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "extensions": {
+              "cacheTags": "env:10dd8be0-9ff1-4624-938a-185e5040686e,qe:10dd8be0-9ff1-4624-938a-185e5040686e:fe57630b1fd4e6bd"
+            }
+          },
+          "current_node": "login",
+          "query_parameters": {},
+          "redirect_information": {},
+          "triggering_ui_action": "navigation",
+          "associated_component": "page_window",
+          "associated_page": "login",
+          "associated_workflow": "Verify behavioral state transitions for the Login user journey",
+          "associated_behavioral_graph_node": "login_api_post_cdn_webook_com",
+          "business_operation": "getWebSection",
+          "business_intent": "Execute GraphQL getWebSection business logic",
+          "triggering_user_action": "navigation"
+        },
+        {
+          "method": "GET",
+          "url": "https://api.webook.com/api/v2/currencies?lang=en&visible_in=rs",
+          "request_headers": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "",
+            "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "accept": "application/json",
+            "content-type": "application/json",
+            "token": "[MASKED]"
+          },
+          "request_payload": null,
+          "response_status": 200,
+          "response_headers": {
+            "x-robots-tag": "noindex",
+            "access-control-max-age": "86400",
+            "access-control-expose-headers": "queue-token",
+            "content-encoding": "gzip",
+            "cf-cache-status": "HIT",
+            "age": "2681",
+            "expect-ct": "max-age=86400, enforce",
+            "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+            "x-content-type-options": "nosniff",
+            "expires": "Mon, 20 Jul 2026 07:31:41 GMT",
+            "date": "Mon, 20 Jul 2026 07:01:41 GMT",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "last-modified": "Mon, 20 Jul 2026 06:23:54 GMT",
+            "access-control-allow-headers": "Content-Type, Authorization, X-Requested-With, Token",
+            "x-frame-options": "SAMEORIGIN",
+            "strict-transport-security": "max-age=2592000; includeSubDomains",
+            "cache-control": "public, max-age=1800",
+            "_qserv": "backend-queue-prod-14",
+            "access-control-allow-credentials": "true",
+            "referrer-policy": "same-origin",
+            "cf-ray": "a1e01898be787ec1-MAA",
+            "access-control-allow-origin": "https://webook.com",
+            "_queued": "true",
+            "x-xss-protection": "1; mode=block",
+            "server": "cloudflare"
+          },
+          "response_time_ms": 487,
+          "response_size_bytes": 4712,
+          "content_type": "application/json",
+          "response_schema": {
+            "status": "str",
+            "data": [
+              {
+                "id": "str",
+                "name": "str",
+                "short_code": "str",
+                "currency_symbol": "str",
+                "svg_path": "str",
+                "direction": "str",
+                "svg_viewbox": "str",
+                "excluded_countries": [],
+                "countries_sorting": []
+              }
+            ]
+          },
+          "response_body": {
+            "status": "success",
+            "data": [
+              {
+                "id": "66cf4af36efa5cd760048b86",
+                "name": "Saudi Riyal",
+                "short_code": "SAR",
+                "currency_symbol": "SAR",
+                "svg_path": "M699.62,1113.02h0c-20.06,44.48-33.32,92.75-38.4,143.37l424.51-90.24c20.06-44.47,33.31-92.75,38.4-143.37l-424.51,90.24ZM1085.73,895.8c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.33v-135.2l292.27-62.11c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.27V66.13c-50.67,28.45-95.67,66.32-132.25,110.99v403.35l-132.25,28.11V0c-50.67,28.44-95.67,66.32-132.25,110.99v525.69l-295.91,62.88c-20.06,44.47-33.33,92.75-38.42,143.37l334.33-71.05v170.26l-358.3,76.14c-20.06,44.47-33.32,92.75-38.4,143.37l375.04-79.7c30.53-6.35,56.77-24.4,73.83-49.24l68.78-101.97v-.02c7.14-10.55,11.3-23.27,11.3-36.97v-149.98l132.25-28.11v270.4l424.53-90.28Z",
+                "direction": "left",
+                "svg_viewbox": "0 0 1124.14 1256.39",
+                "excluded_countries": [],
+                "countries_sorting": []
+              },
+              {
+                "id": "66cf508e9d6ef32aaa091981",
+                "name": "Great British Pound",
+                "short_code": "GBP",
+                "currency_symbol": "£",
+                "svg_path": "",
+                "direction": null,
+                "svg_viewbox": null,
+                "excluded_countries": [],
+                "countries_sorting": []
+              },
+              {
+                "id": "672cc9c3f1561748010183c1",
+                "name": "Japanese Yen",
+                "short_code": "JPY",
+                "currency_symbol": "¥",
+                "svg_path": "",
+                "direction": null,
+                "svg_viewbox": null,
+                "excluded_countries": [],
+                "countries_sorting": []
+              },
+              {
+                "id": "6730ea5c314da337ab03ac61",
+                "name": "USD",
+                "short_code": "USD",
+                "currency_symbol": "$",
+                "svg_path": "",
+                "direction": null,
+                "svg_viewbox": null,
+                "excluded_countries": [],
+                "countries_sorting": []
+              },
+              {
+                "id": "67570fc197b0fb3b7e0ea4c2",
+                "name": "Moroccan Dirham",
+                "short_code": "MAD",
+                "currency_symbol": "MAD",
+                "svg_path": "",
+                "direction": null,
+                "svg_viewbox": null,
+                "excluded_countries": [],
+                "countries_sorting": []
+              },
+              {
+                "id": "67925568b84afd2b9e0378b7",
+                "name": "UAE Dirham",
+                "short_code": "AED",
+                "currency_symbol": "AED",
+                "svg_path": "m88.3 1c0.4 0.6 2.6 3.3 4.7 5.9 15.3 18.2 26.8 47.8 33 85.1 4.1 24.5 4.3 32.2 4.3 125.6v87h-41.8c-38.2 0-42.6-0.2-50.1-1.7-11.8-2.5-24-9.2-32.2-17.8-6.5-6.9-6.3-7.3-5.9 13.6 0.5 17.3 0.7 19.2 3.2 28.6 4 14.9 9.5 26 17.8 35.9 11.3 13.6 22.8 21.2 39.2 26.3 3.5 1 10.9 1.4 37.1 1.6l32.7 0.5v43.3 43.4l-46.1-0.3-46.3-0.3-8-3.2c-9.5-3.8-13.8-6.6-23.1-14.9l-6.8-6.1 0.4 19.1c0.5 17.7 0.6 19.7 3.1 28.7 8.7 31.8 29.7 54.5 57.4 61.9 6.9 1.9 9.6 2 38.5 2.4l30.9 0.4v89.6c0 54.1-0.3 94-0.8 100.8-0.5 6.2-2.1 17.8-3.5 25.9-6.5 37.3-18.2 65.4-35 83.6l-3.4 3.7h169.1c101.1 0 176.7-0.4 187.8-0.9 19.5-1 63-5.3 72.8-7.4 3.1-0.6 8.9-1.5 12.7-2.1 8.1-1.2 21.5-4 40.8-8.9 27.2-6.8 52-15.3 76.3-26.1 7.6-3.4 29.4-14.5 35.2-18 3.1-1.8 6.8-4 8.2-4.7 3.9-2.1 10.4-6.3 19.9-13.1 4.7-3.4 9.4-6.7 10.4-7.4 4.2-2.8 18.7-14.9 25.3-21 25.1-23.1 46.1-48.8 62.4-76.3 2.3-4 5.3-9 6.6-11.1 3.3-5.6 16.9-33.6 18.2-37.8 0.6-1.9 1.4-3.9 1.8-4.3 2.6-3.4 17.6-50.6 19.4-60.9 0.6-3.3 0.9-3.8 3.4-4.3 1.6-0.3 24.9-0.3 51.8-0.1 53.8 0.4 53.8 0.4 65.7 5.9 6.7 3.1 8.7 4.5 16.1 11.2 9.7 8.7 8.8 10.1 8.2-11.7-0.4-12.8-0.9-20.7-1.8-23.9-3.4-12.3-4.2-14.9-7.2-21.1-9.8-21.4-26.2-36.7-47.2-44l-8.2-3-33.4-0.4-33.3-0.5 0.4-11.7c0.4-15.4 0.4-45.9-0.1-61.6l-0.4-12.6 44.6-0.2c38.2-0.2 45.3 0 49.5 1.1 12.6 3.5 21.1 8.3 31.5 17.8l5.8 5.4v-14.8c0-17.6-0.9-25.4-4.5-37-7.1-23.5-21.1-41-41.1-51.8-13-7-13.8-7.2-58.5-7.5-26.2-0.2-39.9-0.6-40.6-1.2-0.6-0.6-1.1-1.6-1.1-2.4 0-0.8-1.5-7.1-3.5-13.9-23.4-82.7-67.1-148.4-131-197.1-8.7-6.7-30-20.8-38.6-25.6-3.3-1.9-6.9-3.9-7.8-4.5-4.2-2.3-28.3-14.1-34.3-16.6-3.6-1.6-8.3-3.6-10.4-4.4-35.3-15.3-94.5-29.8-139.7-34.3-7.4-0.7-17.2-1.8-21.7-2.2-20.4-2.3-48.7-2.6-209.4-2.6-135.8 0-169.9 0.3-169.4 1zm330.7 43.3c33.8 2 54.6 4.6 78.9 10.5 74.2 17.6 126.4 54.8 164.3 117 3.5 5.8 18.3 36 20.5 42.1 10.5 28.3 15.6 45.1 20.1 67.3 1.1 5.4 2.6 12.6 3.3 16 0.7 3.3 1 6.4 0.7 6.7-0.5 0.4-100.9 0.6-223.3 0.5l-222.5-0.2-0.3-128.5c-0.1-70.6 0-129.3 0.3-130.4l0.4-1.9h71.1c39 0 78 0.4 86.5 0.9zm297.5 350.3c0.7 4.3 0.7 77.3 0 80.9l-0.6 2.7-227.5-0.2-227.4-0.3-0.2-42.4c-0.2-23.3 0-42.7 0.2-43.1 0.3-0.5 97.2-0.8 227.7-0.8h227.2zm-10.2 171.7c0.5 1.5-1.9 13.8-6.8 33.8-5.6 22.5-13.2 45.2-20.9 62-3.8 8.6-13.3 27.2-15.6 30.7-1.1 1.6-4.3 6.7-7.1 11.2-18 28.2-43.7 53.9-73 72.9-10.7 6.8-32.7 18.4-38.6 20.2-1.2 0.3-2.5 0.9-3 1.3-0.7 0.6-9.8 4-20.4 7.8-19.5 6.9-56.6 14.4-86.4 17.5-19.3 1.9-22.4 2-96.7 2h-76.9v-129.7-129.8l220.9-0.4c121.5-0.2 221.6-0.5 222.4-0.7 0.9-0.1 1.8 0.5 2.1 1.2z",
+                "direction": "left",
+                "svg_viewbox": "0 0 1000 870",
+                "excluded_countries": [],
+                "countries_sorting": []
+              },
+              {
+                "id": "67a20eff8a51141b0b0748bf",
+                "name": "Bahraini Dinar",
+                "short_code": "BHD",
+                "currency_symbol": "BHD",
+                "svg_path": "",
+                "direction": null,
+                "svg_viewbox": null,
+                "excluded_countries": [],
+                "countries_sorting": []
+              },
+              {
+                "id": "69ad5f14c740f19d9907c3ba",
+                "name": "Euro",
+                "short_code": "EUR",
+                "currency_symbol": "€",
+                "svg_path": "",
+                "direction": "left",
+                "svg_viewbox": null,
+                "excluded_countries": [],
+                "countries_sorting": []
+              }
+            ]
+          },
+          "current_node": "login",
+          "query_parameters": {
+            "lang": "en",
+            "visible_in": "rs"
+          },
+          "redirect_information": {},
+          "triggering_ui_action": "navigation",
+          "associated_component": "page_window",
+          "associated_page": "login",
+          "associated_workflow": "Verify behavioral state transitions for the Login user journey",
+          "associated_behavioral_graph_node": "login_api_get_api_webook_com_api_v2_currencies",
+          "business_operation": "GETV2Currencies",
+          "business_intent": "Perform GET operations on resource path",
+          "triggering_user_action": "navigation"
+        },
+        {
+          "method": "POST",
+          "url": "https://api.webook.com/api/v2/login",
+          "request_headers": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "authorization": "[MASKED]",
+            "referer": "",
+            "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "accept": "application/json",
+            "content-type": "application/json",
+            "token": "[MASKED]"
+          },
+          "request_payload": {
+            "email": "[MASKED]",
+            "password": "[MASKED]",
+            "captcha": "0cAFcWeA45lhPQkVNpbjiJmAPUeBQ_co26JfSyRpFjrSrR_JFYNCC1pyyrlhCfxvqYAtX2p2kaIGb0RNh2TKksYhSDhYRMCjPHp7HsshEfAWlyMeb1UbH8w2RglJLtlvu7j9ytcN-BgCr-vBdhrpIFwYsGWmNJM231rw3ADOSxQPsBgvwavT_dvFGuPQWZVzlwgAeictdWyYyG7dfbf-BgCvA0tr_aut-V5A3F7tx4oj-SyuUfq7mgTI8iGWFxW2G-Gk-f5zhHQHMM65RB4BzngHVkJdh_X0m43o8qduhgFl-U7S5srsJg2vYRx3vyc_8bVKkKOjdLi5fJ6irROJJ8M8k9j2ETpsIuZE87_PCihvCXF0VpBXlIpDYTKQnoqTfEgHQPGy7-DB6D5JOhuCYsB21HaFB61trmckhIsoc3rWaXFeYaSDbnFfcU4QTqgJIdRsA2K5NgrnfQKfRZ59dXPfrSEQek2TBpJAa3rkJnLlomBGWNdp3JTrg1Ij3_r6Qw4l2oGTZ7XNZg1_kmt36P5mhEelV0WTICVVZGOch9cwMdc22nBv4I2G831NvxfbJhgGbZBPFePy_7UXi1YJFEmkF2Ot3zwk3MjlSx-CkYQTGRa8q3cFPw-_Gs7kefCvzSrgNtmR1bRnG8Zbouw9jJnmURAE7K3N6d6PHuF7JshNZjMyu6Io6Fj8GmyLUSrMLqoZNtDWhdEqCZqQUY9ybNg_v9O3Yb-Ff6EmEG51_YIvcVQyGQoW7q9ULGcz6M1ri_Vq9sZA5pKuvsm_HfSuGJgiiVCguuwVF2ELtVoXhcQ5Hoj7M_-dhBIu-8XtGU_4OBzZpxswV_6OoJ_W3YPp3MU-w22zRQ4zlD0g0Np0K6LJqkPGCahyoYyuTWa-13IzA6MKOZdImHzchWXQbxnXHgrUWrIMpZnX9ZcVs2QWfYEcs8Ha26i0RSgwbaKj4_fYff75HdcfruaeBZCl4Ts6TL2eqao19CnDl0M3x2Y9EBt0Mf_ENolLJqGnz0_ZyZ9RfNRXLG1yQVu06UK_32NaXboVVl7PBhBze2Jj8vU3OQ9WAFPmKye5GtJ6itIma_trrHY4FxInk7wP7s0b4tfmPJE3UPHP57I5F-f_CwYRu7O3zp5vIUoVUG40KLsoKTBBqFfBNC-Xy-B2kq0dxpuVqkfXrBbALAtJyFrFKL_Eg3WQqoJNrjz-DYEg0ND0lLL_v3VVV5q-o7r4jpKCdPTfz7YTXdF9FUbZsQjiqJnsIkz5_Gti9kpmUMmfB7fnFz9S7ZNb80bNgPur_1zcMreHOQIxlhOVeTGF3boVJZERPrEcDycQJEwq1C5mjXVfi0sb4QEHVzPrWfaYxqOI1JSUTV7nh7kXntbo4BoT1xA44F2A2wmfXqYZ8gOjWah6RrWkejEh5wgdUIfw_civfXT_oxhG8Uz8UPLOqc0LGzU27rUAU1qhcWLrr8PGtJ7CevqmQLo2cPGOW7g-MwR2sn4O-PRLGPazWjgm6l3CcKaSl9feyBXYHIX7qO_UxmhuWYj_QAQyoaMc9u-Xzn96L008jjFUddYa9G0nnqhs8EzlqARW5XVONFtTgrqu52dhorkVfnTPi2s02Cd9IyUYjIk5Nj50bvj1vc8MzzyKuABCda09g3MPOxI45LOfIBIb73MnOaLNYmy8PSLNX9D2ixCpWYI_MlMhTPuMFCBn195eL19D_ri7QfjaZrqIC8JKVFgnlj_8glfxTsCFo0TviqAgM4fHmL1ZulTNWena3Z8A7tIRHcRK-D9Jc_0kJZR6Wum5xrSJziuRF9rybDtI438T-2ziIow1yFO8N8eKgpMz4Q2Mjwgarvi0WE6gEnbqPSlB5YO_mUFz5db-iTz7r9Lmp68aNqb2UI8lDC78seGHXBs2jD_I4mRd76CZXG7ezzoTYOAxpGvvdI5RbPU0ExmImtdcmHl0fX_1toL4fB8E0BUST2BIsxrtKsMeIJDdO5D2JmJ3kSkvPTdCWIPknJuWKxKUNydmHzqP_nzG9t2IJ8n3EWfuuL8wXYv6J8yBkUZg8l5hv6LrCPQ44ADydgrAbVUsZReeoLRFdrrqXLvYFhObfok65tkyJ6Y0O5lWbQM6oxFktmlhhwGE3xI3da_yAc-oLWowuk5dBWg-oUPDZ-jEsVTZRD3xAjzLyflr3Clilgqfbi4a5WQxzAzshNL1h98ntHkH8hyUiZjkXqzyI8dxMojMD0KRFOMo97qF14ZB0ZTJNCzQu4EI1Dz-W2xyK2_z0Uq2S3t2dt7H5Hj9ff4o2tqC4JPKIE0S-ENRHTGtRdaObPZ5Hv9Vu2LOGP2E42o26Fyi4F3v0J7g",
+            "signature": "24330bf438538de01d436918425a51ae|h8xk9rmwqt8kctlemhnzv",
+            "app_source": "rs",
+            "login_with": "[MASKED]",
+            "lang": "en"
+          },
+          "response_status": 200,
+          "response_headers": {
+            "x-robots-tag": "noindex",
+            "access-control-max-age": "86400",
+            "access-control-expose-headers": "queue-token",
+            "content-encoding": "gzip",
+            "cf-cache-status": "DYNAMIC",
+            "expect-ct": "max-age=86400, enforce",
+            "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+            "x-content-type-options": "nosniff",
+            "date": "Mon, 20 Jul 2026 07:02:12 GMT",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "access-control-allow-headers": "Content-Type, Authorization, X-Requested-With, Token",
+            "x-frame-options": "SAMEORIGIN",
+            "strict-transport-security": "max-age=2592000; includeSubDomains",
+            "cache-control": "no-cache, private",
+            "_qserv": "backend-queue-prod-15",
+            "access-control-allow-credentials": "true",
+            "referrer-policy": "same-origin",
+            "cf-ray": "a1e01952ca2b7ec1-MAA",
+            "access-control-allow-origin": "https://webook.com",
+            "_queued": "true",
+            "x-xss-protection": "1; mode=block",
+            "server": "cloudflare"
+          },
+          "response_time_ms": 1501,
+          "response_size_bytes": 95,
+          "content_type": "application/json",
+          "response_schema": {
+            "status": "str",
+            "error": {
+              "email": "str"
+            }
+          },
+          "response_body": {
+            "status": "error",
+            "error": {
+              "email": "[MASKED]"
+            }
+          },
+          "current_node": "login",
+          "query_parameters": {},
+          "redirect_information": {},
+          "triggering_ui_action": "clickable on [data-testid=\"auth_login_submit_button\"]",
+          "associated_component": "[data-testid=\"auth_login_submit_button\"]",
+          "associated_page": "login",
+          "associated_workflow": "Verify behavioral state transitions for the Login user journey",
+          "associated_behavioral_graph_node": "login_api_post_api_webook_com_api_v2_login",
+          "business_operation": "AuthenticateUser",
+          "business_intent": "Authenticate user credentials and initialize session",
+          "triggering_user_action": "clickable on [data-testid=\"auth_login_submit_button\"]"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-07-20T07:02:48.166255+00:00",
+  "story_key": "KAN-20",
+  "domain": "Login"
+}

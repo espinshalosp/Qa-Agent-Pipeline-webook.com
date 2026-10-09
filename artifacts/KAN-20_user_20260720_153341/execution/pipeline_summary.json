@@ -1,0 +1,55 @@
+{
+  "_schema_version": "1.0.0",
+  "run_id": "98a992fa",
+  "pipeline_stages": [
+    "jira_agent",
+    "testcase_generation_agent",
+    "execution_agent"
+  ],
+  "started_at": "2026-07-20T10:03:38.133243+00:00",
+  "completed_at": "2026-07-20T10:16:50.153405+00:00",
+  "total_stories": 1,
+  "succeeded": 1,
+  "failed": 0,
+  "results": [
+    {
+      "issue_key": "KAN-20",
+      "story_path": "/Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/story.json",
+      "status": "success",
+      "stages": {
+        "testcase_generation_agent": {
+          "status": "success",
+          "output": "/Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/testcases.json"
+        },
+        "jira_update_generation": {
+          "status": "skipped",
+          "output": null
+        },
+        "manual_approval_gate": {
+          "status": "approved"
+        },
+        "execution_agent": {
+          "status": "success",
+          "output": "/Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/execution/execution_report.json"
+        },
+        "defect_agent": {
+          "status": "success",
+          "output": "/Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/defects/defect_candidates.json"
+        },
+        "jira_update_execution": {
+          "status": "skipped",
+          "output": null
+        },
+        "jira_update_defect": {
+          "status": "skipped",
+          "output": null
+        },
+        "jira_update_agent": {
+          "status": "skipped",
+          "output": null
+        }
+      },
+      "error": null
+    }
+  ]
+}

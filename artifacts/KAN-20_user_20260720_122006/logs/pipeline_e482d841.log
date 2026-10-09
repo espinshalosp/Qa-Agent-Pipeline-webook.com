@@ -1,0 +1,612 @@
+{"timestamp": "2026-07-20T12:20:06", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Running self-learning behavioral QA intelligence engine"}
+{"timestamp": "2026-07-20T12:20:06", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Pre-crawling home page to dynamically discover routes..."}
+{"timestamp": "2026-07-20T12:20:07", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Launching chromium (headless=False)"}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Dynamically discovered 39 routes: [{'label': 'Explore', 'path': '/en/explore'}, {'label': 'Flights', 'path': '/en/flights'}, {'label': 'Hotels', 'path': '/en/hotels'}, {'label': 'Subscriptions', 'path': '/en/subscriptions'}, {'label': 'Business partners', 'path': '/business/en'}, {'label': 'Our blog', 'path': '/blog'}, {'label': 'Today', 'path': '/en/events-happening-today'}, {'label': 'Things to do', 'path': '/en/explore?tag=things-to-do'}, {'label': 'Sports', 'path': '/en/explore?category=sports-event'}, {'label': 'Football', 'path': '/en/explore?tag=football'}, {'label': 'Weekend', 'path': '/en/explore?date=thisweek'}, {'label': 'Concerts', 'path': '/en/explore?tag=concerts'}, {'label': 'Theater', 'path': '/en/explore?category=theater-and-performing-arts'}, {'label': 'Restaurants', 'path': '/en/explore?category=restaurant-and-cafe'}, {'label': 'Shop', 'path': '/shop/en/'}, {'label': 'Auctions New', 'path': '/en/auctions'}, {'label': 'Portuguese MotoGP Grand Prix 2026', 'path': '/en/page/motogp-2026'}, {'label': 'Esports World Cup WITNESS THE ACTION', 'path': '/en/page/esports-world-cup'}, {'label': 'See more', 'path': '/explore?category=restaurant-and-cafe'}, {'label': 'See more', 'path': '/explore'}, {'label': 'Experiences', 'path': '/en/unique-experiences'}, {'label': 'Travel', 'path': '/en/travel-wbk'}, {'label': 'Sports Events', 'path': '/en/explore?category=sports-events'}, {'label': 'Music Events', 'path': '/en/explore?category=music-events'}, {'label': 'Families', 'path': '/en/explore?tag=families'}, {'label': 'Couples', 'path': '/en/explore?tag=couples'}, {'label': 'Kids', 'path': '/en/explore?tag=kids'}, {'label': 'Solo', 'path': '/en/explore?tag=solo'}, {'label': 'Ladies', 'path': '/en/explore?tag=ladies'}, {'label': 'CONTACT US', 'path': '/en/contact-us'}, {'label': 'BUSINESS PARTNERS', 'path': '/en/business'}, {'label': 'PRIVACY POLICY', 'path': '/en/privacy'}, {'label': 'TERMS & CONDITIONS', 'path': '/en/terms'}, {'label': 'ABOUT US', 'path': '/en/about'}, {'label': 'STARTUP ACCELERATOR FUND', 'path': '/en/fun-startup-accelerator-fund'}, {'label': 'REPORT SECURITY VULNERABILITY', 'path': '/security'}, {'label': 'TICKET SAFETY', 'path': '/ticket-safety'}, {'label': 'REPORT BLACK MARKET ACTIVITY', 'path': '/report-black-market'}, {'label': 'FAN PROTECTION', 'path': '/fan-protection'}]"}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentEngine] Dynamically selected domain: Login with path /en/login (score: 0)"}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Extracted Intent: {'domain': 'Login', 'path': '/en/login', 'user_goal': 'Execute operations and validation tasks within the Login page space', 'business_action': 'Verify behavioral state transitions for the Login user journey', 'validations_required': ['Error Alerts Handling', 'Mandatory Input Verification', 'Format Restriction Validation'], 'semantic_key': 'auth', 'acceptance_criteria': ['User can enter an email and password.', 'User can submit the login form.', 'Valid credentials allow the user to log in successfully.', 'Invalid credentials display an appropriate error.', 'Required fields are validated when left empty.']}"}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Clearing stale behavioral graph memory from story None for active story KAN-20."}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Loaded behavioral memory graph (filtered for Login): 0 nodes, 0 edges"}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[PreGenerationValidation] Verifying execution context isolation..."}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[PreGenerationValidation] Story context validation passed. Cross-module contamination check deferred to post-generation validation."}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Launching explorer targeting scoped URL: https://webook.com/en/login"}
+{"timestamp": "2026-07-20T12:20:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Launching chromium (headless=False)"}
+{"timestamp": "2026-07-20T12:20:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Final assessment completion: 0 assessed, 0 skipped, 0 failed, 0 remaining pending"}
+{"timestamp": "2026-07-20T12:20:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Depth 1: Navigating to https://webook.com/en/login (Load count: 1)"}
+{"timestamp": "2026-07-20T12:20:40", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Dismissing cookie consent overlay via 'Reject all non-essential' button."}
+{"timestamp": "2026-07-20T12:20:42", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Authentication screen detected. Initiating secure login process..."}
+{"timestamp": "2026-07-20T12:20:46", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Secure login sequence submitted."}
+{"timestamp": "2026-07-20T12:20:46", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Performing scroll assessment on https://webook.com/en/login"}
+{"timestamp": "2026-07-20T12:20:48", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Discovered 3 inputs and 25 buttons on https://webook.com/en/login"}
+{"timestamp": "2026-07-20T12:20:48", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Assessment completion tracking: 38 pending, 10 skipped, 0 failed"}
+{"timestamp": "2026-07-20T12:20:48", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #1: clickable on 'Update your information'"}
+{"timestamp": "2026-07-20T12:20:53", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:20:53", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #2: clickable on 'Book the best events, experiences and shows on webook.com in
+
+Saudi Arabia
+
+Saudi Arabia
+
+Search'"}
+{"timestamp": "2026-07-20T12:20:57", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:20:57", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #3: clickable on 'Saudi Arabia'"}
+{"timestamp": "2026-07-20T12:21:01", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:21:02", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #4: input on '[data-testid="home_search_input"]'"}
+{"timestamp": "2026-07-20T12:21:06", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/search/SA?q=Login). Reverting."}
+{"timestamp": "2026-07-20T12:21:07", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #5: clickable on 'Saudi Arabia'"}
+{"timestamp": "2026-07-20T12:21:11", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: input controls enabled/disabled state changed; loading states triggered; page content updated"}
+{"timestamp": "2026-07-20T12:21:12", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #6: clickable on 'Search'"}
+{"timestamp": "2026-07-20T12:21:16", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: input controls enabled/disabled state changed; loading states triggered; page content updated"}
+{"timestamp": "2026-07-20T12:21:16", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #7: clickable on 'Today
+
+Things to do
+
+Sports
+
+Football
+
+Weekend
+
+Flights
+
+New
+
+Hotels
+
+New
+
+Concerts
+
+Theater
+
+Restaurants
+
+Shop
+
+Auctions
+
+New'"}
+{"timestamp": "2026-07-20T12:21:20", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:21:20", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #8: clickable on 'Today'"}
+{"timestamp": "2026-07-20T12:21:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/page/events-happening-today). Reverting."}
+{"timestamp": "2026-07-20T12:21:26", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #9: clickable on 'Shop'"}
+{"timestamp": "2026-07-20T12:21:30", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:21:30", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #10: clickable on 'Auctions
+
+New'"}
+{"timestamp": "2026-07-20T12:21:34", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/page/auctions). Reverting."}
+{"timestamp": "2026-07-20T12:21:35", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #11: clickable on 'Portuguese MotoGP Grand Prix 2026
+Six Flags, Qiddiya City
+
+Six Flags Qiddiya City
+
+From
+
+200
+
+Instant booking
+
+Esports World Cup
+
+WITNESS THE ACTION'"}
+{"timestamp": "2026-07-20T12:21:40", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/page/motogp-2026). Reverting."}
+{"timestamp": "2026-07-20T12:21:41", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #12: clickable on 'section#Webook\ home\ top\ event\ carousel\ GENERAL > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)'"}
+{"timestamp": "2026-07-20T12:21:45", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:21:45", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #13: clickable on 'section#Webook\ home\ top\ event\ carousel\ GENERAL > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)'"}
+{"timestamp": "2026-07-20T12:21:49", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:21:49", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #14: clickable on 'Portuguese MotoGP Grand Prix 2026'"}
+{"timestamp": "2026-07-20T12:21:54", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/page/motogp-2026). Reverting."}
+{"timestamp": "2026-07-20T12:21:55", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #15: clickable on 'Six Flags, Qiddiya City
+
+Six Flags Qiddiya City
+
+From
+
+200
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:21:59", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/RUH/experience/events/six-flags-new-2026). Reverting."}
+{"timestamp": "2026-07-20T12:22:00", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #16: clickable on 'Esports World Cup
+
+WITNESS THE ACTION'"}
+{"timestamp": "2026-07-20T12:22:04", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/page/esports-world-cup). Reverting."}
+{"timestamp": "2026-07-20T12:22:05", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #17: clickable on 'Follow'"}
+{"timestamp": "2026-07-20T12:22:10", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:22:10", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #18: clickable on 'Follow'"}
+{"timestamp": "2026-07-20T12:22:14", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:22:14", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #19: clickable on 'Follow'"}
+{"timestamp": "2026-07-20T12:22:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:22:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #20: clickable on 'What's new
+Event · 21 August - Gates open at 7:00 PM, Concert starts at 9:00 PM
+
+This Is Michael
+
+Jeddah, Saudi Arabia
+
+From
+
+195
+
+Instant booking
+
+Event · 23 July, Gates open at 8:00 PM, Concert starts at 10:00 PM
+
+Tamer Hosney and Alshami Concert
+
+Jeddah, Saudi Arabia
+
+From
+
+295
+
+Instant booking
+
+Event · Open gate : 8:30 PM - Start Concert: 9:30 PM
+
+Ahlam Concert
+
+Jeddah, Saudi Arabia
+
+From
+
+395
+
+Instant booking
+
+Event · Jan 09 - Jan 18
+
+Hospitality Experience | China Package – 3 Group Stage Matches
+
+Riyadh, Saudi Arabia
+
+From
+
+6,862
+
+Instant booking
+
+Event · Jul 20
+
+Najma Dreams
+
+Jeddah, Saudi Arabia
+
+From
+
+46
+
+Instant booking
+
+Event · Jul 24 - Sep 26
+
+Taif Season 2026 - Private Suites
+
+Taif, Saudi Arabia
+
+From
+
+60,000
+
+Instant booking
+
+Event · Jul 17 - May 29
+
+Al Ettifaq Seasonal Tickets
+
+Dammam , Saudi Arabia
+
+From
+
+199
+
+Instant booking
+
+Event · Jul 29 - Jul 30
+
+Nassr Roshn Saudi League Trophy Photo Experience
+
+Riyadh, Saudi Arabia
+
+Free
+
+Instant booking
+
+Event · 31 July 2026
+
+Pawdi Summer Splash
+
+Al-Muzahmiyya, Saudi Arabia
+
+From
+
+200
+
+Instant booking
+
+Event · Jul 31
+
+Sard Concerts-The Naghma Band
+
+Riyadh, Saudi Arabia
+
+From
+
+100
+
+Instant booking
+
+Experience
+
+Personal Training Package
+
+Riyadh, Saudi Arabia
+
+From
+
+400
+
+Instant booking
+
+Experience
+
+Outdoor Pool Access
+
+Riyadh, Saudi Arabia
+
+From
+
+100
+
+Instant booking
+
+Experience
+
+Palms Fitness Club
+
+Riyadh, Saudi Arabia
+
+From
+
+13,800
+
+Instant booking
+
+Experience
+
+Palms Bowling Club
+
+Riyadh, Saudi Arabia
+
+From
+
+49
+
+Instant booking
+
+Experience
+
+Sunset Brunch Club at Mondo Restaurant
+
+Riyadh, Saudi Arabia
+
+From
+
+181.7
+
+Instant booking
+
+Experience
+
+Warner Bros. World™ Yas Island, Abu Dhabi
+
+Abu Dhabi, United Arab Emirates
+
+From
+
+361.09
+
+Instant booking
+
+Experience
+
+Yas Waterworld Yas Island, Abu Dhabi
+
+Abu Dhabi, United Arab Emirates
+
+From
+
+308.76
+
+Instant booking
+
+Experience
+
+Ferrari World Yas Island, Abu Dhabi
+
+Abu Dhabi, United Arab Emirates
+
+From
+
+361.09
+
+Instant booking
+
+Experience
+
+Modern Riyadh: KAFD, Architecture, Metro, & Street Food
+
+Riyadh, Saudi Arabia
+
+From
+
+615
+
+Instant booking
+
+Experience
+
+Diriyah Heritage Tour: Turaif UNESCO Site & Bujairi Terrace
+
+Riyadh, Saudi Arabia
+
+From
+
+680
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:23", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/JED/music-events/events/ahlam-concert-jeddah-ghair-2026-tickets). Reverting."}
+{"timestamp": "2026-07-20T12:22:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #21: clickable on 'section#What\'s\ new\ section > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)'"}
+{"timestamp": "2026-07-20T12:22:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: input controls enabled/disabled state changed; loading states triggered"}
+{"timestamp": "2026-07-20T12:22:28", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #22: clickable on 'section#What\'s\ new\ section > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)'"}
+{"timestamp": "2026-07-20T12:22:32", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:22:32", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #23: clickable on 'Event · 21 August - Gates open at 7:00 PM, Concert starts at 9:00 PM
+
+This Is Michael
+
+Jeddah, Saudi Arabia
+
+From
+
+195
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:32", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "Interaction with element [data-testid="item_events_this-is-michael-musical-show-jeddah-tickets-2026"] failed: Locator.click: Element is outside of the viewport
+Call log:
+  - waiting for get_by_test_id("item_events_this-is-michael-musical-show-jeddah-tickets-2026")
+    - locator resolved to <a data-discover="true" data-testid="item_events_this-is-michael-musical-show-jeddah-tickets-2026" href="/en/SA/JED/music-events/events/this-is-michael-musical-show-jeddah-tickets-2026" class="text-text disabled:bg-input-disabled inline-flex items-center justify-center overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S group relative h-full w-full gap-0 bg-transparent p-0">…</a>
+  - attempting click action
+    - scrolling into view if needed
+    - done scrolling
+"}
+{"timestamp": "2026-07-20T12:22:32", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #24: clickable on 'Event · 23 July, Gates open at 8:00 PM, Concert starts at 10:00 PM
+
+Tamer Hosney and Alshami Concert
+
+Jeddah, Saudi Arabia
+
+From
+
+295
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:33", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "Interaction with element [data-testid="item_events_tamer-hosny-alshami-concert-jeddah-2026-tickets"] failed: Locator.click: Element is outside of the viewport
+Call log:
+  - waiting for get_by_test_id("item_events_tamer-hosny-alshami-concert-jeddah-2026-tickets")
+    - locator resolved to <a data-discover="true" data-testid="item_events_tamer-hosny-alshami-concert-jeddah-2026-tickets" href="/en/SA/JED/music-events/events/tamer-hosny-alshami-concert-jeddah-2026-tickets" class="text-text disabled:bg-input-disabled inline-flex items-center justify-center overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S group relative h-full w-full gap-0 bg-transparent p-0">…</a>
+  - attempting click action
+    - scrolling into view if needed
+    - done scrolling
+"}
+{"timestamp": "2026-07-20T12:22:33", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #25: clickable on 'Event · Open gate : 8:30 PM - Start Concert: 9:30 PM
+
+Ahlam Concert
+
+Jeddah, Saudi Arabia
+
+From
+
+395
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:33", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "Interaction with element [data-testid="item_events_ahlam-concert-jeddah-ghair-2026-tickets"] failed: Locator.click: Element is outside of the viewport
+Call log:
+  - waiting for get_by_test_id("item_events_ahlam-concert-jeddah-ghair-2026-tickets")
+    - locator resolved to <a data-discover="true" data-testid="item_events_ahlam-concert-jeddah-ghair-2026-tickets" href="/en/SA/JED/music-events/events/ahlam-concert-jeddah-ghair-2026-tickets" class="text-text disabled:bg-input-disabled inline-flex items-center justify-center overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S group relative h-full w-full gap-0 bg-transparent p-0">…</a>
+  - attempting click action
+    - scrolling into view if needed
+    - done scrolling
+"}
+{"timestamp": "2026-07-20T12:22:33", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #26: clickable on 'Event · Jan 09 - Jan 18
+
+Hospitality Experience | China Package – 3 Group Stage Matches
+
+Riyadh, Saudi Arabia
+
+From
+
+6,862
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:37", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:22:37", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #27: clickable on 'Event · Jul 20
+
+Najma Dreams
+
+Jeddah, Saudi Arabia
+
+From
+
+46
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:41", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Detected page state change: loading states triggered"}
+{"timestamp": "2026-07-20T12:22:41", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #28: clickable on 'Event · Jul 24 - Sep 26
+
+Taif Season 2026 - Private Suites
+
+Taif, Saudi Arabia
+
+From
+
+60,000
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:45", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/taf/sports-event/events/private_suites_taif_season_2026). Reverting."}
+{"timestamp": "2026-07-20T12:22:46", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #29: clickable on 'Event · Jul 29 - Jul 30
+
+Nassr Roshn Saudi League Trophy Photo Experience
+
+Riyadh, Saudi Arabia
+
+Free
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:51", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/RUH/sports-event/events/al-nassr-rsl-trophy-activation). Reverting."}
+{"timestamp": "2026-07-20T12:22:52", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #30: clickable on 'Event · 31 July 2026
+
+Pawdi Summer Splash
+
+Al-Muzahmiyya, Saudi Arabia
+
+From
+
+200
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:22:56", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/mzh/activities-adventures/events/pawdi-summer-splash). Reverting."}
+{"timestamp": "2026-07-20T12:22:57", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #31: clickable on 'Event · Jul 31
+
+Sard Concerts-The Naghma Band
+
+Riyadh, Saudi Arabia
+
+From
+
+100
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:23:02", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/RUH/theater-and-performing-arts/events/sard-concerts-the-naghma-band-tickets26). Reverting."}
+{"timestamp": "2026-07-20T12:23:03", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #32: clickable on 'Experience
+
+Personal Training Package
+
+Riyadh, Saudi Arabia
+
+From
+
+400
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:23:07", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/RUH/experience/experiences/personal-training-package-56). Reverting."}
+{"timestamp": "2026-07-20T12:23:08", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #33: clickable on 'Experience
+
+Outdoor Pool Access
+
+Riyadh, Saudi Arabia
+
+From
+
+100
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:23:13", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/RUH/experience/experiences/outdoor-pool-access-76). Reverting."}
+{"timestamp": "2026-07-20T12:23:14", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #34: clickable on 'Experience
+
+Palms Fitness Club
+
+Riyadh, Saudi Arabia
+
+From
+
+13,800
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:23:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/RUH/experience/experiences/palm-fitness-club-tickets). Reverting."}
+{"timestamp": "2026-07-20T12:23:19", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Interaction #35: clickable on 'Experience
+
+Palms Bowling Club
+
+Riyadh, Saudi Arabia
+
+From
+
+49
+
+Instant booking'"}
+{"timestamp": "2026-07-20T12:23:24", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralExploration] Navigation out of scope detected (https://webook.com/en/SA/RUH/experience/experiences/palms-bowling-club-86). Reverting."}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[IntentDrivenUIExplorationEngine] Saved crawler exploration report to: /Users/espinshalo/Downloads/qa_agent_platform/artifacts/KAN-20_user_20260720_122006/exploration_report.json"}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=================================================================="}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "  CRAWLER BEHAVIORAL ASSESSMENT SUMMARY"}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=================================================================="}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Assessed elements           : 32"}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Intentionally skipped       : 23"}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Framework failures          : 3"}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Remaining pending           : 176"}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=================================================================="}
+{"timestamp": "2026-07-20T12:23:25", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[BehavioralFlowEngine] Graph updated: 14 new transitions, 3 existing transitions."}
+{"timestamp": "2026-07-20T12:23:30", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "[RejectionPolicy] Rejected 'Verify access authorization controls when navigating to link': Navigation-only testcase without destination analysis."}
+{"timestamp": "2026-07-20T12:23:31", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[GenerationQuality] Improved testcase TC-LOGIN-098 by replacing generic phrases"}
+{"timestamp": "2026-07-20T12:23:31", "level": "WARNING", "logger": "agents.testcase_generation_agent", "message": "[GenerationQuality] Found 13 quality issues: ['Semantic duplicate detected in testcase TC-LOGIN-002: Verify entering valid data in input field G Recaptcha Response updates state', 'Semantic duplicate detected in testcase TC-LOGIN-068: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-069: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-070: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-071: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-072: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-073: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-074: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-075: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-076: Verify category filter updates displayed records correctly', 'Semantic duplicate detected in testcase TC-LOGIN-077: Verify category filter updates displayed records correctly', "Generic phrase 'step_' found in testcase TC-LOGIN-098", 'Placeholder workflow found in testcase TC-LOGIN-098']"}
+{"timestamp": "2026-07-20T12:23:31", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Merged test cases: 0 existing, 95 new added. Total: 95"}
+{"timestamp": "2026-07-20T12:23:31", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[PostGenerationValidation] Verifying consistency of generated test suite..."}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] Test case generation run mode: FULL"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=========================================================="}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "  FINAL QUALITY GATE & COVERAGE VALIDATION"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=========================================================="}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Pages analyzed: 1"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "⚠ Behavior-path coverage score: 0.46 (538 path(s) not represented: ['login -> login_comp_input__r4d (has component)', 'login -> login_comp_input__r42 (has component)', 'login_comp_input__r42 -> login_interact_input__r42 (interact via user action)', 'login -> login_comp_textarea_name__g_recaptcha_response (has component)', 'login -> login_comp_input_name__email (has component)', 'login_comp_input_name__email -> login_interact_input_name__email (interact via user action)', 'login_interact_input_name__email -> login (triggers system response)', 'login -> login_comp_input__r5o (has component)', 'login_comp_input__r5o -> login_interact_input__r5o (interact via user action)', 'login_interact_input__r5o -> login (triggers system response)', 'login -> login_comp_input__r60 (has component)', 'login_comp_input__r60 -> login_interact_input__r60 (interact via user action)', 'login_interact_input__r60 -> login (triggers system response)', 'login -> login_comp_input__r8r (has component)', 'login_comp_input__r8r -> login_interact_input__r8r (interact via user action)', 'login_interact_input__r8r -> login (triggers system response)', 'login -> login_comp_input__ras (has component)', 'login_comp_input__ras -> login_interact_input__ras (interact via user action)', 'login_interact_input__ras -> login (triggers system response)', 'login -> login_comp_input__rgr (has component)', 'login_comp_input__rgr -> login_interact_input__rgr (interact via user action)', 'login_interact_input__rgr -> login (triggers system response)', 'login -> login_comp_input__rjf (has component)', 'login_comp_input__rjf -> login_interact_input__rjf (interact via user action)', 'login_interact_input__rjf -> login (triggers system response)', 'login -> login_comp_input__rj5 (has component)', 'login_comp_input__rj5 -> login_interact_input__rj5 (interact via user action)', 'login_interact_input__rj5 -> login (triggers system response)', 'login -> login_comp_button_has_text__update_your_inform (has component)', 'login_interact_button_has_text__update_your_inform -> login (triggers system response)', 'login -> login_comp_button (has component)', 'login_interact_button -> login (triggers system response)', 'login -> login_comp_button_has_text__rc (has component)', 'login_interact_button_has_text__rc -> login (triggers system response)', 'login -> login_comp_button_has_text__saudi_arabia (has component)', 'login_comp_button_has_text__saudi_arabia -> login_interact_button_has_text__saudi_arabia (interact via user action)', 'login_interact_button_has_text__saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__search (has component)', 'login_comp_button_has_text__search -> login_interact_button_has_text__search (interact via user action)', 'login_interact_button_has_text__search -> login (triggers system response)', 'login -> login_comp_button_has_text__cookie_settings (has component)', 'login_comp_button_has_text__cookie_settings -> login_interact_button_has_text__cookie_settings (interact via user action)', 'login_interact_button_has_text__cookie_settings -> login (triggers system response)', 'login -> login_comp_button_has_text__subscribe_now (has component)', 'login_comp_button_has_text__subscribe_now -> login_interact_button_has_text__subscribe_now (interact via user action)', 'login_interact_button_has_text__subscribe_now -> login (triggers system response)', 'login -> login_comp_button_has_text__france (has component)', 'login_interact_button_has_text__france -> login (triggers system response)', 'login -> login_comp_button_has_text__morocco (has component)', 'login_interact_button_has_text__morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__bahrain (has component)', 'login_interact_button_has_text__bahrain -> login (triggers system response)', 'login -> login_comp_button_has_text__united_arab_emirat (has component)', 'login_interact_button_has_text__united_arab_emirat -> login (triggers system response)', 'login -> login_comp_button_has_text__portugal (has component)', 'login_interact_button_has_text__portugal -> login (triggers system response)', 'login -> login_comp_button_has_text__united_kingdom (has component)', 'login_interact_button_has_text__united_kingdom -> login (triggers system response)', 'login -> login_comp_button_has_text__anywhere (has component)', 'login_interact_button_has_text__anywhere -> login (triggers system response)', 'login -> login_comp_button_has_text__riyadh_saudi_arabi (has component)', 'login_interact_button_has_text__riyadh_saudi_arabi -> login (triggers system response)', 'login -> login_comp_button_has_text__jeddah_saudi_arabi (has component)', 'login_interact_button_has_text__jeddah_saudi_arabi -> login (triggers system response)', 'login -> login_comp_button_has_text__abha_saudi_arabia (has component)', 'login_interact_button_has_text__abha_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__al_ahsa_saudi_arab (has component)', 'login_interact_button_has_text__al_ahsa_saudi_arab -> login (triggers system response)', 'login -> login_comp_button_has_text__al_baha_saudi_arab (has component)', 'login_interact_button_has_text__al_baha_saudi_arab -> login (triggers system response)', 'login -> login_comp_button_has_text__aseer_saudi_arabia (has component)', 'login_interact_button_has_text__aseer_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__burayduh_saudi_ara (has component)', 'login_interact_button_has_text__burayduh_saudi_ara -> login (triggers system response)', 'login -> login_comp_button_has_text__dammam_saudi_arabi (has component)', 'login_interact_button_has_text__dammam_saudi_arabi -> login (triggers system response)', 'login -> login_comp_button_has_text__hail_saudi_arabia (has component)', 'login_interact_button_has_text__hail_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__jazan_saudi_arabia (has component)', 'login_interact_button_has_text__jazan_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__jouf_saudi_arabia (has component)', 'login_interact_button_has_text__jouf_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__kaec_saudi_arabia (has component)', 'login_interact_button_has_text__kaec_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__khobar_saudi_arabi (has component)', 'login_interact_button_has_text__khobar_saudi_arabi -> login (triggers system response)', 'login -> login_comp_button_has_text__medina_saudi_arabi (has component)', 'login_interact_button_has_text__medina_saudi_arabi -> login (triggers system response)', 'login -> login_comp_button_has_text__mecca_saudi_arabia (has component)', 'login_interact_button_has_text__mecca_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__najran_saudi_arabi (has component)', 'login_interact_button_has_text__najran_saudi_arabi -> login (triggers system response)', 'login -> login_comp_button_has_text__taif_saudi_arabia (has component)', 'login_interact_button_has_text__taif_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__al_qassim_saudi_ar (has component)', 'login_interact_button_has_text__al_qassim_saudi_ar -> login (triggers system response)', 'login -> login_comp_button_has_text__alula_saudi_arabia (has component)', 'login_interact_button_has_text__alula_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__diriyah_saudi_arab (has component)', 'login_interact_button_has_text__diriyah_saudi_arab -> login (triggers system response)', 'login -> login_comp_button_has_text__dhahran_saudi_arab (has component)', 'login_interact_button_has_text__dhahran_saudi_arab -> login (triggers system response)', 'login -> login_comp_button_has_text__sakaka_saudi_arabi (has component)', 'login_interact_button_has_text__sakaka_saudi_arabi -> login (triggers system response)', 'login -> login_comp_button_has_text__khamis_mushait_sau (has component)', 'login_interact_button_has_text__khamis_mushait_sau -> login (triggers system response)', 'login -> login_comp_button_has_text__al_qatif_saudi_ara (has component)', 'login_interact_button_has_text__al_qatif_saudi_ara -> login (triggers system response)', 'login -> login_comp_button_has_text__al_majma_a_saudi_a (has component)', 'login_interact_button_has_text__al_majma_a_saudi_a -> login (triggers system response)', 'login -> login_comp_button_has_text__arar_saudi_arabia (has component)', 'login_interact_button_has_text__arar_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__al_jubail_saudi_ar (has component)', 'login_interact_button_has_text__al_jubail_saudi_ar -> login (triggers system response)', 'login -> login_comp_button_has_text__al_amaaria_saudi_a (has component)', 'login_interact_button_has_text__al_amaaria_saudi_a -> login (triggers system response)', 'login -> login_comp_button_has_text__tabuk_saudi_arabia (has component)', 'login_interact_button_has_text__tabuk_saudi_arabia -> login (triggers system response)', 'login -> login_comp_button_has_text__biljurashi_saudi_a (has component)', 'login_interact_button_has_text__biljurashi_saudi_a -> login (triggers system response)', 'login -> login_comp_button_has_text__al_muzahmiyya_saud (has component)', 'login_interact_button_has_text__al_muzahmiyya_saud -> login (triggers system response)', 'login -> login_comp_button_has_text__paris_france (has component)', 'login_interact_button_has_text__paris_france -> login (triggers system response)', 'login -> login_comp_button_has_text__casablanca_morocco (has component)', 'login_interact_button_has_text__casablanca_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__marrakesh_morocco (has component)', 'login_interact_button_has_text__marrakesh_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__tangier_morocco (has component)', 'login_interact_button_has_text__tangier_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__rabat_morocco (has component)', 'login_interact_button_has_text__rabat_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__oujda_morocco (has component)', 'login_interact_button_has_text__oujda_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__el_jadida_morocco (has component)', 'login_interact_button_has_text__el_jadida_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__fes_morocco (has component)', 'login_interact_button_has_text__fes_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__berkane_morocco (has component)', 'login_interact_button_has_text__berkane_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__agadir_morocco (has component)', 'login_interact_button_has_text__agadir_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__kenitra_morocco (has component)', 'login_interact_button_has_text__kenitra_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__sal__morocco (has component)', 'login_interact_button_has_text__sal__morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__taza_morocco (has component)', 'login_interact_button_has_text__taza_morocco -> login (triggers system response)', 'login -> login_comp_button_has_text__manama_bahrain (has component)', 'login_interact_button_has_text__manama_bahrain -> login (triggers system response)', 'login -> login_comp_button_has_text__sakhir_bahrain (has component)', 'login_interact_button_has_text__sakhir_bahrain -> login (triggers system response)', 'login -> login_comp_button_has_text__dubai_united_arab (has component)', 'login_interact_button_has_text__dubai_united_arab -> login (triggers system response)', 'login -> login_comp_button_has_text__abu_dhabi_united_a (has component)', 'login_interact_button_has_text__abu_dhabi_united_a -> login (triggers system response)', 'login -> login_comp_button_has_text__ras_al_khaimah_uni (has component)', 'login_interact_button_has_text__ras_al_khaimah_uni -> login (triggers system response)', 'login -> login_comp_button_has_text__portim_o_portugal (has component)', 'login_interact_button_has_text__portim_o_portugal -> login (triggers system response)', 'login -> login_comp_button_has_text__london_united_king (has component)', 'login_interact_button_has_text__london_united_king -> login (triggers system response)', 'login -> login_comp_we_re_hiring__apply_now______http (has component)', 'login_comp_we_re_hiring__apply_now______http -> login_interact_we_re_hiring__apply_now______http (interact via user action)', 'login_interact_we_re_hiring__apply_now______http -> login (triggers system response)', 'login -> login_comp_explore_____en_explore (has component)', 'login_comp_explore_____en_explore -> login_interact_explore_____en_explore (interact via user action)', 'login_interact_explore_____en_explore -> login (triggers system response)', 'login -> login_comp_flights_____en_flights (has component)', 'login_comp_flights_____en_flights -> login_interact_flights_____en_flights (interact via user action)', 'login_interact_flights_____en_flights -> login (triggers system response)', 'login -> login_comp_hotels_____en_hotels (has component)', 'login_comp_hotels_____en_hotels -> login_interact_hotels_____en_hotels (interact via user action)', 'login_interact_hotels_____en_hotels -> login (triggers system response)', 'login -> login_comp_ticket_resell____https___resell_web (has component)', 'login_comp_ticket_resell____https___resell_web -> login_interact_ticket_resell____https___resell_web (interact via user action)', 'login_interact_ticket_resell____https___resell_web -> login (triggers system response)', 'login -> login_comp_subscriptions_____en_subscriptions (has component)', 'login_comp_subscriptions_____en_subscriptions -> login_interact_subscriptions_____en_subscriptions (interact via user action)', 'login_interact_subscriptions_____en_subscriptions -> login (triggers system response)', 'login -> login_comp_business_partners____https___webook (has component)', 'login_comp_business_partners____https___webook -> login_interact_business_partners____https___webook (interact via user action)', 'login_interact_business_partners____https___webook -> login (triggers system response)', 'login -> login_comp_our_blog____https___webook_com_blog (has component)', 'login_comp_our_blog____https___webook_com_blog -> login_interact_our_blog____https___webook_com_blog (interact via user action)', 'login_interact_our_blog____https___webook_com_blog -> login (triggers system response)', 'login -> login_comp_today_____en_events_happening_today (has component)', 'login_comp_today_____en_events_happening_today -> login_interact_today_____en_events_happening_today (interact via user action)', 'login_interact_today_____en_events_happening_today -> login (triggers system response)', 'login -> login_comp_things_to_do_____en_explore_tag_thi (has component)', 'login_comp_things_to_do_____en_explore_tag_thi -> login_interact_things_to_do_____en_explore_tag_thi (interact via user action)', 'login_interact_things_to_do_____en_explore_tag_thi -> login (triggers system response)', 'login -> login_comp_sports_____en_explore_category_spor (has component)', 'login_comp_sports_____en_explore_category_spor -> login_interact_sports_____en_explore_category_spor (interact via user action)', 'login_interact_sports_____en_explore_category_spor -> login (triggers system response)', 'login -> login_comp_football_____en_explore_tag_footbal (has component)', 'login_comp_football_____en_explore_tag_footbal -> login_interact_football_____en_explore_tag_footbal (interact via user action)', 'login_interact_football_____en_explore_tag_footbal -> login (triggers system response)', 'login -> login_comp_weekend_____en_explore_date_thiswee (has component)', 'login_comp_weekend_____en_explore_date_thiswee -> login_interact_weekend_____en_explore_date_thiswee (interact via user action)', 'login_interact_weekend_____en_explore_date_thiswee -> login (triggers system response)', 'login -> login_comp_flights__new_____en_flights (has component)', 'login_comp_flights__new_____en_flights -> login_interact_flights__new_____en_flights (interact via user action)', 'login_interact_flights__new_____en_flights -> login (triggers system response)', 'login -> login_comp_hotels__new_____en_hotels (has component)', 'login_comp_hotels__new_____en_hotels -> login_interact_hotels__new_____en_hotels (interact via user action)', 'login_interact_hotels__new_____en_hotels -> login (triggers system response)', 'login -> login_comp_concerts_____en_explore_tag_concert (has component)', 'login_comp_concerts_____en_explore_tag_concert -> login_interact_concerts_____en_explore_tag_concert (interact via user action)', 'login_interact_concerts_____en_explore_tag_concert -> login (triggers system response)', 'login -> login_comp_theater_____en_explore_category_the (has component)', 'login_comp_theater_____en_explore_category_the -> login_interact_theater_____en_explore_category_the (interact via user action)', 'login_interact_theater_____en_explore_category_the -> login (triggers system response)', 'login -> login_comp_restaurants_____en_explore_category (has component)', 'login_comp_restaurants_____en_explore_category -> login_interact_restaurants_____en_explore_category (interact via user action)', 'login_interact_restaurants_____en_explore_category -> login (triggers system response)', 'login -> login_comp_shop____https___webook_com_shop_en (has component)', 'login_comp_shop____https___webook_com_shop_en -> login_interact_shop____https___webook_com_shop_en (interact via user action)', 'login_interact_shop____https___webook_com_shop_en -> login (triggers system response)', 'login -> login_comp_auctions__new_____en_auctions (has component)', 'login_comp_auctions__new_____en_auctions -> login_interact_auctions__new_____en_auctions (interact via user action)', 'login_interact_auctions__new_____en_auctions -> login (triggers system response)', 'login -> login_comp_portuguese_motogp_grand_prix_2026 (has component)', 'login_comp_portuguese_motogp_grand_prix_2026 -> login_interact_portuguese_motogp_grand_prix_2026 (interact via user action)', 'login_interact_portuguese_motogp_grand_prix_2026 -> login (triggers system response)', 'login -> login_comp_six_flags__qiddiya_city__six_flags (has component)', 'login_comp_six_flags__qiddiya_city__six_flags -> login_interact_six_flags__qiddiya_city__six_flags (interact via user action)', 'login_interact_six_flags__qiddiya_city__six_flags -> login (triggers system response)', 'login -> login_comp_esports_world_cup__witness_the_acti (has component)', 'login_comp_esports_world_cup__witness_the_acti -> login_interact_esports_world_cup__witness_the_acti (interact via user action)', 'login_interact_esports_world_cup__witness_the_acti -> login (triggers system response)', 'login -> login_comp_follow____https___www_instagram_com (has component)', 'login_comp_follow____https___www_instagram_com -> login_interact_follow____https___www_instagram_com (interact via user action)', 'login_interact_follow____https___www_instagram_com -> login (triggers system response)', 'login -> login_comp_follow____https___x_com_webook (has component)', 'login_comp_follow____https___x_com_webook -> login_interact_follow____https___x_com_webook (interact via user action)', 'login_interact_follow____https___x_com_webook -> login (triggers system response)', 'login -> login_comp_follow____https___www_tiktok_com__w (has component)', 'login_comp_follow____https___www_tiktok_com__w -> login_interact_follow____https___www_tiktok_com__w (interact via user action)', 'login_interact_follow____https___www_tiktok_com__w -> login (triggers system response)', 'login -> login_comp_event___21_august___gates_open_at_7 (has component)', 'login_comp_event___21_august___gates_open_at_7 -> login_interact_event___21_august___gates_open_at_7 (interact via user action)', 'login_interact_event___21_august___gates_open_at_7 -> login (triggers system response)', 'login -> login_comp_event___23_july__gates_open_at_8_00 (has component)', 'login_comp_event___23_july__gates_open_at_8_00 -> login_interact_event___23_july__gates_open_at_8_00 (interact via user action)', 'login_interact_event___23_july__gates_open_at_8_00 -> login (triggers system response)', 'login -> login_comp_event___open_gate___8_30_pm___start (has component)', 'login_comp_event___open_gate___8_30_pm___start -> login_interact_event___open_gate___8_30_pm___start (interact via user action)', 'login_interact_event___open_gate___8_30_pm___start -> login (triggers system response)', 'login -> login_comp_event___jan_09___jan_18__hospitalit (has component)', 'login_comp_event___jan_09___jan_18__hospitalit -> login_interact_event___jan_09___jan_18__hospitalit (interact via user action)', 'login_interact_event___jan_09___jan_18__hospitalit -> login (triggers system response)', 'login -> login_comp_event___jul_20__najma_dreams__jedda (has component)', 'login_comp_event___jul_20__najma_dreams__jedda -> login_interact_event___jul_20__najma_dreams__jedda (interact via user action)', 'login_interact_event___jul_20__najma_dreams__jedda -> login (triggers system response)', 'login -> login_comp_event___jul_24___sep_26__taif_seaso (has component)', 'login_comp_event___jul_24___sep_26__taif_seaso -> login_interact_event___jul_24___sep_26__taif_seaso (interact via user action)', 'login_interact_event___jul_24___sep_26__taif_seaso -> login (triggers system response)', 'login -> login_comp_event___jul_17___may_29__al_ettifaq (has component)', 'login_comp_event___jul_17___may_29__al_ettifaq -> login_interact_event___jul_17___may_29__al_ettifaq (interact via user action)', 'login_interact_event___jul_17___may_29__al_ettifaq -> login (triggers system response)', 'login -> login_comp_event___jul_29___jul_30__nassr_rosh (has component)', 'login_comp_event___jul_29___jul_30__nassr_rosh -> login_interact_event___jul_29___jul_30__nassr_rosh (interact via user action)', 'login_interact_event___jul_29___jul_30__nassr_rosh -> login (triggers system response)', 'login -> login_comp_event___31_july_2026__pawdi_summer (has component)', 'login_comp_event___31_july_2026__pawdi_summer -> login_interact_event___31_july_2026__pawdi_summer (interact via user action)', 'login_interact_event___31_july_2026__pawdi_summer -> login (triggers system response)', 'login -> login_comp_event___jul_31__sard_concerts_the_n (has component)', 'login_comp_event___jul_31__sard_concerts_the_n -> login_interact_event___jul_31__sard_concerts_the_n (interact via user action)', 'login_interact_event___jul_31__sard_concerts_the_n -> login (triggers system response)', 'login -> login_comp_experience__personal_training_packa (has component)', 'login_comp_experience__personal_training_packa -> login_interact_experience__personal_training_packa (interact via user action)', 'login_interact_experience__personal_training_packa -> login (triggers system response)', 'login -> login_comp_experience__outdoor_pool_access__ri (has component)', 'login_comp_experience__outdoor_pool_access__ri -> login_interact_experience__outdoor_pool_access__ri (interact via user action)', 'login_interact_experience__outdoor_pool_access__ri -> login (triggers system response)', 'login -> login_comp_experience__palms_fitness_club__riy (has component)', 'login_comp_experience__palms_fitness_club__riy -> login_interact_experience__palms_fitness_club__riy (interact via user action)', 'login_interact_experience__palms_fitness_club__riy -> login (triggers system response)', 'login -> login_comp_experience__palms_bowling_club__riy (has component)', 'login_comp_experience__palms_bowling_club__riy -> login_interact_experience__palms_bowling_club__riy (interact via user action)', 'login_interact_experience__palms_bowling_club__riy -> login (triggers system response)', 'login -> login_comp_experience__sunset_brunch_club_at_m (has component)', 'login_comp_experience__sunset_brunch_club_at_m -> login_interact_experience__sunset_brunch_club_at_m (interact via user action)', 'login_interact_experience__sunset_brunch_club_at_m -> login (triggers system response)', 'login -> login_comp_experience__warner_bros__world__yas (has component)', 'login_comp_experience__warner_bros__world__yas -> login_interact_experience__warner_bros__world__yas (interact via user action)', 'login_interact_experience__warner_bros__world__yas -> login (triggers system response)', 'login -> login_comp_experience__yas_waterworld_yas_isla (has component)', 'login_comp_experience__yas_waterworld_yas_isla -> login_interact_experience__yas_waterworld_yas_isla (interact via user action)', 'login_interact_experience__yas_waterworld_yas_isla -> login (triggers system response)', 'login -> login_comp_experience__ferrari_world_yas_islan (has component)', 'login_comp_experience__ferrari_world_yas_islan -> login_interact_experience__ferrari_world_yas_islan (interact via user action)', 'login_interact_experience__ferrari_world_yas_islan -> login (triggers system response)', 'login -> login_comp_experience__modern_riyadh__kafd__ar (has component)', 'login_comp_experience__modern_riyadh__kafd__ar -> login_interact_experience__modern_riyadh__kafd__ar (interact via user action)', 'login_interact_experience__modern_riyadh__kafd__ar -> login (triggers system response)', 'login -> login_comp_experience__diriyah_heritage_tour (has component)', 'login_comp_experience__diriyah_heritage_tour -> login_interact_experience__diriyah_heritage_tour (interact via user action)', 'login_interact_experience__diriyah_heritage_tour -> login (triggers system response)', 'login -> login_comp_tournament__esports_world_cup__pari (has component)', 'login_comp_tournament__esports_world_cup__pari -> login_interact_tournament__esports_world_cup__pari (interact via user action)', 'login_interact_tournament__esports_world_cup__pari -> login (triggers system response)', 'login -> login_comp_concert__amr_diab_live_in_istanbul (has component)', 'login_comp_concert__amr_diab_live_in_istanbul -> login_interact_concert__amr_diab_live_in_istanbul (interact via user action)', 'login_interact_concert__amr_diab_live_in_istanbul -> login (triggers system response)', 'login -> login_comp_tournament__portuguese_motogp_grand (has component)', 'login_comp_tournament__portuguese_motogp_grand -> login_interact_tournament__portuguese_motogp_grand (interact via user action)', 'login_interact_tournament__portuguese_motogp_grand -> login (triggers system response)', 'login -> login_comp_tournament__esports_nations_cup_202 (has component)', 'login_comp_tournament__esports_nations_cup_202 -> login_interact_tournament__esports_nations_cup_202 (interact via user action)', 'login_interact_tournament__esports_nations_cup_202 -> login (triggers system response)', 'login -> login_comp_zone__aquarabia___qiddiya_city__qid (has component)', 'login_comp_zone__aquarabia___qiddiya_city__qid -> login_interact_zone__aquarabia___qiddiya_city__qid (interact via user action)', 'login_interact_zone__aquarabia___qiddiya_city__qid -> login (triggers system response)', 'login -> login_comp_zone__six_flags__qiddiya_city__qidd (has component)', 'login_comp_zone__six_flags__qiddiya_city__qidd -> login_interact_zone__six_flags__qiddiya_city__qidd (interact via user action)', 'login_interact_zone__six_flags__qiddiya_city__qidd -> login (triggers system response)', 'login -> login_comp_see_more_____explore_category_resta (has component)', 'login_comp_see_more_____explore_category_resta -> login_interact_see_more_____explore_category_resta (interact via user action)', 'login_interact_see_more_____explore_category_resta -> login (triggers system response)', 'login -> login_comp_restaurant__myazu___riyadh__riyadh (has component)', 'login_comp_restaurant__myazu___riyadh__riyadh -> login_interact_restaurant__myazu___riyadh__riyadh (interact via user action)', 'login_interact_restaurant__myazu___riyadh__riyadh -> login (triggers system response)', 'login -> login_comp_restaurant__ferdi__riyadh__saudi_ar (has component)', 'login_comp_restaurant__ferdi__riyadh__saudi_ar -> login_interact_restaurant__ferdi__riyadh__saudi_ar (interact via user action)', 'login_interact_restaurant__ferdi__riyadh__saudi_ar -> login (triggers system response)', 'login -> login_comp_restaurant__vega_cigar_lounge__riya (has component)', 'login_comp_restaurant__vega_cigar_lounge__riya -> login_interact_restaurant__vega_cigar_lounge__riya (interact via user action)', 'login_interact_restaurant__vega_cigar_lounge__riya -> login (triggers system response)', 'login -> login_comp_restaurant__madeo__riyadh__saudi_ar (has component)', 'login_comp_restaurant__madeo__riyadh__saudi_ar -> login_interact_restaurant__madeo__riyadh__saudi_ar (interact via user action)', 'login_interact_restaurant__madeo__riyadh__saudi_ar -> login (triggers system response)', 'login -> login_comp_restaurant__gymkhana__riyadh__saudi (has component)', 'login_comp_restaurant__gymkhana__riyadh__saudi -> login_interact_restaurant__gymkhana__riyadh__saudi (interact via user action)', 'login_interact_restaurant__gymkhana__riyadh__saudi -> login (triggers system response)', 'login -> login_comp_restaurant__chi_spacca__riyadh__sau (has component)', 'login_comp_restaurant__chi_spacca__riyadh__sau -> login_interact_restaurant__chi_spacca__riyadh__sau (interact via user action)', 'login_interact_restaurant__chi_spacca__riyadh__sau -> login (triggers system response)', 'login -> login_comp_see_more_____explore (has component)', 'login_comp_see_more_____explore -> login_interact_see_more_____explore (interact via user action)', 'login_interact_see_more_____explore -> login (triggers system response)', 'login -> login_comp_experiences_____en_unique_experienc (has component)', 'login_comp_experiences_____en_unique_experienc -> login_interact_experiences_____en_unique_experienc (interact via user action)', 'login_interact_experiences_____en_unique_experienc -> login (triggers system response)', 'login -> login_comp_travel_____en_travel_wbk (has component)', 'login_comp_travel_____en_travel_wbk -> login_interact_travel_____en_travel_wbk (interact via user action)', 'login_interact_travel_____en_travel_wbk -> login (triggers system response)', 'login -> login_comp_sports_events_____en_explore_catego (has component)', 'login_comp_sports_events_____en_explore_catego -> login_interact_sports_events_____en_explore_catego (interact via user action)', 'login_interact_sports_events_____en_explore_catego -> login (triggers system response)', 'login -> login_comp_music_events_____en_explore_categor (has component)', 'login_comp_music_events_____en_explore_categor -> login_interact_music_events_____en_explore_categor (interact via user action)', 'login_interact_music_events_____en_explore_categor -> login (triggers system response)', 'login -> login_comp_theater_and_performing_arts_____en (has component)', 'login_comp_theater_and_performing_arts_____en -> login_interact_theater_and_performing_arts_____en (interact via user action)', 'login_interact_theater_and_performing_arts_____en -> login (triggers system response)', 'login -> login_comp_families_____en_explore_tag_familie (has component)', 'login_comp_families_____en_explore_tag_familie -> login_interact_families_____en_explore_tag_familie (interact via user action)', 'login_interact_families_____en_explore_tag_familie -> login (triggers system response)', 'login -> login_comp_couples_____en_explore_tag_couples (has component)', 'login_comp_couples_____en_explore_tag_couples -> login_interact_couples_____en_explore_tag_couples (interact via user action)', 'login_interact_couples_____en_explore_tag_couples -> login (triggers system response)', 'login -> login_comp_kids_____en_explore_tag_kids (has component)', 'login_comp_kids_____en_explore_tag_kids -> login_interact_kids_____en_explore_tag_kids (interact via user action)', 'login_interact_kids_____en_explore_tag_kids -> login (triggers system response)', 'login -> login_comp_solo_____en_explore_tag_solo (has component)', 'login_comp_solo_____en_explore_tag_solo -> login_interact_solo_____en_explore_tag_solo (interact via user action)', 'login_interact_solo_____en_explore_tag_solo -> login (triggers system response)', 'login -> login_comp_ladies_____en_explore_tag_ladies (has component)', 'login_comp_ladies_____en_explore_tag_ladies -> login_interact_ladies_____en_explore_tag_ladies (interact via user action)', 'login_interact_ladies_____en_explore_tag_ladies -> login (triggers system response)', 'login -> login_comp_jobs___careers____https___apply_wor (has component)', 'login_comp_jobs___careers____https___apply_wor -> login_interact_jobs___careers____https___apply_wor (interact via user action)', 'login_interact_jobs___careers____https___apply_wor -> login (triggers system response)', 'login -> login_comp_contact_us_____en_contact_us (has component)', 'login_comp_contact_us_____en_contact_us -> login_interact_contact_us_____en_contact_us (interact via user action)', 'login_interact_contact_us_____en_contact_us -> login (triggers system response)', 'login -> login_comp_business_partners_____en_business (has component)', 'login_comp_business_partners_____en_business -> login_interact_business_partners_____en_business (interact via user action)', 'login_interact_business_partners_____en_business -> login (triggers system response)', 'login -> login_comp_privacy_policy_____en_privacy (has component)', 'login_comp_privacy_policy_____en_privacy -> login_interact_privacy_policy_____en_privacy (interact via user action)', 'login_interact_privacy_policy_____en_privacy -> login (triggers system response)', 'login -> login_comp_terms___conditions_____en_terms (has component)', 'login_interact_terms___conditions_____en_terms -> login (triggers system response)', 'login -> login_comp_care_center___faqs____https___wbk_z (has component)', 'login_comp_care_center___faqs____https___wbk_z -> login_interact_care_center___faqs____https___wbk_z (interact via user action)', 'login_interact_care_center___faqs____https___wbk_z -> login (triggers system response)', 'login -> login_comp_about_us_____en_about (has component)', 'login_comp_about_us_____en_about -> login_interact_about_us_____en_about (interact via user action)', 'login_interact_about_us_____en_about -> login (triggers system response)', 'login -> login_comp_startup_accelerator_fund_____en_fun (has component)', 'login_comp_startup_accelerator_fund_____en_fun -> login_interact_startup_accelerator_fund_____en_fun (interact via user action)', 'login_interact_startup_accelerator_fund_____en_fun -> login (triggers system response)', 'login -> login_comp_blog____https___webook_com_blog (has component)', 'login_comp_blog____https___webook_com_blog -> login_interact_blog____https___webook_com_blog (interact via user action)', 'login_interact_blog____https___webook_com_blog -> login (triggers system response)', 'login -> login_comp_report_security_vulnerability_____s (has component)', 'login_comp_report_security_vulnerability_____s -> login_interact_report_security_vulnerability_____s (interact via user action)', 'login_interact_report_security_vulnerability_____s -> login (triggers system response)', 'login -> login_comp_ticket_safety_____ticket_safety (has component)', 'login_comp_ticket_safety_____ticket_safety -> login_interact_ticket_safety_____ticket_safety (interact via user action)', 'login_interact_ticket_safety_____ticket_safety -> login (triggers system response)', 'login -> login_comp_report_black_market_activity_____re (has component)', 'login_comp_report_black_market_activity_____re -> login_interact_report_black_market_activity_____re (interact via user action)', 'login_interact_report_black_market_activity_____re -> login (triggers system response)', 'login -> login_comp_fan_protection_____fan_protection (has component)', 'login_comp_fan_protection_____fan_protection -> login_interact_fan_protection_____fan_protection (interact via user action)', 'login_interact_fan_protection_____fan_protection -> login (triggers system response)', 'login -> login_comp_riyadh__saudi_arabia_____en_explore (has component)', 'login_comp_riyadh__saudi_arabia_____en_explore -> login_interact_riyadh__saudi_arabia_____en_explore (interact via user action)', 'login_interact_riyadh__saudi_arabia_____en_explore -> login (triggers system response)', 'login -> login_comp_jeddah__saudi_arabia_____en_explore (has component)', 'login_comp_jeddah__saudi_arabia_____en_explore -> login_interact_jeddah__saudi_arabia_____en_explore (interact via user action)', 'login_interact_jeddah__saudi_arabia_____en_explore -> login (triggers system response)', 'login -> login_comp_dammam__saudi_arabia_____en_explore (has component)', 'login_comp_dammam__saudi_arabia_____en_explore -> login_interact_dammam__saudi_arabia_____en_explore (interact via user action)', 'login_interact_dammam__saudi_arabia_____en_explore -> login (triggers system response)', 'login -> login_comp_abha__saudi_arabia_____en_explore_s (has component)', 'login_comp_abha__saudi_arabia_____en_explore_s -> login_interact_abha__saudi_arabia_____en_explore_s (interact via user action)', 'login_interact_abha__saudi_arabia_____en_explore_s -> login (triggers system response)', 'login -> login_comp_alula__saudi_arabia_____en_explore (has component)', 'login_comp_alula__saudi_arabia_____en_explore -> login_interact_alula__saudi_arabia_____en_explore (interact via user action)', 'login_interact_alula__saudi_arabia_____en_explore -> login (triggers system response)', 'login -> login_comp_london__united_kingdom_____en_explo (has component)', 'login_comp_london__united_kingdom_____en_explo -> login_interact_london__united_kingdom_____en_explo (interact via user action)', 'login_interact_london__united_kingdom_____en_explo -> login (triggers system response)', 'login -> login_comp_dubai__united_arab_emirates_____en (has component)', 'login_comp_dubai__united_arab_emirates_____en -> login_interact_dubai__united_arab_emirates_____en (interact via user action)', 'login_interact_dubai__united_arab_emirates_____en -> login (triggers system response)', 'login -> login_comp_abu_dhabi__united_arab_emirates (has component)', 'login_comp_abu_dhabi__united_arab_emirates -> login_interact_abu_dhabi__united_arab_emirates (interact via user action)', 'login_interact_abu_dhabi__united_arab_emirates -> login (triggers system response)', 'login -> login_comp_bahrain_____en_explore_bh (has component)', 'login_comp_bahrain_____en_explore_bh -> login_interact_bahrain_____en_explore_bh (interact via user action)', 'login_interact_bahrain_____en_explore_bh -> login (triggers system response)', 'login -> login_comp_morocco_____en_explore_ma (has component)', 'login_comp_morocco_____en_explore_ma -> login_interact_morocco_____en_explore_ma (interact via user action)', 'login_interact_morocco_____en_explore_ma -> login (triggers system response)', 'login -> login_comp_follow_now_____https___x_com_webook (has component)', 'login_comp_follow_now_____https___x_com_webook -> login_interact_follow_now_____https___x_com_webook (interact via user action)', 'login_interact_follow_now_____https___x_com_webook -> login (triggers system response)', 'login -> login_comp_follow_now_____https___instagram_co (has component)', 'login_comp_follow_now_____https___instagram_co -> login_interact_follow_now_____https___instagram_co (interact via user action)', 'login_interact_follow_now_____https___instagram_co -> login (triggers system response)', 'login -> login_comp_follow_now_____https___www_tiktok_c (has component)', 'login_comp_follow_now_____https___www_tiktok_c -> login_interact_follow_now_____https___www_tiktok_c (interact via user action)', 'login_interact_follow_now_____https___www_tiktok_c -> login (triggers system response)', 'login -> login_comp_follow_now_____https___www_youtube (has component)', 'login_comp_follow_now_____https___www_youtube -> login_interact_follow_now_____https___www_youtube (interact via user action)', 'login_interact_follow_now_____https___www_youtube -> login (triggers system response)', 'login -> login_comp_add_your_business_____en_business_h (has component)', 'login_comp_add_your_business_____en_business_h -> login_interact_add_your_business_____en_business_h (interact via user action)', 'login_interact_add_your_business_____en_business_h -> login (triggers system response)', 'login -> login_comp_explore_more____https___webook_com (has component)', 'login_comp_explore_more____https___webook_com -> login_interact_explore_more____https___webook_com (interact via user action)', 'login_interact_explore_more____https___webook_com -> login (triggers system response)', 'login -> login_comp_fan_zones_for_the_2026_world_cup__e (has component)', 'login_comp_fan_zones_for_the_2026_world_cup__e -> login_interact_fan_zones_for_the_2026_world_cup__e (interact via user action)', 'login_interact_fan_zones_for_the_2026_world_cup__e -> login (triggers system response)', 'login -> login_comp_esports_world_cup_2026_in_paris__fu (has component)', 'login_comp_esports_world_cup_2026_in_paris__fu -> login_interact_esports_world_cup_2026_in_paris__fu (interact via user action)', 'login_interact_esports_world_cup_2026_in_paris__fu -> login (triggers system response)', 'login -> login_comp_six_flags_qiddiya_city__the_world_s (has component)', 'login_comp_six_flags_qiddiya_city__the_world_s -> login_interact_six_flags_qiddiya_city__the_world_s (interact via user action)', 'login_interact_six_flags_qiddiya_city__the_world_s -> login (triggers system response)', 'login -> login_comp_the_laughter_factory__inside_the_gu (has component)', 'login_comp_the_laughter_factory__inside_the_gu -> login_interact_the_laughter_factory__inside_the_gu (interact via user action)', 'login_interact_the_laughter_factory__inside_the_gu -> login (triggers system response)', 'login -> login_comp_discover_dubai__hidden_gems__advent (has component)', 'login_comp_discover_dubai__hidden_gems__advent -> login_interact_discover_dubai__hidden_gems__advent (interact via user action)', 'login_interact_discover_dubai__hidden_gems__advent -> login (triggers system response)', 'login -> login_comp_charge___play_at_riyadh_season___in (has component)', 'login_comp_charge___play_at_riyadh_season___in -> login_interact_charge___play_at_riyadh_season___in (interact via user action)', 'login_interact_charge___play_at_riyadh_season___in -> login (triggers system response)', 'login -> login_comp_riyadh_season_2025__the_world_s_big (has component)', 'login_comp_riyadh_season_2025__the_world_s_big -> login_interact_riyadh_season_2025__the_world_s_big (interact via user action)', 'login_interact_riyadh_season_2025__the_world_s_big -> login (triggers system response)', 'login -> login_comp_saudi_pro_league_2025_2026__a_new_e (has component)', 'login_comp_saudi_pro_league_2025_2026__a_new_e -> login_interact_saudi_pro_league_2025_2026__a_new_e (interact via user action)', 'login_interact_saudi_pro_league_2025_2026__a_new_e -> login (triggers system response)', 'login -> login_comp_discover_morocco__your_next_travel (has component)', 'login_comp_discover_morocco__your_next_travel -> login_interact_discover_morocco__your_next_travel (interact via user action)', 'login_interact_discover_morocco__your_next_travel -> login (triggers system response)', 'login -> login_comp_discover_alula_s_best_attractions (has component)', 'login_comp_discover_alula_s_best_attractions -> login_interact_discover_alula_s_best_attractions (interact via user action)', 'login_interact_discover_alula_s_best_attractions -> login (triggers system response)', 'login_interact_input__r4d -> login_api_get_geolocation_webook_com (triggers network call)', 'login_api_get_geolocation_webook_com -> login (returns status 200)', 'login_interact_button_has_text__update_your_inform -> login_api_post_cdn_webook_com (triggers network call)', 'login_api_post_cdn_webook_com -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_currencies (triggers network call)', 'login_api_get_api_webook_com_api_v2_currencies -> login (returns status 200)', 'login_interact_button_has_text__update_your_inform -> login_api_post_api_webook_com_api_v2_login (triggers network call)', 'login_api_post_api_webook_com_api_v2_login -> login (returns status 200)', 'login_interact_button_has_text__update_your_inform -> login_api_post_cdn_webook_com_explore (triggers network call)', 'login_api_post_cdn_webook_com_explore -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_subscriptions (triggers network call)', 'login_api_get_api_webook_com_api_v2_subscriptions -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_webook_com__smc_ads_ads_json (triggers network call)', 'login_api_get_webook_com__smc_ads_ads_json -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_ep1_adtrafficquality_google_getconf (triggers network call)', 'login_api_get_ep1_adtrafficquality_google_getconf -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_webook_com_blog_wp_json_wp_v2_posts (triggers network call)', 'login_api_get_webook_com_blog_wp_json_wp_v2_posts -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_serving_stat_rock_com_v1_placements (triggers network call)', 'login_api_get_serving_stat_rock_com_v1_placements -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_filter_events (triggers network call)', 'login_api_get_api_webook_com_api_v2_filter_events -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_faq_groups (triggers network call)', 'login_api_get_api_webook_com_api_v2_faq_groups -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_organizations (triggers network call)', 'login_api_get_api_webook_com_api_v2_organizations -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_event_ticket (triggers network call)', 'login_api_get_api_webook_com_api_v2_event_ticket -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_faqs (triggers network call)', 'login_api_get_api_webook_com_api_v2_faqs -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_user_favorite (triggers network call)', 'login_api_get_api_webook_com_api_v2_user_favorite -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_event_detail (triggers network call)', 'login_api_get_api_webook_com_api_v2_event_detail -> login (returns status 200)', 'login_interact_input__r4d -> login_api_get_api_webook_com_api_v2_accessibility (triggers network call)', 'login_api_get_api_webook_com_api_v2_accessibility -> login (returns status 200)', "login -> login (click 'Reject all non-essential')", "login -> login (clickable 'Update your information')", "login -> login (clickable 'Book the best events, experiences and shows on webook.com in\n\nSaudi Arabia\n\nSaudi Arabia\n\nSearch')", "login -> login (clickable 'Saudi Arabia')", "login -> login (clickable 'Search')", "login -> login (clickable 'Today\n\nThings to do\n\nSports\n\nFootball\n\nWeekend\n\nFlights\n\nNew\n\nHotels\n\nNew\n\nConcerts\n\nTheater\n\nRestaurants\n\nShop\n\nAuctions\n\nNew')", "login -> login (clickable 'Shop')", "login -> login (clickable 'section#Webook\\ home\\ top\\ event\\ carousel\\ GENERAL > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)')", "login -> login (clickable 'section#Webook\\ home\\ top\\ event\\ carousel\\ GENERAL > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)')", "login -> login (clickable 'Follow')", "login -> login (clickable 'section#What\\'s\\ new\\ section > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)')", "login -> login (clickable 'section#What\\'s\\ new\\ section > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)')", "login -> login (clickable 'Event · Jan 09 - Jan 18\n\nHospitality Experience | China Package – 3 Group Stage Matches\n\nRiyadh, Saudi Arabia\n\nFrom\n\n6,862\n\nInstant booking')", "login -> login (clickable 'Event · Jul 20\n\nNajma Dreams\n\nJeddah, Saudi Arabia\n\nFrom\n\n46\n\nInstant booking')"])"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Capability gap analysis: see QAReasoningEngine log output above for this run."}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "⚠ No duplicate business workflows: False (1 duplicate(s) found)"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "✓ No AC-referenced testcase titles: True (0 found)"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "⚠ No generic expected results: False (2 found)"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "Total test cases: 95"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "=========================================================="}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] ✓ Saved generated testcases to: /Users/espinshalo/Downloads/qa_agent_platform/artifacts/KAN-20_user_20260720_122006/testcases.json"}
+{"timestamp": "2026-07-20T12:31:17", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] ✓ Saved selector registry to: /Users/espinshalo/Downloads/qa_agent_platform/artifacts/KAN-20_user_20260720_122006/selector_registry.json"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] ✓ Saved behavioral graph memory: /Users/espinshalo/Downloads/qa_agent_platform/artifacts/KAN-20_user_20260720_122006/ui_graph.json"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "agents.testcase_generation_agent", "message": "[TestCaseGenerationAgent] ✓ Saved True Coverage summary: /Users/espinshalo/Downloads/qa_agent_platform/artifacts/KAN-20_user_20260720_122006/coverage_summary.json"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "[Pipeline] ✓ KAN-20 complete — 95 test case(s) generated."}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  JIRA UPDATE MANUAL APPROVAL GATE"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Story Key : KAN-20"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Module    : User Login"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Testcases : 95 generated"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Jira Update Selection:"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "1. Update Jira"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "2. Skip Jira update for this run"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "3. Exit"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "[Pipeline] Input interrupted. Skipping Jira update for KAN-20."}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  MANUAL APPROVAL GATE"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Test case generation completed successfully for KAN-20."}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Generated Test Cases: 95"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Test Case Types:"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - API: 6"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Accessibility: 2"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Business-Rule: 5"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Edge: 1"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Functional: 69"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Negative: 3"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Recovery: 1"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Resilience: 2"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Security: 2"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - State-Transition: 1"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - UI: 2"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "  - Workflow: 1"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "You may now review, modify, remove, or add test cases."}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Test cases location: /Users/espinshalo/Downloads/qa_agent_platform/artifacts/KAN-20_user_20260720_122006/testcases.json"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "Execution Mode Selection:"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": ""}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "1. Full Execution"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "2. Execute only selected test cases"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "3. Exit"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "============================================================"}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "[Pipeline] Input interrupted. Skipping execution for KAN-20."}
+{"timestamp": "2026-07-20T12:31:18", "level": "INFO", "logger": "__main__", "message": "[Pipeline] Manual approval not received. Skipping execution for KAN-20."}

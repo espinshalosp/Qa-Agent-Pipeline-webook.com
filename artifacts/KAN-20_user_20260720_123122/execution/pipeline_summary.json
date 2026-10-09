@@ -1,0 +1,47 @@
+{
+  "_schema_version": "1.0.0",
+  "run_id": "6fc4ed66",
+  "pipeline_stages": [
+    "jira_agent",
+    "testcase_generation_agent",
+    "execution_agent"
+  ],
+  "started_at": "2026-07-20T07:01:20.493351+00:00",
+  "completed_at": "2026-07-20T07:11:50.634353+00:00",
+  "total_stories": 1,
+  "succeeded": 1,
+  "failed": 0,
+  "results": [
+    {
+      "issue_key": "KAN-20",
+      "story_path": "/Users/espinshalo/Downloads/qa_agent_platform/artifacts/KAN-20_user_20260720_123122/story.json",
+      "status": "success",
+      "stages": {
+        "testcase_generation_agent": {
+          "status": "success",
+          "output": "/Users/espinshalo/Downloads/qa_agent_platform/artifacts/KAN-20_user_20260720_123122/testcases.json"
+        },
+        "jira_update_generation": {
+          "status": "skipped",
+          "output": null
+        },
+        "manual_approval_gate": {
+          "status": "rejected"
+        },
+        "jira_update_execution": {
+          "status": "skipped",
+          "output": null
+        },
+        "jira_update_defect": {
+          "status": "skipped",
+          "output": null
+        },
+        "jira_update_agent": {
+          "status": "skipped",
+          "output": null
+        }
+      },
+      "error": null
+    }
+  ]
+}

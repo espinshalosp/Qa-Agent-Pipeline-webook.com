@@ -1,0 +1,1751 @@
+{
+  "domain": "Explore",
+  "target_url": "https://webook.com/en/explore",
+  "timestamp": "2026-07-19T15:28:31.945269+00:00",
+  "exploration_failed": false,
+  "exploration_failure_reason": null,
+  "assessment_completion": {
+    "total_pending": 123,
+    "assessed": 47,
+    "skipped": 47,
+    "failed": 0
+  },
+  "interactables": [
+    {
+      "selector": "[data-testid=\"top_notice_We are hiring notice\"]",
+      "tagName": "a",
+      "text": "✨ We’re Hiring. Apply now ✨",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"top_notice_close\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_desktop_logo\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_explore\"]",
+      "tagName": "a",
+      "text": "Explore",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Flight top menu\"]",
+      "tagName": "a",
+      "text": "Flights",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Hotels sub menu\"]",
+      "tagName": "a",
+      "text": "Hotels",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Resell\"]",
+      "tagName": "a",
+      "text": "Ticket resell",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Subscriptions\"]",
+      "tagName": "a",
+      "text": "Subscriptions",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_search_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > header:nth-of-type(1) > nav > ul > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Business partners",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > header:nth-of-type(1) > nav > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Our blog",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"lang-switcher\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_login_button\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "Destination\n\nAnywhere",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Today",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "Tomorrow",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > button:nth-of-type(3)",
+      "tagName": "button",
+      "text": "This Week",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > button:nth-of-type(4)",
+      "tagName": "button",
+      "text": "Custom Dates",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > nav:nth-of-type(1) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > nav:nth-of-type(1) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table",
+      "tagName": "table",
+      "text": "Su\tMo\tTu\tWe\tTh\tFr\tSa\n1\t2\t3\t4\n5\t6\t7\t8\t9\t10\t11\n12\t13\t14\t15\t16\t17\t18\n19\t20\t21\t22\t23\t24\t25\n26\t27\t28\t29\t30\t31",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "1",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(5) > button",
+      "tagName": "button",
+      "text": "2",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(6) > button",
+      "tagName": "button",
+      "text": "3",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(7) > button",
+      "tagName": "button",
+      "text": "4",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "5",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "6",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > button",
+      "tagName": "button",
+      "text": "7",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "8",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(5) > button",
+      "tagName": "button",
+      "text": "9",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(6) > button",
+      "tagName": "button",
+      "text": "10",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(7) > button",
+      "tagName": "button",
+      "text": "11",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "12",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "13",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(3) > button",
+      "tagName": "button",
+      "text": "14",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "15",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(5) > button",
+      "tagName": "button",
+      "text": "16",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(6) > button",
+      "tagName": "button",
+      "text": "17",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(7) > button",
+      "tagName": "button",
+      "text": "18",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "19",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "20",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(3) > button",
+      "tagName": "button",
+      "text": "21",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "22",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(5) > button",
+      "tagName": "button",
+      "text": "23",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(6) > button",
+      "tagName": "button",
+      "text": "24",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(7) > button",
+      "tagName": "button",
+      "text": "25",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "26",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "27",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(3) > button",
+      "tagName": "button",
+      "text": "28",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "29",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(5) > button",
+      "tagName": "button",
+      "text": "30",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > div > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(6) > button",
+      "tagName": "button",
+      "text": "31",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "duplicate calendar date picker cell"
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(3) > ul > li:nth-of-type(1) > div > div > label > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(3) > ul > li:nth-of-type(2) > div > div > label > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(3) > ul > li:nth-of-type(3) > div > div > label > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(3) > ul > li:nth-of-type(4) > div > div > label > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(3) > ul > li:nth-of-type(5) > div > div > label > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(3) > ul > li:nth-of-type(6) > div > div > label > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(4) > ul > li > div > div > label > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(1) > button",
+      "tagName": "button",
+      "text": "Ladies",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "Football",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(3) > button",
+      "tagName": "button",
+      "text": "Families",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "Couples",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(5) > button",
+      "tagName": "button",
+      "text": "Kids",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(6) > button",
+      "tagName": "button",
+      "text": "Solo",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(7) > button",
+      "tagName": "button",
+      "text": "Concerts",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(8) > button",
+      "tagName": "button",
+      "text": "Things to do",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > section > div:nth-of-type(2) > div > div > button",
+      "tagName": "button",
+      "text": "Most Popular",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_afc-cup-27-chn-pack\"]",
+      "tagName": "a",
+      "text": "Event · Jan 09 - Jan 18\n\nHospitality Experience | China Package – 3 Group Stage Matches\n\nRiyadh, Saudi Arabia\n\nFrom\n\n6,862\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_myazu-riyadh\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nMyazu - Riyadh\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_ahlam-concert-jeddah-ghair-2026-tickets\"]",
+      "tagName": "a",
+      "text": "Event · Open gate : 8:30 PM - Start Concert: 9:30 PM\n\nAhlam Concert\n\nJeddah, Saudi Arabia\n\nFrom\n\n395\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_the-vinly-ember-restaurant-20260-6\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nThe Vinyl Ember\n\nRiyadh, Saudi Arabia\n\nFrom\n\n150\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > section > div:nth-of-type(3) > div:nth-of-type(7) > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Add your business",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_botanica-restaurant-0262-6\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nBotanica\n\nRiyadh, Saudi Arabia\n\nFrom\n\n150\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_live-world-cup-final-match-tickets-2026\"]",
+      "tagName": "a",
+      "text": "Event · Jul 19\n\nLive the World Cup: The Grand Final with Benchmark\n\nJeddah, Saudi Arabia\n\nFrom\n\n90\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_carbone-resturant-tickets-683560\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nCarbone\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_sadelles-resturant-tickets-587230\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nSadelle's\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_ferdi-restaurants-673268\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nferdi\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_tamer-hosny-alshami-concert-jeddah-2026-tickets\"]",
+      "tagName": "a",
+      "text": "Event · 23 July, Gates open at 8:00 PM, Concert starts at 10:00 PM\n\nTamer Hosney and Alshami Concert\n\nJeddah, Saudi Arabia\n\nFrom\n\n295\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_najma-dreams-jeddah\"]",
+      "tagName": "a",
+      "text": "Event · Jul 20\n\nNajma Dreams\n\nJeddah, Saudi Arabia\n\nFrom\n\n46\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_stand-up-comedy-sard-v2-tickets26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 24\n\nStand-up Comedy\n\nRiyadh, Saudi Arabia\n\nFrom\n\n65\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_bh-final-game-1\"]",
+      "tagName": "a",
+      "text": "Event · Jul 19 - Jul 20\n\nBeast House Fanzone: Finals\n\nRiyadh, Saudi Arabia\n\nFrom\n\n79",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_personal-training-package-56\"]",
+      "tagName": "a",
+      "text": "Experience\n\nPersonal Training Package\n\nRiyadh, Saudi Arabia\n\nFrom\n\n400\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_outdoor-pool-access-76\"]",
+      "tagName": "a",
+      "text": "Experience\n\nOutdoor Pool Access\n\nRiyadh, Saudi Arabia\n\nFrom\n\n100\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_palm-fitness-club-tickets\"]",
+      "tagName": "a",
+      "text": "Experience\n\nPalms Fitness Club\n\nRiyadh, Saudi Arabia\n\nFrom\n\n13,800\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_palms-bowling-club-86\"]",
+      "tagName": "a",
+      "text": "Experience\n\nPalms Bowling Club\n\nRiyadh, Saudi Arabia\n\nFrom\n\n49\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_sunset-brunch-club-at-mondo-restaurant\"]",
+      "tagName": "a",
+      "text": "Experience\n\nSunset Brunch Club at Mondo Restaurant\n\nRiyadh, Saudi Arabia\n\nFrom\n\n181.7\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_the-50th-law-mindset-clearhub\"]",
+      "tagName": "a",
+      "text": "Experience\n\nThe 50th Law Mindset | Clearhub\n\nRiyadh, Saudi Arabia\n\nFrom\n\n85\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_m-t-byl-ts\"]",
+      "tagName": "a",
+      "text": "Experience\n\nمات بيلاتس\n\nRiyadh, Saudi Arabia\n\nFrom\n\n245\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_hocho\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nHocho\n\nRiyadh, Saudi Arabia\n\nFrom\n\n75\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_zones_boulevard-city-rs25\"]",
+      "tagName": "a",
+      "text": "Zone\n\nBoulevard City\n\nRiyadh, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_jeddah-yacht-club-academy\"]",
+      "tagName": "a",
+      "text": "Collection\n\nJeddah Yacht Club\n\nJeddah, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_world-cup-fan-zones\"]",
+      "tagName": "a",
+      "text": "Collection\n\nLive the World Cup\n\nSaudi Arabia\n\nFrom\n\n25",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_vocally\"]",
+      "tagName": "a",
+      "text": "Collection\n\nVocally\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_benchmark-events\"]",
+      "tagName": "a",
+      "text": "Collection\n\nBenchmark\n\nJeddah, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_the-storytellers\"]",
+      "tagName": "a",
+      "text": "Collection\n\nThe storytellers\n\nJeddah, Saudi Arabia\n\nFrom\n\n90",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_qiddya-city\"]",
+      "tagName": "a",
+      "text": "Collection\n\nQiddiya City\n\nRiyadh, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_sef-arena\"]",
+      "tagName": "a",
+      "text": "Collection\n\nSAUDI ESPORTS ARENA\n\nRiyadh, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > section > div:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "Load more",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_jobs Link in Footer\"]",
+      "tagName": "a",
+      "text": "JOBS & CAREERS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook Contact Us\"]",
+      "tagName": "a",
+      "text": "CONTACT US",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook.com for business footer\"]",
+      "tagName": "a",
+      "text": "BUSINESS PARTNERS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Privacy Policy\"]",
+      "tagName": "a",
+      "text": "PRIVACY POLICY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Terms and Conditions\"]",
+      "tagName": "a",
+      "text": "TERMS & CONDITIONS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook FAQ\"]",
+      "tagName": "a",
+      "text": "CARE CENTER & FAQs",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_About us\"]",
+      "tagName": "a",
+      "text": "ABOUT US",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Startup Accelerator Fund\"]",
+      "tagName": "a",
+      "text": "STARTUP ACCELERATOR FUND",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook blog footer\"]",
+      "tagName": "a",
+      "text": "BLOG",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook bug bounty\"]",
+      "tagName": "a",
+      "text": "REPORT SECURITY VULNERABILITY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_TICKET SAFETY\"]",
+      "tagName": "a",
+      "text": "TICKET SAFETY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_REPORT BLACK MARKET\"]",
+      "tagName": "a",
+      "text": "REPORT BLACK MARKET ACTIVITY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_FAN PROTECTION\"]",
+      "tagName": "a",
+      "text": "FAN PROTECTION",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "div#root > footer > div > div > div:nth-of-type(2) > nav:nth-of-type(1) > ul > li:nth-of-type(14) > button",
+      "tagName": "button",
+      "text": "COOKIE SETTINGS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_X Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Instagram Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Facebook Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Tiktok Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_snapchat Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Youtube\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook appstore app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook google play app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_huawei app download link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div > input",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Anywhere",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(3)",
+      "tagName": "button",
+      "text": "Riyadh\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(4)",
+      "tagName": "button",
+      "text": "Jeddah\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(5)",
+      "tagName": "button",
+      "text": "Abha\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(6)",
+      "tagName": "button",
+      "text": "Al Ahsa\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(7)",
+      "tagName": "button",
+      "text": "Al Baha\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(8)",
+      "tagName": "button",
+      "text": "Aseer\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(9)",
+      "tagName": "button",
+      "text": "Burayduh\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(10)",
+      "tagName": "button",
+      "text": "Dammam\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(11)",
+      "tagName": "button",
+      "text": "Hail\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(12)",
+      "tagName": "button",
+      "text": "Jazan\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(13)",
+      "tagName": "button",
+      "text": "Jouf\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(14)",
+      "tagName": "button",
+      "text": "KAEC\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(15)",
+      "tagName": "button",
+      "text": "Khobar\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(16)",
+      "tagName": "button",
+      "text": "Medina\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(17)",
+      "tagName": "button",
+      "text": "Mecca\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(18)",
+      "tagName": "button",
+      "text": "Najran\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(19)",
+      "tagName": "button",
+      "text": "Taif\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(20)",
+      "tagName": "button",
+      "text": "Al Qassim\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(21)",
+      "tagName": "button",
+      "text": "AlUla\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(22)",
+      "tagName": "button",
+      "text": "Diriyah\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(23)",
+      "tagName": "button",
+      "text": "Dhahran\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(24)",
+      "tagName": "button",
+      "text": "Sakaka\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(25)",
+      "tagName": "button",
+      "text": "Khamis Mushait\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(26)",
+      "tagName": "button",
+      "text": "Al Qatif\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(27)",
+      "tagName": "button",
+      "text": "Al Majma’a\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(28)",
+      "tagName": "button",
+      "text": "Arar\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(29)",
+      "tagName": "button",
+      "text": "Al Jubail\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(30)",
+      "tagName": "button",
+      "text": "Al Amaaria\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(31)",
+      "tagName": "button",
+      "text": "Tabuk\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(32)",
+      "tagName": "button",
+      "text": "Biljurashi\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(33)",
+      "tagName": "button",
+      "text": "Al-Muzahmiyya\n\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(34)",
+      "tagName": "button",
+      "text": "France",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(35)",
+      "tagName": "button",
+      "text": "Paris\n\nFrance",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(36)",
+      "tagName": "button",
+      "text": "Morocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(37)",
+      "tagName": "button",
+      "text": "Casablanca\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(38)",
+      "tagName": "button",
+      "text": "Marrakesh\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(39)",
+      "tagName": "button",
+      "text": "Tangier\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(40)",
+      "tagName": "button",
+      "text": "Rabat\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(41)",
+      "tagName": "button",
+      "text": "Oujda\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(42)",
+      "tagName": "button",
+      "text": "El Jadida\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(43)",
+      "tagName": "button",
+      "text": "Fes\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(44)",
+      "tagName": "button",
+      "text": "Berkane\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(45)",
+      "tagName": "button",
+      "text": "Agadir\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(46)",
+      "tagName": "button",
+      "text": "Kenitra\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(47)",
+      "tagName": "button",
+      "text": "Salé\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(48)",
+      "tagName": "button",
+      "text": "Taza\n\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(49)",
+      "tagName": "button",
+      "text": "Bahrain",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(50)",
+      "tagName": "button",
+      "text": "Manama\n\nBahrain",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(51)",
+      "tagName": "button",
+      "text": "Sakhir\n\nBahrain",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(52)",
+      "tagName": "button",
+      "text": "United Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(53)",
+      "tagName": "button",
+      "text": "Dubai\n\nUnited Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(54)",
+      "tagName": "button",
+      "text": "Abu Dhabi\n\nUnited Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(55)",
+      "tagName": "button",
+      "text": "Ras Al-Khaimah\n\nUnited Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(56)",
+      "tagName": "button",
+      "text": "Portugal",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(57)",
+      "tagName": "button",
+      "text": "Portimão\n\nPortugal",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(58)",
+      "tagName": "button",
+      "text": "United Kingdom",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > button:nth-of-type(59)",
+      "tagName": "button",
+      "text": "London\n\nUnited Kingdom",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(9) > button",
+      "tagName": "button",
+      "text": "Couples",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(10) > button",
+      "tagName": "button",
+      "text": "Concerts",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(11) > button",
+      "tagName": "button",
+      "text": "Workshops",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(12) > button",
+      "tagName": "button",
+      "text": "Helicopters",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(13) > button",
+      "tagName": "button",
+      "text": "Yachts",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(14) > button",
+      "tagName": "button",
+      "text": "Desert",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(15) > button",
+      "tagName": "button",
+      "text": "Things to do",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(16) > button",
+      "tagName": "button",
+      "text": "Kids",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(17) > button",
+      "tagName": "button",
+      "text": "Solo",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(18) > button",
+      "tagName": "button",
+      "text": "Concerts",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(19) > button",
+      "tagName": "button",
+      "text": "Ministry of Sports",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(20) > button",
+      "tagName": "button",
+      "text": "Esports World Cup",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(21) > button",
+      "tagName": "button",
+      "text": "Concerts",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(22) > button",
+      "tagName": "button",
+      "text": "Health and wellness",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(23) > button",
+      "tagName": "button",
+      "text": "Always Available",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(24) > button",
+      "tagName": "button",
+      "text": "Riyadh Combat Club",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(25) > button",
+      "tagName": "button",
+      "text": "Football",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(26) > button",
+      "tagName": "button",
+      "text": "Nofa Safari",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "main#main > div > aside:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > ul > li:nth-of-type(27) > button",
+      "tagName": "button",
+      "text": "Things to do",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_crossfire-ft-at-ewc26\"]",
+      "tagName": "a",
+      "text": "Event · Aug 18 - Aug 22\n\nCROSSFIRE at EWC 26\n\nParis, France\n\nFrom\n\n30.02\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_ferrari-world-yas-island-abu-dhabi\"]",
+      "tagName": "a",
+      "text": "Experience\n\nFerrari World Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n361.09\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_yas-waterworld-abu-dhabi\"]",
+      "tagName": "a",
+      "text": "Experience\n\nYas Waterworld Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n308.76\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_warner-bros-world-yas-island-abu-dhabi\"]",
+      "tagName": "a",
+      "text": "Experience\n\nWarner Bros. World™ Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n361.09\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_intercontinental-hotel\"]",
+      "tagName": "a",
+      "text": "Collection\n\nIntercontinental Hotel\n\nFrom\n\n49",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_wrth-summer-2026\"]",
+      "tagName": "a",
+      "text": "Collection\n\nWrth Summer 2026\n\nFree",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_esports-world-cup\"]",
+      "tagName": "a",
+      "text": "Collection\n\nEWC 2026\n\nParis, France\n\nFrom\n\n30.02",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_page_yas-island\"]",
+      "tagName": "a",
+      "text": "Collection\n\nYas Island\n\nYas Island, United Arab Emirates\n\nFrom\n\n135.02",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Most Popular",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "Latest",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div > button:nth-of-type(3)",
+      "tagName": "button",
+      "text": "Oldest",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div > button:nth-of-type(4)",
+      "tagName": "button",
+      "text": "Lowest Price",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(2) > div > div > button:nth-of-type(5)",
+      "tagName": "button",
+      "text": "Highest Price",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    }
+  ]
+}

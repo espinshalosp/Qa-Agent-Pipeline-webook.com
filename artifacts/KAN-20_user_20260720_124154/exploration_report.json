@@ -1,0 +1,215 @@
+{
+  "domain": "Login",
+  "target_url": "https://webook.com/en/login",
+  "timestamp": "2026-07-20T07:13:21.612447+00:00",
+  "exploration_failed": false,
+  "exploration_failure_reason": null,
+  "assessment_completion": {
+    "total_pending": 8,
+    "assessed": 12,
+    "skipped": 5,
+    "failed": 0
+  },
+  "interactables": [
+    {
+      "selector": "[data-testid=\"auth_login_email_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_login_password_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#email-login > div:nth-of-type(3) > div:nth-of-type(1) > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_reset_password\"]",
+      "tagName": "button",
+      "text": "Reset your password?",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "unsafe destructive action keyword match"
+    },
+    {
+      "selector": "[data-testid=\"auth_login_submit_button\"]",
+      "tagName": "button",
+      "text": "Login",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_button\"]",
+      "tagName": "button",
+      "text": "Create an account",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"top_notice_We are hiring notice\"]",
+      "tagName": "a",
+      "text": "✨ We’re Hiring. Apply now ✨",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"top_notice_close\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_desktop_logo\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"lang-switcher\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"auth_firstname_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_lastname_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_email_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_confirm_email_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_password_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "form#signup-form-info > fieldset:nth-of-type(3) > div:nth-of-type(1) > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_countrycode_selector\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "form#signup-form-info > fieldset:nth-of-type(4) > div > div:nth-of-type(1) > div > div > button",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_mobile_number_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_back_to_login_button\"]",
+      "tagName": "button",
+      "text": "BACK TO LOGIN",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_terms_checkbox\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_terms_link\"]",
+      "tagName": "a",
+      "text": "Terms and conditions",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_newsletter_checkbox\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_third_party_checkbox\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"auth_signup_submit_button\"]",
+      "tagName": "button",
+      "text": "Create Account",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    }
+  ]
+}

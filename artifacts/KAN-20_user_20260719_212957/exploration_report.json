@@ -1,0 +1,1655 @@
+{
+  "domain": "Login",
+  "target_url": "https://webook.com/en/login",
+  "timestamp": "2026-07-19T16:03:14.154942+00:00",
+  "exploration_failed": false,
+  "exploration_failure_reason": null,
+  "assessment_completion": {
+    "total_pending": 147,
+    "assessed": 32,
+    "skipped": 23,
+    "failed": 3
+  },
+  "interactables": [
+    {
+      "selector": "div#root > div:nth-of-type(1) > div > button",
+      "tagName": "button",
+      "text": "Update your information",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"top_notice_We are hiring notice\"]",
+      "tagName": "a",
+      "text": "✨ We’re Hiring. Apply now ✨",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"top_notice_close\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_desktop_logo\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_explore\"]",
+      "tagName": "a",
+      "text": "Explore",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Flight top menu\"]",
+      "tagName": "a",
+      "text": "Flights",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_Hotels sub menu\"]",
+      "tagName": "a",
+      "text": "Hotels",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Resell\"]",
+      "tagName": "a",
+      "text": "Ticket resell",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"header_nav_link_webook.com Subscriptions\"]",
+      "tagName": "a",
+      "text": "Subscriptions",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > header:nth-of-type(1) > nav > ul > li:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Business partners",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > header:nth-of-type(1) > nav > ul > li:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Our blog",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"lang-switcher\"]",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "div#root > header:nth-of-type(1) > nav > ul > li:nth-of-type(4) > button",
+      "tagName": "button",
+      "text": "RC",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"footer_link_jobs Link in Footer\"]",
+      "tagName": "a",
+      "text": "JOBS & CAREERS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook Contact Us\"]",
+      "tagName": "a",
+      "text": "CONTACT US",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook.com for business footer\"]",
+      "tagName": "a",
+      "text": "BUSINESS PARTNERS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Privacy Policy\"]",
+      "tagName": "a",
+      "text": "PRIVACY POLICY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Terms and Conditions\"]",
+      "tagName": "a",
+      "text": "TERMS & CONDITIONS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Webook FAQ\"]",
+      "tagName": "a",
+      "text": "CARE CENTER & FAQs",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_About us\"]",
+      "tagName": "a",
+      "text": "ABOUT US",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_Startup Accelerator Fund\"]",
+      "tagName": "a",
+      "text": "STARTUP ACCELERATOR FUND",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook blog footer\"]",
+      "tagName": "a",
+      "text": "BLOG",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_webook bug bounty\"]",
+      "tagName": "a",
+      "text": "REPORT SECURITY VULNERABILITY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_TICKET SAFETY\"]",
+      "tagName": "a",
+      "text": "TICKET SAFETY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_REPORT BLACK MARKET\"]",
+      "tagName": "a",
+      "text": "REPORT BLACK MARKET ACTIVITY",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_link_FAN PROTECTION\"]",
+      "tagName": "a",
+      "text": "FAN PROTECTION",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "div#root > footer > div > div > div:nth-of-type(2) > nav:nth-of-type(1) > ul > li:nth-of-type(14) > button",
+      "tagName": "button",
+      "text": "COOKIE SETTINGS",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_X Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Instagram Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Facebook Social Icon webook\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Tiktok Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_snapchat Social Icon\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_icon_link_Youtube\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook appstore app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_webook google play app link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"footer_download_app_link_huawei app download link\"]",
+      "tagName": "a",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_search_section\"]",
+      "tagName": "section",
+      "text": "Book the best events, experiences and shows on webook.com in\n\nDestination\n\nSearch",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_search_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#Search > div > form > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > button",
+      "tagName": "button",
+      "text": "Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"home_search_submit_button\"]",
+      "tagName": "button",
+      "text": "Search",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"icons_grid_New category section\"]",
+      "tagName": "section",
+      "text": "Today\n\nThings to do\n\nSports\n\nFootball\n\nWeekend\n\nFlights\n\nNew\n\nHotels\n\nNew\n\nConcerts\n\nTheater\n\nRestaurants\n\nShop\n\nAuctions\n\nNew",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Today",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Things to do",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Sports",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "Football",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(5)",
+      "tagName": "a",
+      "text": "Weekend",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(6)",
+      "tagName": "a",
+      "text": "Flights\n\nNew",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(7)",
+      "tagName": "a",
+      "text": "Hotels\n\nNew",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(8)",
+      "tagName": "a",
+      "text": "Concerts",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(9)",
+      "tagName": "a",
+      "text": "Theater",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(10)",
+      "tagName": "a",
+      "text": "Restaurants",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(11)",
+      "tagName": "a",
+      "text": "Shop",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#New\\ category\\ section > div > div > a:nth-of-type(12)",
+      "tagName": "a",
+      "text": "Auctions\n\nNew",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_fullscreen_carousel_Webook home top event carousel GENERAL\"]",
+      "tagName": "section",
+      "text": "Portuguese MotoGP Grand Prix 2026\nSix Flags, Qiddiya City\n\nSix Flags Qiddiya City\n\nFrom\n\n200\n\nInstant booking\n\nEsports World Cup\n\nWITNESS THE ACTION",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#Webook\\ home\\ top\\ event\\ carousel\\ GENERAL > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#Webook\\ home\\ top\\ event\\ carousel\\ GENERAL > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#Webook\\ home\\ top\\ event\\ carousel\\ GENERAL > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Portuguese MotoGP Grand Prix 2026",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#Webook\\ home\\ top\\ event\\ carousel\\ GENERAL > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Six Flags, Qiddiya City\n\nSix Flags Qiddiya City\n\nFrom\n\n200\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#Webook\\ home\\ top\\ event\\ carousel\\ GENERAL > div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "Esports World Cup\n\nWITNESS THE ACTION",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#webook_social_SA > div > div > div > div:nth-of-type(2) > div:nth-of-type(3) > a",
+      "tagName": "a",
+      "text": "Follow",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_whats_noew_What's new section\"]",
+      "tagName": "section",
+      "text": "What's new\nEvent · Jan 09 - Jan 18\n\nHospitality Experience | China Package – 3 Group Stage Matches\n\nRiyadh, Saudi Arabia\n\nFrom\n\n6,862\n\nInstant booking\n\nEvent · Open gate : 8:30 PM - Start Concert: 9:30 PM\n\nAhlam Concert\n\nJeddah, Saudi Arabia\n\nFrom\n\n395\n\nInstant booking\n\nEvent · Jul 19\n\nLive the World Cup: The Grand Final with Benchmark\n\nJeddah, Saudi Arabia\n\nFrom\n\n90\n\nInstant booking\n\nEvent · 23 July, Gates open at 8:00 PM, Concert starts at 10:00 PM\n\nTamer Hosney and Alshami Concert\n\nJeddah, Saudi Arabia\n\nFrom\n\n295\n\nInstant booking\n\nEvent · Jul 20\n\nNajma Dreams\n\nJeddah, Saudi Arabia\n\nFrom\n\n46\n\nInstant booking\n\nEvent · Jul 17 - May 29\n\nAl Ettifaq Seasonal Tickets\n\nDammam , Saudi Arabia\n\nFrom\n\n199\n\nInstant booking\n\nEvent · Jul 29 - Jul 30\n\nNassr Roshn Saudi League Trophy Photo Experience\n\nRiyadh, Saudi Arabia\n\nFree\n\nInstant booking\n\nEvent · 31 July 2026\n\nPawdi Summer Splash\n\nAl-Muzahmiyya, Saudi Arabia\n\nFrom\n\n200\n\nInstant booking\n\nEvent · Jul 31\n\nSard Concerts-The Naghma Band\n\nRiyadh, Saudi Arabia\n\nFrom\n\n100\n\nInstant booking\n\nEvent · 13 August 2026 - Event starts: 8:00 PM\n\nThe Laughter Factory Comedy Night - Aug 13 at Bla Bla by McGettigan's\n\nDubai, United Arab Emirates\n\nFrom\n\n146.53\n\nInstant booking\n\nExperience\n\nPersonal Training Package\n\nRiyadh, Saudi Arabia\n\nFrom\n\n400\n\nInstant booking\n\nExperience\n\nOutdoor Pool Access\n\nRiyadh, Saudi Arabia\n\nFrom\n\n100\n\nInstant booking\n\nExperience\n\nPalms Fitness Club\n\nRiyadh, Saudi Arabia\n\nFrom\n\n13,800\n\nInstant booking\n\nExperience\n\nPalms Bowling Club\n\nRiyadh, Saudi Arabia\n\nFrom\n\n49\n\nInstant booking\n\nExperience\n\nSunset Brunch Club at Mondo Restaurant\n\nRiyadh, Saudi Arabia\n\nFrom\n\n181.7\n\nInstant booking\n\nExperience\n\nWarner Bros. World™ Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n361.09\n\nInstant booking\n\nExperience\n\nYas Waterworld Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n308.76\n\nInstant booking\n\nExperience\n\nFerrari World Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n361.09\n\nInstant booking\n\nExperience\n\nThe 50th Law Mindset | Clearhub\n\nRiyadh, Saudi Arabia\n\nFrom\n\n85\n\nInstant booking\n\nExperience\n\nمات بيلاتس\n\nRiyadh, Saudi Arabia\n\nFrom\n\n245\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#What\\'s\\ new\\ section > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#What\\'s\\ new\\ section > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_info_carousel_Global events\"]",
+      "tagName": "section",
+      "text": "Global events\n\nTournament\n\nEsports World Cup\n\nParis, France\n\nConcert\n\nAmr Diab Live in Istanbul\n\nIstanbul, Turkey\n\nTournament\n\nPortuguese MotoGP Grand Prix 2026\n\nPortimão, Portugal\n\nTournament\n\nESPORTS NATIONS CUP 2026\n\nRiyadh, Saudi Arabia\n\nZone\n\nAquarabia - Qiddiya City\n\nQiddiya City, Saudi Arabia\n\nZone\n\nSix Flags, Qiddiya City\n\nQiddiya City, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Global\\ events > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Global\\ events > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_info_carousel_item_Esports World Cup 2026 Global\"]",
+      "tagName": "a",
+      "text": "Tournament\n\nEsports World Cup\n\nParis, France",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_info_carousel_item_Amr Diab Live in Istanbul Global\"]",
+      "tagName": "a",
+      "text": "Concert\n\nAmr Diab Live in Istanbul\n\nIstanbul, Turkey",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_info_carousel_item_MotoGP  - Global\"]",
+      "tagName": "a",
+      "text": "Tournament\n\nPortuguese MotoGP Grand Prix 2026\n\nPortimão, Portugal",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_info_carousel_item_ ESPORTS NATIONS CUP 2026 - Global\"]",
+      "tagName": "a",
+      "text": "Tournament\n\nESPORTS NATIONS CUP 2026\n\nRiyadh, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_info_carousel_item_Aquarabia - Qiddiya City  - Global\"]",
+      "tagName": "a",
+      "text": "Zone\n\nAquarabia - Qiddiya City\n\nQiddiya City, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_cards_info_carousel_item_Six Flags, Qiddiya City Global\"]",
+      "tagName": "a",
+      "text": "Zone\n\nSix Flags, Qiddiya City\n\nQiddiya City, Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_events_grid_carousel_Dining & Restaurants\"]",
+      "tagName": "section",
+      "text": "Dining & restaurants\n\nSee more\n\nRestaurant\n\nMyazu - Riyadh\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking\n\nRestaurant\n\nferdi\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking\n\nRestaurant\n\nVega Cigar Lounge\n\nRiyadh, Saudi Arabia\n\nFrom\n\n200\n\nInstant booking\n\nRestaurant\n\nMadeo\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking\n\nRestaurant\n\nGymkhana\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking\n\nRestaurant\n\nchi SPACCA\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Dining\\ \\&\\ Restaurants > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a",
+      "tagName": "a",
+      "text": "See more",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Dining\\ \\&\\ Restaurants > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Dining\\ \\&\\ Restaurants > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_myazu-riyadh\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nMyazu - Riyadh\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_ferdi-restaurants-673268\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nferdi\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_vegacigarlounge-lounge-559301\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nVega Cigar Lounge\n\nRiyadh, Saudi Arabia\n\nFrom\n\n200\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_madeo-restaurant-872301\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nMadeo\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_gymkhana-restaurants-735266\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nGymkhana\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_restaurants_chi-spacca-restaurants-453672\"]",
+      "tagName": "a",
+      "text": "Restaurant\n\nchi SPACCA\n\nRiyadh, Saudi Arabia\n\nFrom\n\n50\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_Category Section - KSA\"]",
+      "tagName": "section",
+      "text": "Explore by category\n\nSee more\n\nExperiences\n\nTravel\n\nSports Events\n\nMusic Events\n\nTheater and Performing Arts\n\nRestaurants",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Category\\ Section\\ -\\ KSA > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a",
+      "tagName": "a",
+      "text": "See more",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Category\\ Section\\ -\\ KSA > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Category\\ Section\\ -\\ KSA > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Experiences Category Card\"]",
+      "tagName": "a",
+      "text": "Experiences",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Flights Category Card\"]",
+      "tagName": "a",
+      "text": "Travel",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Sports Events Category Card\"]",
+      "tagName": "a",
+      "text": "Sports Events",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Music Events Category Card\"]",
+      "tagName": "a",
+      "text": "Music Events",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Theater and performing arts Category Card\"]",
+      "tagName": "a",
+      "text": "Theater and Performing Arts",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Restaurants Category Card\"]",
+      "tagName": "a",
+      "text": "Restaurants",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_Tags Section - Find your experience\"]",
+      "tagName": "section",
+      "text": "Find your experience\n\nSee more\n\nFamilies\n\nCouples\n\nKids\n\nSolo\n\nLadies",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Tags\\ Section\\ -\\ Find\\ your\\ experience > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > a",
+      "tagName": "a",
+      "text": "See more",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Tags\\ Section\\ -\\ Find\\ your\\ experience > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Tags\\ Section\\ -\\ Find\\ your\\ experience > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Families Card\"]",
+      "tagName": "a",
+      "text": "Families",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Couples Card\"]",
+      "tagName": "a",
+      "text": "Couples",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Kids Card\"]",
+      "tagName": "a",
+      "text": "Kids",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Solo Card\"]",
+      "tagName": "a",
+      "text": "Solo",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_rectangular_carousel_item_Ladies Card\"]",
+      "tagName": "a",
+      "text": "Ladies",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"section_long_rectangular_carousel_wbk-pre-search-SA\"]",
+      "tagName": "section",
+      "text": "Seasons and Collections\n\nIntercontinental Hotel\n\nLive the World Cup\n\nSeason · 4 Events · Saudi Arabia\n\nQiddiya City\n\nCollection · 2 Events · Riyadh \n\nVocally\n\nCollection · 6 Events · Riyadh \n\nJeddah Yacht Club\n\nCollections · Jeddah\n\nTaif Racing Season 2026\n\nTournament · Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "section#wbk-pre-search-SA > div > div:nth-of-type(2) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Intercontinental Hotel",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#wbk-pre-search-SA > div > div:nth-of-type(2) > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Live the World Cup\n\nSeason · 4 Events · Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#wbk-pre-search-SA > div > div:nth-of-type(2) > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Qiddiya City\n\nCollection · 2 Events · Riyadh",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#wbk-pre-search-SA > div > div:nth-of-type(2) > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "Vocally\n\nCollection · 6 Events · Riyadh",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#wbk-pre-search-SA > div > div:nth-of-type(2) > a:nth-of-type(5)",
+      "tagName": "a",
+      "text": "Jeddah Yacht Club\n\nCollections · Jeddah",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#wbk-pre-search-SA > div > div:nth-of-type(2) > a:nth-of-type(6)",
+      "tagName": "a",
+      "text": "Taif Racing Season 2026\n\nTournament · Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "tagName": "a",
+      "text": "Theater",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "tagName": "a",
+      "text": "Music Events",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(3)",
+      "tagName": "a",
+      "text": "Restaurants",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(4)",
+      "tagName": "a",
+      "text": "Experience",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(5)",
+      "tagName": "a",
+      "text": "Sports",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(6)",
+      "tagName": "a",
+      "text": "Activities & Adventures",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "section#Search > div > div:nth-of-type(1) > div > div > button",
+      "tagName": "button",
+      "text": "Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_afc-cup-27-chn-pack\"]",
+      "tagName": "a",
+      "text": "Event · Jan 09 - Jan 18\n\nHospitality Experience | China Package – 3 Group Stage Matches\n\nRiyadh, Saudi Arabia\n\nFrom\n\n6,862\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "framework failure",
+      "reason": "Locator.click: Element is outside of the viewport\nCall log:\n  - waiting for get_by_test_id(\"item_events_afc-cup-27-chn-pack\")\n    - locator resolved to <a data-discover=\"true\" data-testid=\"item_events_afc-cup-27-chn-pack\" href=\"/en/SA/RUH/sports-event/events/afc-cup-27-chn-pack\" class=\"text-text disabled:bg-input-disabled inline-flex items-center justify-center overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S group relative h-full w-full gap-0 bg-transparent p-0\">…</a>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n"
+    },
+    {
+      "selector": "[data-testid=\"item_events_ahlam-concert-jeddah-ghair-2026-tickets\"]",
+      "tagName": "a",
+      "text": "Event · Open gate : 8:30 PM - Start Concert: 9:30 PM\n\nAhlam Concert\n\nJeddah, Saudi Arabia\n\nFrom\n\n395\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "framework failure",
+      "reason": "Locator.click: Element is outside of the viewport\nCall log:\n  - waiting for get_by_test_id(\"item_events_ahlam-concert-jeddah-ghair-2026-tickets\")\n    - locator resolved to <a data-discover=\"true\" data-testid=\"item_events_ahlam-concert-jeddah-ghair-2026-tickets\" href=\"/en/SA/JED/music-events/events/ahlam-concert-jeddah-ghair-2026-tickets\" class=\"text-text disabled:bg-input-disabled inline-flex items-center justify-center overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S group relative h-full w-full gap-0 bg-transparent p-0\">…</a>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n"
+    },
+    {
+      "selector": "[data-testid=\"item_events_live-world-cup-final-match-tickets-2026\"]",
+      "tagName": "a",
+      "text": "Event · Jul 19\n\nLive the World Cup: The Grand Final with Benchmark\n\nJeddah, Saudi Arabia\n\nFrom\n\n90\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "framework failure",
+      "reason": "Locator.click: Element is outside of the viewport\nCall log:\n  - waiting for get_by_test_id(\"item_events_live-world-cup-final-match-tickets-2026\")\n    - locator resolved to <a data-discover=\"true\" data-testid=\"item_events_live-world-cup-final-match-tickets-2026\" href=\"/en/SA/JED/sports-event/events/live-world-cup-final-match-tickets-2026\" class=\"text-text disabled:bg-input-disabled inline-flex items-center justify-center overflow-hidden text-center transition disabled:text-text-disabled disabled:cursor-not-allowed rounded-S group relative h-full w-full gap-0 bg-transparent p-0\">…</a>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n"
+    },
+    {
+      "selector": "[data-testid=\"item_events_tamer-hosny-alshami-concert-jeddah-2026-tickets\"]",
+      "tagName": "a",
+      "text": "Event · 23 July, Gates open at 8:00 PM, Concert starts at 10:00 PM\n\nTamer Hosney and Alshami Concert\n\nJeddah, Saudi Arabia\n\nFrom\n\n295\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_najma-dreams-jeddah\"]",
+      "tagName": "a",
+      "text": "Event · Jul 20\n\nNajma Dreams\n\nJeddah, Saudi Arabia\n\nFrom\n\n46\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_al-ettifaq--season--26-27\"]",
+      "tagName": "a",
+      "text": "Event · Jul 17 - May 29\n\nAl Ettifaq Seasonal Tickets\n\nDammam , Saudi Arabia\n\nFrom\n\n199\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    },
+    {
+      "selector": "[data-testid=\"item_events_al-nassr-rsl-trophy-activation\"]",
+      "tagName": "a",
+      "text": "Event · Jul 29 - Jul 30\n\nNassr Roshn Saudi League Trophy Photo Experience\n\nRiyadh, Saudi Arabia\n\nFree\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_pawdi-summer-splash\"]",
+      "tagName": "a",
+      "text": "Event · 31 July 2026\n\nPawdi Summer Splash\n\nAl-Muzahmiyya, Saudi Arabia\n\nFrom\n\n200\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_sard-concerts-the-naghma-band-tickets26\"]",
+      "tagName": "a",
+      "text": "Event · Jul 31\n\nSard Concerts-The Naghma Band\n\nRiyadh, Saudi Arabia\n\nFrom\n\n100\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_events_tlf-aug-13th\"]",
+      "tagName": "a",
+      "text": "Event · 13 August 2026 - Event starts: 8:00 PM\n\nThe Laughter Factory Comedy Night - Aug 13 at Bla Bla by McGettigan's\n\nDubai, United Arab Emirates\n\nFrom\n\n146.53\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_personal-training-package-56\"]",
+      "tagName": "a",
+      "text": "Experience\n\nPersonal Training Package\n\nRiyadh, Saudi Arabia\n\nFrom\n\n400\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_outdoor-pool-access-76\"]",
+      "tagName": "a",
+      "text": "Experience\n\nOutdoor Pool Access\n\nRiyadh, Saudi Arabia\n\nFrom\n\n100\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_palm-fitness-club-tickets\"]",
+      "tagName": "a",
+      "text": "Experience\n\nPalms Fitness Club\n\nRiyadh, Saudi Arabia\n\nFrom\n\n13,800\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "successfully assessed",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_palms-bowling-club-86\"]",
+      "tagName": "a",
+      "text": "Experience\n\nPalms Bowling Club\n\nRiyadh, Saudi Arabia\n\nFrom\n\n49\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_sunset-brunch-club-at-mondo-restaurant\"]",
+      "tagName": "a",
+      "text": "Experience\n\nSunset Brunch Club at Mondo Restaurant\n\nRiyadh, Saudi Arabia\n\nFrom\n\n181.7\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_warner-bros-world-yas-island-abu-dhabi\"]",
+      "tagName": "a",
+      "text": "Experience\n\nWarner Bros. World™ Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n361.09\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_yas-waterworld-abu-dhabi\"]",
+      "tagName": "a",
+      "text": "Experience\n\nYas Waterworld Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n308.76\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_ferrari-world-yas-island-abu-dhabi\"]",
+      "tagName": "a",
+      "text": "Experience\n\nFerrari World Yas Island, Abu Dhabi\n\nAbu Dhabi, United Arab Emirates\n\nFrom\n\n361.09\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_the-50th-law-mindset-clearhub\"]",
+      "tagName": "a",
+      "text": "Experience\n\nThe 50th Law Mindset | Clearhub\n\nRiyadh, Saudi Arabia\n\nFrom\n\n85\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"item_experiences_m-t-byl-ts\"]",
+      "tagName": "a",
+      "text": "Experience\n\nمات بيلاتس\n\nRiyadh, Saudi Arabia\n\nFrom\n\n245\n\nInstant booking",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "France",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > button:nth-of-type(3)",
+      "tagName": "button",
+      "text": "Morocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > button:nth-of-type(4)",
+      "tagName": "button",
+      "text": "Bahrain",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > button:nth-of-type(5)",
+      "tagName": "button",
+      "text": "United Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > button:nth-of-type(6)",
+      "tagName": "button",
+      "text": "Portugal",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div > button:nth-of-type(7)",
+      "tagName": "button",
+      "text": "United Kingdom",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div > input",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(1)",
+      "tagName": "button",
+      "text": "Anywhere",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(2)",
+      "tagName": "button",
+      "text": "Saudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(3)",
+      "tagName": "button",
+      "text": "Riyadh\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(4)",
+      "tagName": "button",
+      "text": "Jeddah\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(5)",
+      "tagName": "button",
+      "text": "Abha\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(6)",
+      "tagName": "button",
+      "text": "Al Ahsa\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(7)",
+      "tagName": "button",
+      "text": "Al Baha\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(8)",
+      "tagName": "button",
+      "text": "Aseer\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(9)",
+      "tagName": "button",
+      "text": "Burayduh\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(10)",
+      "tagName": "button",
+      "text": "Dammam\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(11)",
+      "tagName": "button",
+      "text": "Hail\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(12)",
+      "tagName": "button",
+      "text": "Jazan\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(13)",
+      "tagName": "button",
+      "text": "Jouf\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(14)",
+      "tagName": "button",
+      "text": "KAEC\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(15)",
+      "tagName": "button",
+      "text": "Khobar\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(16)",
+      "tagName": "button",
+      "text": "Medina\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(17)",
+      "tagName": "button",
+      "text": "Mecca\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(18)",
+      "tagName": "button",
+      "text": "Najran\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(19)",
+      "tagName": "button",
+      "text": "Taif\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(20)",
+      "tagName": "button",
+      "text": "Al Qassim\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(21)",
+      "tagName": "button",
+      "text": "AlUla\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(22)",
+      "tagName": "button",
+      "text": "Diriyah\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(23)",
+      "tagName": "button",
+      "text": "Dhahran\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(24)",
+      "tagName": "button",
+      "text": "Sakaka\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(25)",
+      "tagName": "button",
+      "text": "Khamis Mushait\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(26)",
+      "tagName": "button",
+      "text": "Al Qatif\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(27)",
+      "tagName": "button",
+      "text": "Al Majma’a\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(28)",
+      "tagName": "button",
+      "text": "Arar\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(29)",
+      "tagName": "button",
+      "text": "Al Jubail\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(30)",
+      "tagName": "button",
+      "text": "Al Amaaria\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(31)",
+      "tagName": "button",
+      "text": "Tabuk\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(32)",
+      "tagName": "button",
+      "text": "Biljurashi\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(33)",
+      "tagName": "button",
+      "text": "Al-Muzahmiyya\nSaudi Arabia",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(34)",
+      "tagName": "button",
+      "text": "France",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(35)",
+      "tagName": "button",
+      "text": "Paris\nFrance",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(36)",
+      "tagName": "button",
+      "text": "Morocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(37)",
+      "tagName": "button",
+      "text": "Casablanca\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(38)",
+      "tagName": "button",
+      "text": "Marrakesh\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(39)",
+      "tagName": "button",
+      "text": "Tangier\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(40)",
+      "tagName": "button",
+      "text": "Rabat\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(41)",
+      "tagName": "button",
+      "text": "Oujda\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(42)",
+      "tagName": "button",
+      "text": "El Jadida\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(43)",
+      "tagName": "button",
+      "text": "Fes\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(44)",
+      "tagName": "button",
+      "text": "Berkane\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(45)",
+      "tagName": "button",
+      "text": "Agadir\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(46)",
+      "tagName": "button",
+      "text": "Kenitra\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(47)",
+      "tagName": "button",
+      "text": "Salé\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(48)",
+      "tagName": "button",
+      "text": "Taza\nMorocco",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(49)",
+      "tagName": "button",
+      "text": "Bahrain",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(50)",
+      "tagName": "button",
+      "text": "Manama\nBahrain",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(51)",
+      "tagName": "button",
+      "text": "Sakhir\nBahrain",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(52)",
+      "tagName": "button",
+      "text": "United Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(53)",
+      "tagName": "button",
+      "text": "Dubai\nUnited Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(54)",
+      "tagName": "button",
+      "text": "Abu Dhabi\nUnited Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(55)",
+      "tagName": "button",
+      "text": "Ras Al-Khaimah\nUnited Arab Emirates",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(56)",
+      "tagName": "button",
+      "text": "Portugal",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(57)",
+      "tagName": "button",
+      "text": "Portimão\nPortugal",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(58)",
+      "tagName": "button",
+      "text": "United Kingdom",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "html > body:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > button:nth-of-type(59)",
+      "tagName": "button",
+      "text": "London\nUnited Kingdom",
+      "controlType": "clickable",
+      "classification": "pending",
+      "reason": null
+    },
+    {
+      "selector": "[data-testid=\"header_nav_search_input\"]",
+      "tagName": "input",
+      "text": "",
+      "controlType": "input",
+      "classification": "intentionally skipped with valid scope/safety reason",
+      "reason": "global shell navigation / header / footer element"
+    }
+  ]
+}

@@ -1,0 +1,871 @@
+{
+  "_schema_version": "1.0.0",
+  "story_key": "KAN-20",
+  "logs": [
+    {
+      "timestamp": "2026-07-20T10:08:37.163871+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Starting execution run for story at /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/story.json"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:37.167536+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Loaded 67 test cases and 21 selectors."
+    },
+    {
+      "timestamp": "2026-07-20T10:08:37.168924+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Test case execution run mode: PARTIAL EXECUTION (33,34,35,36,37,38,39,40,41,42,43)"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:37.432764+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Launching chromium (headless=False, slow_mo=0)"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:37.856532+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:37.867901+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-033: Verify selecting Reset Your Password processes action correctly [Edge]"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:37.905644+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:38.785869+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:41.277920+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:08:41.938468+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Dismissing cookie consent popup via 'Reject all non-essential' button."
+    },
+    {
+      "timestamp": "2026-07-20T10:08:43.106246+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Login screen detected. Logging in..."
+    },
+    {
+      "timestamp": "2026-07-20T10:08:46.648221+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Login completed successfully."
+    },
+    {
+      "timestamp": "2026-07-20T10:08:46.660779+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] Step 1: Initiate action by clicking critical button Reset Your Password Button"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:47.020327+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-033_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:47.038760+00:00",
+      "level": "WARNING",
+      "message": "Selector validation failed for component: 'initiate action by clicking critical button reset your password' prior to interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:08:47.175915+00:00",
+      "level": "WARNING",
+      "message": "Targeted rediscovery failed to locate component: 'initiate action by clicking critical button reset your password'. Bypassing step gracefully."
+    },
+    {
+      "timestamp": "2026-07-20T10:08:47.431684+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-033_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:47.433243+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] Step 2: Trigger page refresh / reload operation before API resolves"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:47.778248+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-033_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:50.055479+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-033_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:50.734957+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-033_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:51.145132+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-033] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-033.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:51.146230+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:51.147086+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-034: Verify selecting Login processes action correctly"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:51.147934+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:51.863168+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:53.390135+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:08:53.711946+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] Step 1: Click on the Login Button"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:54.185156+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-034_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:08:54.224185+00:00",
+      "level": "WARNING",
+      "message": "Selector validation failed for component: 'the login' prior to interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:06.403561+00:00",
+      "level": "WARNING",
+      "message": "Targeted rediscovery failed to locate component: 'the login'. Bypassing step gracefully."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:07.852713+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-034_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:07.854075+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] Step 2: Wait for system response"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:08.915163+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-034_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:11.113936+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-034_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:12.317546+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-034_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:12.822228+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-034] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-034.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:12.823302+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:12.824142+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-035: Verify double clicking Login prevents concurrent actions [Edge]"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:12.825115+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:13.013822+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:14.495714+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:16.116188+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] Step 1: Rapidly trigger double clicks on Login in quick succession (interval < 100ms)."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:17.665432+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-035_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:19.851291+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-035_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:19.852609+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] Step 2: Inspect network requests to confirm only a single API call was dispatched for the Login interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:20.832180+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-035_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:22.974097+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-035_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:23.671051+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-035_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:24.008319+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-035] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-035.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:24.009524+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:24.010359+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-036: Verify selecting Login during network dropout shows warning [Negative]"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:24.011312+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:24.706422+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:26.168007+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:26.451224+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] Step 1: Simulate network disconnect and click Login."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:26.917326+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-036_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:29.351098+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-036_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:29.352566+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] Step 2: Click Login Button"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:30.593222+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-036_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:30.601613+00:00",
+      "level": "WARNING",
+      "message": "Selector validation failed for component: 'login' prior to interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:43.659088+00:00",
+      "level": "WARNING",
+      "message": "Targeted rediscovery failed to locate component: 'login'. Bypassing step gracefully."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:44.761735+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-036_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:48.278573+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-036_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:48.901662+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-036] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-036.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:48.903734+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:48.905070+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-037: Verify selecting Login under high latency displays progress spinner [Edge]"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:48.906353+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:49.114093+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:50.674940+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:51.191944+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Step 1: Configure network emulation to 5000ms delay and click Login."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:51.453021+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:54.560293+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:54.561602+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Step 2: Wait for latency response to resolve."
+    },
+    {
+      "timestamp": "2026-07-20T10:09:55.538096+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:57.689350+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:57.691160+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Step 3: Wait for delayed API response to resolve"
+    },
+    {
+      "timestamp": "2026-07-20T10:09:58.661274+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step3_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:00.887918+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step3_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:01.783943+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-037_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:02.384972+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-037] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-037.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:02.386852+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:02.389103+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-038: Verify selecting Login processes action correctly [Edge]"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:02.390548+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:03.177900+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:05.146841+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:06.592720+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] Step 1: Initiate action by clicking critical button Login Button"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:08.266494+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-038_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:08.284154+00:00",
+      "level": "WARNING",
+      "message": "Selector validation failed for component: 'initiate action by clicking critical button login' prior to interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:18.386535+00:00",
+      "level": "WARNING",
+      "message": "Targeted rediscovery failed to locate component: 'initiate action by clicking critical button login'. Bypassing step gracefully."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:19.925363+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-038_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:19.928495+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] Step 2: Trigger page refresh / reload operation before API resolves"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:20.991993+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-038_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:23.288916+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-038_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:24.484430+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-038_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:25.995008+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-038] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-038.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:25.996495+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:25.997380+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-039: Verify selecting Create An Account processes action correctly"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:25.998326+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:26.168750+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-039] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:27.592520+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-039] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:29.011519+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-039] Step 1: Click on Create An Account Button"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:30.581072+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-039] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-039_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:30.591425+00:00",
+      "level": "WARNING",
+      "message": "Selector validation failed for component: 'create an account' prior to interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:41.785499+00:00",
+      "level": "WARNING",
+      "message": "Targeted rediscovery failed to locate component: 'create an account'. Bypassing step gracefully."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:43.026442+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-039] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-039_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:44.549003+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-039] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-039_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:45.139149+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-039] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-039.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:45.140263+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:45.141113+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-040: Verify entering valid data in input field Authentication Operation updates state"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:45.142108+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:45.779580+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:47.181882+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:47.292842+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Login screen detected. Logging in..."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:50.380432+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Login completed successfully."
+    },
+    {
+      "timestamp": "2026-07-20T10:10:50.381718+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Step 1: Prepare valid business data for execute_authentication"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:51.759509+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-040_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:54.160731+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-040_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:54.161910+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Step 2: Execute execute_authentication via booking action"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:55.137999+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-040_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:10:55.148507+00:00",
+      "level": "WARNING",
+      "message": "Selector validation failed for component: 'execute execute_authentication via booking action' prior to interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:11:08.145609+00:00",
+      "level": "WARNING",
+      "message": "Targeted rediscovery failed to locate component: 'execute execute_authentication via booking action'. Bypassing step gracefully."
+    },
+    {
+      "timestamp": "2026-07-20T10:11:09.288972+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-040_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:09.294544+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Step 3: Verify login state transition and completion"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:10.359108+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-040_step3_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:10.366606+00:00",
+      "level": "WARNING",
+      "message": "Selector validation failed for component: 'login state transition and completion' prior to interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:11:25.453167+00:00",
+      "level": "WARNING",
+      "message": "Targeted rediscovery failed to locate component: 'login state transition and completion'. Bypassing step gracefully."
+    },
+    {
+      "timestamp": "2026-07-20T10:11:26.885736+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-040_step3_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:33.831283+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-040_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:34.404801+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-040] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-040.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:34.407627+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:34.409207+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-041: Verify entering valid data in input field Authentication Operation updates state [Negative]"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:34.411049+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:34.620606+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:36.144593+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:11:36.392325+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Login screen detected. Logging in..."
+    },
+    {
+      "timestamp": "2026-07-20T10:11:39.706270+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Login completed successfully."
+    },
+    {
+      "timestamp": "2026-07-20T10:11:39.707537+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Step 1: Prepare invalid business data for execute_authentication"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:41.162818+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:43.195425+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:43.196554+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Step 2: Execute execute_authentication via booking action"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:44.177531+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:46.598394+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:46.599697+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Step 3: Verify error message and state preservation"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:47.580098+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step3_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:11:47.587947+00:00",
+      "level": "WARNING",
+      "message": "Selector validation failed for component: 'error message and state preservation' prior to interaction."
+    },
+    {
+      "timestamp": "2026-07-20T10:11:59.094910+00:00",
+      "level": "WARNING",
+      "message": "Targeted rediscovery failed to locate component: 'error message and state preservation'. Bypassing step gracefully."
+    },
+    {
+      "timestamp": "2026-07-20T10:12:00.098184+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-041_step3_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:02.563253+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-041_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:03.072392+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-041] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-041.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:03.073593+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:03.074491+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-042: Verify keyboard Tab navigation order and focus rings across Login page controls"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:03.075675+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:03.692845+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:05.625886+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:12:06.798071+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] Step 1: Apply sorting parameter 'page controls' from sorting options dropdown."
+    },
+    {
+      "timestamp": "2026-07-20T10:12:08.118442+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-042_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:10.549382+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-042_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:10.550613+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] Step 2: Verify that the displayed logins list is sorted correctly."
+    },
+    {
+      "timestamp": "2026-07-20T10:12:11.556019+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-042_step2_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:13.993828+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-042_step2_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:14.347866+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-042_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:14.658547+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-042] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-042.webm"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:14.659700+00:00",
+      "level": "INFO",
+      "message": "\n[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:14.660551+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] Executing TC-LOGIN-043: Verify WCAG accessibility standards and descriptive ARIA tags in Login"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:14.661442+00:00",
+      "level": "INFO",
+      "message": "[ExecutionAgent] ========================================"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:14.871269+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-043] Navigating to start URL: https://webook.com/en/login"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:16.630714+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-043] Page confirmation: status 200 confirmed for https://webook.com/en/login."
+    },
+    {
+      "timestamp": "2026-07-20T10:12:17.962649+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-043] Step 1: Inspect HTML code structure of interactive elements."
+    },
+    {
+      "timestamp": "2026-07-20T10:12:19.311555+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-043] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-043_step1_before.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:21.032470+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-043] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-043_step1_after.png"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:21.502833+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-043] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-043_trace.zip"
+    },
+    {
+      "timestamp": "2026-07-20T10:12:21.883752+00:00",
+      "level": "INFO",
+      "message": "[TC-LOGIN-043] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-043.webm"
+    }
+  ]
+}
