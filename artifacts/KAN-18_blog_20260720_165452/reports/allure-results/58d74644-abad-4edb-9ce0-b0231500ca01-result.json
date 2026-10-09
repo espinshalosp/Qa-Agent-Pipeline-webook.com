@@ -1,0 +1,125 @@
+{
+  "uuid": "58d74644-abad-4edb-9ce0-b0231500ca01",
+  "historyId": "TC-BLOG-046",
+  "testCaseId": "TC-BLOG-046",
+  "fullName": "Blog Management.BLOG.TC-BLOG-046",
+  "name": "TC-BLOG-046: Verify User can open a blog article from the listing page.",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784548180961,
+  "stop": 1784548208912,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Set preconditions and trigger business flow for validation check: 'User can open a blog article from the listing page.' (Expected: System state updates correctly matching business specification.) -> Verified visibility of 'set preconditions and trigger business flow for validation check: 'user can open a blog article from the listing page.''.",
+      "status": "passed",
+      "start": 1784548180961,
+      "stop": 1784548208912,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "c4984da5-dd83-4ff9-87ff-83feff58850b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "f139f045-926e-4c2d-940a-a9c827f02777-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Verify system outcome conforms to specification requirements (Expected: Displayed data and system state reflect the 'User can open a blog article from the listing page.' rule correctly.) -> Verified the page remains in a stable, error-free state (no crash/blank page) after the preceding business flow steps.",
+      "status": "passed",
+      "start": 1784548180961,
+      "stop": 1784548208912,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "abd80e7d-3ec3-4a76-83c8-ef6a18e86663-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "a0c4e0ce-15b3-4b0f-ab96-d729a1342e0b-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Blog Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-18"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Blog Management - BLOG"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-18",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-18"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Network Errors",
+      "source": "8139cd42-3f69-4737-8c09-9f45ad20a001-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "8fdc6c83-a4e8-465c-8774-4f3ff2365bb5-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "506bf8ab-50e5-4186-8f41-9334364447bc-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "53b96450-1901-4b77-baba-92268c8fdda2-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T11:49:40.961414+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T11:50:08.912930+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "27.95s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

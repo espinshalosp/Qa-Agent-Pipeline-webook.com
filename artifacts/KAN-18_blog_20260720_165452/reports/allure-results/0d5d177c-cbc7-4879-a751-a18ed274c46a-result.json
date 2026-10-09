@@ -1,0 +1,125 @@
+{
+  "uuid": "0d5d177c-cbc7-4879-a751-a18ed274c46a",
+  "historyId": "TC-BLOG-068",
+  "testCaseId": "TC-BLOG-068",
+  "fullName": "Blog Management.BLOG.TC-BLOG-068",
+  "name": "TC-BLOG-068: Verify Non-Functional Expectations:",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784548271793,
+  "stop": 1784548299160,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Set preconditions and trigger business flow for validation check: 'Non-Functional Expectations:' (Expected: System state updates correctly matching business specification.) -> Verified visibility of 'set preconditions and trigger business flow for validation check: 'non-functional expectations:''.",
+      "status": "passed",
+      "start": 1784548271793,
+      "stop": 1784548299160,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "2ce9c197-fb2a-4e38-a51a-80f2ac5b3119-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "14ecd4be-7da0-4a56-88ad-6f59237e88a7-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Verify system outcome conforms to specification requirements (Expected: Displayed data and system state reflect the 'Non-Functional Expectations:' rule correctly.) -> Verified the page remains in a stable, error-free state (no crash/blank page) after the preceding business flow steps.",
+      "status": "passed",
+      "start": 1784548271793,
+      "stop": 1784548299160,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "e9ec57d5-b1d9-4049-9356-6dd6d105d112-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "7e041dc0-e2e0-4e5b-9f42-b0d126d92614-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Blog Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-18"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Blog Management - BLOG"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-18",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-18"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Network Errors",
+      "source": "f19b1b3f-b750-4bb6-a1d7-e0e730e0f86c-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "c2e23548-1440-4efc-8761-b25f31c886f8-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "ddfd9ef6-2032-456b-9822-76b43f191373-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "c157dc6b-fd9a-40da-a72a-18acc23fac78-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T11:51:11.793223+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T11:51:39.160439+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "27.37s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

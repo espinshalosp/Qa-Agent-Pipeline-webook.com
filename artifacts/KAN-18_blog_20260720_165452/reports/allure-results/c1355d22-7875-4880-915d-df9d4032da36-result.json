@@ -1,0 +1,125 @@
+{
+  "uuid": "c1355d22-7875-4880-915d-df9d4032da36",
+  "historyId": "TC-BLOG-066",
+  "testCaseId": "TC-BLOG-066",
+  "fullName": "Blog Management.BLOG.TC-BLOG-066",
+  "name": "TC-BLOG-066: Verify Blog content is readable and page navigation is usable across desktop and other ...",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784548240768,
+  "stop": 1784548267571,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Set preconditions and trigger business flow for validation check: 'Blog content is readable and page navigation is usable across desktop and other supported layouts.' (Expected: System state updates correctly matching business specification.) -> Verified visibility of 'set preconditions and trigger business flow for validation check: 'blog content is readable and page navigation is usable across desktop and other supported layouts.''.",
+      "status": "passed",
+      "start": 1784548240768,
+      "stop": 1784548267571,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "5144f623-3a9d-4fa1-bb4e-3d1ca55352f1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "9eab5b97-a73f-4489-8c10-f7673ee27df5-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Verify system outcome conforms to specification requirements (Expected: Displayed data and system state reflect the 'Blog content is readable and page navigation is usable across desktop and other supported layouts.' rule correctly.) -> Verified the page remains in a stable, error-free state (no crash/blank page) after the preceding business flow steps.",
+      "status": "passed",
+      "start": 1784548240768,
+      "stop": 1784548267571,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "87b2bb59-92bf-4bab-8591-e1e3b4ed2092-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "db5c7e3e-5e46-4db5-a941-670172fdec2f-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Blog Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-18"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Blog Management - BLOG"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-18",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-18"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Network Errors",
+      "source": "2ce1888a-49b0-4994-82d0-d5470581726b-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "ff020f69-a292-4505-85c0-0d35df51e27c-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "9e109f0b-bf6d-4f82-88e2-f90f1eaab4de-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "9d59c6f8-246f-456b-a69d-c1c265c73504-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T11:50:40.768233+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T11:51:07.571904+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "26.80s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}
