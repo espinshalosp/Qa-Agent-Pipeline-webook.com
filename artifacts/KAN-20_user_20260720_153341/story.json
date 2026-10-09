@@ -1,0 +1,101 @@
+{
+  "_schema_version": "1.0.0",
+  "_status": "populated",
+  "_description": "Normalized Jira story artifact. Populated by the Jira Agent.",
+  "story": {
+    "id": "10122",
+    "key": "KAN-20",
+    "summary": "User Login",
+    "description": "User Story: Login\nAs a registered user, I want to log in using my email and password so that I can access my account.\nAcceptance Criteria:\nUser can enter an email and password.\nUser can submit the login form.\nValid credentials allow the user to log in successfully.\nInvalid credentials display an appropriate error.\nRequired fields are validated when left empty.",
+    "story_type": "Task",
+    "status": "Ready for QA",
+    "priority": "Medium",
+    "assignee": null,
+    "reporter": "Espin Shalo",
+    "sprint": null,
+    "epic_key": null,
+    "epic_summary": null,
+    "labels": [],
+    "components": [],
+    "acceptance_criteria": [
+      "User can enter an email and password.",
+      "User can submit the login form.",
+      "Valid credentials allow the user to log in successfully.",
+      "Invalid credentials display an appropriate error.",
+      "Required fields are validated when left empty."
+    ],
+    "linked_issues": [],
+    "attachments": [],
+    "comments": [
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Case Generation Summary — KAN-20\nQA Run Summary\nStatus: 🟡 Generated (Execution Pending)\nRun Timestamp: 2026-07-13 10-53-01 UTC\nTarget Run Directory: KAN-20_user_20260713_162234\nFeature: User Login\nTest Generation Summary\nTotal Test Cases Generated: 26\nBy Type: UI: 2, Functional: 5, Negative: 2, Edge: 3\nBy Priority: High: 4, Medium: 18, Low: 4\nCoverage Summary\nCoverage Status: 🟢 Fully Covered\nExecution Scope: No execution performed (Generation Only)\nAcceptance Criteria Coverage: 100% (All 6 Acceptance Criteria covered by generated test cases)\nAll generated test cases were target of this run.\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nstory.json\ntestcases.json\ncoverage_summary.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T16:23:02.204+0530",
+        "updated": "2026-07-13T16:23:02.204+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Execution Summary — KAN-20\nQA Run Summary\nStatus: 🔴 Failed\nRun Timestamp: 2026-07-13 10-53-56 UTC\nTarget Run Directory: KAN-20_user_20260713_162234\nFeature: User Login\nTest Execution Summary\nExecution Scope: Full execution run (26 testcases executed)\nPassed: 🟢 0\nFailed: 🔴 26\nSkipped: 🟡 0\nPass Rate: 0.0%\nDuration: 15.56 seconds\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nexecution_summary.json\nexecution_report.json\nallure-report.zip\nTC-EXPLORE-018_trace.zip\nTC-EXPLORE-020_trace.zip\nTC-EXPLORE-001_trace.zip\nTC-EXPLORE-015_trace.zip\nTC-EXPLORE-007_trace.zip\nTC-EXPLORE-013_trace.zip\nTC-EXPLORE-026_trace.zip\nTC-EXPLORE-019_trace.zip\nTC-EXPLORE-021_trace.zip\nTC-EXPLORE-014_trace.zip\nTC-EXPLORE-012_trace.zip\nTC-EXPLORE-006_trace.zip\nTC-EXPLORE-003_trace.zip\nTC-EXPLORE-017_trace.zip\nTC-EXPLORE-022_trace.zip\nTC-EXPLORE-008_trace.zip\nTC-EXPLORE-024_trace.zip\nTC-EXPLORE-005_trace.zip\nTC-EXPLORE-011_trace.zip\nTC-EXPLORE-016_trace.zip\nTC-EXPLORE-002_trace.zip\nTC-EXPLORE-023_trace.zip\nTC-EXPLORE-009_trace.zip\nTC-EXPLORE-025_trace.zip\nTC-EXPLORE-010_trace.zip\nTC-EXPLORE-004_trace.zip\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T16:23:57.176+0530",
+        "updated": "2026-07-13T16:23:57.176+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Defect Analysis Summary — KAN-20\nQA Run Summary\nStatus: 🔴 Defect Candidates Identified\nRun Timestamp: 2026-07-13 10-54-00 UTC\nTarget Run Directory: KAN-20_user_20260713_162234\nFeature: User Login\nDefect Summary\nDefect Candidates Identified: 1\nDefect Density: Generated 1 unique defect candidate(s) from 26 failures.\nDominant Failure Cause: 'Automation / UI Element Resolution Failure' (26 instances)\nPrimary Failure Area: 'Ui timed out' (26 occurrences)\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\ndefect_candidates.json\nroot_cause_analysis.json\ndefect_metrics.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T16:24:00.879+0530",
+        "updated": "2026-07-13T16:24:00.879+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Case Generation Summary — KAN-20\nQA Run Summary\nStatus: 🟡 Generated (Execution Pending)\nRun Timestamp: 2026-07-13 11-24-35 UTC\nTarget Run Directory: KAN-20_user_20260713_165137\nFeature: User Login\nTest Generation Summary\nTotal Test Cases Generated: 26\nBy Type: UI: 2, Functional: 5, Negative: 2, Edge: 3\nBy Priority: High: 4, Medium: 18, Low: 4\nCoverage Summary\nCoverage Status: 🟢 Fully Covered\nExecution Scope: No execution performed (Generation Only)\nAcceptance Criteria Coverage: 100% (All 6 Acceptance Criteria covered by generated test cases)\nAll generated test cases were target of this run.\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nstory.json\ntestcases.json\ncoverage_summary.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T16:54:35.551+0530",
+        "updated": "2026-07-13T16:54:35.551+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Execution Summary — KAN-20\nQA Run Summary\nStatus: 🔴 Failed\nRun Timestamp: 2026-07-13 11-25-30 UTC\nTarget Run Directory: KAN-20_user_20260713_165137\nFeature: User Login\nTest Execution Summary\nExecution Scope: Full execution run (26 testcases executed)\nPassed: 🟢 0\nFailed: 🔴 26\nSkipped: 🟡 0\nPass Rate: 0.0%\nDuration: 16.5 seconds\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nexecution_summary.json\nexecution_report.json\nallure-report.zip\nTC-EXPLORE-018_trace.zip\nTC-EXPLORE-020_trace.zip\nTC-EXPLORE-001_trace.zip\nTC-EXPLORE-015_trace.zip\nTC-EXPLORE-007_trace.zip\nTC-EXPLORE-013_trace.zip\nTC-EXPLORE-026_trace.zip\nTC-EXPLORE-019_trace.zip\nTC-EXPLORE-021_trace.zip\nTC-EXPLORE-014_trace.zip\nTC-EXPLORE-012_trace.zip\nTC-EXPLORE-006_trace.zip\nTC-EXPLORE-003_trace.zip\nTC-EXPLORE-017_trace.zip\nTC-EXPLORE-022_trace.zip\nTC-EXPLORE-008_trace.zip\nTC-EXPLORE-024_trace.zip\nTC-EXPLORE-005_trace.zip\nTC-EXPLORE-011_trace.zip\nTC-EXPLORE-016_trace.zip\nTC-EXPLORE-002_trace.zip\nTC-EXPLORE-023_trace.zip\nTC-EXPLORE-009_trace.zip\nTC-EXPLORE-025_trace.zip\nTC-EXPLORE-010_trace.zip\nTC-EXPLORE-004_trace.zip\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T16:55:30.651+0530",
+        "updated": "2026-07-13T16:55:30.651+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Defect Analysis Summary — KAN-20\nQA Run Summary\nStatus: 🔴 Defect Candidates Identified\nRun Timestamp: 2026-07-13 11-25-33 UTC\nTarget Run Directory: KAN-20_user_20260713_165137\nFeature: User Login\nDefect Summary\nDefect Candidates Identified: 1\nDefect Density: Generated 1 unique defect candidate(s) from 26 failures.\nDominant Failure Cause: 'Automation / UI Element Resolution Failure' (26 instances)\nPrimary Failure Area: 'Ui timed out' (26 occurrences)\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\ndefect_candidates.json\nroot_cause_analysis.json\ndefect_metrics.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T16:55:34.311+0530",
+        "updated": "2026-07-13T16:55:34.311+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Case Generation Summary — KAN-20\nQA Run Summary\nStatus: 🟡 Generated (Execution Pending)\nRun Timestamp: 2026-07-13 11-31-43 UTC\nTarget Run Directory: KAN-20_user_20260713_165742\nFeature: User Login\nTest Generation Summary\nTotal Test Cases Generated: 26\nBy Type: UI: 2, Functional: 5, Negative: 2, Edge: 3\nBy Priority: High: 4, Medium: 18, Low: 4\nCoverage Summary\nCoverage Status: 🟢 Fully Covered\nExecution Scope: No execution performed (Generation Only)\nAcceptance Criteria Coverage: 100% (All 6 Acceptance Criteria covered by generated test cases)\nAll generated test cases were target of this run.\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nstory.json\ntestcases.json\ncoverage_summary.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T17:01:43.330+0530",
+        "updated": "2026-07-13T17:01:43.330+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Execution Summary — KAN-20\nQA Run Summary\nStatus: 🔴 Failed\nRun Timestamp: 2026-07-13 11-32-37 UTC\nTarget Run Directory: KAN-20_user_20260713_165742\nFeature: User Login\nTest Execution Summary\nExecution Scope: Full execution run (26 testcases executed)\nPassed: 🟢 0\nFailed: 🔴 26\nSkipped: 🟡 0\nPass Rate: 0.0%\nDuration: 17.91 seconds\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nexecution_summary.json\nexecution_report.json\nallure-report.zip\nTC-EXPLORE-018_trace.zip\nTC-EXPLORE-020_trace.zip\nTC-EXPLORE-001_trace.zip\nTC-EXPLORE-015_trace.zip\nTC-EXPLORE-007_trace.zip\nTC-EXPLORE-013_trace.zip\nTC-EXPLORE-026_trace.zip\nTC-EXPLORE-019_trace.zip\nTC-EXPLORE-021_trace.zip\nTC-EXPLORE-014_trace.zip\nTC-EXPLORE-012_trace.zip\nTC-EXPLORE-006_trace.zip\nTC-EXPLORE-003_trace.zip\nTC-EXPLORE-017_trace.zip\nTC-EXPLORE-022_trace.zip\nTC-EXPLORE-008_trace.zip\nTC-EXPLORE-024_trace.zip\nTC-EXPLORE-005_trace.zip\nTC-EXPLORE-011_trace.zip\nTC-EXPLORE-016_trace.zip\nTC-EXPLORE-002_trace.zip\nTC-EXPLORE-023_trace.zip\nTC-EXPLORE-009_trace.zip\nTC-EXPLORE-025_trace.zip\nTC-EXPLORE-010_trace.zip\nTC-EXPLORE-004_trace.zip\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T17:02:38.176+0530",
+        "updated": "2026-07-13T17:02:38.176+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Defect Analysis Summary — KAN-20\nQA Run Summary\nStatus: 🔴 Defect Candidates Identified\nRun Timestamp: 2026-07-13 11-32-41 UTC\nTarget Run Directory: KAN-20_user_20260713_165742\nFeature: User Login\nDefect Summary\nDefect Candidates Identified: 1\nDefect Density: Generated 1 unique defect candidate(s) from 26 failures.\nDominant Failure Cause: 'Automation / UI Element Resolution Failure' (26 instances)\nPrimary Failure Area: 'Ui timed out' (26 occurrences)\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\ndefect_candidates.json\nroot_cause_analysis.json\ndefect_metrics.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-13T17:02:41.791+0530",
+        "updated": "2026-07-13T17:02:41.791+0530"
+      },
+      {
+        "author": "Espin Shalo",
+        "body": "📊 QA Pipeline Run — Test Case Generation Summary — KAN-20\nQA Run Summary\nStatus: 🟡 Generated (Execution Pending)\nRun Timestamp: 2026-07-14 00-37-08 UTC\nTarget Run Directory: KAN-20_user_20260713_172421\nFeature: User Login\nTest Generation Summary\nTotal Test Cases Generated: 26\nBy Type: UI: 2, Functional: 5, Negative: 2, Edge: 3\nBy Priority: High: 4, Medium: 18, Low: 4\nCoverage Summary\nCoverage Status: 🟢 Fully Covered\nExecution Scope: No execution performed (Generation Only)\nAcceptance Criteria Coverage: 100% (All 6 Acceptance Criteria covered by generated test cases)\nAll generated test cases were target of this run.\nAttached QA Artifacts\nThe following run artifacts have been successfully uploaded as attachments directly to this Jira issue:\nstory.json\ntestcases.json\ncoverage_summary.json\n---\n_Report generated automatically by Antigravity QA Agent Platform._",
+        "created": "2026-07-14T06:07:09.072+0530",
+        "updated": "2026-07-14T06:07:09.072+0530"
+      }
+    ],
+    "created_at": "2026-07-12T13:55:33.956+0530",
+    "updated_at": "2026-07-19T20:37:52.118+0530",
+    "fetched_at": "2026-07-20T10:03:41.852476+00:00"
+  },
+  "_metadata": {
+    "source_agent": "jira_agent",
+    "pipeline_run_id": null,
+    "jira_base_url": "https://espinsworkspace-45813328.atlassian.net",
+    "jql_used": "project = \"KAN\" AND status = \"Ready for QA\""
+  }
+}

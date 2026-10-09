@@ -1,0 +1,111 @@
+{
+  "uuid": "e2b4f90b-f135-4925-ae0e-170cd4fe70c7",
+  "historyId": "TC-LOGIN-043",
+  "testCaseId": "TC-LOGIN-043",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-043",
+  "name": "TC-LOGIN-043: Verify WCAG accessibility standards and descriptive ARIA tags in Login",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542334871,
+  "stop": 1784542341033,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Inspect HTML code structure of interactive elements. (Expected: DOM structure contains standard descriptive ARIA attributes and labels.) -> Verified visibility of 'inspect html code structure of interactive elements.'.",
+      "status": "passed",
+      "start": 1784542334871,
+      "stop": 1784542341033,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "b785c4c1-f202-4315-971f-0afbf15026c9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "4b8ced1b-ea15-4512-9143-3467eac488ba-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "18b320bf-0877-48b7-bd0f-e8e0fadecb82-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "aa00171d-cd2d-4930-b120-7e06701c23ed-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "4b3ce002-73e7-404c-b772-42e1913be8cf-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "a67cf3e1-7059-40fe-bff9-7a3ac9c7313b-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "18654498-90cb-4fff-bc61-8141d7694f96-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:12:14.871031+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:12:21.033603+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "6.16s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

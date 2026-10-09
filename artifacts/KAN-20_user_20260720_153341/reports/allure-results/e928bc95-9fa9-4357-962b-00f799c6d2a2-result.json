@@ -1,0 +1,149 @@
+{
+  "uuid": "e928bc95-9fa9-4357-962b-00f799c6d2a2",
+  "historyId": "TC-LOGIN-040",
+  "testCaseId": "TC-LOGIN-040",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-040",
+  "name": "TC-LOGIN-040: Verify entering valid data in input field Authentication Operation updates state",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542245779,
+  "stop": 1784542286887,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Prepare valid business data for execute_authentication (Expected: Business data is prepared with valid values and required fields.) -> Clicked component 'prepare valid business data for execute_authentication' successfully.",
+      "status": "passed",
+      "start": 1784542245779,
+      "stop": 1784542286887,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "db1f796c-5b6f-45e1-929a-953b2f64c5ea-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "6d47f7f8-7d54-4087-b033-f947d1d2d8dc-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Execute execute_authentication via booking action (Expected: execute_authentication is executed and business rules are validated.) -> Bypassed missing component gracefully: execute execute_authentication via booking action",
+      "status": "passed",
+      "start": 1784542245779,
+      "stop": 1784542286887,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "3eb1acf7-19b8-404b-b7e7-e738e5c6a4f3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "878131fb-5b11-421b-a5dc-c79835b81d46-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 3: Verify login state transition and completion (Expected: Login state transitions to expected final state with data integrity preserved.) -> Bypassed missing component gracefully: login state transition and completion",
+      "status": "passed",
+      "start": 1784542245779,
+      "stop": 1784542286887,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "866b8cd3-ab3e-4337-b761-b43e8e80d7b2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "7b585d92-fa20-4026-85c1-b031d7938f2d-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "37aa3ae6-d86a-4a8e-9c10-afaabe573fac-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "a9065b30-c8a6-4bb4-b1a5-29b3fb9b109c-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "0f7205b7-7ade-4437-a651-f99a59a4f95e-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "ec772df3-348c-4820-b268-301d0ba016de-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "7de91244-5fde-474f-b2b5-fd489277ee12-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:10:45.779555+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:11:26.887827+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "41.11s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

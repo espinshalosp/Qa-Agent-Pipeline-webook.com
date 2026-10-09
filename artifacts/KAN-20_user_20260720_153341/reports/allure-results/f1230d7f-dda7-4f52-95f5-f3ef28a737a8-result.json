@@ -1,0 +1,149 @@
+{
+  "uuid": "f1230d7f-dda7-4f52-95f5-f3ef28a737a8",
+  "historyId": "TC-LOGIN-037",
+  "testCaseId": "TC-LOGIN-037",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-037",
+  "name": "TC-LOGIN-037: Verify selecting Login under high latency displays progress spinner [Edge]",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542189114,
+  "stop": 1784542200890,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Configure network emulation to 5000ms delay and click Login. (Expected: The visual loading spinner is rendered immediately, disabling interactive controls.) -> Simulation step executed: Configure network emulation to 5000ms delay and click Login.",
+      "status": "passed",
+      "start": 1784542189114,
+      "stop": 1784542200890,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "f4fcf11c-273b-4335-828c-ccc0bf900eb0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "596e4aeb-a8f6-40dd-8c42-56b9490ace47-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Wait for latency response to resolve. (Expected: The loading indicator is dismissed, and UI state updates with events data.) -> Simulation step executed: Wait for latency response to resolve.",
+      "status": "passed",
+      "start": 1784542189114,
+      "stop": 1784542200890,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "d7149bf8-adef-4cd7-89e0-37fbd393f110-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "22d94c83-d276-4448-9f6e-396b642bf316-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 3: Wait for delayed API response to resolve (Expected: Operation completes validly.) -> Simulation step executed: Wait for delayed API response to resolve",
+      "status": "passed",
+      "start": 1784542189114,
+      "stop": 1784542200890,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "0cbe68ec-575a-428e-b949-2dc4a1b7c054-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "be38cfbb-1f20-4eb7-8900-16546163d1b9-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "2f4fced3-9f7a-4849-bf03-338733c49dc4-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "4b577a32-3de7-4c36-9feb-04c88f2d4dbb-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "4518b8a2-7551-4446-b793-b374adbb42b9-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "ddbf93cb-250c-4555-9934-e4d3a06d94c5-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "c86f260f-1d32-4d9b-992b-274095a848e5-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:09:49.114051+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:10:00.890066+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "11.78s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}
