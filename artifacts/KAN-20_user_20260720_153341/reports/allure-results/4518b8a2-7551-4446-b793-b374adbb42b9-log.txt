@@ -1,0 +1,13 @@
+2026-07-20T10:09:49.114093+00:00 [INFO] [TC-LOGIN-037] Navigating to start URL: https://webook.com/en/login
+2026-07-20T10:09:50.674940+00:00 [INFO] [TC-LOGIN-037] Page confirmation: status 200 confirmed for https://webook.com/en/login.
+2026-07-20T10:09:51.191944+00:00 [INFO] [TC-LOGIN-037] Step 1: Configure network emulation to 5000ms delay and click Login.
+2026-07-20T10:09:51.453021+00:00 [INFO] [TC-LOGIN-037] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step1_before.png
+2026-07-20T10:09:54.560293+00:00 [INFO] [TC-LOGIN-037] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step1_after.png
+2026-07-20T10:09:54.561602+00:00 [INFO] [TC-LOGIN-037] Step 2: Wait for latency response to resolve.
+2026-07-20T10:09:55.538096+00:00 [INFO] [TC-LOGIN-037] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step2_before.png
+2026-07-20T10:09:57.689350+00:00 [INFO] [TC-LOGIN-037] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step2_after.png
+2026-07-20T10:09:57.691160+00:00 [INFO] [TC-LOGIN-037] Step 3: Wait for delayed API response to resolve
+2026-07-20T10:09:58.661274+00:00 [INFO] [TC-LOGIN-037] Before-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step3_before.png
+2026-07-20T10:10:00.887918+00:00 [INFO] [TC-LOGIN-037] After-Step screenshot saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/screenshots/TC-LOGIN-037_step3_after.png
+2026-07-20T10:10:01.783943+00:00 [INFO] [TC-LOGIN-037] Trace saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/traces/TC-LOGIN-037_trace.zip
+2026-07-20T10:10:02.384972+00:00 [INFO] [TC-LOGIN-037] Video saved to: /Users/jarwiz/Documents/shalo/qa_agent_platform/artifacts/KAN-20_user_20260720_153341/videos/TC-LOGIN-037.webm

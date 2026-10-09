@@ -1,0 +1,111 @@
+{
+  "uuid": "400931cf-7bd9-4fb4-85c1-e61a9556be25",
+  "historyId": "TC-LOGIN-039",
+  "testCaseId": "TC-LOGIN-039",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-039",
+  "name": "TC-LOGIN-039: Verify selecting Create An Account processes action correctly",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542226168,
+  "stop": 1784542243028,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Click on Create An Account Button (Expected: The requested login action completes and the interface updates accordingly.) -> Bypassed missing component gracefully: create an account",
+      "status": "passed",
+      "start": 1784542226168,
+      "stop": 1784542243028,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "21b35687-ac8a-4552-b52f-1f3c149855f8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "4952b359-91c0-46c2-9bd7-569fc3b63d2b-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "14093e8d-fd49-4efc-9b71-81bdd45852f3-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "ebd33258-dc68-4f46-ba09-bc97f4b26d28-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "d2834b39-9b95-4b9f-89c2-9ce627d820f7-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "76263103-9030-4273-b442-622ed2b17c63-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "d8a787cd-c8d7-43b4-980d-0f536f422d2a-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:10:26.168723+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:10:43.028868+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "16.86s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

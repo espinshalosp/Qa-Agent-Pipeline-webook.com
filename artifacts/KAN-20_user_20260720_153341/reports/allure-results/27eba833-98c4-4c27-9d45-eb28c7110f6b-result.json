@@ -1,0 +1,130 @@
+{
+  "uuid": "27eba833-98c4-4c27-9d45-eb28c7110f6b",
+  "historyId": "TC-LOGIN-033",
+  "testCaseId": "TC-LOGIN-033",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-033",
+  "name": "TC-LOGIN-033: Verify selecting Reset Your Password processes action correctly [Edge]",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542118785,
+  "stop": 1784542130056,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Initiate action by clicking critical button Reset Your Password Button (Expected: Transaction is initiated.) -> Bypassed missing component gracefully: initiate action by clicking critical button reset your password",
+      "status": "passed",
+      "start": 1784542118785,
+      "stop": 1784542130056,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "0367b9f0-6e0c-4186-a450-6640d6d5b0de-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "dc3d2bfc-d2c5-4e30-b44d-fad754b83edc-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Trigger page refresh / reload operation before API resolves (Expected: Confirmation dialog is displayed.) -> Simulation step executed: Trigger page refresh / reload operation before API resolves",
+      "status": "passed",
+      "start": 1784542118785,
+      "stop": 1784542130056,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "8c590e94-562a-4d11-8e76-6121ba5ee3bb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "27cd279f-1b74-4c14-8219-9f249df81227-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "890e082a-bc76-4477-b0b5-f901e5e8d260-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "033dab52-9002-4591-886b-a47d4ee19fbe-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "a5f3a287-693f-4860-afe0-3703b3fea284-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "8162dee5-03d5-4025-bb7f-2aa421ba4b6f-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "dd77559e-e62b-4292-b3bd-26c880dd13e8-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:08:38.785810+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:08:50.056743+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "11.27s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}

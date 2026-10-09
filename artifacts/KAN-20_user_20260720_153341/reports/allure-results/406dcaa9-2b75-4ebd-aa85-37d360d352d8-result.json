@@ -1,0 +1,130 @@
+{
+  "uuid": "406dcaa9-2b75-4ebd-aa85-37d360d352d8",
+  "historyId": "TC-LOGIN-036",
+  "testCaseId": "TC-LOGIN-036",
+  "fullName": "Login Management.LOGIN.TC-LOGIN-036",
+  "name": "TC-LOGIN-036: Verify selecting Login during network dropout shows warning [Negative]",
+  "status": "passed",
+  "statusDetails": {},
+  "start": 1784542164706,
+  "stop": 1784542184763,
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Step 1: Simulate network disconnect and click Login. (Expected: The system blocks request transmission and displays an offline warning message.) -> Simulation step executed: Simulate network disconnect and click Login.",
+      "status": "passed",
+      "start": 1784542164706,
+      "stop": 1784542184763,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "3aa09ad8-df52-402e-a117-63db08c5ae00-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "1af1eb94-e702-4a78-ae81-2df12d92fbe8-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Step 2: Click Login Button (Expected: Offline error message is displayed.) -> Bypassed missing component gracefully: login",
+      "status": "passed",
+      "start": 1784542164706,
+      "stop": 1784542184763,
+      "stage": "finished",
+      "attachments": [
+        {
+          "name": "Before Step",
+          "source": "80fa6768-9f17-4511-b424-381e4524e538-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "After Step",
+          "source": "13675296-296f-4087-b2b9-40cacdaef8f9-attachment.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "python"
+    },
+    {
+      "name": "feature",
+      "value": "Login Management"
+    },
+    {
+      "name": "story",
+      "value": "KAN-20"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Login Management - LOGIN"
+    },
+    {
+      "name": "suite",
+      "value": "Performance: Normal"
+    }
+  ],
+  "links": [
+    {
+      "type": "issue",
+      "name": "KAN-20",
+      "url": "https://espinsworkspace-45813328.atlassian.net/browse/KAN-20"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Console Errors",
+      "source": "80217501-b093-42c7-aab3-b741877ad0c3-console.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Network Errors",
+      "source": "8a21e48e-dfea-45d5-b01d-89f9e725dbdc-network.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Logs",
+      "source": "d2759159-46c1-465d-8aeb-44332c024d81-log.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "Execution Video",
+      "source": "90660868-df26-4ebf-a677-6728156160e8-attachment.webm",
+      "type": "video/webm"
+    },
+    {
+      "name": "Playwright Trace Zip",
+      "source": "60d699de-e471-498a-9e95-6019a150c331-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Start Time",
+      "value": "2026-07-20T10:09:24.706396+00:00"
+    },
+    {
+      "name": "End Time",
+      "value": "2026-07-20T10:09:44.763315+00:00"
+    },
+    {
+      "name": "Total Duration",
+      "value": "20.06s"
+    },
+    {
+      "name": "Performance Status",
+      "value": "Normal"
+    }
+  ]
+}
